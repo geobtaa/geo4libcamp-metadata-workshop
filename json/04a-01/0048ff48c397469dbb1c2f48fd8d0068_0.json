@@ -1,0 +1,37 @@
+{
+  "geoblacklight_version": "1.0",
+  "dc_rights_s": "Public",
+  "layer_modified_dt": "2020-01-15T12:42:43Z",
+  "layer_slug_s": "0048ff48c397469dbb1c2f48fd8d0068_0",
+  "dc_identifier_s": "0048ff48c397469dbb1c2f48fd8d0068_0",
+  "b1g_code_s": "04a-01",
+  "dc_title_s": "Maintained Roads: National Park Service, Maryland",
+  "dc_description_s": "This data was developed in response to citizens road maintenance requests from across the state as to whom to contact as the official maintenance authority - be it MDOT State Highway Administration, MDOT Transportation Authority, a county, or a municipality.MDOT SHA Website",
+  "dct_provenance_s": "Maryland",
+  "dc_publisher_sm": [
+    "State of Maryland"
+  ],
+  "dc_creator_sm": [
+    "ArcGIS Online for Maryland"
+  ],
+  "dc_subject_sm": [
+    "Transportation"
+  ],
+  "dc_language_sm": [
+    "English"
+  ],
+  "dc_type_s": "Dataset",
+  "dc_format_s": "Shapefile",
+  "layer_geom_type_s": "Vector",
+  "dct_issued_s": "2019-10-18",
+  "dct_temporal_sm": [
+    "2019"
+  ],
+  "solr_year_i": "2019",
+  "solr_geom": "ENVELOPE(-79.5051,-75.0149,39.7467,37.9363)",
+  "dct_spatial_sm": [
+    "Maryland"
+  ],
+  "layer_id_s": "",
+  "dct_references_s": "{\"http://schema.org/url\":\"http://data.imap.maryland.gov/datasets/0048ff48c397469dbb1c2f48fd8d0068_0\",\"http://schema.org/downloadUrl\":\"http://data.imap.maryland.gov/datasets/0048ff48c397469dbb1c2f48fd8d0068_0.zip\",\"urn:x-esri:serviceType:ArcGIS#FeatureLayer\":\"https://services.arcgis.com/njFNhDsUCentVYJW/arcgis/rest/services/National_Park_Service_Maintained_Roads/FeatureServer/0\"}"
+}

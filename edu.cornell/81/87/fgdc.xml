@@ -1,0 +1,465 @@
+<!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>New York State Department of Environmental Conservation</origin>
+        <pubdate>20130828</pubdate>
+        <title>Index of New York State Regulatory Freshwater Wetlands</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Albany, NY</pubplace>
+          <publish>New York State Department of Environmental Conservation (NYSDEC)</publish>
+        </pubinfo>
+        <onlink>https://cugir.library.cornell.edu/catalog/cugir-008187</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>These data are a set of ARC/INFO coverages composed of polygonal and linear
+        features. Coverages are based on official New York State Freshwater Wetlands Maps as
+        described in Article 24-0301 of the Environmental Conservation Law. Coverages are not,
+        however, a legal substitute for the official maps. Coverages are available on a county basis
+        for all areas of New York State outside the Adirondack Park. </abstract>
+      <purpose>To provide a faithful representation of official New York State regulatory freshwater
+        wetlands maps for GIS resource analysis at scales equal to the 1 to 24,000 scale of original
+        mapping or smaller scales (e.g., 1 to 100,000 scale).</purpose>
+      <supplinf>Regulatory maps consist of mylar versions of New York State Department of
+        Transportation 1 to 24,000 planimetric maps on which wetland boundaries and wetland
+        identification codes are drawn. Planimetric maps are generally congruent with and have the
+        same quad names as United States Geological Survey 7.5 minute topographic maps; a few of the
+        Department of Transportation quads have extended borders. Regulatory wetland maps are
+        prepared by NYSDEC and filed as required by the Freshwater Wetlands Act (Article 24 of the
+        Environmental Conservation Law). Associated with the maps are Classification Sheets that
+        list the Wetlands Identification Code, the municipality in which the wetland occurs and the
+        regulatory class of each wetland. Preparation and filing dates vary by county. As amendments
+        to the official maps occur, the coverages are updated so that the GIS information reflects
+        the regulatory maps currently in use. Archive copies of county coverages with previous
+        versions of the official maps are kept. An important feature of the official maps is that
+        the lines indicate only "the approximate location of the actual boundaries of the wetlands"
+        (ECL Section 24-0301(3)). For a final determination of the actual location of a wetland it
+        is necessary to contact the NYSDEC office for the region in which the wetland
+        occurs.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1994</begdate>
+          <enddate>2013</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Publication date per county. Coverages are updated as amendments occur, or as errors
+        in the data are discovered and corrected. For the most recent updates to coverages by
+        county, see the README file at
+        https://s3.amazonaws.com/cugir-data/00/81/87/fwreadme.txt</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+          <bounding>
+            <westbc>-79.762152</westbc>
+            <eastbc>-71.856214</eastbc>
+            <northbc>45.01585</northbc>
+            <southbc>40.496103</southbc>
+          </bounding>
+        </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Freshwater Wetlands</themekey>
+        <themekey>Regulatory Wetlands</themekey>
+        <themekey>index map</themekey>
+      </theme>
+      <theme>
+        <themekt>LCSH</themekt>
+        <themekey>Wetlands</themekey>
+        <themekey>Conservation of natural resources</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>inlandWaters</themekey>
+        <themekey>environment</themekey>
+        <themekey>planningCadastre</themekey>
+      </theme>
+      <theme>
+              <themekt>CUGIR Category</themekt>
+              <themekey>index map</themekey>
+<themekey>inland waters</themekey>
+<themekey>environment</themekey>
+<themekey>property</themekey>
+            </theme>
+      <place>
+        <placekt>LCSH</placekt>
+        <placekey>New York (State)</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>1. The documentation in the Entity and Attribute Overview section of the metadata, and
+      the README referred to in that section, are integral parts of the Regulatory Freshwater
+      Wetlands data. Failure to use the documentation in conjunction with the digital data
+      constitutes a misuse of the data. 2. The digital freshwater wetlands data provided are not a
+      legal substitute for the official Regulatory Freshwater Wetlands maps maintained by the
+      Department of Environmental Conservation pursuant to Environmental Conservation Law Section
+      24-0301. Should a discrepancy exist between the digital data and the official maps, the
+      official maps are the correct source of information. 3. The official regulatory freshwater
+      wetlands maps may be amended from time to time; digital data obtained at an earlier date may
+      therefore become obsolete. Digital data also may be altered independently of official map
+      amendments in order to make improvements. These digital data cannot be relied on as a
+      definitive statement of the location of freshwater wetlands. Wetland boundaries are subject to
+      delineation by Department of Environmental Conservation regional personnel. 4. The borders of
+      wetlands shown on both the official maps and the digital data are approximate at a scale of 1
+      to 24,000. Traditional cartographic or digital comparison of the wetland maps to mapped
+      information that is collected and digitized at a larger scale than 1 to 24,000 is not
+      cartographically acceptable and is subject to error. 5. It is inappropriate to make further
+      distributions of the data, because digital wetlands data are not official regulatory maps and
+      are subject to change. All requests for the digital wetlands data should be referred to the
+      Cornell University Geospatial Information Repository https://cugir.library.cornell.edu/ or to
+      the Habitat Inventory Unit, New York State Department of Environmental Conservation, 625
+      Broadway, 5th Floor, Albany, New York 12233-4754, telephone (518)402-8961.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Katherine Barnes</cntper>
+          <cntorg>New York State Department of Environmental Conservation - Division of Fish,
+            Wildlife, and Marine Resources</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>625 Broadway, 5th Floor</address>
+          <city>Albany</city>
+          <state>NY</state>
+          <postal>12233-4754</postal>
+        </cntaddr>
+        <cntvoice>(518) 402-8964</cntvoice>
+        <cntfax>(518) 402-8925</cntfax>
+        <cntemail>katherine.barnes@dec.ny.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>See Entity and Attribute Information</attraccr>
+    </attracc>
+    <logic>See Process Description</logic>
+    <complete>See Currentness Reference</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Wetland boundaries were delineated as "approximate" on 1 to 24,000 scale maps
+          using a variety of methods, including aerial photographic interpretation, reference to
+          published maps and field investigations. However, due to changes over time in the wetland
+          resource, field verification of wetland boundaries is increasingly important. Digital
+          wetland borders are derived from individual 1 to 24,000 quads, either by digitizing or by
+          scanning followed by semi-automated raster to vector conversion. Quality assurance and
+          quality control procedures included overlay of plot of digital boundaries on original
+          source map with the condition for acceptance being no visible separation allowed between
+          boundaries.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>New York State Department of Environmental Conservation</origin>
+            <pubdate>20101013</pubdate>
+            <title>New York State Freshwater Wetlands Map</title>
+            <geoform>map</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>stable-base material</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>19840101</begdate>
+              <enddate>20130828</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NYSFWW</srccitea>
+        <srccontr>Spatial and attribute information</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Wetland borders are derived from individual 1 to 24,000 quads, either by
+          digitizing or by scanning followed by semi-automated raster to vector conversion. Labels
+          are added and coded with the wetland identification and class. Annotation indicating the
+          wetland identification code is also added. The quads comprising a county are edge matched
+          and map joined to form a county coverage. Quadrangle borders of wetlands that cross quads
+          are dissolved away. Where contiguous wetlands on adjacent regulatory quad sheets do not
+          match, arcs are added along the quad border between the wetland pieces on either side of
+          the border so that a continuous polygon is formed. Wetland class in the coverage is
+          checked against an ASCII file derived from the official classification sheets. Class and
+          wetland ID are added to arcs using an automated procedure that derives arc attribute
+          values from polygon attribute values. Data are tiled as coverages showing wetlands of a
+          single county. Detailed protocols are maintained by the Habitat Inventory Unit. For
+          further information on related files and coverages, see the README file at
+          https://s3.amazonaws.com/cugir-data/00/81/87/fwreadme.txt</procdesc>
+        <procdate>2013</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>18</utmzone>
+            <transmer>
+              <sfctrmer>0.9996</sfctrmer>
+              <longcm>-75.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000</feast>
+              <fnorth>0</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.6098</absres>
+            <ordres>0.6098</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137</semiaxis>
+        <denflat>298.25</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Regulatory Freshwater Wetlands.</enttypl>
+        <enttypd>ARC/INFO Coverages of New York State Regulatory Freshwater Wetlands tiled by
+          county.</enttypd>
+        <enttypds>Official New York State Freshwater Wetland Maps as described in Article 24-0301 of
+          the Environmental Conservation Law.</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>WETID</attrlabl>
+        <attrdef>The wetland identification code of the wetland. When a wetland contains included
+          uplands, water bodies, tidal wetlands or other features, the polygon of the non-wetland
+          feature is coded with UPL, WAT, TID or OTH, respectively, in columns 8 - 10 of this field
+          and with the wetlands identification code of the surrounding wetland in the first 7
+          columns. Only the wetland identification code is a valid value for arcs. Wetlands with an
+          extended adjacent area have an asterisk (*) directly following the wetland identification
+          code as part of WETID. Found in PAT and AAT.</attrdef>
+        <attrdefs>Freshwater Wetlands Mapping Technical Methods Statement. Division of Fish and
+          Wildlife Technical Report. New York State Department of Environmental Conservation.
+          Albany, N.Y. April, 1986. 48 pages.</attrdefs>
+        <attrdomv>
+          <udom>Unique ID</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CLASS</attrlabl>
+        <attrdef>The regulatory class of the wetland as derived from the wetlands classification
+          sheets. Values are 1, 2, 3, and 4 for Class I, II, III, and IV wetlands, respectively. A
+          value of 0 is used for non-wetland features. A value of 9 is used for wetlands that do not
+          have a class. Only non-zero values for class are valid for arcs. Found in PAT and
+          AAT.</attrdef>
+        <attrdefs>6 New York Codes, Rules and Regulations, Part 664 Freshwater Wetlands Mapping and
+          Classification Regulations</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Class I</edomvd>
+            <edomvds>Classification Sheets</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Class II</edomvd>
+            <edomvds>Classification Sheets</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Class III</edomvd>
+            <edomvds>Classification Sheets</edomvds>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Class IV</edomvd>
+            <edomvds>Classification Sheets</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>non-wetland features</edomvd>
+            <edomvds>DEC Habitat Inventory Unit internal documentation, "Procedures for Labels in
+              Non-wetland Polygons"</edomvds>
+          </edom>
+          <edom>
+            <edomv>9</edomv>
+            <edomvd>wetlands that do not have a class</edomvd>
+            <edomvds>DEC Habitat Inventory Unit internal documentation, "Procedures for Labels in
+              Non-wetland Polygons"</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>REGU-ACRES</attrlabl>
+        <attrdef>The total regulatory size in acres of the wetland. This total includes all polygons
+          associated with the wetland such as included uplands or open water. This is the official
+          regulatory wetland size as specified in the Freshwater Wetlands Act (ECL Section
+          24-0107(1)(c)). If more than one wetland in the county has the same wetland ID, this item
+          will contain, incorrectly, the total area of all wetlands with the same wetland ID. Found
+          in PAT.</attrdef>
+        <attrdefs>Calculated</attrdefs>
+        <attrdomv>
+          <udom>calculated value</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WETL-ACRES</attrlabl>
+        <attrdef>The total number of wetland acres in the wetland. This value is the sum of only the
+          wetland polygons belonging to a wetland ID; it excludes any included uplands or open water
+          bodies. This is an ecologically based total size, in contrast to the regulatory total
+          given in REGU-ACRES. Found in PAT.</attrdef>
+        <attrdefs>Calculated</attrdefs>
+        <attrdomv>
+          <udom>calculated value</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>REGION-ACRES</attrlabl>
+        <attrdef>The total number of regulated wetland acres as determined by DEC regional office
+          staff. This item has a value only if DEC regional staff have determined a value for the
+          size of the wetland that they consider more accurate than the value determined by the
+          geographic information system. Regional value may be determined from wetland maps at
+          scales larger than 1 to 24,000, from surveys, or from other means. This item may be coded
+          as 0 for some or all of the wetlands in a county coverage if regional staff have not
+          determined a value. Where REGION-ACRES exists, it should be considered the correct value
+          to be used in place of REGU-ACRES. Found in PAT.</attrdef>
+        <attrdefs>Calculated</attrdefs>
+        <attrdomv>
+          <udom>calculated value</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>POLY-ACRES</attrlabl>
+        <attrdef>The number of acres in the individual polygon.</attrdef>
+        <attrdefs>Calculated</attrdefs>
+        <attrdomv>
+          <udom>calculated value</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>#_PARCELS</attrlabl>
+        <attrdef>The number of separate wetland polygons, or separate areas of wetland, making up
+          the regulated wetland.</attrdef>
+        <attrdefs>Calculated</attrdefs>
+        <attrdomv>
+          <udom>calculated value</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>Data are tiled as coverages showing wetlands of a single county. Coverages are named
+        with the first four letters of the county's name followed by WET, e.g., ALBAWET. A link to
+        the README file is found in Detail Citation for detailed usage notes. THESE NOTES ARE
+        ESSENTIAL TO PROPER USE OF THE COVERAGES.</eaover>
+      <eadetcit>https://s3.amazonaws.com/cugir-data/00/81/87/fwreadme.txt</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+        <distrib>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Albert R. Mann Library</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>Cornell University</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14853</postal>
+            </cntaddr>
+            <cntvoice>607-255-5406</cntvoice>
+            <cntemail>mann-ref@cornell.edu</cntemail>
+          </cntinfo>
+        </distrib>
+        <distliab>Cornell University provides these geographic data "as is". Cornell
+          University makes no guarantee or warranty concerning the accuracy of
+          information contained in the geographic data. Cornell University further
+          makes no warranty either expressed or implied, regarding the condition of
+          the product or its fitness for any particular purpose. The burden for
+          determining fitness for use lies entirely with the user. Although these
+          files have been processed successfully on computers at Cornell University,
+          no warranty is made by Cornell University regarding the use of these data
+          on any other system, nor does the fact of distribution constitute or imply
+          any such warranty.</distliab>
+        <stdorder>
+        <digform>
+            <digtinfo>
+              <formname>GeoJSON</formname>
+              <formcont>OpenIndexMaps</formcont>
+              <transize>0.18</transize>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/81/87/cugir-008187-index.geojson</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>metadata</formname>
+              <formcont>FGDC XML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/81/87/fgdc.xml</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>HTML metadata</formname>
+              <formcont>FGDC HTML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/81/87/fgdc.html</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><fees>None</fees></stdorder>
+      </distinfo>
+  <metainfo>
+      <metd>20190524</metd>
+      <metc>
+        <cntinfo>
+          <cntorgp>
+            <cntorg>Albert R. Mann Library</cntorg>
+          </cntorgp>
+          <cntaddr>
+            <addrtype>mailing and physical</addrtype>
+            <address>Albert R. Mann Library</address>
+            <city>Ithaca</city>
+            <state>New York</state>
+            <postal>14853</postal>
+            <country>USA</country>
+          </cntaddr>
+          <cntvoice>607-255-5406</cntvoice>
+          <cntemail>mann-ref@cornell.edu</cntemail>
+        </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+    </metainfo>
+</metadata>

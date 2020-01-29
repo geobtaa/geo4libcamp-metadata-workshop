@@ -1,0 +1,45 @@
+{
+    "geoblacklight_version": "1.0",
+    "dc_identifier_s": "https://cugir.library.cornell.edu/catalog/cugir-007331",
+    "dc_title_s": "Nonferrous Metal Processing Plants, New York State, 1997",
+    "dc_description_s": "This data set includes nonferrous metal processing plants in the United States. The data represent commodities covered by the Minerals Information Team (MIT) of the U.S. Geological Survey, and the operations are those considered active in 1997 and surveyed by the MIT.  These data are intended for geographic display and analysis at the national level, and for large regional areas. The data should be displayed and analyzed at scales appropriate for 1:2,000,000-scale data. No responsibility is assumed by the U.S. Geological Survey in the use of these data.",
+    "dc_rights_s": "Public",
+    "dct_provenance_s": "Cornell",
+    "dct_references_s": "{\"http://schema.org/downloadUrl\":\"https://cugir-data.s3.amazonaws.com/00/73/31/cugir-007331.zip\",\"http://www.opengis.net/cat/csw/csdgm\":\"https://cugir-data.s3.amazonaws.com/00/73/31/fgdc.xml\",\"http://www.w3.org/1999/xhtml\":\"https://cugir-data.s3.amazonaws.com/00/73/31/fgdc.html\",\"http://www.opengis.net/def/serviceType/ogc/wfs\":\"https://cugir.library.cornell.edu/geoserver/cugir/wfs\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://cugir.library.cornell.edu/geoserver/cugir/wms\"}",
+    "cugir_addl_downloads_s": "{}",
+    "layer_id_s": "cugir007331",
+    "layer_slug_s": "cugir-007331",
+    "dc_type_s": "Dataset",
+    "dc_format_s": "Shapefile",
+    "cugir_filesize_s": "0.04 MB",
+    "layer_geom_type_s": "Point",
+    "layer_modified_dt": "2019-05-24T00:00:00Z",
+    "dc_creator_sm": [
+        "U.S. Geological Survey"
+    ],
+    "dc_publisher_sm": [
+        "U.S. Geological Survey"
+    ],
+    "dc_subject_sm": [
+        "minerals",
+        "mines",
+        "mining operations",
+        "minerals operations",
+        "processing plants",
+        "nonferrous metals",
+        "Mines and mineral resources.",
+        "Mineral industries."
+    ],
+    "cugir_category_sm": [
+        "economy"
+    ],
+    "dct_spatial_sm": [
+        "New York"
+    ],
+    "dct_issued_s": "1998-11",
+    "dct_temporal_sm": [
+        "1997"
+    ],
+    "solr_geom": "ENVELOPE(-74.89167, -73.046402, 44.98333, 40.913399)",
+    "solr_year_i": "1997"
+}

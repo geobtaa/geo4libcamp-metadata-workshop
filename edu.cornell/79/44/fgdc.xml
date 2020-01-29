@@ -1,0 +1,467 @@
+<!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Lake Ontario Biocomplexity Project</origin>
+        <pubdate>2008</pubdate>
+        <title>Historical Land Cover, LOBP eastern sites (Sandy Pond), 1975</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Cornell University, Ithaca N.Y.</pubplace>
+          <publish>Lake Ontario Biocomplexity Project</publish>
+        </pubinfo>
+        <onlink>https://cugir.library.cornell.edu/catalog/cugir-007944</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This shapefile contains polygons representing the historical
+        land cover within the watersheds near Sandy Pond, in New York, on the
+        eastern shore of Lake Ontario. These land cover boundaries and types
+        were interpreted from aerial photos dating from 1975.</abstract>
+      <purpose>To evaluate broad changes in land cover over time.</purpose>
+      <supplinf>This dataset was developed as part of the Lake Ontario
+        Biocomplexity Project. For more information, see:
+        &lt;http://ontario.cfe.cornell.edu/&gt;</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>1975</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+          <bounding>
+            <westbc>-76.208097</westbc>
+            <eastbc>-75.66526</eastbc>
+            <northbc>43.980103</northbc>
+            <southbc>43.609502</southbc>
+          </bounding>
+        </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Land Cover</themekey>
+        <themekey>Land Use</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>environment</themekey>
+        <themekey>planningCadastre</themekey>
+      </theme>
+      <theme>
+              <themekt>CUGIR Category</themekt>
+              <themekey>landcover</themekey>
+<themekey>environment</themekey>
+<themekey>property</themekey>
+            </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>New York</placekey>
+        <placekey>Lake Ontario</placekey>
+        <placekey>Sandy Pond</placekey>
+      </place>
+      <place>
+        <placekt>LCSH</placekt>
+        <placekey>New York (State)</placekey>
+        <placekey>Ontario, Lake (N.Y. and Ont.)</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Marci Meixler</cntper>
+          <cntorg>Cornell University</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>104 Rice Hall</address>
+          <address>Department of Natural Resources</address>
+          <address>Cornell University</address>
+          <city>Ithaca</city>
+          <state>NY</state>
+          <postal>14853</postal>
+          <country>U.S.A.</country>
+        </cntaddr>
+        <cntvoice>(607) 255-2038</cntvoice>
+        <cntfax>(607)255-1895</cntfax>
+        <cntemail>msm10@cornell.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/79/44/preview.png</browsen>
+              <browsed>preview of the dataset</browsed>
+              <browset>PNG</browset>
+            </browse>
+  </idinfo>
+  <dataqual>
+    <logic>Unknown</logic>
+    <complete> The maps for the historical time periods (1938, 1955, and 1975)
+      are not spatially complete. In all cases the shoreline is most complete
+      but watershed coverage is spotty. North and South Sandy Pond watersheds
+      and South Colwell watershed are represented in part or in full for some
+      years. Floodwood watershed is not represented in any of the historical
+      years. This is because Floodwood and South Colwell are in Jefferson and
+      Lewis Counties. We were unable to locate any historical photos for these
+      counties from any federal, state, or local agency. Private firms were also
+      dead ends for locating historical photos and the NY Office of Real
+      Property Services who purported to have some historical coverage would not
+      allow our project to use their photos. Oswego County had good coverage
+      though in some years even it was not continuous and hence the sometimes
+      incomplete maps for N and S Sandy Ponds. For the purposes of historical
+      analysis for the Biocomplexity project the shorelines and some of the
+      subwatersheds (for which we do stream sampling) can by viewed in their
+      entirety. </complete>
+    <posacc>
+      <horizpa>
+        <horizpar>It is important to note that the aerial photos used for this
+          project differed in resolution, scale, and distortion. Therefore the
+          level of detail within each of the landcover maps varies.
+          Additionally, due to this distortion the resulting maps do not align
+          perfectly at boundaries such as shorelines and embayments and even
+          fixed objects. The project group took as much care as possible to get
+          good registration, and achieved the best possible without advanced
+          triangulation and other interpretation techniques that were beyond the
+          scope of this project. Users of these maps should be aware of these
+          limitations and use them as general depictions of the land use and
+          land cover and use them to only evaluate broad changes over time.
+        </horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc> Files were created by aligning historical aerial photographs
+          along flight lines and tracing landcover classes onto clear acetate
+          overlays. The polygons on the overlays were then digitized into
+          ArcView GIS in Sibley Hall at Cornell during the Summer of 2003 by our
+          REU intern, Seth Lozano. Interpretation of the aerial photos was done
+          by Seth, Andrea Parmenter, and the rest of the summer field interns.
+          All photos for the project were provided by the Oswego County Soil and
+          Water Conservation District in Fulton, NY. (One exception to the above
+          protocol was for the 1995 land cover. For this time period the Digital
+          Orthophoto Quarter Quadrangles in near infrared were printed at a
+          scale of 1:24,000 and the acetate laid on top of them. These DOQQ's
+          are available for free online from the NY State GIS server and are
+          considerably more detailed than any other photos used in the study.
+          They are also more spatially accurate in terms of georeferencing.
+          Therefore, we believe this map to be the most accurate of any in the
+          eight watersheds. It is also the only spatially complete map in the
+          eastern study sites containing the Floodwood watershed. The DOQQ
+          photos exist in UTM, Zone 18, NAD83. We digitized the overlays from
+          the DOQQ's by registering them to tics in this same Datum. The final
+          map was then projected to UTM, Zone 18, Datum NAD27 to match the
+          others in the study.) Registration of the acetate overlays to real
+          world coordinates was accomplished by using a series of tic marks
+          (e.g. road intersections for which we knew the coordinates and could
+          locate on the photos). In all cases care was taken to minimize the
+          root mean square (RMS) error, and hence distortion caused by
+          registration. The RMS values and tic IDs used for each map can be
+          found in the red airphoto documentation notebook in 306 Rice Hall.</procdesc>
+        <procdate>2003</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>CUGIR staff defined the dataset projection as UTM18N (meters,
+          NAD27), removed extraneous attributes, and exported the data as a
+          shapefile.</procdesc>
+        <procdate>20080122</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+          <sdtsterm>
+            <sdtstype>G-polygon</sdtstype>
+            <ptvctcnt>479</ptvctcnt>
+          </sdtsterm>
+        </ptvctinf>
+      </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>18</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-75.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000256</absres>
+            <ordres>0.000256</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1927</horizdn>
+        <ellips>Clarke 1866</ellips>
+        <semiaxis>6378206.400000</semiaxis>
+        <denflat>294.978698</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Polygon</enttypl>
+        <enttypd>Polygon representing the predominant land cover</enttypd>
+        <enttypds>Lake Ontario Biocomplexity Project</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>AREA</attrlabl>
+        <attrdef>area of polygon, in square meters</attrdef>
+        <attrdefs>computed</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>Unbounded</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+        <attrdef>perimeter of polygon, in meters</attrdef>
+        <attrdefs>computed</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>Unbounded</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>COVER</attrlabl>
+        <attrdef>Value representing the predominant land cover classification</attrdef>
+        <attrdefs>LOBP</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>OPEN WATER</edomvd>
+            <edomvds>LOBP</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>RESIDENTIAL/URBAN</edomvd>
+            <edomvds>LOBP</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>COMMERCIAL/INDUSTRIAL/TRANSPORTATION</edomvd>
+            <edomvds>LOBP</edomvds>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>BARE ROCK/SAND/CLAY</edomvd>
+            <edomvds>LOBP</edomvds>
+          </edom>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>TRANSITION(ABANDONED LAND, FARMS, ETC..)</edomvd>
+            <edomvds>LOBP</edomvds>
+          </edom>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>FOREST/TREES (MIXED STANDS)</edomvd>
+            <edomvds>LOBP</edomvds>
+          </edom>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>PASTURE/DAIRY/OTHER AGRICULTURE</edomvd>
+            <edomvds>LOBP</edomvds>
+          </edom>
+          <edom>
+            <edomv>8</edomv>
+            <edomvd>CROPS, LAND ACTIVELY BEING CROPPED</edomvd>
+            <edomvds>LOBP</edomvds>
+          </edom>
+          <edom>
+            <edomv>9</edomv>
+            <edomvd>URBAN GRASSES, CITY PARKS, GOLF COURSES...</edomvd>
+            <edomvds>LOBP</edomvds>
+          </edom>
+          <edom>
+            <edomv>10</edomv>
+            <edomvd>WOODY WETLANDS</edomvd>
+            <edomvds>LOBP</edomvds>
+          </edom>
+          <edom>
+            <edomv>11</edomv>
+            <edomvd>SHRUB DOMINATED WETLANDS</edomvd>
+            <edomvds>LOBP</edomvds>
+          </edom>
+          <edom>
+            <edomv>12</edomv>
+            <edomvd>MIXED HERBACEOUS WETLANDS</edomvd>
+            <edomvds>LOBP</edomvds>
+          </edom>
+          <edom>
+            <edomv>13</edomv>
+            <edomvd>TREE FARM/ORCHARD/PLANTATION</edomvd>
+            <edomvds>LOBP</edomvds>
+          </edom>
+          <edom>
+            <edomv>14</edomv>
+            <edomvd>FARM - LAND IN FARM BUILDINGS</edomvd>
+            <edomvds>LOBP</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+        <distrib>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Albert R. Mann Library</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>Cornell University</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14853</postal>
+            </cntaddr>
+            <cntvoice>607-255-5406</cntvoice>
+            <cntemail>mann-ref@cornell.edu</cntemail>
+          </cntinfo>
+        </distrib>
+        <distliab>Cornell University provides these geographic data "as is". Cornell
+          University makes no guarantee or warranty concerning the accuracy of
+          information contained in the geographic data. Cornell University further
+          makes no warranty either expressed or implied, regarding the condition of
+          the product or its fitness for any particular purpose. The burden for
+          determining fitness for use lies entirely with the user. Although these
+          files have been processed successfully on computers at Cornell University,
+          no warranty is made by Cornell University regarding the use of these data
+          on any other system, nor does the fact of distribution constitute or imply
+          any such warranty.</distliab>
+        <stdorder>
+        <digform>
+            <digtinfo>
+              <formname>Shapefile</formname>
+              <formcont>zipped shapefile</formcont>
+              <filedec>zip</filedec>
+              <transize>0.35</transize>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/79/44/cugir-007944.zip</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>metadata</formname>
+              <formcont>FGDC XML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/79/44/fgdc.xml</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>HTML metadata</formname>
+              <formcont>FGDC HTML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/79/44/fgdc.html</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+                <digtinfo>
+                  <formname>KML</formname>
+                  <formcont>generated KML, via WFS</formcont>
+                </digtinfo>
+                <digtopt>
+                  <onlinopt>
+                    <computer>
+                      <networka>
+                        <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir007944&amp;outputFormat=application%2Fvnd.google-earth.kml%2Bxml</networkr>
+                      </networka>
+                    </computer>
+                  </onlinopt>
+                </digtopt>
+              </digform><digform>
+            <digtinfo>
+              <formname>GeoJSON</formname>
+              <formcont>generated GeoJSON, via WFS</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir007944&amp;outputFormat=application%2Fjson</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>OGC:WMS</formname>
+              <formcont>WMS, from GeoServer</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007944&amp;bbox=-76.22438211,43.59838397,-75.64897489,43.99122103&amp;width=256&amp;height=174&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><fees>None</fees></stdorder>
+      </distinfo>
+  <metainfo>
+      <metd>20190524</metd>
+      <metc>
+        <cntinfo>
+          <cntorgp>
+            <cntorg>Albert R. Mann Library</cntorg>
+          </cntorgp>
+          <cntaddr>
+            <addrtype>mailing and physical</addrtype>
+            <address>Albert R. Mann Library</address>
+            <city>Ithaca</city>
+            <state>New York</state>
+            <postal>14853</postal>
+            <country>USA</country>
+          </cntaddr>
+          <cntvoice>607-255-5406</cntvoice>
+          <cntemail>mann-ref@cornell.edu</cntemail>
+        </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+    </metainfo>
+</metadata>

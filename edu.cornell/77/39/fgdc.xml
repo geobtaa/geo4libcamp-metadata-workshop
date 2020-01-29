@@ -1,0 +1,446 @@
+<!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>New York State Adirondack Park Agency</origin>
+        <pubdate>19930914</pubdate>
+        <pubtime/>
+        <title>Adirondack Park Boundary, 1993</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Ray Brook, NY</pubplace>
+          <publish>NYS Adirondack Park Agency</publish>
+        </pubinfo>
+        <onlink>https://cugir.library.cornell.edu/catalog/cugir-007739</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Outer boundary of the New York State Adirondack Park. The data set was hand
+                digitized from 1:24000 scale, 7.5 minute series planimetric, mylar original, New
+                York State Department of Transportation maps. The digitized boundary was edgematched
+                with older planimetric quadrangle delineations being snapped to newer adjacent
+                quadrangles. The boundary was compared to the legal Park description (Environmental
+                Conservation Law Section 9-0101); the "New York State Department of Environmental
+                Conservation Division of Lands and Forests Adirondack Map" 1993 edition; a joint
+                DEC/DOT 1:24000 scale mapping project to delineate original allotment lines
+                (patents, townships, tracts, etc.) in Essex, Hamilton, Warren, Washington, and
+                Saratoga Counties; and county Real Property Tax Maps. Where obvious discrepancies
+                occurred, Adirondack Park Agency cartographers re-plotted the boundary at 1:24000
+                scale using visual reference points on the maps and then re-digitized. Certain
+                sections of the boundary remain in question (see Notes.)</abstract>
+      <purpose>Use as a clipping polygon or as a set of arcs delimiting the park.</purpose>
+      <supplinf>Digitizing -- Original mylar chronoflex 7.5 Minute Series Planimetric
+                quadrangle maps, purchased from New York State Dept. of Transportation were
+                digitized. The publication date of the 200 maps varied from mid-1960's to the
+                mid-1980's. APA staff digitized maps on a Calcomp 9100 table into Arc/Info 5.0 on a
+                Prime 4050, operating system Primos 22.0. Map transformation to UTM zone 18 occurred
+                at digitizing setup. The maximum RMS error target was 0.003 inches. No actual RMS
+                error value for each map setup was retained. Coverage tics at quadrangle corners
+                were generated from data set "NYTM Coordinates 11/22/89" purchased from NYSDOT -
+                Mapping Services Bureau, reputed to provide one tenth meter accuracy. All municipal
+                boundary lines were digitized, including the Adirondack Park boundary. Arc nodes
+                were digitized at line intersections, lines that appeared straight over long
+                distances had vertices digitized at approximately five inch intervals. Arcs were
+                digitized into one park coverage. Arc snap and node snap tolerances were set to five
+                meters, intersect arcs set on. Editing -- The digitized boundaries were manually
+                edgematched in Arcedit with older planimetric quadrangle delineations being snapped
+                to newer, adjacent quadrangles. All polygons were closed regardless of the edge-
+                match blunder. Where these errors occurred, vertices for long boundary were adjusted
+                to straighten lines (reviewed with all available sources) between municipal boundary
+                intersections. Polygon and arc topology were built, polygon labels were computer
+                generated. The Adirondack Park boundary was reselected from the municipal boundary
+                coverage to create a new separate coverage. Original arc nodes were removed in
+                Arcedit by unsplitting all arcs. New nodes were placed to split the state boundary
+                from the remaining park boundary. Two additional nodes were computer generated due
+                to a 500 vertices per arc software limitation. One polygon label was computer
+                generated, polygon and arc topology were built. An item called BND-CD was added to
+                the arc attribute table to distinguish the state boundary from the remaining park
+                boundary. The coverage was imported to a UNIX Data General workstation. The coverage
+                map projection was defined. Quality Control -- Some boundary adjustments were made
+                for sections noted under Notes as per review of additional source information.
+                Revisions made to data: Various revisions were made as per reviews cited. Reviews
+                applied to data: Spatial review of arcs for completeness and closure -- 199103, John
+                W. Barge. Spatial review of arcs in comparison to ECL sec. 9-0101. (legal
+                description of Adirondack Park boundary) -- ongoing as needed, John W. Barge.
+                Spatial review of arcs in comparison to the DEC/DOT original allotment line maps --
+                1991, John W. Barge Spatial review of arcs in comparison to County Tax Maps --
+                ongoing as needed, John W. Barge, Susan H. Parker. Related spatial and tabular data
+                sets and programs: New York State Adirondack Park Municipal Boundaries Arc/Info
+                coverage. New York State Adirondack Park 7.5 Minute Quadrangle Boundaries Arc/Info
+                coverage. References cited: New York State Environmental Conservation Law Section
+                9-0101. Notes: Certain sections of the delineated boundary remain in question. Known
+                ambiguities exist in the towns of Pitcairn, St. Lawrence Co. Diana, Lewis Co.; Lake
+                Luzerne, Warren Co.; and Altona and Saranac, Clinton Co. Ambiguities are resolved on
+                a case-by-case basis. Contact the Adirondack Park Agency for further
+                information.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>1993</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Reviewed and published.</progress>
+      <update>As needed.</update>
+    </status>
+    <spdom>
+          <bounding>
+            <westbc>-75.319679</westbc>
+            <eastbc>-73.293495</eastbc>
+            <northbc>44.877909</northbc>
+            <southbc>43.052354</southbc>
+          </bounding>
+        </spdom>
+    <keywords>
+      <theme>
+        <themekt>none</themekt>
+        <themekey>Adirondack Park Boundary</themekey>
+        <themekey>Blue Line</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>boundaries</themekey>
+      </theme>
+      <theme>
+              <themekt>CUGIR Category</themekt>
+              <themekey>boundaries</themekey>
+            </theme>
+      <place>
+        <placekt>none</placekt>
+        <placekey>Adirondack Park</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>To be used as the current park boundary at 1:24000 scale. This data set may not be
+            used for legal jurisdictional determinations.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>John W. Barge</cntper>
+          <cntorg>New York (State). Adirondack Park Agency.</cntorg>
+        </cntperp>
+        <cntpos>Senior Natural Resource Planner</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>P.O. Box 99</address>
+          <city>Ray Brook</city>
+          <state>NY</state>
+          <postal>12977</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>518-891-4050</cntvoice>
+        <cnttdd/>
+        <cntfax>518-891-3938</cntfax>
+        <cntemail/>
+        <hours>9-5 EST</hours>
+        <cntinst>Street address is Adirondack Park Agency, Route 86</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/77/39/preview.png</browsen>
+              <browsed>preview of the dataset</browsed>
+              <browset>PNG</browset>
+            </browse>
+    <native>unix</native>
+    <crossref>
+      <citeinfo>
+        <origin>New York State Department of Transportation, Mapping Services
+                    Bureau</origin>
+        <pubdate>1960s to 1980s</pubdate>
+        <pubtime/>
+        <title>7.5 Minute Series Planimetric</title>
+        <edition/>
+        <geoform>map</geoform>
+        <serinfo>
+          <sername>7.5 Min. Planimetric</sername>
+          <issue>many</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Albany, NY</pubplace>
+          <publish>NYS Dept. of Transportation</publish>
+        </pubinfo>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>See Entity_Attribute_Information</attraccr>
+      <qattracc>
+        <attraccv>See Explanation</attraccv>
+        <attracce>Attribute accuracy is described, where present, with each attribute
+                    defined in the Entity and Attribute Section.</attracce>
+      </qattracc>
+    </attracc>
+    <logic>Polygon and chain-node topology present.</logic>
+    <complete>See Data Set Description Section</complete>
+    <posacc>
+      <horizpa>
+        <horizpar/>
+        <qhorizpa>
+          <horizpav>5 meters</horizpav>
+          <horizpae>See Supplemental Information Notes</horizpae>
+        </qhorizpa>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>RESELECT PKBNDS BLUELN POLY</procdesc>
+        <procdate>19910314</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>CREATELABELS BLUELN 0</procdesc>
+        <procdate>19910314</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>BUILD BLUELN</procdesc>
+        <procdate>19910314</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>ARCEDIT USER.DIRS&gt;JOHNWB&gt;BLUELN</procdesc>
+        <procdate>19910314</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>BUILD BLUELN</procdesc>
+        <procdate>19910314</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>EXPORT COVER BLUELN BLUELN</procdesc>
+        <procdate>19910613</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>COPY USER.DIRS&gt;JOHNWB&gt;BLUELN BLUELN</procdesc>
+        <procdate>19920122</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>IMPORT COVER /APA/EXPORT/COMP/BLUELN BLUELN</procdesc>
+        <procdate>19920704</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>ARCEDIT /APA/BASE/BND/BLUELN</procdesc>
+        <procdate>19920731</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>BUILD BLUELN</procdesc>
+        <procdate>19920731</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>PROJECTDEFINE COVER BLUELN</procdesc>
+        <procdate>19930914</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>BUILD BLUELN LINE</procdesc>
+        <procdate>19950619</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+          <sdtsterm>
+            <sdtstype>G-polygon</sdtstype>
+            <ptvctcnt>1</ptvctcnt>
+          </sdtsterm>
+        </ptvctinf>
+      </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>18</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-75.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000512</absres>
+            <ordres>0.000512</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>blueline</enttypl>
+        <enttypd>Adirondack Park boundary "Blue Line"</enttypd>
+        <enttypds>Adirondack Park Agency</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>AREA</attrlabl>
+        <attrdef>area in square meters</attrdef>
+        <attrdefs/>
+        <attrdomv>
+          <udom>real number</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+        <attrdef>length in meters</attrdef>
+        <attrdefs/>
+        <attrdomv>
+          <udom>real number</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+        <distrib>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Albert R. Mann Library</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>Cornell University</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14853</postal>
+            </cntaddr>
+            <cntvoice>607-255-5406</cntvoice>
+            <cntemail>mann-ref@cornell.edu</cntemail>
+          </cntinfo>
+        </distrib>
+        <distliab>Cornell University provides these geographic data "as is". Cornell
+          University makes no guarantee or warranty concerning the accuracy of
+          information contained in the geographic data. Cornell University further
+          makes no warranty either expressed or implied, regarding the condition of
+          the product or its fitness for any particular purpose. The burden for
+          determining fitness for use lies entirely with the user. Although these
+          files have been processed successfully on computers at Cornell University,
+          no warranty is made by Cornell University regarding the use of these data
+          on any other system, nor does the fact of distribution constitute or imply
+          any such warranty.</distliab>
+        <stdorder>
+        <digform>
+            <digtinfo>
+              <formname>Shapefile</formname>
+              <formcont>zipped shapefile</formcont>
+              <filedec>zip</filedec>
+              <transize>0.06</transize>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/77/39/cugir-007739.zip</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>metadata</formname>
+              <formcont>FGDC XML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/77/39/fgdc.xml</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>HTML metadata</formname>
+              <formcont>FGDC HTML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/77/39/fgdc.html</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+                <digtinfo>
+                  <formname>KML</formname>
+                  <formcont>generated KML, via WFS</formcont>
+                </digtinfo>
+                <digtopt>
+                  <onlinopt>
+                    <computer>
+                      <networka>
+                        <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir007739&amp;outputFormat=application%2Fvnd.google-earth.kml%2Bxml</networkr>
+                      </networka>
+                    </computer>
+                  </onlinopt>
+                </digtopt>
+              </digform><digform>
+            <digtinfo>
+              <formname>GeoJSON</formname>
+              <formcont>generated GeoJSON, via WFS</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir007739&amp;outputFormat=application%2Fjson</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>OGC:WMS</formname>
+              <formcont>WMS, from GeoServer</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007739&amp;bbox=-75.38046451999999,42.99758735,-73.23270948,44.93267565&amp;width=256&amp;height=230&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><fees>None</fees></stdorder>
+      </distinfo>
+  <metainfo>
+      <metd>20190524</metd>
+      <metc>
+        <cntinfo>
+          <cntorgp>
+            <cntorg>Albert R. Mann Library</cntorg>
+          </cntorgp>
+          <cntaddr>
+            <addrtype>mailing and physical</addrtype>
+            <address>Albert R. Mann Library</address>
+            <city>Ithaca</city>
+            <state>New York</state>
+            <postal>14853</postal>
+            <country>USA</country>
+          </cntaddr>
+          <cntvoice>607-255-5406</cntvoice>
+          <cntemail>mann-ref@cornell.edu</cntemail>
+        </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+    </metainfo>
+</metadata>

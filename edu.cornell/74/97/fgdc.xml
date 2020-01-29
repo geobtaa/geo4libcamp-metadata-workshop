@@ -1,0 +1,627 @@
+<!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Tompkins County Planimetric Project</origin>
+        <pubdate>2001</pubdate>
+        <title>Hydrography, Tompkins County NY, 2001</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Tompkins County</pubplace>
+          <publish>Tompkins County IT/GIS Program</publish>
+        </pubinfo>
+        <onlink>https://cugir.library.cornell.edu/catalog/cugir-007497</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The Tompkins County Planning Department utilized inter-departmental mapping expertise of the Tompkins County Information Technology Services GIS Division to produce a data set of surface water features for Tompkins County, New York. The need for this data set has been identified by various county departments, local municipal agencies, and other not-for-profit organizations.</abstract>
+      <purpose>To provide a complete network of streams within the county boundaries and to add enough basic attributes that a fundamental degree of categorization would be achieved. To provide a stream layer for map production and to provide a framework for relating streams to external databases.</purpose>
+      <supplinf>Data originating from the Tompkins County 1991-92 Planimetric project at a scale of 1:4800 was organized into watersheds and edited to complete the connectivity of stream segments and networks. Identified gaps between arcs due to the original data capture errors were corrected with the use of secondary data sources. In locations where stream paths did not exist through water bodies and wetlands, additional segments, or artificial paths were added through these polygons. Approximate stream centerlines were also delineated in locations where larger streams were identified only by two arcs representing stream edges. In addition, all centerline segment directional orientation was altered to a downstream direction. Paper Maps can be ordered directly from Tompkins County IT/GIS. Attribute information can be found is the following attached files :Hydrology_attributes.xls and a HYDROLOGY_ATTRIBUTES.txt file</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>200105</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+          <bounding>
+            <westbc>-76.769534</westbc>
+            <eastbc>-76.237712</eastbc>
+            <northbc>42.945211</northbc>
+            <southbc>42.26282</southbc>
+          </bounding>
+        </spdom>
+    <keywords>
+      <theme>
+        <themekey>creeks</themekey>
+        <themekey>surface water</themekey>
+      </theme>
+      <theme>
+        <themekt>LCSH</themekt>
+        <themekey>Hydrography</themekey>
+        <themekey>Rivers</themekey>
+        <themekey>Lakes</themekey>
+        <themekey>Ponds</themekey>
+        <themekey>Hydrology</themekey>
+        <themekey>Reservoirs</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categorties</themekt>
+        <themekey>inlandWaters</themekey>
+      </theme>
+      <theme>
+              <themekt>CUGIR Category</themekt>
+              <themekey>inland waters</themekey>
+            </theme>
+      <place>
+        <placekt>LCSH</placekt>
+        <placekey>Fall Creek (Cayuga County and Tompkins County, N.Y.)</placekey>
+        <placekey>Six Mile Creek (N.Y.)</placekey>
+        <placekey>Cascadilla Creek (N.Y.)</placekey>
+        <placekey>Tompkins County (N.Y.)</placekey>
+        <placekey>Finger Lakes Region (N.Y.)</placekey>
+        <placekey>Cayuga Lake (N.Y.)</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>The following statement must be included with any products that use or are derived from this data set: Data contained in this product was originally produced by the Tompkins County ITS GIS Division and may not be reproduced or redistributed without the express written consent of the originator. The originator does not warrant the accuracy or completeness of the information portrayed by the data. Please use data at the scale in which it was intended to be used.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Tompkins County ITS GIS Division</cntorg>
+          <cntper>Greg Potter</cntper>
+          <cntper>Svetla Borovska</cntper>
+          <cntper>Steve Horn</cntper>
+        </cntorgp>
+        <cntpos>GIS</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>128 East Buffalo Street</address>
+          <city>Ithaca</city>
+          <state>New York</state>
+          <postal>14850</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(607) 274-5418</cntvoice>
+        <cntfax>(607) 274-5420</cntfax>
+        <cntemail>gis@tompkins-co.org</cntemail>
+        <hours>M-F 8:30 a.m. to 4:30 p.m.</hours>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/74/97/preview.png</browsen>
+              <browsed>preview of the dataset</browsed>
+              <browset>PNG</browset>
+            </browse>
+    <datacred>Tompkins County ITS GIS Division</datacred>
+    <native>PATH: /DATA/ARCINFO/COUNTY/NYSP/PHYSICAL/HYDROGRAPHY SOFTWARE: WindowsNT 4.0 x86, Arc/Info Single Precision Coverage</native>
+    <crossref>
+      <citeinfo>
+        <origin>Tompkins County ITS GIS Division</origin>
+        <title>Cayuga Lake</title>
+        <pubinfo>
+          <pubplace>Tompkins County</pubplace>
+          <publish>Tompkins County GIS Program</publish>
+        </pubinfo>
+        <onlink>http://www.tompkins-co.org/gis/</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>See "Source" and "Status" fields of Entity and Attribute Information</attraccr>
+    </attracc>
+    <complete>For all stream segments that are part of the National Hydrography Dataset ("Comonid"), the New York State Department of Environmental Conservation's Water Index Number ("WIN") maps, regulation numbers (" Apt"), and the 303(d) list of Priority Water Bodies ("Priorityh2o") this data can be considered complete for Tompkins County. Because of the changing nature of stream flow and the gray area defining intermittent streams it would not be responsible to suggest that the data is complete for streams on the smaller end of the size continuum. We have been careful to include as many data sources as possible to incorperate them into the Hydrography dataset.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Varies, depending on source of Hydography data (Planimetric Base Map, DOQQs, aerial photo, raw conversion from paper maps, etc). The positional accuracy of each individual arc is determined by the source and status data for that arc found in the fields "Source" and "Status". More than 65% of the the data set tagged with the hyd and plan source attributes is limited to the accuracy of the 1991 Tompkins County Planimetric Base Map series. The centerlines and artificial paths (Ltype = scl and Ltype = ap) represents another 14% and the accuracy of these arcs is much less significant positionally since centerlines and artificial paths are only intended to represent an abstract paths of a streams passing through a lakes, reservoirs, ponds, wetlands. Arcs with a Source code other than "hyd" or an Ltype code of "ap" or "scl" are generally accurate to within plus or minus 30 feet.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Tompkins County Environmental Management Council, Tompkins County Planning Department, Cornell Plantations</origin>
+            <pubdate>1999</pubdate>
+            <title>Unique Natural Areas of Tompkins County, 1999 Inventory</title>
+            <edition>2nd</edition>
+            <othercit>This is an extensive revision of the "Unique Natural Areas of Tompkins County, 1990 Inventory". One hundred and ninety-two Unique Natural Areas are inventoried. Detailed information about each Unique Natural Area (site description, reason for selection, rating, protection status, water resources, physical characteristics, soils, conservation comments, cover type, vegetation/animal description, rare flora, and rare fauna) and an accurate site map of the UNA boundary is provided for each site.</othercit>
+          </citeinfo>
+        </srccite>
+        <srccitea>DOQQ</srccitea>
+        <srccontr>Source information included in the "Source" field of the Attribute table</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>1. Conduct needs assessment; 2. Devise a Stream Identification and Classification Systems and project specifications 3. Our primary planimetric Hydrography data source was generated by Michael Baker, Jr. Engineers; 4. Create an accurate watershed coverage and Divide the planimetric hydrography coverage into these defined watersheds for editing convienience; 5. Collect secondary data sources - In this case 1995 DOQQ's, 1999 aerial Photography, and field data collection on printed maps, 1:24000 USGS Topographic maps, DEC Water Index Maps, National Hydrography Dataset, Priority Waterbodies Dataset; 6. Interpret data from secondary data sources to complete gaps and omissions in planimetric data; 7. Digitally record data and add attributes; 8. Combine individual watersheds into a single coverage; 9. Edit attributes by selecting in ArcView and analyzing both linework and tablular data for completeness; 10. Check for attribute errors.</procdesc>
+        <procdate>Nov. 1999 - Feb. 2001</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Tompkins County ITS GIS Division</cntorg>
+              <cntper>Greg Potter</cntper>
+              <cntper>Svetla Borovska</cntper>
+              <cntper>Steve Horn</cntper>
+            </cntorgp>
+            <cntpos>GIS</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>128 East Buffalo Street</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14850</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>(607) 274-5418</cntvoice>
+            <cntfax>(607) 274-5420</cntfax>
+            <cntemail>gis@tompkins-co.org</cntemail>
+            <hours>M-F 8:30 a.m. to 4:30 p.m.</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+          <sdtsterm>
+            <sdtstype>String</sdtstype>
+            <ptvctcnt>21729</ptvctcnt>
+          </sdtsterm>
+        </ptvctinf>
+      </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>State Plane Coordinate System 1983</gridsysn>
+          <spcs>
+            <spcszone>3102</spcszone>
+            <transmer>
+              <sfctrmer>0.9999375</sfctrmer>
+              <longcm>-76.5833333334</longcm>
+              <latprjo>40</latprjo>
+              <feast>250000</feast>
+            </transmer>
+          </spcs>
+        </gridsys>
+        <planci>
+          <plance>Coordinate Pair</plance>
+          <coordrep>
+            <absres>1</absres>
+            <ordres>1</ordres>
+          </coordrep>
+          <plandu>survey feet</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378206</semiaxis>
+        <denflat>294.9786982</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Hydrography</enttypl>
+        <enttypd>Hydrography arc segments</enttypd>
+      </enttyp>
+      <attr>
+        <attrlabl>Apt -- More attribute information can be found is the following attached files :Hydrology_attributes.xls and a HYDROLOGY_ATTRIBUTES.txt file</attrlabl>
+        <attrdef>artificial path - an abstract line representing a stream passing through lakes, reservoirs, ponds, wetlands</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Bridge</attrlabl>
+        <attrdef>Bridges, culverts, and storm drains</attrdef>
+        <attrdefs>Tompkins County ITS GIS Division, 2000</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>br</edomv>
+            <edomvd>motor vehicle bridge</edomvd>
+          </edom>
+          <edom>
+            <edomv>cu</edomv>
+            <edomvd>culvert - used anywhere that water is directed below the surface.</edomvd>
+          </edom>
+          <edom>
+            <edomv>rrbr</edomv>
+            <edomvd>railroad bridge</edomvd>
+          </edom>
+          <edom>
+            <edomv>rrcu</edomv>
+            <edomvd>railroad culvert</edomvd>
+          </edom>
+          <edom>
+            <edomv>pedbr</edomv>
+            <edomvd>pedestrian bridge</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Class</attrlabl>
+        <attrdef>Stream perminancy determined form USGS 7.5 min. quadrangle map</attrdef>
+        <attrdefs>U.S.G.S</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>I</edomv>
+            <edomvd>intermittent - contains water for only part of the year but more than just after rainstorms or snowmelt</edomvd>
+          </edom>
+          <edom>
+            <edomv>p</edomv>
+            <edomvd>perennial - contains water throughout the year except during severe drought</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Comments</attrlabl>
+        <attrdef>Any relevant information that does not conveniently fit into any other existing attribute field.</attrdef>
+        <attrdefs>Tompkins County ITS GIS Division, 2000</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Commonid</attrlabl>
+        <attrdef>A unique stream segment identification number from National Hydrological Dataset (NHD).</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Dec-win</attrlabl>
+        <attrdef>New York State Department of Environmental Conservation Water Index Number is an alphanumeric water feature identification system used by New York State agencies. In the Hydrology Data set the I.D. is applied only to the stream reaches represented by line types "s", "scl", and "ap".</attrdef>
+        <attrdefs>New York State Department of Environmental Conservation</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Length</attrlabl>
+        <attrdef>Arc length (Internal Software Attribute, in Map Units)</attrdef>
+        <attrdefs>Tompkins County ITS GIS Division, 2000</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Ltype</attrlabl>
+        <attrdef>Type of water feature</attrdef>
+        <attrdefs>Tompkins County ITS GIS Division, 2000</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>s</edomv>
+            <edomvd>stream - a body of moving water represented by a single line typically &lt; 2 meters wide</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000</edomvds>
+          </edom>
+          <edom>
+            <edomv>sb</edomv>
+            <edomvd>stream bank - the shoreline of a body of moving water (typically &gt; 2 meters wide) represented by two lines</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000</edomvds>
+          </edom>
+          <edom>
+            <edomv>pd</edomv>
+            <edomvd>pond - The perimeter of a standing body of water &lt;10 acres, with a predominantly natural shoreline</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000</edomvds>
+          </edom>
+          <edom>
+            <edomv>lk</edomv>
+            <edomvd>lake - the perimeter of a standing body of water &gt;10 acres, with a predominantly natural shoreline</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000</edomvds>
+          </edom>
+          <edom>
+            <edomv>res</edomv>
+            <edomvd>reservoir - the perimeter of a constructed basin &gt; 10 acres, formed to contain water or other liquids</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000</edomvds>
+          </edom>
+          <edom>
+            <edomv>dam</edomv>
+            <edomvd>dam - a barrier constructed to control or monitor the water level. (used in this field only when there is no reservoir above the dam. When a reservoir is present, then "res" is used for this field and "dam" is used in the mmchannel field)</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000</edomvds>
+          </edom>
+          <edom>
+            <edomv>island</edomv>
+            <edomvd>the shoreline of any landmass larger .5 acres that is completely surrounded by water</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000</edomvds>
+          </edom>
+          <edom>
+            <edomv>scl</edomv>
+            <edomvd>stream centerline is a generalized abstract line drawn approximately equidistant between two stream banks</edomvd>
+          </edom>
+          <edom>
+            <edomv>ap</edomv>
+            <edomvd>An artificial path (ap) is an abstract line representing a stream passing through lakes, reservoirs, ponds, wetlands</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Mmchannel</attrlabl>
+        <attrdef>Man made features assigned where applicable to arcs with line type attributes "s", "scl", or "ap".</attrdef>
+        <attrdefs>Tompkins County ITS GIS Division, 2000</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>d</edomv>
+            <edomvd>ditch - an excavated channel along a roadway or field constructed to direct and/or confine a water course</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000</edomvds>
+          </edom>
+          <edom>
+            <edomv>ch</edomv>
+            <edomvd>channelization - a water course that is contained within banks constructed of concrete, rip-rap, or some other man-made wall but is not constructed for motorize water traffic</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000</edomvds>
+          </edom>
+          <edom>
+            <edomv>c</edomv>
+            <edomvd>canal - a water course that is channelized and maintained for motorized water traffic</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000</edomvds>
+          </edom>
+          <edom>
+            <edomv>m</edomv>
+            <edomvd>marina - a protected body of water constructed spacifically for the mooring of boats, including it's access channel to open water</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000</edomvds>
+          </edom>
+          <edom>
+            <edomv>dam</edomv>
+            <edomvd>dam</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Name</attrlabl>
+        <attrdef>For Line types "s", "scl", and "ap" the names of streams are provided as they appear on USGS Quadrangle maps. A few local stream names were added when requested.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Priorityh2o</attrlabl>
+        <attrdef>Priority Waterbodies indentification number from New York State Department of Environmental Conservation 1998 303(d) List of the Clean Water Act. Priority waterbodies are identified so that priority effort will be given to developing solutions to water quality problems. Assigned to applicable streams with a line type attribute of "s", "scl", or "ap".</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Protected</attrlabl>
+        <attrdef>A water quality code ,used by NYS/DEC, assigned to all arcs in the county hydrography dataset with a line type equal to "s", "scl", or "ap" that are also part ot the NYS/DEC Water Index Number data set.. Each stream segment that is coded in this data set with an entry in the protected field has some level of "protected" status.</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>AA</edomv>
+            <edomvd>(a) The best usages of Class AA waters are: a source of water supply for drinking, culinary or food processing purposes; primary and secondary contact recreation; and fishing. The waters shall be suitable for fish propagation and survival. (b) This classification may be given to those waters that, if subjected to approved disinfection treatment, with additional treatment if necessary to remove naturally present impurities, meet or will meet New York State Department of Health drinking water standards and are or will be considered safe and satisfactory for drinking water purposes.</edomvd>
+            <edomvds>New York State Department of Environmental Conservation</edomvds>
+          </edom>
+          <edom>
+            <edomv>A</edomv>
+            <edomvd>a) The best usages of Class A waters are: a source of water supply for drinking, culinary or food processing purposes; primary and secondary contact recreation; and fishing. The waters shall be suitable for fish propagation and survival. (b)This classification may be given to those waters that, if subjected to approved treatment equal to coagulation, sedimentation, filtration and disinfection, with additional treatment if necessary to reduce naturally present impurities, meet or will meet New York State Department of Health drinking water standards and are or will be considered safe and satisfactory for drinking water purposes</edomvd>
+            <edomvds>New York State Department of Environmental Conservation</edomvds>
+          </edom>
+          <edom>
+            <edomv>B</edomv>
+            <edomvd>The best usages of Class B waters are primary and secondary contact recreation and fishing. These waters shall be suitable for fish propagation and survival.</edomvd>
+            <edomvds>New York State Department of Environmental Conservation</edomvds>
+          </edom>
+          <edom>
+            <edomv>C</edomv>
+            <edomvd>The best usage of Class C waters is fishing. These waters shall be suitable for fish propagation and survival. The water quality shall be suitable for primary and secondary contact recreation, although other factors may limit the use for these purposes.</edomvd>
+            <edomvds>New York State Department of Environmental Conservation</edomvds>
+          </edom>
+          <edom>
+            <edomv>T</edomv>
+            <edomvd>Suitable for trout propagation.</edomvd>
+            <edomvds>New York State Department of Environmental Conservation</edomvds>
+          </edom>
+          <edom>
+            <edomv>S</edomv>
+            <edomvd>Trout spawning habitat.</edomvd>
+            <edomvds>New York State Department of Environmental Conservation</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Source</attrlabl>
+        <attrdef>Origin of arc data or most accurate source used to position a stream arc segment where a stream is known to exist</attrdef>
+        <attrdefs>Tompkins County ITS GIS division</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>hyd</edomv>
+            <edomvd>hydrology -hydrology data originating from planimetric base map 1991 The accuracy of the data set is limited to the accuracy of the 1991 Tompkins County Planimetric Base Map series.</edomvd>
+          </edom>
+          <edom>
+            <edomv>nhd</edomv>
+            <edomvd>arcs added where streams were identified in the National Hydrography Dataset but did not appear in the planimetric hydrology data or any other data source</edomvd>
+          </edom>
+          <edom>
+            <edomv>new</edomv>
+            <edomvd>typically used for centerlines drawn between streambanks and for artificial paths where issues of positional accuracy are not applicable.</edomvd>
+          </edom>
+          <edom>
+            <edomv>topo</edomv>
+            <edomvd>topograhphic contours were used to locate streams known to exist but with no other visible way of positionally locating them</edomvd>
+          </edom>
+          <edom>
+            <edomv>doqq</edomv>
+            <edomvd>1995 digital ortho quarter quadrangles</edomvd>
+          </edom>
+          <edom>
+            <edomv>lulc</edomv>
+            <edomvd>land use/land class - data originating from Tompkins Co. land use/land cover inventory based on 1995 DOQQ's. Used primarily to identify wetlands for the location of artifical paths.</edomvd>
+          </edom>
+          <edom>
+            <edomv>win</edomv>
+            <edomvd>Arcs added where streams were identified in the DEC/Water Index Number maps but did not appear in the planimetric hydrology data</edomvd>
+          </edom>
+          <edom>
+            <edomv>plan</edomv>
+            <edomvd>arcs, typically representing culverts and bridges, added using road edge planimetrics to complete gaps in the original hydro data.</edomvd>
+          </edom>
+          <edom>
+            <edomv>field</edomv>
+            <edomvd>arcs added using data collected on field maps generated from planimetric hydrology data.</edomvd>
+          </edom>
+          <edom>
+            <edomv>survey</edomv>
+            <edomvd>surveys provided by various sources to document the existing of streams that did not otherwise appear in the county stream data.</edomvd>
+          </edom>
+          <edom>
+            <edomv>99photo</edomv>
+            <edomvd>April 1999 color photography 1:1100 used to verify the positional accuracy of arcs and in some cases to verifiy the existance of stream sections that did not appear on other data sources.</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Status</attrlabl>
+        <attrdef>An editing status field.</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>f</edomv>
+            <edomvd>field verified during a visit to the site.</edomvd>
+          </edom>
+          <edom>
+            <edomv>v</edomv>
+            <edomvd>verify - the accuracy of one or more of the attributes is questionable</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Strindex</attrlabl>
+        <attrdef>Strahler Index number used to rank relative stream size for all arcs in the county hydrography dataset with a line type equal to "s", "scl", or "ap". This classification system begins with smaller numbers representing headwater streams and progressing to larger numbers downstream as more tributaries enter. This is a standard in simple stream classification first set forth by R.E. Horton and A.E. Strahler.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Tcid</attrlabl>
+        <attrdef>A unique identifier assigned to all arcs in the county hydrography dataset with a line type equal to "s", "scl", or "ap". This identifier includes information about the watershed that it is a part of, it's relative location in that watershed, and whether or not it is included in the DEC, NHD, or Priority Water Bodies datasets.-Confluence to confluence reaches are consecutively lettered with lower case letters, tributaries are consecutively numbered, and capital letters are used to signify its inclusion in another data set. -The TCID code for each stream reach will begin with the name of the watershed that it is from. -Beginning at the confluence of the main stream, each tributary of that main stream is numbered consecutively as you progress up stream. -Tributaries to each of these tributaries will be consecutively numbered in an upstream direction until all tributaries are numbered. -This process of consecutively numbering tributaries of a stem tributary continues until all tributaries have received a number. - Reaches defined by the confluence of two tributaries will be consecutively lettered beginning at the mouth of the stream and progressing upstream, using lower case letters, beginning with "a" and if necessary starting over and progressing through "aa, ab" until you reach its headwater reach. This process is repeated for consecutive reaches of each tributary until all confluence to confluence reaches have received a letter code. -For streams with headwaters outside of Tompkins County and with a confluence in Cayuga Lake, the coding system ends at the county boundary. -For streams with their headwaters in the county that eventually exit across the county boundary, coding for the portions outside the county boundary uses the NYS/DEC Water Index Number map to determine reaches. As the coding proceeds upstream past the county boundary the County Hydrography is used to identify reaches for coding. -If a reach is included in the state DEC stream data set, then the TCID will end in "S". -If a reach is included in the NHD, then the Tompkins County reach code will end with "N". -If a reach is included in the state Priority Water Bodies Inventory list, then the TCID for that reach will end in "P". -If a reach is included in both the DEC and the NHD data sources, then the TCID will end in "SN". ("SNP " will be used when a reach is included in all three data sources.) -If in the future a tributary is added to the county stream data set, it is given a decimal equivalent to its relative distance upstream to the next tributary. (ie. If a tributary were added approximately half way between tributaries 3 and 4, then the new tributary number would be 3.5) - When a reach is divided by the addition of a new tributary, a .1 and .2 decimal is added to the new reaches. .1 is added to the downstream reach and .2 is added to the upstream reach. (ie. If reach Salmon-f were divided the resulting reaches would be Salmon-f.1 and Salmon-f.2)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Watershed</attrlabl>
+        <attrdef>The name of watershed is provided for all arcs. Watersheds are typically defined by a line that divides two adjacent stream systems or groups of smaller streams that flow into Cayuga Lake. A coverage exists that represents the watershed deliniations within Tompkins County and this coverage is the basis for the Hydrography watershed divisions.</attrdef>
+        <attrdefs>Tompkins County ITS GIS Division, 2000</attrdefs>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+        <distrib>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Albert R. Mann Library</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>Cornell University</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14853</postal>
+            </cntaddr>
+            <cntvoice>607-255-5406</cntvoice>
+            <cntemail>mann-ref@cornell.edu</cntemail>
+          </cntinfo>
+        </distrib>
+        <distliab>Cornell University provides these geographic data "as is". Cornell
+          University makes no guarantee or warranty concerning the accuracy of
+          information contained in the geographic data. Cornell University further
+          makes no warranty either expressed or implied, regarding the condition of
+          the product or its fitness for any particular purpose. The burden for
+          determining fitness for use lies entirely with the user. Although these
+          files have been processed successfully on computers at Cornell University,
+          no warranty is made by Cornell University regarding the use of these data
+          on any other system, nor does the fact of distribution constitute or imply
+          any such warranty.</distliab>
+        <stdorder>
+        <digform>
+            <digtinfo>
+              <formname>Shapefile</formname>
+              <formcont>zipped shapefile</formcont>
+              <filedec>zip</filedec>
+              <transize>3.55</transize>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/74/97/cugir-007497.zip</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>metadata</formname>
+              <formcont>FGDC XML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/74/97/fgdc.xml</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>HTML metadata</formname>
+              <formcont>FGDC HTML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/74/97/fgdc.html</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+                <digtinfo>
+                  <formname>KML</formname>
+                  <formcont>generated KML, via WFS</formcont>
+                </digtinfo>
+                <digtopt>
+                  <onlinopt>
+                    <computer>
+                      <networka>
+                        <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir007497&amp;outputFormat=application%2Fvnd.google-earth.kml%2Bxml</networkr>
+                      </networka>
+                    </computer>
+                  </onlinopt>
+                </digtopt>
+              </digform><digform>
+            <digtinfo>
+              <formname>GeoJSON</formname>
+              <formcont>generated GeoJSON, via WFS</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir007497&amp;outputFormat=application%2Fjson</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>OGC:WMS</formname>
+              <formcont>WMS, from GeoServer</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007497&amp;bbox=-76.78548866,42.24234827,-76.22175734,42.96568273&amp;width=199&amp;height=256&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><fees>None</fees></stdorder>
+      </distinfo>
+  <metainfo>
+      <metd>20190524</metd>
+      <metc>
+        <cntinfo>
+          <cntorgp>
+            <cntorg>Albert R. Mann Library</cntorg>
+          </cntorgp>
+          <cntaddr>
+            <addrtype>mailing and physical</addrtype>
+            <address>Albert R. Mann Library</address>
+            <city>Ithaca</city>
+            <state>New York</state>
+            <postal>14853</postal>
+            <country>USA</country>
+          </cntaddr>
+          <cntvoice>607-255-5406</cntvoice>
+          <cntemail>mann-ref@cornell.edu</cntemail>
+        </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+    </metainfo>
+</metadata>

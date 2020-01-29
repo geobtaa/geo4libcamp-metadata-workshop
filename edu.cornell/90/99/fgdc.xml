@@ -1,0 +1,292 @@
+<!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>NYS ITS GIS Program Office</origin>
+        <pubdate>20200106</pubdate>
+        <title>Index of 2-meter DEM, Tompkins County NY, 2008</title>
+        <geoform>raster digital data</geoform>
+        <onlink>https://cugir.library.cornell.edu/catalog/cugir-009099</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This is an index of 2-meter DEM tiles for Tompkins County, New York. Derived from a
+        LiDAR point survey collected May 4-13, 2008, the data values represent bare earth elevation
+        in meters, vertical datum NAVD1988 (GEOID09). Each downloadable tile covers a 1500m x 1500m
+        area.</abstract>
+      <purpose>This data allows users to get elevations, create contours, and perform other tasks
+        that require detailed elevation, and also supports FEMA's Floodplain Map Modernization
+        Program.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20080504</begdate>
+          <enddate>20080513</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+          <bounding>
+            <westbc>-76.7053852</westbc>
+            <eastbc>-76.2460261</eastbc>
+            <northbc>42.6301296</northbc>
+            <southbc>42.2493973</southbc>
+          </bounding>
+        </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>elevation</themekey>
+        <themekey>DEM</themekey>
+        <themekey>index map</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>elevation</themekey>
+      </theme>
+      <theme>
+              <themekt>CUGIR Category</themekt>
+              <themekey>elevation</themekey>
+<themekey>index map</themekey>
+            </theme>
+      <place>
+        <placekt>LCSH</placekt>
+        <placekey>Tompkins County NY</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>None. However, users should be aware that changes may have occurred since the source
+      data were collected in 2008, and that some parts of this dataset may no longer represent
+      actual surface conditions. Users should not use this data for critical applications without a
+      full awareness of its limitations.</useconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>The nominal point spacing of the source LIDAR is 1.4 meter (1.4m GSD), and ground
+        points were aggregated to 2-meter pixels.</attraccr>
+    </attracc>
+    <logic> </logic>
+    <complete>The 601 tiles collectively cover most of Tompkins County, with the exception of some
+      areas in the southeast, near Tioga County.</complete>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Pictometry Internation Corp.</origin>
+            <pubdate>2008</pubdate>
+            <title>NYTompkins 2008 LiDAR</title>
+            <onlink>ftp://ftp.gis.ny.gov/elevation/LIDAR/Tompkins2008/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20080504</begdate>
+              <enddate>20080513</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>NYTompkins 2008 LiDAR</srccitea>
+        <srccontr>lidar points used to generate the bare earth elevation rasters</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>In the spring of 2008, Tompkins County tasked Pictometry International Corp. to
+          acquire 513 square miles of terrestrial LiDAR data (1.4m NPS) in Tompkins County, NY. A
+          Optech ALTM Gemini 3100 LiDAR system was used for the collection. The LiDAR data
+          associated with this metadata file is in LAS binary format, version 1.1 (ASPRS
+          specification, see Cross References).</procdesc>
+        <procdate>2008</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>The 2 meter DEM was created by NYS ITS GIS Program Office and reprojected to UTM
+          NAD 83 Zone 18 (extended for New York State), meters and vertical datum of NAVD1988
+          (GEOID09), meters. The Raster DEM was then clipped to 1500m x1500m tiles using Blue Marble
+          Geographics Global Mapper with an ERDAS IMG file format.</procdesc>
+        <srcused>NYTompkins 2008 LiDAR</srcused>
+        <procdate>unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>CUGIR staff converted the index to OpenIndexMaps geojson format.</procdesc>
+        <procdate>20200109</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>18</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-75.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000512</absres>
+            <ordres>0.000512</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <distinfo>
+        <distrib>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Albert R. Mann Library</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>Cornell University</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14853</postal>
+            </cntaddr>
+            <cntvoice>607-255-5406</cntvoice>
+            <cntemail>mann-ref@cornell.edu</cntemail>
+          </cntinfo>
+        </distrib>
+        <distliab>Cornell University provides these geographic data "as is". Cornell
+          University makes no guarantee or warranty concerning the accuracy of
+          information contained in the geographic data. Cornell University further
+          makes no warranty either expressed or implied, regarding the condition of
+          the product or its fitness for any particular purpose. The burden for
+          determining fitness for use lies entirely with the user. Although these
+          files have been processed successfully on computers at Cornell University,
+          no warranty is made by Cornell University regarding the use of these data
+          on any other system, nor does the fact of distribution constitute or imply
+          any such warranty.</distliab>
+        <stdorder>
+        <digform>
+            <digtinfo>
+              <formname>GeoJSON</formname>
+              <formcont>OpenIndexMaps</formcont>
+              <transize>0.03</transize>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/90/99/cugir-009099-index.geojson</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>metadata</formname>
+              <formcont>FGDC XML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/90/99/fgdc.xml</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>HTML metadata</formname>
+              <formcont>FGDC HTML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/90/99/fgdc.html</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><fees>None</fees></stdorder>
+      </distinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>NYS GIS Program Office</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype/>
+          <city>Albany</city>
+          <state>NY</state>
+          <postal/>
+        </cntaddr>
+        <cntvoice/>
+      </cntinfo>
+    </distrib>
+    <distliab/>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ERDAS IMG</formname>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>ftp://ftp.gis.ny.gov/elevation/DEM/County_Tompkins2008/</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+      <metd>20200110</metd>
+      <metc>
+        <cntinfo>
+          <cntorgp>
+            <cntorg>Albert R. Mann Library</cntorg>
+          </cntorgp>
+          <cntaddr>
+            <addrtype>mailing and physical</addrtype>
+            <address>Albert R. Mann Library</address>
+            <city>Ithaca</city>
+            <state>New York</state>
+            <postal>14853</postal>
+            <country>USA</country>
+          </cntaddr>
+          <cntvoice>607-255-5406</cntvoice>
+          <cntemail>mann-ref@cornell.edu</cntemail>
+        </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+    </metainfo>
+</metadata>

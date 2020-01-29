@@ -1,0 +1,1186 @@
+<!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Tompkins County GIS Division, Ithaca-Tompkins County Transportation Council</origin>
+        <pubdate>2005</pubdate>
+        <title>Road Centerlines, Tompkins County NY, 2005</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Tompkins County</pubplace>
+          <publish>Tompkins County GIS Diivision</publish>
+        </pubinfo>
+        <onlink>https://cugir.library.cornell.edu/catalog/cugir-007879</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Road Centerlines for Tompkins County.</abstract>
+      <purpose>The road centerlines serve as a base map for streets and addresses.</purpose>
+      <supplinf>This data set was derived from the 1991 Tompkins County Planimetric Base Map and
+        updated using field work, aerial photography, the Local Highway Inventory, paper maps, the
+        tax parcel data sets, and digital orthophotos. The roads were joined to the Address.dbf
+        database and several fields were dropped from the original in Fall of 2004 when it was
+        transferred to an ESRI personal geodatabase. For map display purposes, do not show
+        abandoned/proposed roads or roads with restricted access. This can be accomplished by using
+        a filter of ([Access] &lt; 5).</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1994</begdate>
+          <enddate>2005</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Continually</update>
+    </status>
+    <spdom>
+          <bounding>
+            <westbc>-76.696426</westbc>
+            <eastbc>-76.24689</eastbc>
+            <northbc>42.62742</northbc>
+            <southbc>42.262786</southbc>
+          </bounding>
+        </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>roads</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>transportation</themekey>
+      </theme>
+      <theme>
+              <themekt>CUGIR Category</themekt>
+              <themekey>transportation</themekey>
+            </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Tompkins County, New York</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>The following statement must be included with any products that use or are derived
+      from this data set: Data contained in this product was originally produced by the
+      Ithaca-Tompkins County Transportation Council and the Tompkins County GIS Division and may not
+      be reproduced or redistributed without the express written consent of the originators. The
+      originators do not warrant the accuracy or completeness of the information portrayed by the
+      data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Tompkins County GIS Division</cntorg>
+          <cntper>Cattyann Campbell</cntper>
+        </cntorgp>
+        <cntpos>GIS Project Leader</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>128 East Buffalo Street</address>
+          <city>Ithaca</city>
+          <state>New York</state>
+          <postal>14850</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(607) 274-5459</cntvoice>
+        <cntfax>(607) 274-5420</cntfax>
+        <cntemail>mailto:gis@tompkins-co.org</cntemail>
+        <hours>M-F 8:30 a.m. to 4:30 p.m.</hours>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/78/79/preview.png</browsen>
+              <browsed>preview of the dataset</browsed>
+              <browset>PNG</browset>
+            </browse>
+    <datacred>Ithaca-Tompkins County Transportation Council and Tompkins County GIS
+      Division</datacred>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog
+      9.1.0.722</native>
+    <crossref>
+      <citeinfo>
+        <origin>Ithaca-Tompkins County Transportation Council, Tompkins County GIS Division</origin>
+        <pubdate>2005</pubdate>
+        <title>Streets</title>
+        <pubinfo>
+          <pubplace>Tompkins County</pubplace>
+          <publish>Tompkins County GIS Division</publish>
+        </pubinfo>
+        <onlink>http://www.tompkins-co.org/gis/maps/pdfs/StreetBaseMap-E.pdf</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Ithaca-Tompkins County Transportation Council, Tompkins County GIS Division</origin>
+        <pubdate>2005</pubdate>
+        <title>Bridges</title>
+        <pubinfo>
+          <pubplace>Tompkins County</pubplace>
+          <publish>Tompkins County GIS Division</publish>
+        </pubinfo>
+        <onlink>http://www.tompkins-co.org/gis/maps/pdfs/Bridges-D.pdf</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>See Entity and Attribute Information</attraccr>
+    </attracc>
+    <logic>Spatial topology is maintained by the software's robust geometric network topology tools
+      and manually by ensuring that each road intersection forms a node. Additional nodes are
+      created at intersections with major hydrologic features, municipal boundaries, road surface
+      changes, route type changes, and abrupt changes in addressing. The ROADID field is checked
+      using a "frequency" command to ensure there are no non-unique values. The entire data set was
+      reviewed on paper maps by each municipality in 1998.</logic>
+    <complete>Complete for Tompkins County. There is some overlap into adjoining
+      counties.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Varies, depending on source of centerline (Planimetric Base Map, digital tax maps,
+          aerial photo, raw conversion from paper maps, etc). The accuracy of the data set is
+          limited to the accuracy of the 1991 Tompkins County Planimetric Base Map
+          series.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>The Accuracy of the data set is limited to the accuracy of the 1991 Tompkins
+          County Planimetric Base Map series.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Before 2004, address ranges were being maintained in a separate database named
+          TCAddresses.dbf. and exist in two forms. The first consisted of the Address ranges that
+          were used in ArcView and similar GIS packages that only support a one-to-one relationship
+          between street segments and addresses. The addresses of this first form are sorted in
+          ascending order on the field sortorder so that the most appropriate (current) records will
+          be "joined" in the GIS (ArcView "joins" the first record, then ignores all subsequent
+          records). The second form of addresses includes all the address records that may exist for
+          a particular link. For example, Elmira Road will have a duplicate record with a street
+          name of State Route 13 (and the same addresses, if Route 13 is a valid Post Office name).
+          For roads and addresses that exist in more than one zipcode, records with the appropriate
+          address ranges will exist for each zipcode. Address ranges were assigned based on the
+          digital tax parcel maps and fieldwork. Where houses did not exist near intersections (with
+          streets, railroads, streams, municiapal boundaries, etc), address ranges were calculated
+          proportionally based on the nearest two addresses and the distance between them.
+          Specifically, the total distance between known addresses was divided by the address range
+          difference to determine the distance-per-address. The length of each segment from the
+          known address to the intersection was then divided by the distance-per-address to
+          determine the ending and beginning ranges on either side of the intersection The
+          TCAddressses.dbf table was joined to the roadcl featureclass in Fall of 2004. The
+          addresses were filtered first by sortorder=1 then exported to a separate table,
+          addr_sort.dbf . This database was joined to the roadcl feature class. Thus, the address
+          values of TCAddresses database is now part of the road centerline featureclass. The
+          database is no longer used since address ranges are added and edited directly one the
+          roadcl line features. There were several roads that did not get an address range due to
+          duplicate "roadids." A frequency script was used on the 'roadid" field and it was
+          discovered that the vlaues of the roadid field was not unique. These road segments were
+          manually located and fixed. The frequency script should be executed after each major
+          update to check that these ids are unique in the future. **There is a need to change the
+          scheme for assigning unique ids to the roadcl feature class so that it is less complicated
+          than the format below and more apparent to other municipalities. These ideas were
+          discussed in brief but not extensively and no decisions were made so the procedures for
+          assigning ids to the roadid field continues. SEE ENCLOSURE FOR THE PROCEDURE FOR ASIGNING
+          VALUES TO THE ROADID FIELD.</procdesc>
+        <procdate>1994-Present</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Tompkins County ITS GIS Division</cntorg>
+              <cntper>Cattyann Campbell</cntper>
+            </cntorgp>
+            <cntpos>GIS Project Leader</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>128 East Buffalo Street</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14850</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>(607) 274-5418</cntvoice>
+            <cntfax>(607) 274-5420</cntfax>
+            <cntemail>mailto:gis@tompkins-co.org</cntemail>
+            <hours>M-F 8:30 a.m. to 4:30 p.m.</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported</procdesc>
+        <srcused>C:\DOCUME~1\CCAMPB~1\LOCALS~1\Temp\xml1A.tmp</srcused>
+        <procdate>2005</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+          <sdtsterm>
+            <sdtstype>String</sdtstype>
+            <ptvctcnt>6552</ptvctcnt>
+          </sdtsterm>
+        </ptvctinf>
+      </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Transverse Mercator</mapprojn>
+          <transmer>
+            <sfctrmer>0.999938</sfctrmer>
+            <longcm>-76.583333</longcm>
+            <latprjo>40.000000</latprjo>
+            <feast>820208.333333</feast>
+            <fnorth>0.000000</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000124</absres>
+            <ordres>0.000124</ordres>
+          </coordrep>
+          <plandu>survey feet</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>roadcl</enttypl>
+        <enttypd>Road centerline segments</enttypd>
+        <enttypds>Tompkins County ITS GIS Division, 2000</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FNODE_</attrlabl>
+        <attrdef>Arc's from-node record number (Internal Software Attribute)</attrdef>
+        <attrdefs>Tompkins County ITS GIS Division, 2000</attrdefs>
+        <attrdomv>
+          <udom/>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TNODE_</attrlabl>
+        <attrdef>Arc's to-node record number (Internal Software Attribute)</attrdef>
+        <attrdefs>Tompkins County ITS GIS Division, 2000</attrdefs>
+        <attrdomv>
+          <udom/>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ROADID</attrlabl>
+        <attrdef>Unique road segement identifier. For more information, consult the Process
+          Information under the Data Quality Section of this metadata</attrdef>
+        <attrdefs>Tompkins County ITS GIS Division, 1997</attrdefs>
+        <attrdomv>
+          <udom/>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAME</attrlabl>
+        <attrdef>Full commonly-used name of the road, which may or may not be the deeded name, post
+          office name, etc.</attrdef>
+        <attrdefs>Ithaca-Tompkins County Transportation Council, 1994</attrdefs>
+        <attrdomv>
+          <udom/>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ALTNAME</attrlabl>
+        <attrdef>Alternate, post office, tax parcel map, deeded, or local full name of the
+          road.</attrdef>
+        <attrdefs>Ithaca-Tompkins County Transportation Council and Tompkins County ITS GIS
+          Division, 1997.</attrdefs>
+        <attrdomv>
+          <udom/>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ROUTETYPE</attrlabl>
+        <attrdef>Type of touring route.</attrdef>
+        <attrdefs>Ithaca-Tompkins County Transportation Council, 1995.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No information / unknown / no public access.</edomvd>
+            <edomvds>Tompkins County GIS Program, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>United States (Federal)</edomvd>
+            <edomvds>Tompkins County GIS Program, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>New York State</edomvd>
+            <edomvds>Tompkins County GIS Program, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Tompkins County</edomvd>
+            <edomvds>New York State</edomvds>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Town Government</edomvd>
+            <edomvds>Tompkins County GIS Program, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>City of Ithaca</edomvd>
+            <edomvds>Tompkins County GIS Program, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>Village Government</edomvd>
+            <edomvds>Tompkins County GIS Program, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>Cornell University or Ithaca College</edomvd>
+            <edomvds>Tompkins County GIS Program, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>8</edomv>
+            <edomvd>Private</edomvd>
+            <edomvds>Tompkins County GIS Program, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>9</edomv>
+            <edomvd>Road is not maintained because of abandonment, vacation, etc.</edomvd>
+            <edomvds>Tompkins County GIS Program, 2000.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MAINTNANCE</attrlabl>
+        <attrdef>Primary party responsible for maintaining the road (not complete)</attrdef>
+        <attrdefs>Ithaca-Tompkins County Transportation Council, 1996</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No information / unknown</edomvd>
+            <edomvds>Tompkins County GIS Program, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>United States (Federal)</edomvd>
+            <edomvds>Tompkins County GIS Program, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>New York State</edomvd>
+            <edomvds>Tompkins County GIS Program, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Tompkins County</edomvd>
+            <edomvds>Tompkins County GIS Program, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Town Government</edomvd>
+            <edomvds>Tompkins County GIS Program, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>City of Ithaca</edomvd>
+            <edomvds>Tompkins County GIS Program, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>Village Government</edomvd>
+            <edomvds>Tompkins County GIS Program, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>Cornell University or Ithaca College</edomvd>
+            <edomvds>Tompkins County GIS Program, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>8</edomv>
+            <edomvd>Private</edomvd>
+            <edomvds>Tompkins County GIS Program, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>9</edomv>
+            <edomvd>Road is not maintained because of abandonment, vacation, etc.</edomvd>
+            <edomvds>Tompkins County GIS Program, 2000.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ROUTE</attrlabl>
+        <attrdef>Federal, State, County, or Town touring route number. For multiple-routes, use a
+          forward slash (/) between the numbers, such as 13/34.</attrdef>
+        <attrdefs>Ithaca-Tompkins County Transportation Council, 1995.</attrdefs>
+        <attrdomv>
+          <udom/>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ACCESS</attrlabl>
+        <attrdef>Type of access to the road.</attrdef>
+        <attrdefs>Ithaca-Tompkins County Transportation Council, 1995.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No information / unknown</edomvd>
+            <edomvds>Tompkins County GIS Program, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Unrestricted public access</edomvd>
+            <edomvds>Tompkins County GIS Program, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Controlled access: access is provided only at entrance and exit ramps</edomvd>
+            <edomvds>Tompkins County GIS Program, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Through traffic prohibited - local traffic only</edomvd>
+            <edomvds>Tompkins County GIS Program, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Seasonal use access / minimum maintenance road (no winter maintenence and no
+              regularly-scheduled maintenance)</edomvd>
+            <edomvds>Tompkins County GIS Program, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>Restricted access - generally, permission is required before accessing the
+              road</edomvd>
+            <edomvds>Tompkins County GIS Program, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>Road closure due to an emergency or construction</edomvd>
+            <edomvds>Tompkins County GIS Program, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>Proposed road that does not yet exist</edomvd>
+            <edomvds>Tompkins County GIS Program, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>8</edomv>
+            <edomvd>Vacated or abandoned road that is no longer accessible by vehicular
+              traffic</edomvd>
+            <edomvds>Tompkins County GIS Program, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>9</edomv>
+            <edomvd>No vehicular access; access is allowed for pedestrians and bicycles</edomvd>
+            <edomvds>Tompkins County GIS Program, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>10</edomv>
+            <edomvd>Psuedo road added for address-matching purposes (the road does not actually
+              exist)</edomvd>
+            <edomvds>Tompkins County GIS Program, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>11</edomv>
+            <edomvd>Private driveway</edomvd>
+            <edomvds>Tompkins County GIS Program, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>12</edomv>
+            <edomvd>Road is not in Tompkins County</edomvd>
+            <edomvds>Tompkins County GIS Program, 2000.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HISTRCNAME</attrlabl>
+        <attrdef>Previous or historical name of the road.</attrdef>
+        <attrdefs>Ithaca-Tompkins County Transportation Council and Tompkins County ITS GIS
+          Division, 1997.</attrdefs>
+        <attrdomv>
+          <udom/>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HISTRCRTE</attrlabl>
+        <attrdef>Previous or historic route number, including ownership, which should come first and
+          be followed by a dash (example: 2-392 would mean an historic route of state road 392).
+          Multiple historic routes can be listed seperated by commas.</attrdef>
+        <attrdefs>Ithaca-Tompkins County Transportation Council and Tompkins County ITS GIS
+          Division, 1997.</attrdefs>
+        <attrdomv>
+          <udom/>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NODEA</attrlabl>
+        <attrdef>The name of the cross street, dead end, hydrologic feature, municipal boundary, or
+          other feature that defines the beginning of the road segment. The terms "left" and "right"
+          are relative to viewing the road segment from beginning node (NODEA) to ending node
+          (NODEB)</attrdef>
+        <attrdefs>Ithaca-Tompkins County Transportation Council, 1994.</attrdefs>
+        <attrdomv>
+          <udom/>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NODEB</attrlabl>
+        <attrdef>The name of the cross street, dead end, hydrologic feature, municipal boundary, or
+          other feature that defines the end of the road segment. The terms "left" and "right" are
+          relative to viewing the road segment from beginning node (NODEA) to ending node
+          (NODEB).</attrdef>
+        <attrdefs>Ithaca-Tompkins County Transportation Council, 1994.</attrdefs>
+        <attrdomv>
+          <udom/>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DIRECTION</attrlabl>
+        <attrdef>Determines whether the street is one-way or bi-directional.</attrdef>
+        <attrdefs>Ithaca-Tompkins County Transportation Council, 1994.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No information / unknown</edomvd>
+            <edomvds>Tompkins County GIS Program, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>One-Way, from NodeA to NodeB</edomvd>
+            <edomvds>Tompkins County GIS Program, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Bi-directional (two-way)</edomvd>
+            <edomvds>Tompkins County GIS Program, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>One-way, from NodeB to NodeA</edomvd>
+            <edomvds>Tompkins County GIS Program, 2000.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PTYPE</attrlabl>
+        <attrdef>Pavement Type.</attrdef>
+        <attrdefs>Ithaca-Tompkins County Transportation Council, 1994.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No information / unknown</edomvd>
+            <edomvds>Tompkins County GIS Program, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Concrete or Cement</edomvd>
+            <edomvds>Tompkins County GIS Program, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Asphalt or Ashpalt Overlay</edomvd>
+            <edomvds>Tompkins County GIS Program, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Brick, Stone, or other Masonry</edomvd>
+            <edomvds>Tompkins County GIS Program, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Gravel</edomvd>
+            <edomvds>Tompkins County GIS Program, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>Earth/Dirt</edomvd>
+            <edomvds>Tompkins County GIS Program, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>Unimproved (Not Graded, Not Maintained, or Both)</edomvd>
+            <edomvds>Tompkins County GIS Program, 2000.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SORTORDER</attrlabl>
+        <attrdef>Sorting order for use in ArcView and other GIS software packages that do not
+          support many-to-one relationships for geocoding. This database must be sorted first on
+          ROADID, then on SORTORDER for a proper relationship between it and the ROADCL data set to
+          be established. Those address records that are most recent or most likely to represent the
+          majority of real-world address occurences for a particular street segment are given a sort
+          order of 1. Additional address records for the same street segment are given higher
+          SORTORDER numbers, with the highest numbers representing the least-used real-world
+          addresses.</attrdef>
+        <attrdefs>Tompkins County ITS GIS Division, 2000.</attrdefs>
+        <attrdomv>
+          <udom/>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PREFIXDIR</attrlabl>
+        <attrdef>Street prefix direction.</attrdef>
+        <attrdefs>Tompkins County ITS GIS Division, 2000.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>North</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>S</edomv>
+            <edomvd>South</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>E</edomv>
+            <edomvd>East</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>W</edomv>
+            <edomvd>West</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>NE</edomv>
+            <edomvd>Northeast</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>NW</edomv>
+            <edomvd>Northwest</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>SE</edomv>
+            <edomvd>Southeast</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>SW</edomv>
+            <edomvd>Southwest</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STREETNAME</attrlabl>
+        <attrdef>Post office, deeded, or local street name.</attrdef>
+        <attrdefs>Tompkins County ITS GIS Division, 2000.</attrdefs>
+        <attrdomv>
+          <udom/>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STREETYPE</attrlabl>
+        <attrdef>Street type (avenue, street, road, lane, way, circle, etc.)</attrdef>
+        <attrdefs>Tompkins County ITS GIS Division, 2000.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>ALP</edomv>
+            <edomvd>Automated Lands Project.</edomvd>
+            <edomvds>DICTIONARY OF ABBREVIATIONS AND ACRONYMS IN GEOGRAPHIC INFORMATION SYSTEMS,
+              CARTOGRAPHY, AND REMOTE SENSING, 2004 is found online at:
+              &lt;http://www.lib.berkeley.edu/EART/abbrev.html&gt;</edomvds>
+          </edom>
+          <edom>
+            <edomv>BYWAY</edomv>
+            <edomvd>BYWAY</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>CRSG</edomv>
+            <edomvd>CRSG</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>PATH</edomv>
+            <edomvd>PATH</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>RD</edomv>
+            <edomvd>RD</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>ROAD</edomv>
+            <edomvd>ROAD</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>RUN</edomv>
+            <edomvd>RUN</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>STRAND</edomv>
+            <edomvd>STRAND</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>WALK</edomv>
+            <edomvd>WALK</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>WAY</edomv>
+            <edomvd>WAY</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>ALY</edomv>
+            <edomvd>ALLEY</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>AVE</edomv>
+            <edomvd>AVENUE</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>BLVD</edomv>
+            <edomvd>BOULEVARD</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>CIR</edomv>
+            <edomvd>CIRCLE</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>CT</edomv>
+            <edomvd>COURT</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>CV</edomv>
+            <edomvd>COVE</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>CRES</edomv>
+            <edomvd>CRESCENT</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>DR</edomv>
+            <edomvd>DRIVE</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>GRN</edomv>
+            <edomvd>GREEN</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>HTS</edomv>
+            <edomvd>HEIGHTS</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>HILL</edomv>
+            <edomvd>HILL</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>KNL</edomv>
+            <edomvd>KNOLL</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>LA</edomv>
+            <edomvd>LANE</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>PKWY</edomv>
+            <edomvd>PARKWAY</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>PL</edomv>
+            <edomvd>PLACE</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>PT</edomv>
+            <edomvd>POINT(S)</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>RDG</edomv>
+            <edomvd>RIDGE</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>SQ</edomv>
+            <edomvd>SQUARE</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>ST</edomv>
+            <edomvd>STREET</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>TER</edomv>
+            <edomvd>TERRACE</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>TRL</edomv>
+            <edomvd>TRAIL</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SUFFIXDIR</attrlabl>
+        <attrdef>Street suffix direction.</attrdef>
+        <attrdefs>ompkins County ITS GIS Division, 2000.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>North</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>S</edomv>
+            <edomvd>South</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>E</edomv>
+            <edomvd>East</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>W</edomv>
+            <edomvd>West</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>NE</edomv>
+            <edomvd>Northeast</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>NW</edomv>
+            <edomvd>Northwest</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>SE</edomv>
+            <edomvd>Southeast</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>SW</edomv>
+            <edomvd>Southwest</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>EXT</edomv>
+            <edomvd>Extension</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SORTNAME</attrlabl>
+        <attrdef>Street name that is used for sorting purposes. Prefix directions are placed last or
+          are spelled out if they refer to places rather than direction. For example, N Cayuga
+          Street would have a sort name of Cayuga Street N, while W Danby Rd would have a sort name
+          of West Danby Road because West Danby is a place, not a direction.</attrdef>
+        <attrdefs>Tompkins County ITS GIS Division, 2000.</attrdefs>
+        <attrdomv>
+          <udom/>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MUNICIPLTY</attrlabl>
+        <attrdef>Municipality in which the address is located. Please note that roads that form a
+          municipal boundary may have different names and/or addresses in each municipality. The
+          municipality name is spelled out (eg: TOWN OF CAROLINE).</attrdef>
+        <attrdefs>Tompkins County ITS GIS Division, 2000.</attrdefs>
+        <attrdomv>
+          <udom/>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Leng</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UPDATED</attrlabl>
+        <attrdef>Date that the record in the GDB was last updated (User Specified).</attrdef>
+        <attrdefs>Tompkins County ITS GIS Division, 2004.</attrdefs>
+        <attrdomv>
+          <udom/>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DISPLAY</attrlabl>
+        <attrdef>Visual display of roads representing a combination of their access, routetype, and
+          ptype, used primarily for Taxmap index and major road display.</attrdef>
+        <attrdefs>Tompkins County GIS 2004.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>County</edomv>
+            <edomvd>County Roads (Routetype=3 and Access &lt;5)</edomvd>
+            <edomvds>Tompkins County GIS Program 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Local</edomv>
+            <edomvd>Local Roads (Routetype&gt;3 and Routetype &lt;8 and Access &lt;5 and Ptype
+              &lt;4)</edomvd>
+            <edomvds>Tompkins County GIS Program 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>State</edomv>
+            <edomvd>State Roads (Routetype=2 and Access &lt;5)</edomvd>
+            <edomvds>Tompkins County GIS Program 2000.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Unpaved</edomv>
+            <edomvd>Unpaved Road (Routetype &gt;3 and Access &lt;5 and Ptype &gt;3)</edomvd>
+            <edomvds>Tompkins County GIS Program 2000.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+        <distrib>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Albert R. Mann Library</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>Cornell University</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14853</postal>
+            </cntaddr>
+            <cntvoice>607-255-5406</cntvoice>
+            <cntemail>mann-ref@cornell.edu</cntemail>
+          </cntinfo>
+        </distrib>
+        <distliab>Cornell University provides these geographic data "as is". Cornell
+          University makes no guarantee or warranty concerning the accuracy of
+          information contained in the geographic data. Cornell University further
+          makes no warranty either expressed or implied, regarding the condition of
+          the product or its fitness for any particular purpose. The burden for
+          determining fitness for use lies entirely with the user. Although these
+          files have been processed successfully on computers at Cornell University,
+          no warranty is made by Cornell University regarding the use of these data
+          on any other system, nor does the fact of distribution constitute or imply
+          any such warranty.</distliab>
+        <stdorder>
+        <digform>
+            <digtinfo>
+              <formname>Shapefile</formname>
+              <formcont>zipped shapefile</formcont>
+              <filedec>zip</filedec>
+              <transize>1.52</transize>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/78/79/cugir-007879.zip</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>metadata</formname>
+              <formcont>FGDC XML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/78/79/fgdc.xml</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>HTML metadata</formname>
+              <formcont>FGDC HTML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/78/79/fgdc.html</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+                <digtinfo>
+                  <formname>KML</formname>
+                  <formcont>generated KML, via WFS</formcont>
+                </digtinfo>
+                <digtopt>
+                  <onlinopt>
+                    <computer>
+                      <networka>
+                        <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir007879&amp;outputFormat=application%2Fvnd.google-earth.kml%2Bxml</networkr>
+                      </networka>
+                    </computer>
+                  </onlinopt>
+                </digtopt>
+              </digform><digform>
+            <digtinfo>
+              <formname>GeoJSON</formname>
+              <formcont>generated GeoJSON, via WFS</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir007879&amp;outputFormat=application%2Fjson</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>OGC:WMS</formname>
+              <formcont>WMS, from GeoServer</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007879&amp;bbox=-76.70991208000001,42.251846979999996,-76.23340391999999,42.63835902&amp;width=256&amp;height=207&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><fees>None</fees></stdorder>
+      </distinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Tompkins County GIS Division</cntorg>
+          <cntper>Cattyann Campbell</cntper>
+        </cntorgp>
+        <cntpos>GIS Project Leader</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>128 East Buffalo Street</address>
+          <city>Ithaca</city>
+          <state>New York</state>
+          <postal>14850</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(607) 274-5418</cntvoice>
+        <cntfax>(607) 274-5420</cntfax>
+        <cntemail>mailto:gis@tompkins-co.org</cntemail>
+        <hours>M-F 8:30 a.m. to 4:30 p.m.</hours>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>Tompkins County does not warrant the accuracy or completeness of the information
+      portrayed in these data. The end user of the data and products derived from it agrees to
+      accept the data "as is", with the full knowledge that errors and omissions may exist. The end
+      user further agrees to hold harmless Tompkins County for any liability or damages that may
+      result from an improper or inappropriate use of the data.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Native Format (Various by file)</formname>
+          <formvern>Tompkins County Data CD</formvern>
+          <formspec>ArcGIS Featureclass, ArcGIS Geodatabase, ArcView Shapefile, Dbase III Database,
+            Access Database</formspec>
+          <filedec>Native Format - no decompression required.</filedec>
+        </digtinfo>
+        <digtopt>
+          <offoptn>
+            <offmedia>CD-ROM</offmedia>
+            <recfmt>ISSO 9600 Joliet</recfmt>
+            <compat>Windows 2000 SP4, Windows XP</compat>
+          </offoptn>
+        </digtopt>
+      </digform>
+      <fees>The cost of reproduction for a standard data set, which varies depending on the type of
+        media requested (zip disk, CD-ROM, floppy diskette, etc.). A standard data set is an
+        Arc/Info coverage, Arc/Info export (.e00) file, ArcView shapefile, Dbase III database, or
+        Microsoft Access database. Custom data sets or file types will incur additional labor costs.
+        The standard data set is also available for free download from
+        CUGIR:&lt;http://cugir.mannlib.cornell.edu/servlet/fetch?queryspec=mapsheet_public&amp;header=titleonly&amp;linkwhere=mapsheets.code=%27tcco%27&gt;</fees>
+      <ordering>Submit a written request to the Tompkins County GIS Division.</ordering>
+      <turnarnd>Three to four days.</turnarnd>
+    </stdorder>
+    <custom>Submit a written request to the Tompkins County GIS Division via the form located at:
+      &lt;http://www.tompkins-co.org/gis/staff/orderform.html&gt; or email
+      mailto:gis@tompkins-co.org</custom>
+    <techpreq>Must have GIS software capable of reading the ESRI shapefile format to work with
+      data.</techpreq>
+    <availabl>
+      <timeinfo>
+        <sngdate>
+          <caldate>2005</caldate>
+        </sngdate>
+      </timeinfo>
+    </availabl>
+  </distinfo>
+  <metainfo>
+      <metd>20190618</metd>
+      <metc>
+        <cntinfo>
+          <cntorgp>
+            <cntorg>Albert R. Mann Library</cntorg>
+          </cntorgp>
+          <cntaddr>
+            <addrtype>mailing and physical</addrtype>
+            <address>Albert R. Mann Library</address>
+            <city>Ithaca</city>
+            <state>New York</state>
+            <postal>14853</postal>
+            <country>USA</country>
+          </cntaddr>
+          <cntvoice>607-255-5406</cntvoice>
+          <cntemail>mann-ref@cornell.edu</cntemail>
+        </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+    </metainfo>
+</metadata>

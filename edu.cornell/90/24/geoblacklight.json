@@ -1,0 +1,42 @@
+{
+    "geoblacklight_version": "1.0",
+    "dc_identifier_s": "https://cugir.library.cornell.edu/catalog/cugir-009024",
+    "dc_title_s": "Chesapeake Watershed Land Cover, Otsego County NY, 2013-2014",
+    "dc_description_s": "This 1-meter resolution raster dataset was developed as part of the Land Cover Project, a cooperative agreement between the Chesapeake Conservancy and the National Park Service funded through an interagency agreement with the Environmental Protection Agency. High Resolution mapping was used to develop consistent and extremely accurate 12-class land cover dataset for all the counties that comprise the Chesapeake Bay watershed.  This dataset will enhance the ability to guide the most efficient use of resources in the Bay as well as aid the identification of priorities for conservation and restoration.",
+    "dc_rights_s": "Public",
+    "dct_provenance_s": "Cornell",
+    "dct_references_s": "{\"http://schema.org/downloadUrl\":\"https://cugir-data.s3.amazonaws.com/00/90/24/cugir-009024.zip\",\"http://www.opengis.net/cat/csw/csdgm\":\"https://cugir-data.s3.amazonaws.com/00/90/24/fgdc.xml\",\"http://www.w3.org/1999/xhtml\":\"https://cugir-data.s3.amazonaws.com/00/90/24/fgdc.html\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://cugir.library.cornell.edu/geoserver/cugir/wms\"}",
+    "cugir_addl_downloads_s": "{}",
+    "layer_id_s": "cugir009024",
+    "layer_slug_s": "cugir-009024",
+    "dc_type_s": "Dataset",
+    "dc_format_s": "GeoTIFF",
+    "cugir_filesize_s": "77.88 MB",
+    "layer_geom_type_s": "Raster",
+    "layer_modified_dt": "2019-06-04T00:00:00Z",
+    "dc_creator_sm": [
+        "Chesapeake Conservancy"
+    ],
+    "dc_publisher_sm": [
+        "Chesapeake Conservancy"
+    ],
+    "dc_subject_sm": [
+        "Land Cover"
+    ],
+    "cugir_category_sm": [
+        "landcover"
+    ],
+    "dct_spatial_sm": [
+        "Otsego County",
+        "Chesapeake Bay Watershed"
+    ],
+    "dct_issued_s": "2016-08-01",
+    "dct_temporal_sm": [
+        "2013-2014"
+    ],
+    "dct_isPartOf_sm": [
+        "Chesapeake Watershed High Resolution Land Cover"
+    ],
+    "solr_geom": "ENVELOPE(-75.461711, -74.560222, 42.962404, 42.20548)",
+    "solr_year_i": "2014"
+}

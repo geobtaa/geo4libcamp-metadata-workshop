@@ -1,0 +1,432 @@
+<!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Mann Library, Cornell University</origin>
+        <pubdate>20120823</pubdate>
+        <title>7.5-Minute Quad Index, New York State, 2012</title>
+        <geoform>vector digital data</geoform>
+        <onlink>https://cugir.library.cornell.edu/catalog/cugir-008154</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This shapefile contains all the USGS 7.5-minute
+                quadrangles that are contained within or partially overlap New
+                York state.  It provides related and historical quad names and
+                identifiers from the USGS, NYSDOT, and CUGIR.</abstract>
+      <purpose>To provide a definitive list of quads within New York
+                State.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20120823</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+          <bounding>
+            <westbc>-79.875</westbc>
+            <eastbc>-71.75</eastbc>
+            <northbc>45.125</northbc>
+            <southbc>40.375</southbc>
+          </bounding>
+        </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>USGS 7.5-minute quadrangles</themekey>
+        <themekey>NYS DOT quadrangles</themekey>
+        <themekey>quad index</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>location</themekey>
+      </theme>
+      <theme>
+              <themekt>CUGIR Category</themekt>
+              <themekey>location</themekey>
+            </theme>
+      <place>
+        <placekt>LCSH</placekt>
+        <placekey>New York (State)</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>none</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Keith Jenkins</cntper>
+          <cntorg>Mann Library, Cornell University</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Albert R. Mann Library</address>
+          <city>Ithaca</city>
+          <state>New York</state>
+          <postal>14853</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>607-255-5406</cntvoice>
+        <cntemail>mann-ref@cornell.edu</cntemail>
+        <hours>M-F 9:00 a.m. to 4:30 p.m.</hours>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/81/54/preview.png</browsen>
+              <browsed>preview of the dataset</browsed>
+              <browset>PNG</browset>
+            </browse>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Quad names were checked against data from multiple online
+                sources, and in some cases, checked against printed and scanned
+                USGS topographic maps.</attraccr>
+    </attracc>
+    <logic>Boundaries were copied, unedited, from TNM_CELLS</logic>
+    <complete>Includes all 7.5-minute quads from TNM_CELLS where the STATE
+            field included "NY" (possibly along with other states).</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Shapefiles are accurate to the quality of the original
+                    1:24000 scale map.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>United States Geological Survey</origin>
+            <pubdate>20120209</pubdate>
+            <title>TNM_Cells</title>
+            <geoform>vector digital data</geoform>
+            <onlink>ftp://nhdftp.usgs.gov/DataSets/Staged/Cells/TNM_Cells.gdb.zip</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20120209</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>file modification date</srccurr>
+        </srctime>
+        <srccitea>TNM_CELLS</srccitea>
+        <srccontr>7.5-minute quad boundaries, USGS_ID, USGS_NAME,
+                    STATE</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>New York State Department of
+                            Transportation</origin>
+            <pubdate>unknown</pubdate>
+            <title>1:24,000 Quadrangle List (By Quad Name)</title>
+            <onlink>http://gis.ny.gov/gisdata/quads/drg24/index_quadname.htm</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20120817</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>website access date</srccurr>
+        </srctime>
+        <srccitea>NYSDOT_QUADS</srccitea>
+        <srccontr>NYSDOT_ID, ALT_NAMES</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>New York 7.5-minute quadrangle boundaries were
+                    extracted from the full TNM_CELLS file geodatabase. NYSDOT
+                    codes were joined as NYSDOT_ID. If the NYSDOT quad name
+                    differed from the USGS name, it is included in ALT_NAMES,
+                    which also includes a few other alternate or former names
+                    found in various other sources, such as ESRI Data and Maps,
+                    and older versions of the USGS quad index, as well as occasional
+                    spot-checks of actual paper topological maps. Finally, the
+                    USGS_HIST attribute contains any historical notes, that were
+                    provided in a personal communication from USGS staff.</procdesc>
+        <procdate>20120817</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Keith Jenkins</cntper>
+              <cntorg>Mann Library, Cornell University</cntorg>
+            </cntperp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>Albert R. Mann Library</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14853</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>607-255-5406</cntvoice>
+            <cntemail>mann-ref@cornell.edu</cntemail>
+            <hours>M-F 9:00 a.m. to 4:30 p.m.</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+          <sdtsterm>
+            <sdtstype>G-polygon</sdtstype>
+            <ptvctcnt>1053</ptvctcnt>
+          </sdtsterm>
+        </ptvctinf>
+      </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.000001</latres>
+        <longres>0.000001</longres>
+        <geogunit>Decimal Degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>NY_7_5_Quads</enttypl>
+        <enttypd>7.5 minute quadrangles for New York State</enttypd>
+        <enttypds>CUGIR</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>USGS_ID</attrlabl>
+        <attrdef>USGS Quad ID</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <udom>text string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>USGS_NAME</attrlabl>
+        <attrdef>Current USGS quad name</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <udom>text string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>USGS_HIST</attrlabl>
+        <attrdef>Historical notes about the name of the quad</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <udom>text string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STATE</attrlabl>
+        <attrdef>Two-letter abbreviations of any states intersecting the quad</attrdef>
+        <attrdefs/>
+        <attrdomv>
+          <udom>text string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UTM_ZONE</attrlabl>
+        <attrdef>UTM zone where the quad is located</attrdef>
+        <attrdefs/>
+        <attrdomv>
+          <udom>text string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NYSDOT_ID</attrlabl>
+        <attrdef>Quad code used by the New York State Department of
+                    Transportation</attrdef>
+        <attrdefs>NYSDOT</attrdefs>
+        <attrdomv>
+          <udom>text string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CUGIR_NAME</attrlabl>
+        <attrdef>Quad name used by the CUGIR website (identical to the
+                    USGS name, except for two Hancock quads that are
+                    differentiated by state)</attrdef>
+        <attrdefs>CUGIR</attrdefs>
+        <attrdomv>
+          <udom>text string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CUGIR_DEM</attrlabl>
+        <attrdef>CUGIR ID (bucket number) of the corresponding DEM tile
+                    (if it exists in CUGIR)</attrdef>
+        <attrdefs>CUGIR</attrdefs>
+        <attrdomv>
+          <udom>text string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ALT_NAMES</attrlabl>
+        <attrdef>Any alternate names for the quad (former names,
+                    misspellings, etc.)</attrdef>
+        <attrdefs>CUGIR</attrdefs>
+        <attrdomv>
+          <udom>text string</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+        <distrib>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Albert R. Mann Library</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>Cornell University</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14853</postal>
+            </cntaddr>
+            <cntvoice>607-255-5406</cntvoice>
+            <cntemail>mann-ref@cornell.edu</cntemail>
+          </cntinfo>
+        </distrib>
+        <distliab>Cornell University provides these geographic data "as is". Cornell
+          University makes no guarantee or warranty concerning the accuracy of
+          information contained in the geographic data. Cornell University further
+          makes no warranty either expressed or implied, regarding the condition of
+          the product or its fitness for any particular purpose. The burden for
+          determining fitness for use lies entirely with the user. Although these
+          files have been processed successfully on computers at Cornell University,
+          no warranty is made by Cornell University regarding the use of these data
+          on any other system, nor does the fact of distribution constitute or imply
+          any such warranty.</distliab>
+        <stdorder>
+        <digform>
+            <digtinfo>
+              <formname>Shapefile</formname>
+              <formcont>zipped shapefile</formcont>
+              <filedec>zip</filedec>
+              <transize>0.11</transize>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/81/54/cugir-008154.zip</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>metadata</formname>
+              <formcont>FGDC XML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/81/54/fgdc.xml</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>HTML metadata</formname>
+              <formcont>FGDC HTML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/81/54/fgdc.html</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+                <digtinfo>
+                  <formname>KML</formname>
+                  <formcont>generated KML, via WFS</formcont>
+                </digtinfo>
+                <digtopt>
+                  <onlinopt>
+                    <computer>
+                      <networka>
+                        <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir008154&amp;outputFormat=application%2Fvnd.google-earth.kml%2Bxml</networkr>
+                      </networka>
+                    </computer>
+                  </onlinopt>
+                </digtopt>
+              </digform><digform>
+            <digtinfo>
+              <formname>GeoJSON</formname>
+              <formcont>generated GeoJSON, via WFS</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir008154&amp;outputFormat=application%2Fjson</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>OGC:WMS</formname>
+              <formcont>WMS, from GeoServer</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir008154&amp;bbox=-80.11875,40.2325,-71.50625,45.2675&amp;width=256&amp;height=149&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><fees>None</fees></stdorder>
+      </distinfo>
+  <metainfo>
+      <metd>20190524</metd>
+      <metc>
+        <cntinfo>
+          <cntorgp>
+            <cntorg>Albert R. Mann Library</cntorg>
+          </cntorgp>
+          <cntaddr>
+            <addrtype>mailing and physical</addrtype>
+            <address>Albert R. Mann Library</address>
+            <city>Ithaca</city>
+            <state>New York</state>
+            <postal>14853</postal>
+            <country>USA</country>
+          </cntaddr>
+          <cntvoice>607-255-5406</cntvoice>
+          <cntemail>mann-ref@cornell.edu</cntemail>
+        </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+    </metainfo>
+</metadata>

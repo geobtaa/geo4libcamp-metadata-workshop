@@ -1,0 +1,43 @@
+{
+    "geoblacklight_version": "1.0",
+    "dc_identifier_s": "https://cugir.library.cornell.edu/catalog/cugir-009004",
+    "dc_title_s": "NLCD Land Cover, New York, 2011",
+    "dc_description_s": "The National Land Cover Database products are created through a cooperative project conducted by the Multi-Resolution Land Characteristics (MRLC) Consortium. The MRLC Consortium is a partnership of Federal agencies (www.mrlc.gov), consisting of the U.S. Geological Survey (USGS), the National Oceanic and Atmospheric Administration (NOAA), the U.S. Environmental Protection Agency (EPA), the U.S. Department of Agriculture - Forest Service (USDA-FS), the National Park Service (NPS), the U.S. Fish and Wildlife Service (USFWS), the Bureau of Land Management (BLM) and the USDA Natural Resources Conservation Service (NRCS). The success of NLCD over nearly two decades is credited to the continuing collaborative spirit of the agencies that make up the MRLC. NLCD 2011 is the most up-to-date iteration of the National Land Cover Database, the definitive Landsat-based, 30-meter resolution land cover database for the Nation. The data in NLCD 2011 are completely integrated with NLCD 2001 (2011 Edition, amended 2014) and NLCD 2006 (2011 Edition, amended 2014). For NLCD 2011, there are 5 primary data products: 1) NLCD 2011 Land Cover 2) NLCD 2006/2011 Land Cover Change Pixels labeled with the 2011 land cover class 3) NLCD 2011 Percent Developed Imperviousness 4) NLCD 2006/2011 Percent Developed Imperviousness Change Pixels 5) NLCD 2011 Tree Canopy Cover provided by an MRLC partner - the USDA Forest Service Remote Sensing Applications Center. In addition, ancillary metadata includes the NLCD 2011 Path/Row Index shapefile showing the footprint of Landsat scenes and change analysis pairs used to derive 2006/2011 spectral change. All Landsat scene acquisition dates are included in the shapefile's attribute table. As part of the NLCD 2011 project, NLCD 2001 and 2006 land cover and impervious data products were revised and reissued (2011 Edition, amended 2014) to provide full compatibility with the new NLCD 2011 products. The 2014 amended version corrects for the over-elimination of small areas of the four developed classes. NLCD Tree Canopy Cover was created using MRLC mapping zones from NLCD 2001 (see Tree Canopy Cover metadata for additional detail). All other NLCD 2011 products were created on a path/row basis and mosaicked to create a seamless national product. Questions about the NLCD 2011 land cover product can be directed to the NLCD 2011 land cover mapping team at the USGS/EROS, Sioux Falls, SD (605) 594-6151 or mrlc@usgs.gov.  The goal of this project is to provide the Nation with complete, current, and consistent public domain information on its land use and land cover.",
+    "dc_rights_s": "Public",
+    "dct_provenance_s": "Cornell",
+    "dct_references_s": "{\"http://schema.org/downloadUrl\":\"https://cugir-data.s3.amazonaws.com/00/90/04/cugir-009004.zip\",\"http://www.opengis.net/cat/csw/csdgm\":\"https://cugir-data.s3.amazonaws.com/00/90/04/fgdc.xml\",\"http://www.w3.org/1999/xhtml\":\"https://cugir-data.s3.amazonaws.com/00/90/04/fgdc.html\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://cugir.library.cornell.edu/geoserver/cugir/wms\"}",
+    "cugir_addl_downloads_s": "{}",
+    "layer_id_s": "cugir009004",
+    "layer_slug_s": "cugir-009004",
+    "dc_type_s": "Dataset",
+    "dc_format_s": "GeoTIFF",
+    "cugir_filesize_s": "29.67 MB",
+    "layer_geom_type_s": "Raster",
+    "layer_modified_dt": "2019-06-04T00:00:00Z",
+    "dc_creator_sm": [
+        "U.S. Geological Survey"
+    ],
+    "dc_publisher_sm": [
+        "U.S. Geological Survey"
+    ],
+    "dc_subject_sm": [
+        "Land cover",
+        "Land use"
+    ],
+    "cugir_category_sm": [
+        "landcover",
+        "environment"
+    ],
+    "dct_spatial_sm": [
+        "New York"
+    ],
+    "dct_issued_s": "2014-10-10",
+    "dct_temporal_sm": [
+        "2011"
+    ],
+    "dct_isPartOf_sm": [
+        "National Land Cover Database"
+    ],
+    "solr_geom": "ENVELOPE(-80.035689, -70.516534, 45.847801, 40.086438)",
+    "solr_year_i": "2011"
+}

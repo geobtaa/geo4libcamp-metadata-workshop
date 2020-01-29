@@ -1,0 +1,363 @@
+<!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Tompkins County ITS GIS Division</origin>
+        <pubdate>2011</pubdate>
+        <title>Topographic Contours (2ft), Town of Enfield, 2008</title>
+        <geoform>vector digital data</geoform>
+        <onlink>https://cugir.library.cornell.edu/catalog/cugir-008146</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Topographic contours at intervals of 2 feet, covering the
+                Town of Enfield in Tompkins County, New York. These elevation contours were derived from May 2008 LiDAR data,
+        with points using the NAVD88 vertical datum later converted to feet.</abstract>
+      <purpose>This data was originally collected for the purpose of
+                providing support for FEMA's Floodplain Map Modernization
+                Program.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>200805</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+          <bounding>
+            <westbc>-76.692178</westbc>
+            <eastbc>-76.566932</eastbc>
+            <northbc>42.48367</northbc>
+            <southbc>42.389077</southbc>
+          </bounding>
+        </spdom>
+    <keywords>
+      <theme>
+        <themekt>none</themekt>
+        <themekey>contour lines</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>elevation</themekey>
+      </theme>
+      <theme>
+              <themekt>CUGIR Category</themekt>
+              <themekey>elevation</themekey>
+            </theme>
+      <place>
+        <placekt>LCSH</placekt>
+        <placekey>Tompkins County (N.Y.)</placekey>
+        <placekey>Enfield (N.Y. : Town)</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Tompkins County ITS GIS Division</cntorg>
+          <cntper>Cattyann Campbell</cntper>
+        </cntorgp>
+        <cntpos>GIS Project Leader</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>128 East Buffalo Street</address>
+          <city>Ithaca</city>
+          <state>New York</state>
+          <postal>14850</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(607) 274-5418</cntvoice>
+        <cntfax>(607) 274-5420</cntfax>
+        <cntemail>gis@tompkins-co.org</cntemail>
+        <hours>M-F 8:30 a.m. to 4:30 p.m.</hours>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/81/46/preview.png</browsen>
+              <browsed>preview of the dataset</browsed>
+              <browset>PNG</browset>
+            </browse>
+  </idinfo>
+  <dataqual>
+    <logic>Unknown</logic>
+    <complete>The shapefile covers all areas within a 500-foot buffer around
+            the Town of Enfield.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>The original LiDAR data horizontal accuracy is in
+                    compliance with the National Standard for Spatial Data
+                    Accuracy (NSSDA) RMSE estimation of elevation data in
+                    support of 2ft. contour mapping products as it is referenced
+                    in the FEMA guidelines for flood hazard mapping, appendix A.</horizpar>
+        <qhorizpa>
+          <horizpav>1.000 m RMSE</horizpav>
+          <horizpae>Horizontal error associated with this LiDAR data
+                        set is a function of several variables including
+                        acquisition parameters and practices, system
+                        calibration, GPS reference station coordinates, and
+                        GPS/INS post processing.</horizpae>
+        </qhorizpa>
+      </horizpa>
+      <vertacc>
+        <vertaccr>The original LiDAR data vertical accuracy is in
+                    compliance with the National Standard for Spatial Data
+                    Accuracy (NSSDA) RMSE estimation of elevation data in
+                    support of 2ft. contour mapping products as it is referenced
+                    in the FEMA guidelines for flood hazard mapping, appendix A.
+                    The Institute of Applied Geospatial Technology performed a
+                    ground control analysis of the Tompkins County LiDAR data
+                    using ground control checkpoints in several land cover
+                    classes and found the resultant RMSE in the exposed ground
+                    class to be within the contract specifications of 0.185
+                    meters.</vertaccr>
+        <qvertpa>
+          <vertaccv>0.185 m RMSE</vertaccv>
+          <vertacce>Vertical error associated with this LiDAR data set
+                        is a function of several variables including acquisition
+                        parameters and practices, system calibration, GPS
+                        reference station coordinates, and GPS/INS post
+                        processing.</vertacce>
+        </qvertpa>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Topographic contour lines from county-wide ESRI file
+                    geodatabase were converted to a shapefile, then simplified
+                    (generalized) using a tolerance of 0.5 feet, then clipped to
+                    the Town's 500-foot buffer. Extraneous columns were removed
+                    from the attribute table.</procdesc>
+        <procdate>20111207</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>CUGIR staff added z values from "Contour" field, making it easier to use the data in 3D programs.</procdesc>
+        <procdate>20190618</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+          <sdtsterm>
+            <sdtstype>3D LineString</sdtstype>
+            <ptvctcnt>2844</ptvctcnt>
+          </sdtsterm>
+        </ptvctinf>
+      </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 StatePlane New York Central FIPS 3102
+                        Feet</mapprojn>
+          <transmer>
+            <sfctrmer>0.9999375</sfctrmer>
+            <longcm>-76.58333333333333</longcm>
+            <latprjo>40.0</latprjo>
+            <feast>820208.3333333333</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0000000072859718258655464</absres>
+            <ordres>0.0000000072859718258655464</ordres>
+          </coordrep>
+          <plandu>Foot_US</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Enfield2ftContours</enttypl>
+        <enttypd>Topographic contours</enttypd>
+        <enttypds/>
+      </enttyp>
+      <attr>
+        <attrlabl>Contour</attrlabl>
+        <attrdef>elevation</attrdef>
+        <attrdefs/>
+        <attrdomv>
+          <rdom>
+            <rdommin>590</rdommin>
+            <rdommax>2000</rdommax>
+            <attrunit>feet</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Type</attrlabl>
+        <attrdef>contour type (can be used for display purposes)</attrdef>
+        <attrdefs/>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>2-foot contour</edomvd>
+            <edomvds/>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>10-foot contour</edomvd>
+            <edomvds/>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+        <distrib>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Albert R. Mann Library</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>Cornell University</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14853</postal>
+            </cntaddr>
+            <cntvoice>607-255-5406</cntvoice>
+            <cntemail>mann-ref@cornell.edu</cntemail>
+          </cntinfo>
+        </distrib>
+        <distliab>Cornell University provides these geographic data "as is". Cornell
+          University makes no guarantee or warranty concerning the accuracy of
+          information contained in the geographic data. Cornell University further
+          makes no warranty either expressed or implied, regarding the condition of
+          the product or its fitness for any particular purpose. The burden for
+          determining fitness for use lies entirely with the user. Although these
+          files have been processed successfully on computers at Cornell University,
+          no warranty is made by Cornell University regarding the use of these data
+          on any other system, nor does the fact of distribution constitute or imply
+          any such warranty.</distliab>
+        <stdorder>
+        <digform>
+            <digtinfo>
+              <formname>Shapefile</formname>
+              <formcont>zipped shapefile</formcont>
+              <filedec>zip</filedec>
+              <transize>16.87</transize>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/81/46/cugir-008146.zip</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>metadata</formname>
+              <formcont>FGDC XML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/81/46/fgdc.xml</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>HTML metadata</formname>
+              <formcont>FGDC HTML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/81/46/fgdc.html</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+                <digtinfo>
+                  <formname>KML</formname>
+                  <formcont>generated KML, via WFS</formcont>
+                </digtinfo>
+                <digtopt>
+                  <onlinopt>
+                    <computer>
+                      <networka>
+                        <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir008146&amp;outputFormat=application%2Fvnd.google-earth.kml%2Bxml</networkr>
+                      </networka>
+                    </computer>
+                  </onlinopt>
+                </digtopt>
+              </digform><digform>
+            <digtinfo>
+              <formname>GeoJSON</formname>
+              <formcont>generated GeoJSON, via WFS</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir008146&amp;outputFormat=application%2Fjson</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>OGC:WMS</formname>
+              <formcont>WMS, from GeoServer</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir008146&amp;bbox=-76.69593538,42.38623921,-76.56317462,42.48650779&amp;width=256&amp;height=193&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><fees>None</fees></stdorder>
+      </distinfo>
+  <metainfo>
+      <metd>20190618</metd>
+      <metc>
+        <cntinfo>
+          <cntorgp>
+            <cntorg>Albert R. Mann Library</cntorg>
+          </cntorgp>
+          <cntaddr>
+            <addrtype>mailing and physical</addrtype>
+            <address>Albert R. Mann Library</address>
+            <city>Ithaca</city>
+            <state>New York</state>
+            <postal>14853</postal>
+            <country>USA</country>
+          </cntaddr>
+          <cntvoice>607-255-5406</cntvoice>
+          <cntemail>mann-ref@cornell.edu</cntemail>
+        </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+    </metainfo>
+</metadata>

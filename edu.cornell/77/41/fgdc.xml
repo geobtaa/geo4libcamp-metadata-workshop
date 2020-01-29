@@ -1,0 +1,465 @@
+<!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>New York State Department of Energy Conservation. Bureau of Air Quality
+          Surveillance</origin>
+        <pubdate>200006</pubdate>
+        <title>Air Monitoring Stations, Adirondack Park, 2000</title>
+        <geoform>vector digital data</geoform>
+        <onlink>https://cugir.library.cornell.edu/catalog/cugir-007741</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This dataset shows the location of each ambient air quality monitoring station
+        currently being operated by the Bureau of Air Quality Surveillance (BAQS), Division of Air
+        Resources, New York State Department of Environmental Conservation.</abstract>
+      <purpose/>
+      <supplinf>The following information was taken from the Department of Energy Conservation (DEC)
+        Master Habitat Databank GIS server. The dataset 'Air Monitoring Stations' was clipped in
+        ArcView to the 10 mile buffer around the Adirondack Park. See the EC, publication "New York
+        State Air Quality Report, Ambient Air Monitoring System"</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2000</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None Planned</update>
+    </status>
+    <spdom>
+          <bounding>
+            <westbc>-74.989258</westbc>
+            <eastbc>-73.858335</eastbc>
+            <northbc>44.67778</northbc>
+            <southbc>43.452994</southbc>
+          </bounding>
+        </spdom>
+    <keywords>
+      <theme>
+        <themekt>LCSH</themekt>
+        <themekey>Air quality monitoring stations</themekey>
+        <themekey>Air--Pollution--Measurement</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>climatologyMeteorologyAtmosphere</themekey>
+        <themekey>environment</themekey>
+      </theme>
+      <theme>
+              <themekt>CUGIR Category</themekt>
+              <themekey>climate</themekey>
+<themekey>environment</themekey>
+            </theme>
+      <place>
+        <placekt>none</placekt>
+        <placekey>Adirondack Park</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Data is to be used at the scale intended. Please acknowledge NYSDEC Agency as the
+      source of the data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>NYSDEC, Bureau of Air Quality Surveillance (BAQS), Division of Air
+            Resources</cntorg>
+          <cntper>Tim Ross</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing Address</addrtype>
+          <address>P.O. Box 99, Route 86</address>
+          <city>Ray Brook</city>
+          <state>New York</state>
+          <postal/>
+        </cntaddr>
+        <cntvoice>518-891-4050 Contact Fascimile: 518-891-3938</cntvoice>
+        <cntemail/>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/77/41/preview.png</browsen>
+              <browsed>preview of the dataset</browsed>
+              <browset>PNG</browset>
+            </browse>
+  </idinfo>
+  <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+          <sdtsterm>
+            <sdtstype>Point</sdtstype>
+            <ptvctcnt>6</ptvctcnt>
+          </sdtsterm>
+        </ptvctinf>
+      </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>18</utmzone>
+            <transmer>
+              <sfctrmer>.9996</sfctrmer>
+              <longcm>-075.000000</longcm>
+              <latprjo>+00.000000</latprjo>
+              <feast>500000</feast>
+              <fnorth>0</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>row and column</plance>
+          <coordrep>
+            <absres>2.5</absres>
+            <ordres>2.5</ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>airmonitoring</enttypl>
+        <enttypd>Air monitoring stations</enttypd>
+        <enttypds>NYSDEC</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>REGION</attrlabl>
+        <attrdef>The DEC region where the station is located.</attrdef>
+        <attrdefs>NYSDEC</attrdefs>
+        <attrdomv>
+          <udom>integer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STATION</attrlabl>
+        <attrdef>Identification number used by the BAQS for each location.</attrdef>
+        <attrdefs>NYSDEC</attrdefs>
+        <attrdomv>
+          <udom>string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STAT_NAME</attrlabl>
+        <attrdef>Common name associated with station number.</attrdef>
+        <attrdefs>NYSDEC</attrdefs>
+        <attrdomv>
+          <udom>string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>EPA_NUMBER</attrlabl>
+        <attrdef>Identification number used by the federal EPA for each station.</attrdef>
+        <attrdefs>NYSDEC</attrdefs>
+        <attrdomv>
+          <udom>string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PM_2_5</attrlabl>
+        <attrdef>Designates if station is used to manually measure fine particulate of 2.5 microns
+          or less. Values are: Y = Station is used to measure null = Station is not used to
+          measure</attrdef>
+        <attrdefs>NYSDEC</attrdefs>
+        <attrdomv>
+          <udom>string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PM_10</attrlabl>
+        <attrdef>Designates if station is used to measure fine particulate of 10 microns or less.
+          Values are: Y = Station is used to measure null= Station is not used to measure</attrdef>
+        <attrdefs>NYSDEC</attrdefs>
+        <attrdomv>
+          <udom>string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CPM_2_5</attrlabl>
+        <attrdef>Designates if station is used to continuously measure fine particulate of 2.5
+          microns or less. Values are: Y = Station is used to measure null= Station is not used to
+          measure</attrdef>
+        <attrdefs>NYSDEC</attrdefs>
+        <attrdomv>
+          <udom>string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SPEC</attrlabl>
+        <attrdef>Designates if station is used to measure fine particulate of various size
+          fractions. Values are: Y = Station is used to measure null= Station is not used to
+          measure</attrdef>
+        <attrdefs>NYSDEC</attrdefs>
+        <attrdomv>
+          <udom>string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ACID_RAIN</attrlabl>
+        <attrdef>Designates if station is used to collect acid deposition samples. Values are: Y =
+          Station is used to collect null = Station is not used to collect</attrdef>
+        <attrdefs>NYSDEC</attrdefs>
+        <attrdomv>
+          <udom>string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LEAD</attrlabl>
+        <attrdef>Designates if station is used to measure ambient lead particulate levels. Values
+          are: Y = Station is used to measure null= Station is not used to measure</attrdef>
+        <attrdefs>NYSDEC</attrdefs>
+        <attrdomv>
+          <udom>string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ME_NM</attrlabl>
+        <attrdef>Designates if station is used to measure methane versus non-methane ambient
+          hydrocarbons associated with ozone formation. Values are: Y = Station is used to measure
+          null= Station is not used to measure</attrdef>
+        <attrdefs>NYSDEC</attrdefs>
+        <attrdomv>
+          <udom>string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TOXICS</attrlabl>
+        <attrdef>Designates if station is used to monitor for toxic air contaminants. Values are: Y
+          = Station is used to monitor null= Station is not used to monitor</attrdef>
+        <attrdefs>NYSDEC</attrdefs>
+        <attrdomv>
+          <udom>string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PAMS</attrlabl>
+        <attrdef>Designates if station is a Photochemical Air Quality Monitoring Station, monitoring
+          certain ambient hydrocarbons associated with ozone formation. Values are: Y = Station is a
+          Photochemical Air Quality Monitoring Station null = Station is not a Photochemical Air
+          Quality Monitoring Station</attrdef>
+        <attrdefs>NYSDEC</attrdefs>
+        <attrdomv>
+          <udom>string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SO2</attrlabl>
+        <attrdef>Designates if station is used to monitor for the gaseous air contaminant sulfur
+          dioxide. Y = Station is used to monitor null= Station is not used to monitor</attrdef>
+        <attrdefs>NYSDEC</attrdefs>
+        <attrdomv>
+          <udom>string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OZONE</attrlabl>
+        <attrdef>Designates if station is used to monitor for the gaseous air contaminant ozone. Y =
+          Station is used to monitor null= Station is not used to monitor</attrdef>
+        <attrdefs>NYSDEC</attrdefs>
+        <attrdomv>
+          <udom>string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NO2</attrlabl>
+        <attrdef>Designates if station is used to monitor for the gaseous air contaminant nitrogen
+          dioxide. Y = Station is used to monitor null= Station is not used to monitor</attrdef>
+        <attrdefs>NYSDEC</attrdefs>
+        <attrdomv>
+          <udom>string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CO</attrlabl>
+        <attrdef>Designates if station is used to monitor for the gaseous air contaminant carbon
+          monoxide. Y = Station is used to monitor null= Station is not used to monitor</attrdef>
+        <attrdefs>NYSDEC</attrdefs>
+        <attrdomv>
+          <udom>string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MET</attrlabl>
+        <attrdef>Designates if station is used to measure temperature, barometric pressure and
+          relative humidity Y = Station is used to monitor null= Station is not used to
+          monitor</attrdef>
+        <attrdefs>NYSDEC</attrdefs>
+        <attrdomv>
+          <udom>string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PRECIP</attrlabl>
+        <attrdef>Designates if station is used to measure rainfall. Y = Station is used to monitor
+          null= Station is not used to monitor</attrdef>
+        <attrdefs>NYSDEC</attrdefs>
+        <attrdomv>
+          <udom>string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WS_WD</attrlabl>
+        <attrdef>Designates if station is used to measure wind speed and direction. Y = Station is
+          used to monitor null= Station is not used to monitor</attrdef>
+        <attrdefs>NYSDEC</attrdefs>
+        <attrdomv>
+          <udom>string</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+        <distrib>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Albert R. Mann Library</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>Cornell University</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14853</postal>
+            </cntaddr>
+            <cntvoice>607-255-5406</cntvoice>
+            <cntemail>mann-ref@cornell.edu</cntemail>
+          </cntinfo>
+        </distrib>
+        <distliab>Cornell University provides these geographic data "as is". Cornell
+          University makes no guarantee or warranty concerning the accuracy of
+          information contained in the geographic data. Cornell University further
+          makes no warranty either expressed or implied, regarding the condition of
+          the product or its fitness for any particular purpose. The burden for
+          determining fitness for use lies entirely with the user. Although these
+          files have been processed successfully on computers at Cornell University,
+          no warranty is made by Cornell University regarding the use of these data
+          on any other system, nor does the fact of distribution constitute or imply
+          any such warranty.</distliab>
+        <stdorder>
+        <digform>
+            <digtinfo>
+              <formname>Shapefile</formname>
+              <formcont>zipped shapefile</formcont>
+              <filedec>zip</filedec>
+              <transize>0.04</transize>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/77/41/cugir-007741.zip</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>metadata</formname>
+              <formcont>FGDC XML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/77/41/fgdc.xml</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>HTML metadata</formname>
+              <formcont>FGDC HTML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/77/41/fgdc.html</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+                <digtinfo>
+                  <formname>KML</formname>
+                  <formcont>generated KML, via WFS</formcont>
+                </digtinfo>
+                <digtopt>
+                  <onlinopt>
+                    <computer>
+                      <networka>
+                        <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir007741&amp;outputFormat=application%2Fvnd.google-earth.kml%2Bxml</networkr>
+                      </networka>
+                    </computer>
+                  </onlinopt>
+                </digtopt>
+              </digform><digform>
+            <digtinfo>
+              <formname>GeoJSON</formname>
+              <formcont>generated GeoJSON, via WFS</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir007741&amp;outputFormat=application%2Fjson</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>OGC:WMS</formname>
+              <formcont>WMS, from GeoServer</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007741&amp;bbox=-75.02318569,43.41625042,-73.82440731,44.71452358&amp;width=236&amp;height=256&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><fees>None</fees></stdorder>
+      </distinfo>
+  <metainfo>
+      <metd>20190524</metd>
+      <metc>
+        <cntinfo>
+          <cntorgp>
+            <cntorg>Albert R. Mann Library</cntorg>
+          </cntorgp>
+          <cntaddr>
+            <addrtype>mailing and physical</addrtype>
+            <address>Albert R. Mann Library</address>
+            <city>Ithaca</city>
+            <state>New York</state>
+            <postal>14853</postal>
+            <country>USA</country>
+          </cntaddr>
+          <cntvoice>607-255-5406</cntvoice>
+          <cntemail>mann-ref@cornell.edu</cntemail>
+        </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+    </metainfo>
+</metadata>

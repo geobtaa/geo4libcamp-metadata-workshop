@@ -1,0 +1,37 @@
+{
+    "geoblacklight_version": "1.0",
+    "dc_identifier_s": "https://cugir.library.cornell.edu/catalog/cugir-008154",
+    "dc_title_s": "7.5-Minute Quad Index, New York State, 2012",
+    "dc_description_s": "This shapefile contains all the USGS 7.5-minute quadrangles that are contained within or partially overlap New York state. It provides related and historical quad names and identifiers from the USGS, NYSDOT, and CUGIR.  To provide a definitive list of quads within New York State.",
+    "dc_rights_s": "Public",
+    "dct_provenance_s": "Cornell",
+    "dct_references_s": "{\"http://schema.org/downloadUrl\":\"https://cugir-data.s3.amazonaws.com/00/81/54/cugir-008154.zip\",\"http://www.opengis.net/cat/csw/csdgm\":\"https://cugir-data.s3.amazonaws.com/00/81/54/fgdc.xml\",\"http://www.w3.org/1999/xhtml\":\"https://cugir-data.s3.amazonaws.com/00/81/54/fgdc.html\",\"http://www.opengis.net/def/serviceType/ogc/wfs\":\"https://cugir.library.cornell.edu/geoserver/cugir/wfs\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://cugir.library.cornell.edu/geoserver/cugir/wms\"}",
+    "cugir_addl_downloads_s": "{}",
+    "layer_id_s": "cugir008154",
+    "layer_slug_s": "cugir-008154",
+    "dc_type_s": "Dataset",
+    "dc_format_s": "Shapefile",
+    "cugir_filesize_s": "0.11 MB",
+    "layer_geom_type_s": "Polygon",
+    "layer_modified_dt": "2019-05-24T00:00:00Z",
+    "dc_creator_sm": [
+        "Mann Library, Cornell University"
+    ],
+    "dc_subject_sm": [
+        "USGS 7.5-minute quadrangles",
+        "NYS DOT quadrangles",
+        "quad index"
+    ],
+    "cugir_category_sm": [
+        "location"
+    ],
+    "dct_spatial_sm": [
+        "New York"
+    ],
+    "dct_issued_s": "2012-08-23",
+    "dct_temporal_sm": [
+        "2012"
+    ],
+    "solr_geom": "ENVELOPE(-79.875, -71.75, 45.125, 40.375)",
+    "solr_year_i": "2012"
+}

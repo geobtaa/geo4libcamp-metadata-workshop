@@ -1,0 +1,300 @@
+<!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey</origin>
+        <pubdate>2006</pubdate>
+        <title>NLCD Developed Imperviousness, New York, 2001</title>
+        <edition>2011 Edition, amended 2014</edition>
+        <geoform>raster digital data</geoform>
+        <serinfo>
+          <sername>National Land Cover Database</sername>
+          <issue>2001 Percent Developed Imperviousness</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Sioux Falls, SD</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://cugir.library.cornell.edu/catalog/cugir-008004</onlink>
+        <onlink>http://www.mrlc.gov/nlcd_multizone_map.php</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The National Land Cover Database 2001 urban imperviousness
+                layer was produced through a cooperative project conducted by
+                the Multi-Resolution Land Characteristics (MRLC) Consortium, a
+                partnership of federal agencies (www.mrlc.gov), consisting of
+                the U.S. Geological Survey (USGS), the National Oceanic and
+                Atmospheric Administration (NOAA), the U.S. Environmental
+                Protection Agency (EPA), the U.S. Department of Agriculture
+                (USDA), the U.S. Forest Service (USFS), the National Park
+                Service (NPS), the U.S. Fish and Wildlife Service (FWS), the
+                Bureau of Land Management (BLM) and the USDA Natural Resources
+                Conservation Service (NRCS). One of the primary goals of the
+                project is to generate a current, consistent, seamless, and
+                accurate National Land cover Database (NLCD) circa 2001 for the
+                United States at medium spatial resolution. This landcover map
+                and all documents pertaining to it are considered "provisional"
+                until a formal accuracy assessment can be conducted. For a
+                detailed definition and discussion on MRLC and the NLCD 2001
+                products, refer to &lt;http://www.mrlc.gov/&gt;. The
+                NLCD 2001 is created by partitioning the U.S. into mapping
+                zones. A total of 66 mapping zones were delineated within the
+                conterminous U.S. based on ecoregion and geographical
+                characteristics, edge matching features and the size requirement
+                of Landsat mosaics. Zone 13 (the northeastern U.S.) consists of
+                mapping zones 60, 61, 63, 64, 65, and 66, which collectively
+                encompasses the entirety of Maine, New Hampshire, Vermont,
+                Massachusetts, Rhode Island, Connecticut, New York, New Jersey,
+                Delaware, and Maryland, as well as portions of Pennsylvania,
+                West Virginia, Virginia, and North Carolina.</abstract>
+      <purpose>The goal of this project is to provide the Nation with
+                complete, current and consistent public domain information on
+                its land use and land cover.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2001</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+          <bounding>
+            <westbc>-80.035689</westbc>
+            <eastbc>-70.516534</eastbc>
+            <northbc>45.847801</northbc>
+            <southbc>40.086438</southbc>
+          </bounding>
+        </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Land Cover</themekey>
+        <themekey>Land Use</themekey>
+        <themekey>Urban Imperviousness</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+        <themekey>environment</themekey>
+        <themekey>structure</themekey>
+      </theme>
+      <theme>
+              <themekt>CUGIR Category</themekt>
+              <themekey>landcover</themekey>
+<themekey>environment</themekey>
+<themekey>structure</themekey>
+            </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>New York</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <browse>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/80/04/preview.png</browsen>
+              <browsed>preview of the dataset</browsed>
+              <browset>PNG</browset>
+            </browse>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>See the metadata for individual mapping zones that is
+                included in the data download.</attraccr>
+    </attracc>
+    <logic>See the metadata for individual mapping zones that is included in
+            the data download.</logic>
+    <complete>See the metadata for individual mapping zones that is included
+            in the data download.</complete>
+    <lineage>
+      <procstep>
+        <procdesc>See the metadata for individual mapping zones that is
+                    included in the data download.</procdesc>
+        <procdate>unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Data clipped to New York state boundary.</procdesc>
+        <procdate>20170724</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+        <direct>Raster</direct>
+        <rastinfo>
+          <rasttype>Grid Cell</rasttype>
+          <rowcount>16989</rowcount>
+          <colcount>22610</colcount>
+        </rastinfo>
+      </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Albers Conical Equal Area</mapprojn>
+          <albers>
+            <stdparll>29.500000</stdparll>
+            <stdparll>45.500000</stdparll>
+            <longcm>-96.000000</longcm>
+            <latprjo>23.000000</latprjo>
+            <feast>0.000000</feast>
+            <fnorth>0.000000</fnorth>
+          </albers>
+        </mapproj>
+        <planci>
+          <plance>row and column</plance>
+          <coordrep>
+            <absres>30.000000</absres>
+            <ordres>30.000000</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>nlcd2001_imperviousness_ny</enttypl>
+        <enttypd>NLCD 2001 Urban Imperviousness Layer</enttypd>
+        <enttypds>National Land Cover Database 2001</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Percent Imperviousness</attrdef>
+        <attrdefs>NLCD 2001</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+            <attrunit>percentage</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+        <distrib>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Albert R. Mann Library</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>Cornell University</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14853</postal>
+            </cntaddr>
+            <cntvoice>607-255-5406</cntvoice>
+            <cntemail>mann-ref@cornell.edu</cntemail>
+          </cntinfo>
+        </distrib>
+        <distliab>Cornell University provides these geographic data "as is". Cornell
+          University makes no guarantee or warranty concerning the accuracy of
+          information contained in the geographic data. Cornell University further
+          makes no warranty either expressed or implied, regarding the condition of
+          the product or its fitness for any particular purpose. The burden for
+          determining fitness for use lies entirely with the user. Although these
+          files have been processed successfully on computers at Cornell University,
+          no warranty is made by Cornell University regarding the use of these data
+          on any other system, nor does the fact of distribution constitute or imply
+          any such warranty.</distliab>
+        <stdorder>
+        <digform>
+            <digtinfo>
+              <formname>GeoTIFF</formname>
+              <formcont>zipped geotiff</formcont>
+              <filedec>zip</filedec>
+              <transize>15.39</transize>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/80/04/cugir-008004.zip</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>metadata</formname>
+              <formcont>FGDC XML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/80/04/fgdc.xml</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>HTML metadata</formname>
+              <formcont>FGDC HTML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/80/04/fgdc.html</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>OGC:WMS</formname>
+              <formcont>WMS, from GeoServer</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir008004&amp;bbox=-80.32126365,39.91359711,-70.23095934999999,46.02064189&amp;width=256&amp;height=154&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><fees>None</fees></stdorder>
+      </distinfo>
+  <metainfo>
+      <metd>20190604</metd>
+      <metc>
+        <cntinfo>
+          <cntorgp>
+            <cntorg>Albert R. Mann Library</cntorg>
+          </cntorgp>
+          <cntaddr>
+            <addrtype>mailing and physical</addrtype>
+            <address>Albert R. Mann Library</address>
+            <city>Ithaca</city>
+            <state>New York</state>
+            <postal>14853</postal>
+            <country>USA</country>
+          </cntaddr>
+          <cntvoice>607-255-5406</cntvoice>
+          <cntemail>mann-ref@cornell.edu</cntemail>
+        </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+    </metainfo>
+</metadata>

@@ -1,0 +1,978 @@
+<!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Tompkins County ITS GIS Division</origin>
+        <origin>Tompkins County Planning Department</origin>
+        <pubdate>2000</pubdate>
+        <title>Land Use and Land Cover, Tompkins County NY, 1995</title>
+        <geoform>vector digital data</geoform>
+        <onlink>https://cugir.library.cornell.edu/catalog/cugir-000059</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The Tompkins County Planning Department utilized
+                inter-departmental mapping expertise of the Tompkins County
+                Information Technology Services GIS Division to produce a land
+                use and land cover data set of Tompkins County, NY. The need for
+                this data set has been identified by various county departments,
+                local municipal agencies, and other not-for-profit
+                organizations. Traditionally, land use and land cover maps have
+                been developed by interpreting aerial photographs, delineating
+                land use and land cover polygons onto a geo-referenced base map,
+                and then digitizing the line work. This project uses an
+                innovative methodology to develop a land use and land cover map
+                entirely within a digital environment. Digital Orthophoto
+                Quarter Quadrangles (DOQQ), a type of color infra-red digital
+                aerial photograph, and a number of other secondary digital data
+                sources (wetlands, hydrology, and planimetric base data) are
+                being used to interpret and delineate land use and land cover
+                directly on-screen. This technique is more time efficient by
+                reducing the number of processing steps required, as well as
+                more accurate by reducing cumulative errors introduced through
+                multiple processing steps. A land use and land cover
+                classification system was designed to meet the needs of the
+                users of these data. A needs assessment meeting was held prior
+                to the project to determine the needs of planners, local
+                municipalities, advisory boards and educators. In 1968, the Land
+                Use and Natural Resource Inventory (LUNR) a state-wide land use
+                and land cover mapping project, used aerial photographs to
+                identify 130 land use and land cover classes. The Tompkins
+                County land use and land cover classification system has been
+                designed to be comparable with the LUNR classification system.
+                Comparable classification systems will enable users to analyze
+                changes in land use and land cover over the previous thirty year
+                time period</abstract>
+      <purpose>Provides a county-wide data set of all tax map boundaries
+                for the tax parcel maps in Tompkins County. Potential uses of
+                these data include land use and land cover time change analysis,
+                comprehensive planning and development suitability analysis.</purpose>
+      <supplinf>This data set is derived from the interpretation and
+                delineation of land use and land cover from Color Infrared
+                Digital Orthophoto Quarter Quadrangles.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1994</begdate>
+          <enddate>1995</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+          <bounding>
+            <westbc>-76.707965</westbc>
+            <eastbc>-76.234</eastbc>
+            <northbc>42.628604</northbc>
+            <southbc>42.253456</southbc>
+          </bounding>
+        </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Land Cover</themekey>
+        <themekey>Land Use</themekey>
+        <themekey>LULC</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+        <themekey>planningCadastre</themekey>
+        <themekey>environment</themekey>
+      </theme>
+      <theme>
+              <themekt>CUGIR Category</themekt>
+              <themekey>landcover</themekey>
+<themekey>property</themekey>
+<themekey>environment</themekey>
+            </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Tompkins County, New York</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>The following statement must be included with any products
+            that use or are derived from this data set: "Data contained in this
+            product was originally produced by the Tompkins County ITS GIS
+            Division and may not be reproduced or redistributed without the
+            express written consent of the originator. The originator does not
+            warrant the accuracy or completeness of the information portrayed by
+            the data."</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Tompkins County Planning Department</cntorg>
+          <cntper>Sharon Heller</cntper>
+        </cntorgp>
+        <cntpos>GIS Analyst</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>121 East Court Street</address>
+          <city>Ithaca</city>
+          <state>New York</state>
+          <postal>14850</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(607) 274-5560</cntvoice>
+        <cntfax>(607) 274-5578</cntfax>
+        <hours>8:30 - 4:30 Monday to Friday</hours>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/00/59/preview.png</browsen>
+              <browsed>preview of the dataset</browsed>
+              <browset>PNG</browset>
+            </browse>
+    <datacred>Tompkins County ITS GIS Division</datacred>
+    <native>WindowsNT 4.0 x86, Arc/Info Single Precision Coverage</native>
+    <crossref>
+      <citeinfo>
+        <origin>Tompkins County Planning Department</origin>
+        <pubdate>200904</pubdate>
+        <title>Tompkins County Land Use and Land Cover 2007</title>
+        <geoform>vector digital data</geoform>
+        <onlink>http://cugir.mannlib.cornell.edu/bucketinfo.jsp?id=8010</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>See the Methodology Report
+            (Methodology_Report.pdf)</attraccr>
+    </attracc>
+    <logic>See the Methodology Report (Methodology_Report.pdf)</logic>
+    <complete>Complete for Tompkins County and a 200-foot buffer in the
+            surrounding counties.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Varies, depending on source of DOQQ data for each
+                    quarter quad. Areas that are at the edges of each DOQQ have
+                    the lowest quality positional accuracy</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>USGS and NYS DEC</origin>
+            <pubdate>1994/1995</pubdate>
+            <title>Digital Orthophoto Quarter-Quadrangles (DOQQs)</title>
+            <othercit>Digital aerial photographs</othercit>
+          </citeinfo>
+        </srccite>
+        <srcscale>12000</srcscale>
+        <typesrc>CD-ROM, Removable Media</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1994</begdate>
+              <enddate>1995</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>DOQQ</srccitea>
+        <srccontr>aerial photos</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>1. Conduct needs assessment; 2. Devise Land Use and
+                    Land Cover Classification System and project specifications;
+                    3. Collect raw data - In this case obtain Digital Orthophoto
+                    Quarter Quads; 4. Interpret data and delineate land use and
+                    land cover per-specification; 5. Digitally record data; 6.
+                    Edit data; 7. Conduct Accuracy Assessment; 8. Final Report</procdesc>
+        <procdate>2000</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Tompkins County Planning Department</cntorg>
+              <cntper>Sharon Heller</cntper>
+            </cntorgp>
+            <cntpos>GIS Analyst</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>121 East Court Street</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14850</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>(607) 274-5560</cntvoice>
+            <cntfax>(607) 274-5578</cntfax>
+            <hours>8:30 - 4:30 Monday to Friday</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+    <cloud>0</cloud>
+  </dataqual>
+  <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+          <sdtsterm>
+            <sdtstype>G-polygon</sdtstype>
+            <ptvctcnt>29415</ptvctcnt>
+          </sdtsterm>
+        </ptvctinf>
+      </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>State Plane Coordinate System 1983</gridsysn>
+          <spcs>
+            <spcszone>3102</spcszone>
+            <transmer>
+              <sfctrmer>0.999938</sfctrmer>
+              <longcm>-76.583333</longcm>
+              <latprjo>40.000000</latprjo>
+              <feast>820208.333333</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </spcs>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000256</absres>
+            <ordres>0.000256</ordres>
+          </coordrep>
+          <plandu>survey feet</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>LULC1995</enttypl>
+        <enttypd>Land use or land cover class</enttypd>
+        <enttypds>Classification system is based on LUNR, but has been
+                    adapted to meet the needs of the Tompkins County Planning
+                    Department</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>AREA</attrlabl>
+        <attrdef>Area in square US survey feet</attrdef>
+        <attrdefs>Tompkins County Planning Department and Tompkins
+                    County ITS GIS Division, 1999</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically
+                        generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+        <attrdef>Perimeter in US survey feet</attrdef>
+        <attrdefs>Tompkins County Planning Department and Tompkins
+                    County ITS GIS Division, 1999</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically
+                        generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LU</attrlabl>
+        <attrdef>Land Use and Land Cover classes devised by the staff in
+                    the Tompkins County Planning Department and the Tompkins
+                    County ITS GIS Division, based in part on the LUNR
+                    classification system from 1968.</attrdef>
+        <attrdefs>Tompkins County Planning Department and Tompkins
+                    County ITS GIS Division, 1999</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Ac</edomv>
+            <edomvd>Cropland: Tillable land used for growing
+                            cultivated field crops, forage crops, grain, beans,
+                            etc. Hedgerows separating defined Ac areas were
+                            delineated as separate classes (typically Fd, Fm, Fb
+                            or Fc) if they are greater than 20 meters wide</edomvd>
+            <edomvds>Tompkins County Planning Department and
+                            Tompkins County ITS GIS Division, 1999.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Ad</edomv>
+            <edomvd>Cattle: Farmland used for the feeding and
+                            milking of dairy cattle as well as for beef cattle.
+                            Barn with silos and feedlots are included.</edomvd>
+            <edomvds>Tompkins County Planning Department and
+                            Tompkins County ITS GIS Division, 1999.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Ae</edomv>
+            <edomvd>Horse farm: Horse barns, feed lot, and animal
+                            recreation areas. (Pasture will be in Ap).</edomvd>
+            <edomvds>Tompkins County Planning Department and
+                            Tompkins County ITS GIS Division, 1999.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Af</edomv>
+            <edomvd>Fishery/Aquaculture: Fishery ponds and
+                            associated buildings.</edomvd>
+            <edomvds>Tompkins County Planning Department and
+                            Tompkins County ITS GIS Division, 1999.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Ah</edomv>
+            <edomvd>High intensity cropland/horticulture: Nurseries,
+                            including green-houses, vegetable production areas,
+                            and other gardens more than a half-acre in size.</edomvd>
+            <edomvds>Tompkins County Planning Department and
+                            Tompkins County ITS GIS Division, 1999.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Ai</edomv>
+            <edomvd>Inactive Agriculture: Farmland and fields that
+                            appear to be no longer used for farming practices.
+                            Fields may appear to be growing over with tall
+                            grasses and small shrubs.</edomvd>
+            <edomvds>Tompkins County Planning Department and
+                            Tompkins County ITS GIS Division, 1999.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Ao</edomv>
+            <edomvd>Orchards: Farmland dedicated to growing tree
+                            products including associated buildings.</edomvd>
+            <edomvds>Tompkins County Planning Department and
+                            Tompkins County ITS GIS Division, 1999.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Ap</edomv>
+            <edomvd>Pasture: Areas used for grazing. Is enclosed by
+                            fence and may have small trees and shrubs. Located
+                            adjacent to livestock farm</edomvd>
+            <edomvds>Tompkins County Planning Department and
+                            Tompkins County ITS GIS Division, 1999.</edomvds>
+          </edom>
+          <edom>
+            <edomv>At</edomv>
+            <edomvd>Tree farm: Areas used for cultivating trees,
+                            primarily Xmas trees.</edomvd>
+            <edomvds>Tompkins County Planning Department and
+                            Tompkins County ITS GIS Division, 1999.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Av</edomv>
+            <edomvd>Vineyards: Grape growing farms and pastures
+                            which may include winery buildings.</edomvd>
+            <edomvds>Tompkins County Planning Department and
+                            Tompkins County ITS GIS Division, 1999.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Ay</edomv>
+            <edomvd>Other farms: Poultry, sheep, swine, game, mixed
+                            animal farms, animal shelters, and farms that
+                            produce livestock feeds (granaries).</edomvd>
+            <edomvds>Tompkins County Planning Department and
+                            Tompkins County ITS GIS Division, 1999.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Cbd</edomv>
+            <edomvd>Central Business District:
+                            Commercial/residential centers of city and villages
+                            where mixed land uses of Commercial,
+                            Public/Institutional, and high density Residential
+                            exist. There may be buildings that comprise more
+                            than one type of land use, such as a storefront on
+                            the first floor, offices on the second floor, and
+                            residences on the third floor. Land uses are mixed
+                            and are high in density.</edomvd>
+            <edomvds>Tompkins County Planning Department and
+                            Tompkins County ITS GIS Division, 1999.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Cc</edomv>
+            <edomvd>Shopping Centers/Malls: Commercial areas that
+                            are predominately shopping centers and malls
+                            including significant surrounding parking
+                            facilities.</edomvd>
+            <edomvds>Tompkins County Planning Department and
+                            Tompkins County ITS GIS Division, 1999.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Co</edomv>
+            <edomvd>Offices: Buildings that contain administrative
+                            offices, as well as facilities that include business
+                            or technology services that are not predominantly
+                            retail orientated. Facilities may be part of a
+                            business/technology/industrial park. In some cases
+                            medical offices (Ph) may be included if they do not
+                            constitute the dominant land use.</edomvd>
+            <edomvds>Tompkins County Planning Department and
+                            Tompkins County ITS GIS Division, 1999.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Cr</edomv>
+            <edomvd>Retail: Commercial areas along roadways not
+                            associated with distinct commercial centers or large
+                            shopping malls. Will include linear highway corridor
+                            development, as well as individual retail businesses
+                            and services that may exist within residential or
+                            industrial areas.</edomvd>
+            <edomvds>Tompkins County Planning Department and
+                            Tompkins County ITS GIS Division, 1999.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Cs</edomv>
+            <edomvd>Commercial Storage: Indoor and outdoor
+                            commercial storage facilities for public rentals and
+                            warehouse/storage facilities not associated with
+                            adjacent commercial or industrial land uses.</edomvd>
+            <edomvds>Tompkins County Planning Department and
+                            Tompkins County ITS GIS Division, 1999.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Da</edomv>
+            <edomvd>Abandoned: Areas that include buildings and
+                            facilities that are interpreted as abandoned or
+                            vacant.</edomvd>
+            <edomvds>Tompkins County Planning Department and
+                            Tompkins County ITS GIS Division, 1999.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Db</edomv>
+            <edomvd>Barren Land: Land that is composed of either
+                            rock, gravel or sand, which cannot be cultivated or
+                            associated with any other defined land use class.</edomvd>
+            <edomvds>Tompkins County Planning Department and
+                            Tompkins County ITS GIS Division, 1999.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Dl</edomv>
+            <edomvd>Disturbed Land: Land that has been cleared of
+                            vegetation and the interpretation of any
+                            identifiable or defined land use class is not
+                            possible.</edomvd>
+            <edomvds>LUNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>Fb</edomv>
+            <edomvd>Brush: Areas that have considerable growth of
+                            shrubs and small trees, but can not be classified as
+                            forest. The brush land cover must occupy at least
+                            80% of the delineated area. Forest and grassland may
+                            be incorporated into the remaining 20%.</edomvd>
+            <edomvds>LUNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>Fc</edomv>
+            <edomvd>Coniferous Forest: Forested areas where needle
+                            trees, such as pine, spruce, fir and hemlock make up
+                            at least 80% of the tree cover.</edomvd>
+            <edomvds>LUNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>Fd</edomv>
+            <edomvd>Deciduous: Forested areas where broadleaf trees
+                            make up at least 80% of the tree cover.</edomvd>
+            <edomvds>LUNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>Fg</edomv>
+            <edomvd>Grassland: Open grassy areas with no associated
+                            adjacent land uses. May include small amounts of
+                            shrubs, trees and brush. The grassland cover must
+                            occupy at least 80% of the delineated area. The
+                            remaining 20% may be trees, shrubs and brush.
+                            Grassland areas may be naturally occurring, or may
+                            be regularly mowed.</edomvd>
+            <edomvds>Tompkins County Planning Department and
+                            Tompkins County ITS GIS Division, 1999.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Fm</edomv>
+            <edomvd>Mixed forest: Forested areas with mixed
+                            coniferous and deciduous trees. The ratio of the
+                            predominant coniferous or deciduous tree stands must
+                            not exceed 80%.</edomvd>
+            <edomvds>LUNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>Fp</edomv>
+            <edomvd>Forest Plantation: Rows of mature trees,
+                            primarily conifers, planted by man</edomvd>
+            <edomvds>LUNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>Ia</edomv>
+            <edomvd>Agriculture Industry: Buildings and facilities
+                            associated with agri-business</edomvd>
+            <edomvds>Tompkins County Planning Department and
+                            Tompkins County ITS GIS Division, 1999.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Ie</edomv>
+            <edomvd>Extractive: Salt mining operations, gravel pits,
+                            rock quarries.</edomvd>
+            <edomvds>Tompkins County Planning Department and
+                            Tompkins County ITS GIS Division, 1999.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Il</edomv>
+            <edomvd>Light Industry: Facilities and grounds that
+                            include activities associated with the
+                            manufacturing, processing, fabricating, assembly,
+                            finishing, packaging, warehousing, and outdoor
+                            storage of products.</edomvd>
+            <edomvds>LUNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>It</edomv>
+            <edomvd>Communication Towers: Communication tower sites
+                            at ground level including areas occupied by guide
+                            wires.</edomvd>
+            <edomvds>Tompkins County Planning Department and
+                            Tompkins County ITS GIS Division, 1999.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Iu</edomv>
+            <edomvd>Utilities: Power plants and substations.</edomvd>
+            <edomvds>Tompkins County Planning Department and
+                            Tompkins County ITS GIS Division, 1999.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Oc</edomv>
+            <edomvd>Campgrounds: Public and private camping areas,
+                            including areas designated for camping in state and
+                            town parks as well as private RV parks.</edomvd>
+            <edomvds>Tompkins County Planning Department and
+                            Tompkins County ITS GIS Division, 1999.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Oe</edomv>
+            <edomvd>Recreation corridors: Areas characterized as
+                            linear recreation ways for uses such as trails and
+                            paths associated with outdoor recreation activities
+                            and pedestrian connections.</edomvd>
+            <edomvds>Tompkins County Planning Department and
+                            Tompkins County ITS GIS Division, 1999.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Og</edomv>
+            <edomvd>Golf Course: Includes driving ranges, club house
+                            and greens</edomvd>
+            <edomvds>Tompkins County Planning Department and
+                            Tompkins County ITS GIS Division, 1999.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Oh</edomv>
+            <edomvd>Hunt clubs: Land areas used specifically for the
+                            sport of hunting. May include shooting range and
+                            fields for practice of this sport.</edomvd>
+            <edomvds>Tompkins County Planning Department and
+                            Tompkins County ITS GIS Division, 1999.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Op</edomv>
+            <edomvd>Parks: Public parks as well as Cornell
+                            Plantations including picnic areas,
+                            walking/hiking/running trails, playgrounds,
+                            manicured lawns, and landscaped areas within park
+                            boundaries.</edomvd>
+            <edomvds>Tompkins County Planning Department and
+                            Tompkins County ITS GIS Division, 1999.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Or</edomv>
+            <edomvd>Youth &amp; religious camps: Cabins and
+                            other buildings associated with summer camps and or
+                            religious retreats.</edomvd>
+            <edomvds>Tompkins County Planning Department and
+                            Tompkins County ITS GIS Division, 1999.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Os</edomv>
+            <edomvd>Recreational shoreline: Shoreline where land use
+                            is recreational lake access. Docks and boat moorings
+                            may exist. Consists of rocky shoreline land cover.
+                            Boundaries vary with lake levels.</edomvd>
+            <edomvds>Tompkins County Planning Department and
+                            Tompkins County ITS GIS Division, 1999.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Ot</edomv>
+            <edomvd>Stadiums/track/ball fields: Sporting fields that
+                            may or may not be associated with schools and parks.
+                            Baseball diamonds, tennis courts, running track,
+                            soccer and football fields with goal posts, swimming
+                            facilities. Motor tracks included.</edomvd>
+            <edomvds>Tompkins County Planning Department and
+                            Tompkins County ITS GIS Division, 1999.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Pc</edomv>
+            <edomvd>Cemetery: Cemeteries at least one-half acre in
+                            area.</edomvd>
+            <edomvds>LUNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>Pd</edomv>
+            <edomvd>Solid waste disposal: Waste disposal sites such
+                            as recycling centers, landfills, exposed dumps and
+                            private junk yards.</edomvd>
+            <edomvds>LUNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>Pe</edomv>
+            <edomvd>Educational: All schools, university and college
+                            academic buildings, research facilities, and
+                            associated parking facilities and quads. College
+                            campuses include other land uses that, if at least
+                            one-half acre in area, is designated as distinct
+                            LULC classes. Pe is used only for the academic and
+                            research related buildings and the surrounding
+                            parking lots and grounds. This class also includes
+                            other learning centers such as the Sciencenter,
+                            Cayuga Nature Center and the Fingerlakes School of
+                            Massage.</edomvd>
+            <edomvds>Tompkins County Planning Department and
+                            Tompkins County ITS GIS Division, 1999.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Pf</edomv>
+            <edomvd>Community center, social hall, fraternal lodge:
+                            American Legions, Veterans associations, and
+                            community centers where social events, Bingo,
+                            pancake breakfasts and chicken bbq fund raisers
+                            occur.</edomvd>
+            <edomvds>Tompkins County Planning Department and
+                            Tompkins County ITS GIS Division, 1999.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Ph</edomv>
+            <edomvd>Health facilities: Hospital, health clinics,
+                            medical offices, and nursing homes.</edomvd>
+            <edomvds>Tompkins County Planning Department and
+                            Tompkins County ITS GIS Division, 1999.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Pj</edomv>
+            <edomvd>Correctional facilities: County jail, secure
+                            work camps, and other correctional centers.</edomvd>
+            <edomvds>Tompkins County Planning Department and
+                            Tompkins County ITS GIS Division, 1999.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Po</edomv>
+            <edomvd>Governmental office facilities: Includes all
+                            local, state, and federal governmental office
+                            facilities that are interpreted to be the dominant
+                            land use. This class includes courthouses, town
+                            halls, and other public service and administrative
+                            facilities.</edomvd>
+            <edomvds>Tompkins County Planning Department and
+                            Tompkins County ITS GIS Division, 1999.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Pp</edomv>
+            <edomvd>Public works: Areas that include facilities for
+                            highway departments, fire departments, public
+                            safety, maintenance buildings, and related storage
+                            areas. Public works facilities present on the
+                            educational campuses that are at least one-half acre
+                            in area are classified as Pp.</edomvd>
+            <edomvds>Tompkins County Planning Department and
+                            Tompkins County ITS GIS Division, 1999.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Pr</edomv>
+            <edomvd>Church/synagogue/monastery: Houses of worship.
+                            Delineated only if the parcel on which the
+                            facility(s) is located is at least one-half acre in
+                            area.</edomvd>
+            <edomvds>Tompkins County Planning Department and
+                            Tompkins County ITS GIS Division, 1999.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Ps</edomv>
+            <edomvd>Sewage treatment facilities: Facilities whose
+                            primary function is the treatment of waste water.</edomvd>
+            <edomvds>Tompkins County Planning Department and
+                            Tompkins County ITS GIS Division, 1999.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Pt</edomv>
+            <edomvd>Water Tank: Tank used as reserve of water,
+                            either for drinking water or for filling of fire
+                            department trucks.</edomvd>
+            <edomvds>Tompkins County Planning Department and
+                            Tompkins County ITS GIS Division, 1999.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Pw</edomv>
+            <edomvd>Water management facilities: Facilities whose
+                            primary function is management of drinking water.</edomvd>
+            <edomvds>Tompkins County Planning Department and
+                            Tompkins County ITS GIS Division, 1999.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Rh</edomv>
+            <edomvd>High density residential: Residential land areas
+                            with approximately 5 or more dwellings on average
+                            per acre. Comprised mainly of urban areas of
+                            residential land use patterns including densities
+                            ranging from single family structures to multi-unit
+                            apartment buildings.</edomvd>
+            <edomvds>LUNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>Rl</edomv>
+            <edomvd>Low density residential: Residential land areas
+                            with a maximum average of 1 dwelling per acre.</edomvd>
+            <edomvds>LUNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>Rm</edomv>
+            <edomvd>Medium density residential: Residential land
+                            areas with more than 1, but less than 5 dwellings on
+                            average per acre.</edomvd>
+            <edomvds>LUNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>Rp</edomv>
+            <edomvd>Manufactured home park: Residential land areas
+                            with a density of 4 or more manufactured homes on
+                            average per acre and a designation of the property
+                            as a manufactured home park or subdivision.</edomvd>
+            <edomvds>Tompkins County Planning Department and
+                            Tompkins County ITS GIS Division, 1999.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Ta</edomv>
+            <edomvd>Airport or active airstrip: Includes all public
+                            and private airport facilities, hangars, parking
+                            facilities, and runways.</edomvd>
+            <edomvds>LUNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>Tc</edomv>
+            <edomvd>Bus depot, fleet storage, garage for public
+                            vehicles: Places that store large number of cars,
+                            vans, trucks or buses for purposes of public use and
+                            transportation. Examples include Cornell?s fleet
+                            storage, T-CAT, ISCD school bus depot.</edomvd>
+            <edomvds>Tompkins County Planning Department and
+                            Tompkins County ITS GIS Division, 1999.</edomvds>
+          </edom>
+          <edom>
+            <edomv>Th</edomv>
+            <edomvd>Highway: The limited access sections of Route 13
+                            that include at least 4 total traffic lanes.
+                            Associated interchanges and ramps will also be
+                            delineated within this class.</edomvd>
+            <edomvds>LUNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>Tr</edomv>
+            <edomvd>Railroads: Active railroad right of ways
+                            including switchyards</edomvd>
+            <edomvds>LUNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>Wb</edomv>
+            <edomvd>Marsh, bog, shrub wetlands: Areas of wetlands
+                            that contain grasses, scrub, brush, and are void of
+                            tall trees.</edomvd>
+            <edomvds>LUNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>Wc</edomv>
+            <edomvd>Reservoir: Bodies of water that are formed from
+                            damming creeks.</edomvd>
+            <edomvds>LUNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>Wn</edomv>
+            <edomvd>Natural Lake/Pond: Bodies of water that are not
+                            formed by damming creeks. Ponds may be man-made.</edomvd>
+            <edomvds>LUNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>Ww</edomv>
+            <edomvd>Wooded Wetland: Wooded areas that show
+                            considerable amounts of water beneath the trees</edomvd>
+            <edomvds>LUNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>COMMENTS</attrlabl>
+        <attrdef>Any unusual or informative characteristics associated
+                    with the land use classification</attrdef>
+        <attrdefs>Tompkins County Planning Department and Tompkins
+                    County ITS GIS Division, 1999</attrdefs>
+        <attrdomv>
+          <udom>text string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SEC</attrlabl>
+        <attrdef>secondary land cover class</attrdef>
+        <attrdefs>interpreted from the Methodology Report</attrdefs>
+        <attrdomv>
+          <udom>same list of values as LU</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DELTA</attrlabl>
+        <attrdef>land cover class, updated in 1999</attrdef>
+        <attrdefs>interpreted from the Methodology Report</attrdefs>
+        <attrdomv>
+          <udom>same list of values as LU</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+        <distrib>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Albert R. Mann Library</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>Cornell University</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14853</postal>
+            </cntaddr>
+            <cntvoice>607-255-5406</cntvoice>
+            <cntemail>mann-ref@cornell.edu</cntemail>
+          </cntinfo>
+        </distrib>
+        <distliab>Cornell University provides these geographic data "as is". Cornell
+          University makes no guarantee or warranty concerning the accuracy of
+          information contained in the geographic data. Cornell University further
+          makes no warranty either expressed or implied, regarding the condition of
+          the product or its fitness for any particular purpose. The burden for
+          determining fitness for use lies entirely with the user. Although these
+          files have been processed successfully on computers at Cornell University,
+          no warranty is made by Cornell University regarding the use of these data
+          on any other system, nor does the fact of distribution constitute or imply
+          any such warranty.</distliab>
+        <stdorder>
+        <digform>
+            <digtinfo>
+              <formname>Shapefile</formname>
+              <formcont>zipped shapefile</formcont>
+              <filedec>zip</filedec>
+              <transize>8.69</transize>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/00/59/cugir-000059.zip</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>metadata</formname>
+              <formcont>FGDC XML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/00/59/fgdc.xml</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>HTML metadata</formname>
+              <formcont>FGDC HTML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/00/59/fgdc.html</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+                <digtinfo>
+                  <formname>KML</formname>
+                  <formcont>generated KML, via WFS</formcont>
+                </digtinfo>
+                <digtopt>
+                  <onlinopt>
+                    <computer>
+                      <networka>
+                        <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir000059&amp;outputFormat=application%2Fvnd.google-earth.kml%2Bxml</networkr>
+                      </networka>
+                    </computer>
+                  </onlinopt>
+                </digtopt>
+              </digform><digform>
+            <digtinfo>
+              <formname>GeoJSON</formname>
+              <formcont>generated GeoJSON, via WFS</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir000059&amp;outputFormat=application%2Fjson</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>OGC:WMS</formname>
+              <formcont>WMS, from GeoServer</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir000059&amp;bbox=-76.72218395,42.24220156,-76.21978105,42.639858440000005&amp;width=256&amp;height=202&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><fees>None</fees></stdorder>
+      </distinfo>
+  <metainfo>
+      <metd>20190524</metd>
+      <metc>
+        <cntinfo>
+          <cntorgp>
+            <cntorg>Albert R. Mann Library</cntorg>
+          </cntorgp>
+          <cntaddr>
+            <addrtype>mailing and physical</addrtype>
+            <address>Albert R. Mann Library</address>
+            <city>Ithaca</city>
+            <state>New York</state>
+            <postal>14853</postal>
+            <country>USA</country>
+          </cntaddr>
+          <cntvoice>607-255-5406</cntvoice>
+          <cntemail>mann-ref@cornell.edu</cntemail>
+        </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+    </metainfo>
+</metadata>

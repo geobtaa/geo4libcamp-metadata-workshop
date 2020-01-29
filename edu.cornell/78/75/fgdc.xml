@@ -1,0 +1,556 @@
+<!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Tompkins County ITS: GIS Division</origin>
+        <origin>Tompkins County Board of Elections</origin>
+        <pubdate>2005</pubdate>
+        <title>Election Districts, Tompkins County NY, 2005</title>
+        <geoform>vector digital data</geoform>
+        <serinfo>
+          <sername>Election Districts</sername>
+          <issue>2005</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Tompkins County, New York</pubplace>
+          <publish>Tompkins County ITS: GIS Division</publish>
+        </pubinfo>
+        <onlink>https://cugir.library.cornell.edu/catalog/cugir-007875</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Local, county, state, and national 2005 election district
+        boundaries in Tompkins County, New York.</abstract>
+      <purpose>Election districts determine representation in local, county,
+        state, and national governments.</purpose>
+      <supplinf>The County, State, and national election districts are derived
+        from the local (Town/Village/City) election districts.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2005</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+          <bounding>
+            <westbc>-76.69665</westbc>
+            <eastbc>-76.237816</eastbc>
+            <northbc>42.627173</northbc>
+            <southbc>42.262976</southbc>
+          </bounding>
+        </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>legislative district</themekey>
+        <themekey>voting district</themekey>
+        <themekey>senate district</themekey>
+        <themekey>boundary</themekey>
+        <themekey>ward</themekey>
+        <themekey>election</themekey>
+        <themekey>election district</themekey>
+        <themekey>representative district</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>boundaries</themekey>
+        <themekey>society</themekey>
+      </theme>
+      <theme>
+              <themekt>CUGIR Category</themekt>
+              <themekey>boundaries</themekey>
+<themekey>society</themekey>
+            </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Tompkins County, New York</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>The following statement must be included with any products that
+      use or are derived from this data set: "Data contained in this product was
+      originally produced by the Tompkins County ITS GIS Division and may not be
+      reproduced or redistributed without the express written consent of the
+      originator. The originator does not warrant the accuracy or completeness
+      of the information portrayed by the data."</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Tompkins County ITS GIS Division</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>128 East Buffalo Street</address>
+          <city>Ithaca</city>
+          <state>New York</state>
+          <postal>14850</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(607) 274-5416</cntvoice>
+        <cntfax>(607) 274-5420</cntfax>
+        <cntemail>gis@tompkins-co.org</cntemail>
+        <hours>M-F 8:30 a.m. to 4:30 p.m.</hours>
+        <cntinst>Ordering Instructions: Submit a written request to the Tompkins
+          County ITS GIS Division.</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/78/75/preview.png</browsen>
+              <browsed>preview of the dataset</browsed>
+              <browset>PNG</browset>
+            </browse>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Some recently-modified districts lack values for population
+        (POP2000) and registered voters (REGVOTE02), which are recorded as
+      zero.</attraccr>
+    </attracc>
+    <logic>All polygons are closed.</logic>
+    <complete>Complete coverage for Tompkins County.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Accuracy is limited to the accuracy of the 1991 Tompkins
+          County Planimetric Base Map series.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Election districts are legally defined by local, county, and
+          state governments after each national census, through a process known
+          as redistricting. To create the Election Districts data set, the
+          various legal resolutions and maps were gathered for the towns, City
+          of Ithaca, Tompkins County, New York State, and United States. The
+          district boundaries for the local (towns and City) election districts
+          were created first, using the 1991 Tompkins County Digital Planimetric
+          Base Map and the most recent Tompkins County tax parcel data set.
+          Attributes for the local election districts were then populated with
+          the appropriate County, State, and Federal election district
+          identifiers. Next, the County election districts (also known as
+          legislative districts), the State Assembly and State Senate, and the
+          US Senate and US House of Representative districts were created as
+          regions.</procdesc>
+        <procdate>2005</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+          <sdtsterm>
+            <sdtstype>G-polygon</sdtstype>
+            <ptvctcnt>73</ptvctcnt>
+          </sdtsterm>
+        </ptvctinf>
+      </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>State Plane Coordinate System 1983</gridsysn>
+          <spcs>
+            <spcszone>3102</spcszone>
+            <transmer>
+              <sfctrmer>0.999938</sfctrmer>
+              <longcm>-76.583333</longcm>
+              <latprjo>40.000000</latprjo>
+              <feast>820208.333333</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </spcs>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000124</absres>
+            <ordres>0.000124</ordres>
+          </coordrep>
+          <plandu>survey feet</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>TCElectDist2005</enttypl>
+        <enttypd>Local, county, state, and national election districts in
+          Tompkins County for the year 2005.</enttypd>
+        <enttypds>Tompkins County ITS: GIS Division 2005</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>TOWN</attrlabl>
+        <attrdef>Town identifier; used to create a unique identifier for town
+          and City election districts.</attrdef>
+        <attrdefs>Tompkins County ITS: GIS Division 2000</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>001</edomv>
+            <edomvd>City of Ithaca</edomvd>
+            <edomvds>Tompkins County ITS: GIS Division, 2000</edomvds>
+          </edom>
+          <edom>
+            <edomv>002</edomv>
+            <edomvd>Town of Caroline</edomvd>
+            <edomvds>Tompkins County ITS: GIS Division, 2000</edomvds>
+          </edom>
+          <edom>
+            <edomv>003</edomv>
+            <edomvd>Town of Danby</edomvd>
+            <edomvds>Tompkins County ITS: GIS Division, 2000</edomvds>
+          </edom>
+          <edom>
+            <edomv>004</edomv>
+            <edomvd>Town of Dryden, Village of Dryden, Village of Freeville</edomvd>
+            <edomvds>Tompkins County ITS: GIS Division, 2000</edomvds>
+          </edom>
+          <edom>
+            <edomv>005</edomv>
+            <edomvd>Town of Enfield</edomvd>
+            <edomvds>Tompkins County ITS: GIS Division, 2000</edomvds>
+          </edom>
+          <edom>
+            <edomv>006</edomv>
+            <edomvd>Town of Groton and Village of Groton</edomvd>
+            <edomvds>Tompkins County ITS: GIS Division, 2000</edomvds>
+          </edom>
+          <edom>
+            <edomv>007</edomv>
+            <edomvd>Town of Ithaca and Village of Cayuga Heights</edomvd>
+            <edomvds>Tompkins County ITS: GIS Division, 2000</edomvds>
+          </edom>
+          <edom>
+            <edomv>008</edomv>
+            <edomvd>Town of Lansing and Village of Lansing</edomvd>
+            <edomvds>Tompkins County ITS: GIS Division, 2000</edomvds>
+          </edom>
+          <edom>
+            <edomv>009</edomv>
+            <edomvd>Town of Newfield</edomvd>
+            <edomvds>Tompkins County ITS: GIS Division, 2000</edomvds>
+          </edom>
+          <edom>
+            <edomv>010</edomv>
+            <edomvd>Town of Ulysses and Village of Trumansburg</edomvd>
+            <edomvds>Tompkins County ITS: GIS Division, 2000</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WARD</attrlabl>
+        <attrdef>Representative ward in the City of Ithaca.</attrdef>
+        <attrdefs>Tompkins County ITS: GIS Division 2000</attrdefs>
+        <attrdomv>
+          <udom>Three-digit number</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DISTRICT</attrlabl>
+        <attrdef>Town or City district number.</attrdef>
+        <attrdefs>Tompkins County ITS: GIS Division 2000</attrdefs>
+        <attrdomv>
+          <udom>Three-digit number</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LEGDIST</attrlabl>
+        <attrdef>Tompkins County legislative district number</attrdef>
+        <attrdefs>Tompkins County ITS: GIS Division 2000</attrdefs>
+        <attrdomv>
+          <udom>Three-digit number</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ASMDISTNY</attrlabl>
+        <attrdef>New York State Assembly District.</attrdef>
+        <attrdefs>Tompkins County ITS: GIS Division 2000</attrdefs>
+        <attrdomv>
+          <udom>number</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SENDISTNY</attrlabl>
+        <attrdef>New York State Senate District.</attrdef>
+        <attrdefs>Tompkins County ITS: GIS Division 2000</attrdefs>
+        <attrdomv>
+          <udom>number</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>REPDISTUS</attrlabl>
+        <attrdef>United States House of Representatives District.</attrdef>
+        <attrdefs>Tompkins County ITS: GIS Division 2000</attrdefs>
+        <attrdomv>
+          <udom>number</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SENDISTUS</attrlabl>
+        <attrdef>United States Senate District, as legally defined by the United
+          States Senate.</attrdef>
+        <attrdefs>Tompkins County ITS: GIS Division 2000</attrdefs>
+        <attrdomv>
+          <udom>Two-letter state code</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DISTNAME</attrlabl>
+        <attrdef>Name of the election district</attrdef>
+        <attrdefs>Tompkins County ITS: GIS Division 2000</attrdefs>
+        <attrdomv>
+          <udom>Text string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ICSDELDIST</attrlabl>
+        <attrdef>Ithaca City School District election district.</attrdef>
+        <attrdefs>Tompkins County ITS: GIS Division 2000</attrdefs>
+        <attrdomv>
+          <udom>Text string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>POP2000</attrlabl>
+        <attrdef>Population in each district per 2000 US Census.</attrdef>
+        <attrdefs>Tompkins County ITS: GIS Division 2000</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>Unbounded</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ELDISTKEY</attrlabl>
+        <attrdef>Unique identifier consisting of the Town field, the Ward field,
+          and the District field. For Towns, the Ward is 000. For example,
+          district 2 of ward 3 in the City of Ithaca would have an ElDistKey of
+          001003002, and district 1 in the Town of Enfield would have an
+          ElDistKey of 005000001.</attrdef>
+        <attrdefs>Tompkins County ITS: GIS Division 2000</attrdefs>
+        <attrdomv>
+          <udom>Text string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>REGVOTE02</attrlabl>
+        <attrdef>Number of registered voters in the respective Town/City
+          election district for 2002 (from the Tompkins County Board of
+          Elections).</attrdef>
+        <attrdefs>Tompkins County ITS: GIS Division 2002</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>Unbounded</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units (US Survey feet).</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared (square US Survey
+          feet).</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+        <distrib>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Albert R. Mann Library</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>Cornell University</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14853</postal>
+            </cntaddr>
+            <cntvoice>607-255-5406</cntvoice>
+            <cntemail>mann-ref@cornell.edu</cntemail>
+          </cntinfo>
+        </distrib>
+        <distliab>Cornell University provides these geographic data "as is". Cornell
+          University makes no guarantee or warranty concerning the accuracy of
+          information contained in the geographic data. Cornell University further
+          makes no warranty either expressed or implied, regarding the condition of
+          the product or its fitness for any particular purpose. The burden for
+          determining fitness for use lies entirely with the user. Although these
+          files have been processed successfully on computers at Cornell University,
+          no warranty is made by Cornell University regarding the use of these data
+          on any other system, nor does the fact of distribution constitute or imply
+          any such warranty.</distliab>
+        <stdorder>
+        <digform>
+            <digtinfo>
+              <formname>Shapefile</formname>
+              <formcont>zipped shapefile</formcont>
+              <filedec>zip</filedec>
+              <transize>0.15</transize>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/78/75/cugir-007875.zip</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>metadata</formname>
+              <formcont>FGDC XML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/78/75/fgdc.xml</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>HTML metadata</formname>
+              <formcont>FGDC HTML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/78/75/fgdc.html</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+                <digtinfo>
+                  <formname>KML</formname>
+                  <formcont>generated KML, via WFS</formcont>
+                </digtinfo>
+                <digtopt>
+                  <onlinopt>
+                    <computer>
+                      <networka>
+                        <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir007875&amp;outputFormat=application%2Fvnd.google-earth.kml%2Bxml</networkr>
+                      </networka>
+                    </computer>
+                  </onlinopt>
+                </digtopt>
+              </digform><digform>
+            <digtinfo>
+              <formname>GeoJSON</formname>
+              <formcont>generated GeoJSON, via WFS</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir007875&amp;outputFormat=application%2Fjson</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>OGC:WMS</formname>
+              <formcont>WMS, from GeoServer</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007875&amp;bbox=-76.71041502,42.252050090000004,-76.22405098,42.63809891&amp;width=256&amp;height=203&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><fees>None</fees></stdorder>
+      </distinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Tompkins County ITS: GIS Division</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>128 E Buffalo St</address>
+          <city>Ithaca</city>
+          <state>NY</state>
+          <postal>14850</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>607 274-5418</cntvoice>
+        <cntfax>607 274-5420</cntfax>
+        <cntemail>gis@tompkins-co.org</cntemail>
+        <hours>8:00 AM to 4:30 PM</hours>
+      </cntinfo>
+    </distrib>
+    <distliab>Tompkins County does not warrant the accuracy or completeness of
+      the information portrayed in this data. The end user of the data and
+      products derived from it agrees to accept the data "as is", with the full
+      knowledge that errors and omissions may exist. The end user further agrees
+      to hold harmless Tompkins County for any liability or damages that may
+      result from an improper or inappropriate use of the data.</distliab>
+    <stdorder>
+      <nondig>Custom maps can be ordered in digital PDF or paper format from the
+        Tompkins County GIS Website at:
+        http://www.tompkins-co.org/gis/staff/orderform.html</nondig>
+      <fees>See fee structure at: http://www.tompkins-co.org/gis/staff/fees.html</fees>
+      <ordering>Fill out online request form at:
+        http://www.tompkins-co.org/gis/staff/orderform.html</ordering>
+      <turnarnd>1-2 business days</turnarnd>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+      <metd>20190524</metd>
+      <metc>
+        <cntinfo>
+          <cntorgp>
+            <cntorg>Albert R. Mann Library</cntorg>
+          </cntorgp>
+          <cntaddr>
+            <addrtype>mailing and physical</addrtype>
+            <address>Albert R. Mann Library</address>
+            <city>Ithaca</city>
+            <state>New York</state>
+            <postal>14853</postal>
+            <country>USA</country>
+          </cntaddr>
+          <cntvoice>607-255-5406</cntvoice>
+          <cntemail>mann-ref@cornell.edu</cntemail>
+        </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+    </metainfo>
+</metadata>

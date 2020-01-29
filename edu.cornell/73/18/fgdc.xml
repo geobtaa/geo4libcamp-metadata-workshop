@@ -1,0 +1,555 @@
+<!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Chris Daly, Spatial Climate Analysis Service</origin>
+        <origin>George Taylor, the Oregon Climate Service at Oregon State University</origin>
+        <pubdate>200009</pubdate>
+        <title>Average Annual Precipitation, New York State, 1961-1990</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Corvallis, OR, USA</pubplace>
+          <publish>Spatial Climate Analysis Service, Oregon State University; USDA - NRCS National Water and Climate Center, Portland, Oregon; USDA - NRCS National Cartography and Geospatial Center, Fort Worth, Texas</publish>
+        </pubinfo>
+        <onlink>https://cugir.library.cornell.edu/catalog/cugir-007318</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This data set shows polygons of average annual precipitation in New York State, for the climatological period 1961-1990. Parameter-elevation Regressions on Independent Slopes Model (PRISM) derived raster data is the underlying data set from which the polygons and vectors were created. PRISM is an analytical model that uses point data and a digital elevation model (DEM) to generate gridded estimates of annual, monthly and event-based climatic parameters.</abstract>
+      <purpose>These data are intended for geographic display and analysis at the national level, and for large regional areas. The data should be displayed and analyzed at scales appropriate for 1:2,000,000-scale data. No responsibility is assumed by the Spatial Climate Analysis Service, the USDA - NRCS National Water and Climate Center, the USDA - NRCS National Cartography and Geospatial Center, or the U.S. Geological Survey in the use of these data.</purpose>
+      <supplinf>There are many methods of interpolating precipitation from monitoring stations to grid points. Some provide estimates of acceptable accuracy in flat terrain, but few have been able to adequately explain the extreme, complex variations in precipitation that occur in mountainous regions. Significant progress in this area has been achieved through the development of PRISM (Parameter-elevation Regressions on Independent Slopes Model). PRISM is an analytical model that uses point data and a digital elevation model (DEM) to generate gridded estimates of monthly and annual precipitation (as well as other climatic parameters). PRISM is well suited to regions with mountainous terrain, because it incorporates a conceptual framework that addresses the spatial scale and pattern of precipitation in such regions. Detailed descriptions of the PRISM raster data can be found on the Oregon State University PRISM web page at &lt;http://www.ocs.orst.edu/prism&gt;. Additional information is available through the Natural Resources Conservation Service web pages at the National Water and Climate Center at &lt;http://www.wcc.nrcs.usda.gov/water/climate/prism/prism.html&gt; or through the National Cartography and Geospatial Center at &lt;http://www.ftw.nrcs.usda.gov/prism/prismdata.html&gt;. Other source PRISM data sets are also available in Arc/INFO coverage and Arc/INFO ASCII GRID formats from the Spatial Climate Analysis Service. See &lt;http://www.ocs.orst.edu/prism/prism_products.html&gt; for more information. The source PRISM data is packaged on 3 CD-ROM's covering the Lower 48 United States and is available from NRCS for $50 per CD-ROM. The 48 States are broken into three regions: East, Central and West. Each CD contains the annual and monthly precipitation coverages, as well as the gridded data. The CD-ROM's may be ordered through &lt;http://www.ftw.nrcs.usda.gov/prism/prismdata.html&gt;.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1961</begdate>
+          <enddate>1990</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>No updates are planned for the 1961-1990 climatological period. However, a similar data set will probably be produced in 2001 for the 1971-2000 climatological period.</update>
+    </status>
+    <spdom>
+          <bounding>
+            <westbc>-79.763235</westbc>
+            <eastbc>-71.870161</eastbc>
+            <northbc>45.006138</northbc>
+            <southbc>40.506003</southbc>
+          </bounding>
+        </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Precipitation</themekey>
+        <themekey>Climate</themekey>
+      </theme>
+      <theme>
+        <themekt>LCSH</themekt>
+        <themekey>Rain and rainfall</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>climatologyMeteorologyAtmosphere</themekey>
+        <themekey>environment</themekey>
+      </theme>
+      <theme>
+              <themekt>CUGIR Category</themekt>
+              <themekey>climate</themekey>
+<themekey>environment</themekey>
+            </theme>
+      <place>
+        <placekt>LCSH</placekt>
+        <placekey>New York (State)</placekey>
+      </place>
+    </keywords>
+    <accconst>None.</accconst>
+    <useconst>None. Acknowledgement of the PRISM model, the Spatial Climate Analysis Service at Oregon State University, the Natural Resources Conservation Service (NRCS) Water and Climate Center, the NRCS National Cartography and Geospatial Center (NCGC), and (or) the National Atlas of the United States would be appreciated in products derived from these data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Spatial Climate Analysis Service</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>316 Strand Agricultural Hall, Oregon State University</address>
+          <city>Corvallis</city>
+          <state>Oregon</state>
+          <postal>97331-2202</postal>
+        </cntaddr>
+        <cntvoice>541-737-5705</cntvoice>
+        <cntfax>541-737-5710</cntfax>
+        <cntemail>oregon@oce.orst.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/73/18/preview.png</browsen>
+              <browsed>preview of the dataset</browsed>
+              <browset>PNG</browset>
+            </browse>
+    <native>Windows NT Version 4.0 (Build 1381) Service Pack 4; ESRI Arc/INFO 8.0.345</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Point estimates of precipitation from the U.S. National 1961-1990 Climate Normals were subjected to manual quality control checks by the National Climatic Data Center (NCDC). PRISM precipitation estimates were reviewed by the PRISM Evaluation Group, a panel of climatologists, meteorologists, and hydrologists. The task of this group was to assess the assumptions made by the model and compare model output with the best available precipitation maps from several western States. The group found that the PRISM maps equaled or exceeded the accuracy of the best maps available.</attraccr>
+    </attracc>
+    <logic>Precipitation data were derived from two main sources, NCDC Climate Normals and NRCS Cooperative Snow Survey Data (SNOTEL). In general, NCDC stations are located at low elevations and in valley bottoms, and encompass the entire United States. SNOTEL stations are located primarily at high elevations in the western United States. Polygon and chain-node topology are present. Checks were made to ensure that no two adjacent polygons are labeled with the same precipitation value. A manual spot check was made of peaks, depressions, and islands.</logic>
+    <complete>This data set includes observations and interpolated values for the 48 contiguous United States and the District of Columbia, for the climatological period 1961-1990. This data set is a compilation of the best available data from the various data sources.</complete>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Spatial Climate Analysis Service, Oregon State University</origin>
+            <pubdate>1998</pubdate>
+            <title>Parameter-elevation Regressions on Independent Slopes Model (PRISM)</title>
+            <pubinfo>
+              <pubplace>Corvallis, OR, USA</pubplace>
+              <publish>Spatial Climate Analysis Service</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>proprietary software</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1994</begdate>
+              <enddate>1998</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>PRISM</srccitea>
+        <srccontr>PRISM was used to create gridded estimates of precipitation from point observations and digital elevation model data. For a more detailed description of the PRISM process, see &lt;http://www.ocs.orst.edu/prism/gen_toc.html&gt;.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Spatial Climate Analysis Service, Oregon State University</origin>
+            <pubdate>1998</pubdate>
+            <title>Gaussian Filter</title>
+            <pubinfo>
+              <pubplace>Corvallis, OR, USA</pubplace>
+              <publish>Spatial Climate Analysis Service</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>proprietary software</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1994</begdate>
+              <enddate>1998</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>FILTER</srccitea>
+        <srccontr>The Gaussian filter was used to change the resolution of raster data from 4 km to 2 km. The Gaussian filter was implemented as custom software written in FORTRAN. For information about Gaussian filters see: Barnes, Stanley L., 1964; A Technique for Maximizing Details in Numerical Weather Map Analysis. Journal of Applied Meteorology, 3, 396- 409.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>National Climatic Data Center (NCDC)</origin>
+            <pubdate>1991</pubdate>
+            <title>U.S. National 1961-1990 Climate Normals, Climatography of the United States No. 81 - Monthly Normals</title>
+            <pubinfo>
+              <pubplace>Asheville, NC, USA</pubplace>
+              <publish>National Climatic Data Center</publish>
+            </pubinfo>
+            <othercit>For more information on this source, please see &lt;http://www.ncdc.noaa.gov/ol/climate/research/normals/us/normals_clim81.html&gt;.</othercit>
+          </citeinfo>
+        </srccite>
+        <typesrc>online database</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>19610101</begdate>
+              <enddate>19901231</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>CLIM81</srccitea>
+        <srccontr>Location and values of known average annual precipitation.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Natural Resources Conservation Service (NRCS)</origin>
+            <pubdate>1991</pubdate>
+            <title>Cooperative Snow Survey Data of Federal-State-Private Cooperative Snow Surveys (SNOTEL)</title>
+            <serinfo>
+              <sername>Cooperative Snow Survey Data of Federal-State-Private Cooperative Snow Surveys</sername>
+              <issue>Annual issue for Western US states</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Portland, OR, USA</pubplace>
+              <publish>Natural Resources Conservation Service</publish>
+            </pubinfo>
+            <othercit>For more information on this source, please see &lt;http://www.wcc.nrcs.usda.gov/water/w_data.html&gt;.</othercit>
+          </citeinfo>
+        </srccite>
+        <typesrc>database, paper, and online</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>19610101</begdate>
+              <enddate>19901231</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>SNOTEL</srccitea>
+        <srccontr>Location and values of known average monthly and annual precipitation.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Natural Resources Conservation Service, National Water and Climate Center</origin>
+            <pubdate>Unpublished material</pubdate>
+            <title>Local precipitation monitoring networks</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>digital files</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>19610101</begdate>
+              <enddate>19901231</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>LOCAL</srccitea>
+        <srccontr>Location and values of known average annual precipitation.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Defense Mapping Agency</origin>
+            <pubdate>1985</pubdate>
+            <title>1:250,000-scale Digital Elevation Models (DEM)</title>
+            <pubinfo>
+              <pubplace>Washington, DC</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>http://edc.usgs.gov/geodata/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>digital files</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1985</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>DEM</srccitea>
+        <srccontr>Terrain surface input to the PRISM model for estimation of precipitation between known points.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>1999</pubdate>
+            <title>State Boundaries of the United States</title>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>http://nationalatlas.gov/atlasftp.html</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1999</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>Atlas-ST</srccitea>
+        <srccontr>This file was used to determine the boundary of the data included.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>The DEM resolution was changed to 4 km using the Gaussian filter.</procdesc>
+        <srcused>DEM</srcused>
+        <srcused>FILTER</srcused>
+        <procdate>199804</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>All the station data was combined into one master data set.</procdesc>
+        <srcused>CLIM81</srcused>
+        <srcused>SNOTEL</srcused>
+        <srcused>LOCAL</srcused>
+        <procdate>199804</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Data from CLIM81, SNOTEL, and LOCAL were incorporated into the PRISM model and combined with the DEM to produce the initial 4 km-resolution PRISM model output.</procdesc>
+        <srcused>PRISM</srcused>
+        <srcused>DEM</srcused>
+        <srcused>CLIM81</srcused>
+        <srcused>SNOTEL</srcused>
+        <srcused>LOCAL</srcused>
+        <procdate>199804</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>The PRISM model output was converted from 4 km to 2 km using a Gaussian filter.</procdesc>
+        <srcused>FILTER</srcused>
+        <procdate>199804</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>The 2 km raster data was contoured using Arc/INFO.</procdesc>
+        <procdate>199804</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Adjacent isohyets were converted to areas or polygons using a custom- designed macro (AML) in Arc/INFO.</procdesc>
+        <procdate>199804</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>The coverage was created by the Spatial Climate Analysis Service using custom software. The Natural Resources Conservation Service, National Cartography and Geospatial Center edited the file in Arc/INFO to match the coastlines and boundaries (Atlas-ST) from the National Atlas of the United States. The data were converted to shapefile format for inclusion in the National Atlas of the United States.</procdesc>
+        <srcused>Atlas-ST</srcused>
+        <procdate>200002</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>In order to geoprocess spatial files for New York State from the National Atlas Data for distribution in CUGIR, the nationwide data files were added to a map document in ArcInfo 8.2. Using the geoprocessing wizard's clip function, the spatial files were clipped to the detailed New York polygon.</procdesc>
+        <procdate>200012</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+          <sdtsterm>
+            <sdtstype>G-polygon</sdtstype>
+            <ptvctcnt>133</ptvctcnt>
+          </sdtsterm>
+        </ptvctinf>
+      </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.02083333</latres>
+        <longres>0.02083333</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Area of equal average annual precipitation (described by prismp020.dbf)</enttypl>
+        <enttypd>Each polygon represents an area with a constant value for the average annual precipitation, as determined by the PRISM model.</enttypd>
+        <enttypds>Spatial Climate Analysis Service PRISM Project</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>The representation of the entity in the data.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Polygon</edomv>
+            <edomvd>A 2-dimensional element.</edomvd>
+            <edomvds>ESRI GIS software</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Area</attrlabl>
+        <attrdef>The size of the shape in coverage units.</attrdef>
+        <attrdefs>Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.00000</rdommin>
+            <rdommax>115.09402</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Perimeter</attrlabl>
+        <attrdef>The perimeter of the shape in coverage units.</attrdef>
+        <attrdefs>Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.00647</rdommin>
+            <rdommax>874.33448</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Prism0p020</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>2</rdommin>
+            <rdommax>6244</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Range</attrlabl>
+        <attrdef>The average annual precipitation.</attrdef>
+        <attrdefs>Spatial Climate Analysis Service</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.000</rdommin>
+            <rdommax>200.000</rdommax>
+            <attrunit>inches</attrunit>
+            <attrmres>2.5</attrmres>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+        <distrib>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Albert R. Mann Library</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>Cornell University</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14853</postal>
+            </cntaddr>
+            <cntvoice>607-255-5406</cntvoice>
+            <cntemail>mann-ref@cornell.edu</cntemail>
+          </cntinfo>
+        </distrib>
+        <distliab>Cornell University provides these geographic data "as is". Cornell
+          University makes no guarantee or warranty concerning the accuracy of
+          information contained in the geographic data. Cornell University further
+          makes no warranty either expressed or implied, regarding the condition of
+          the product or its fitness for any particular purpose. The burden for
+          determining fitness for use lies entirely with the user. Although these
+          files have been processed successfully on computers at Cornell University,
+          no warranty is made by Cornell University regarding the use of these data
+          on any other system, nor does the fact of distribution constitute or imply
+          any such warranty.</distliab>
+        <stdorder>
+        <digform>
+            <digtinfo>
+              <formname>Shapefile</formname>
+              <formcont>zipped shapefile</formcont>
+              <filedec>zip</filedec>
+              <transize>0.16</transize>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/73/18/cugir-007318.zip</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>metadata</formname>
+              <formcont>FGDC XML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/73/18/fgdc.xml</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>HTML metadata</formname>
+              <formcont>FGDC HTML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/73/18/fgdc.html</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+                <digtinfo>
+                  <formname>KML</formname>
+                  <formcont>generated KML, via WFS</formcont>
+                </digtinfo>
+                <digtopt>
+                  <onlinopt>
+                    <computer>
+                      <networka>
+                        <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir007318&amp;outputFormat=application%2Fvnd.google-earth.kml%2Bxml</networkr>
+                      </networka>
+                    </computer>
+                  </onlinopt>
+                </digtopt>
+              </digform><digform>
+            <digtinfo>
+              <formname>GeoJSON</formname>
+              <formcont>generated GeoJSON, via WFS</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir007318&amp;outputFormat=application%2Fjson</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>OGC:WMS</formname>
+              <formcont>WMS, from GeoServer</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007318&amp;bbox=-80.00002721999999,40.37099895,-71.63336878,45.14114205&amp;width=256&amp;height=145&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><fees>None</fees></stdorder>
+      </distinfo>
+  <metainfo>
+      <metd>20190524</metd>
+      <metc>
+        <cntinfo>
+          <cntorgp>
+            <cntorg>Albert R. Mann Library</cntorg>
+          </cntorgp>
+          <cntaddr>
+            <addrtype>mailing and physical</addrtype>
+            <address>Albert R. Mann Library</address>
+            <city>Ithaca</city>
+            <state>New York</state>
+            <postal>14853</postal>
+            <country>USA</country>
+          </cntaddr>
+          <cntvoice>607-255-5406</cntvoice>
+          <cntemail>mann-ref@cornell.edu</cntemail>
+        </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+    </metainfo>
+</metadata>

@@ -1,0 +1,347 @@
+<!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>New York State Adirondack Park Agency</origin>
+        <pubdate>200010</pubdate>
+        <title>State Forest Acquisitions, Adirondack Park, 2000</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Ray Brook, New York State</pubplace>
+          <publish>Adirondack Park Agency</publish>
+        </pubinfo>
+        <onlink>https://cugir.library.cornell.edu/catalog/cugir-007740</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The Adirondack State Forest Acquisition Map contains the old growth timber areas of
+        the Adirondack Park, New York State.</abstract>
+      <purpose>The data was created for the Adirondack Park Agency (APA) as an historical reference.
+        This resource may be used to determine approximate areas of old timber growth in the
+        Adirondack Park.</purpose>
+      <supplinf>The original data was collected by B. McMartin, who compiled a map of lands acquired
+        by the State in the Adirondack Park. This information was based upon various sources,
+        including a 1920 series of publications by the NYSDEC. Field checking by McMartin and others
+        was also performed. The original map was a 1:250,000+ scale Great Lot map, color coded with
+        five category types. Using a light table, this information was later transferred to a
+        1:250,000 scale NYSDOT base map. The areas were color-coded using four categories outlined
+        on the McMartin map. Digital data was developed by for the area defined by the
+        Oswegatchie/Black River watershed in by State University of New York (SUNY) Plattsburgh
+        under contract to the APA. Although the OB digital data created by SUNY was not incorporated
+        into this coverage, the same attribute scheme was used. Please refer to McMartin, B. 1994.
+        The great forest of the Adirondacks, North Country Books, Utica, NY (ISBN: 0925168297) and
+        New York State Department of Environmental Conservation 1920, State of New York list of
+        lands in the forest preserve. Appendix to 1919 annual report. J.B. Lyon Co., Albany, New
+        York.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2000</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>none</update>
+    </status>
+    <spdom>
+          <bounding>
+            <westbc>-75.302225</westbc>
+            <eastbc>-73.370807</eastbc>
+            <northbc>44.840283</northbc>
+            <southbc>43.107888</southbc>
+          </bounding>
+        </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>biota</themekey>
+      </theme>
+      <theme>
+        <themekt>LCSH</themekt>
+        <themekey>Forests and forestry--New York (State)--Adirondack Mountains
+          Region--History.</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>environment</themekey>
+      </theme>
+      <theme>
+              <themekt>CUGIR Category</themekt>
+              <themekey>biology</themekey>
+<themekey>environment</themekey>
+            </theme>
+      <place>
+        <placekt>LCSH</placekt>
+        <placekey>Adirondack Forest Preserve</placekey>
+        <placekey>Adirondack Park</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Data is to be used at the scale intended. Please acknowledge the Adirondack Park
+      Agency as the source of the data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Adirondack Park Agency</cntorg>
+          <cntper>John W. Barge</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing Address</addrtype>
+          <address>P.O. Box 99, Route 86</address>
+          <city>Ray Brook</city>
+          <state>New York</state>
+          <postal>12977</postal>
+        </cntaddr>
+        <cntvoice>518-891-4050 Contact Fascimile: 518-891-3938</cntvoice>
+        <cntemail>jwbarge@gw.dec.state.ny.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/77/40/preview.png</browsen>
+              <browsed>preview of the dataset</browsed>
+              <browset>PNG</browset>
+            </browse>
+    <native>Windows NT, ARC/INFO version 8.0, 313 KB</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr/>
+    </attracc>
+    <logic>Topologically Clean</logic>
+    <complete>Topological and attribute accuracy were verified by visually comparing the data in
+      checkplots to the original base map.</complete>
+    <lineage>
+      <procstep>
+        <procdesc>The NYSDOT source map has UTM crosshairs printed at 15-minute intervals. These
+          markings were used to create a list of registration tic marks. The tics represented the
+          corners of 15-minute quadrangle map sections. A total of seventy tic marks were included
+          in the file. This file was used to register the hardcopy map.The arcs were digitized in
+          Arc/Info into one coverage. The boundary of the Adirondack Park was copied into the
+          coverage and arcs were digitized up to this boundary. Digitizing was performed on a
+          Calcomp 9500 digitizing tablet. The map was digitized into one coverage during several
+          sessions, registering the northern and southern portions of the map sheet. The RMS error
+          for the sessions ranged from 0.002 to 0.004. The higher registration error for several map
+          sections was due to a seam in the base map that runs east/west across the approximate
+          middle of the Park. Duplicate lines, intersections and dangling nodes were edited to
+          rectify topology errors. The composite coverage was then built with the POLY option. Label
+          points were created with a new attribute field, "Code". Valid codes for this field
+          included "B", "R", "Y", "X", and "C". An additional code, "U", was added to note polygons
+          which had no color code on the original map. These areas were clearly old growth timber
+          parcels, but had not been hand-colored. These were generally areas that were not internal
+          polygons, i.e., they were located on the edge of other coded, old growth areas. An
+          additional attribute field, "Description", was added containing the verbal description of
+          the areas. A look-up table called legend.lut was created to cross-reference to the
+          coverage. These values for the "Description" field were derived from the SUNY Plattsburg
+          checkplot of the Oswagatchie/Black River Basin area. The list below indicates the
+          description associated with each code. CODE DESCRIPTION X Virgin stands; never harvested.
+          B Parcels acquired in 1871 and 1877 tax sales, or owned by the State prior to 1871. R
+          Parcels acquired in 1881 and 1885 tax sales. Y Parcels acquired in 1891 or later via tax
+          sale or purchase. C Uncoded on the original map. U Internal polygons not coded on the
+          original map. The final data set was converted into an Arc/Info interchange filed named
+          timber.e00 for easy data transfer. Quality Assurance/Quality Control was determined by a
+          series of tests. Early checkplots of area boundaries were produced on velum and overlayed
+          on the source map to check for omission errors. The final coverage was visually inspected
+          interactively through comparison to the source material (the hardcopy map). The data set
+          was thematically mapped by codes and printed at the same scale as the source material. The
+          printed check plot was positioned next to the source material for cross-examination. The
+          operator checked for consistency between the source material and the final coverage in
+          terms of coding and position of graphic objects and attributes (fields and content).
+          Objects with extreme area size (small or large) were identified in ArcView by sorting the
+          attribute table by area. Small slivers and unusually large polygons were examined and
+          rectified as needed. The accuracy of the type of attribute fields was verified by
+          examining the Arc/Info Items listing for the coverage. Creating a summary table in ArcView
+          confirmed valid attribute values. Inconsistencies (e.g., missing values) were identified
+          and rectified. The coordinate system of the final data set was verified by examining the
+          coverage description in Arc/Info, as well as overlaying the data over a coverage known to
+          be in the desired projection. Consistency between the known coverage and the final old
+          growth timber data layer was evaluated.</procdesc>
+        <procdate>unknown</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+          <sdtsterm>
+            <sdtstype>G-polygon</sdtstype>
+            <ptvctcnt>869</ptvctcnt>
+          </sdtsterm>
+        </ptvctinf>
+      </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>18</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-75.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000512</absres>
+            <ordres>0.000512</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <distinfo>
+        <distrib>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Albert R. Mann Library</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>Cornell University</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14853</postal>
+            </cntaddr>
+            <cntvoice>607-255-5406</cntvoice>
+            <cntemail>mann-ref@cornell.edu</cntemail>
+          </cntinfo>
+        </distrib>
+        <distliab>Cornell University provides these geographic data "as is". Cornell
+          University makes no guarantee or warranty concerning the accuracy of
+          information contained in the geographic data. Cornell University further
+          makes no warranty either expressed or implied, regarding the condition of
+          the product or its fitness for any particular purpose. The burden for
+          determining fitness for use lies entirely with the user. Although these
+          files have been processed successfully on computers at Cornell University,
+          no warranty is made by Cornell University regarding the use of these data
+          on any other system, nor does the fact of distribution constitute or imply
+          any such warranty.</distliab>
+        <stdorder>
+        <digform>
+            <digtinfo>
+              <formname>Shapefile</formname>
+              <formcont>zipped shapefile</formcont>
+              <filedec>zip</filedec>
+              <transize>0.14</transize>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/77/40/cugir-007740.zip</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>metadata</formname>
+              <formcont>FGDC XML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/77/40/fgdc.xml</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>HTML metadata</formname>
+              <formcont>FGDC HTML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/77/40/fgdc.html</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+                <digtinfo>
+                  <formname>KML</formname>
+                  <formcont>generated KML, via WFS</formcont>
+                </digtinfo>
+                <digtopt>
+                  <onlinopt>
+                    <computer>
+                      <networka>
+                        <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir007740&amp;outputFormat=application%2Fvnd.google-earth.kml%2Bxml</networkr>
+                      </networka>
+                    </computer>
+                  </onlinopt>
+                </digtopt>
+              </digform><digform>
+            <digtinfo>
+              <formname>GeoJSON</formname>
+              <formcont>generated GeoJSON, via WFS</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir007740&amp;outputFormat=application%2Fjson</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>OGC:WMS</formname>
+              <formcont>WMS, from GeoServer</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007740&amp;bbox=-75.36016754,43.05591615,-73.31286446,44.89225485&amp;width=256&amp;height=229&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><fees>None</fees></stdorder>
+      </distinfo>
+  <metainfo>
+      <metd>20190524</metd>
+      <metc>
+        <cntinfo>
+          <cntorgp>
+            <cntorg>Albert R. Mann Library</cntorg>
+          </cntorgp>
+          <cntaddr>
+            <addrtype>mailing and physical</addrtype>
+            <address>Albert R. Mann Library</address>
+            <city>Ithaca</city>
+            <state>New York</state>
+            <postal>14853</postal>
+            <country>USA</country>
+          </cntaddr>
+          <cntvoice>607-255-5406</cntvoice>
+          <cntemail>mann-ref@cornell.edu</cntemail>
+        </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+    </metainfo>
+</metadata>

@@ -1,0 +1,691 @@
+<!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey</origin>
+        <pubdate>2006</pubdate>
+        <title>NLCD 1992/2001 Retrofit Land Cover Change, New York</title>
+        <geoform>raster digital data</geoform>
+        <serinfo>
+          <sername>National Land Cover Database</sername>
+          <issue>1992/2001 Retrofit Land Cover Change</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Sioux Falls, SD</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://cugir.library.cornell.edu/catalog/cugir-008005</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The National Land Cover Database 1992/2001 Change Product was produced through
+                a cooperative project conducted by the Multi-Resolution Land Characteristics (MRLC)
+                Consortium. The MRLC Consortium, a partnership of federal agencies (www.mrlc.gov),
+                consists of the U.S. Geological Survey (USGS), the National Oceanic and Atmospheric
+                Administration (NOAA), the U.S. Environmental Protection Agency (EPA), the U.S.
+                Department of Agriculture (USDA), the U.S. Forest Service (USFS), the National Park
+                Service (NPS), the U.S. Fish and Wildlife Service (FWS), the Bureau of Land
+                Management (BLM) and the USDA Natural Resources Conservation Service (NRCS). The
+                goal of the project is to generate a current, consistent, and seamless 1992/2001
+                Land Cover Change Product for the United States at medium spatial resolution for
+                Anderson Level 1 classes. This land cover change map and all documents pertaining to
+                it are considered "provisional" until a formal accuracy assessment can be conducted.
+                For detailed definitions and discussion of the NLCD 1992/2001 Change product, refer
+                to &lt;http://www.mrlc.gov/&gt;. New developments in mapping methodology, new
+                sources of input data, and minor differences between mapping legends in the 1992
+                National Land Cover Database (NLCD 1992) and the 2001 National Land Cover Database
+                (NLCD 2001) have compounded any direct comparisons. NLCD 2001 method improvements
+                have resulted in an improved land cover product over NLCD 1992 in such areas as
+                classification accuracy, spatial detail, database content, and multiple product
+                flexibility. The result is that direct comparison of these two independently created
+                land cover products is not recommended. The 1992/2001 NLCD Land Cover Change Product
+                was developed to offer a more accurate and useful guide to change analysis than can
+                be provided by direct comparison of NLCD 1992 with NLCD 2001. Users are cautioned
+                that this product is designed to be the most accurate for applications at the
+                mapping zone scale, and is not designed to be accurately applied over smaller
+                sub-mapping zone areas. The NLCD 1992/2001 Change Product is partitioned in the U.S.
+                into mapping zones. A total of 66 mapping zones were delineated within the
+                conterminous U.S. based on ecoregion and geographical characteristics, edge matching
+                features and the size requirement of Landsat mosaics. Zone 13 (the northeastern
+                U.S.) consists of mapping zones 60, 61, 63, 64, 65, and 66, which collectively
+                encompasses the entirety of Maine, New Hampshire, Vermont, Massachusetts, Rhode
+                Island, Connecticut, New York, New Jersey, Delaware, and Maryland, as well as
+                portions of Pennsylvania, West Virginia, Virginia, and North Carolina.</abstract>
+      <purpose>The goal of this project is to provide the Nation with complete, current and
+                consistent public domain information on land cover change.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1988</begdate>
+          <enddate>2003</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+          <bounding>
+            <westbc>-80.035679</westbc>
+            <eastbc>-70.516586</eastbc>
+            <northbc>45.847801</northbc>
+            <southbc>40.086478</southbc>
+          </bounding>
+        </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Land Cover</themekey>
+        <themekey>Land Cover Change</themekey>
+        <themekey>Change Detection</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+        <themekey>environment</themekey>
+      </theme>
+      <theme>
+              <themekt>CUGIR Category</themekt>
+              <themekey>landcover</themekey>
+<themekey>environment</themekey>
+            </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>New York</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <browse>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/80/05/preview.png</browsen>
+              <browsed>preview of the dataset</browsed>
+              <browset>PNG</browset>
+            </browse>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>This land cover change map and all documents pertaining to it are considered
+                "provisional" until a formal accuracy assessment can be conducted. For more
+                information, see the metadata for individual mapping zones that is included in the
+                data download.</attraccr>
+    </attracc>
+    <logic>See the metadata for individual mapping zones that is included in the data
+            download.</logic>
+    <complete>See the metadata for individual mapping zones that is included in the data
+            download.</complete>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>2006</pubdate>
+            <title>NLCD 1992/2001 Retrofit Land Cover Change, Superzone 13</title>
+            <onlink>https://www.mrlc.gov/changepair/area13_changeproduct.zip</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1988</begdate>
+              <enddate>2003</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>NLCD Retrofit 1992/2001 Land Cover Change</srccitea>
+        <srccontr>original unclipped dataset</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>CUGIR staff clipped data to New York state boundary.</procdesc>
+        <procdate>20170724</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>CUGIR staff assigned nodata value 0</procdesc>
+        <procdate>20190523</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+        <direct>Raster</direct>
+        <rastinfo>
+          <rasttype>Grid Cell</rasttype>
+          <rowcount>16989</rowcount>
+          <colcount>22610</colcount>
+        </rastinfo>
+      </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Albers Conical Equal Area</mapprojn>
+          <albers>
+            <stdparll>29.500000</stdparll>
+            <stdparll>45.500000</stdparll>
+            <longcm>-96.000000</longcm>
+            <latprjo>23.000000</latprjo>
+            <feast>0.000000</feast>
+            <fnorth>0.000000</fnorth>
+          </albers>
+        </mapproj>
+        <planci>
+          <plance>row and column</plance>
+          <coordrep>
+            <absres>30.000000</absres>
+            <ordres>30.000000</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>nlcd_1992_2001_change_ny</enttypl>
+        <enttypd>NLCD 1992/2001 Land Cover Change Layer</enttypd>
+        <enttypds>National Land Cover Database 1992/2001 Change Product</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Land Cover Change Class Code Value.</attrdef>
+        <attrdefs>NLCD 2001</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Modified Anderson Level I class code for Open Water - All areas of
+                            open water, generally with less than 25% vegetation or soil cover.
+                            Pixels coded to a value of 1 have not changed between 1992 and
+                            2001.</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Modified Anderson Level I class code for Urban - Includes developed
+                            open spaces with a mixture of some constructed materials, but mostly
+                            vegetation in the form of lawn grasses such as large-lot single-family
+                            housing units, parks, golf courses, and vegetation planted in developed
+                            settings for recreation, erosion control, or aesthetic purposes. Also
+                            includes developed, low, medium, and high intensity with a mixture of
+                            constructed materials and vegetation, such as single-family housing
+                            units and highly developed areas where people reside or work in large
+                            numbers such as apartment complexes, row houses and
+                            commercial/industrial areas. Pixels coded to a value of 2 have not
+                            changed between 1992 and 2001.</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Modified Anderson Level I class code for Barren - Barren areas of
+                            bedrock, desert pavement, scarps, talus, slides, volcanic material,
+                            glacial debris, sand dunes, strip mines, gravel pits and other
+                            accumulations of earthen material. Generally, vegetation accounts for
+                            less than 15% of total cover. Pixels coded to a value of 3 have not
+                            changed between 1992 and 2001.</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Modified Anderson Level 1 class code for Forest - Areas dominated by
+                            trees generally greater than 5 meters tall, and greater than 20% of
+                            total vegetation cover. Includes Deciduous Forest, Evergreen Forest and
+                            Mixed Forest. Pixels coded to a value of 4 have not changed between 1992
+                            and 2001.</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>Modified Anderson Level 1 class code for Grassland/Shrub - Includes
+                            grassland areas dominated by grammanoid or herbaceous vegetation and
+                            shrub/scrub areas dominated by shrubs less than 5 meters tall with shrub
+                            canopy typically greater than 20% of total vegetation, including true
+                            shrubs, young trees in an early successional stage, or trees stunted due
+                            to harsh environmental conditions. Management techniques which associate
+                            soil, water, and forage-vegetation resources are more suitable for
+                            rangeland management than are practices generally used in managing
+                            pastureland. Some rangelands have been or may be seeded to introduced or
+                            domesticated plant species. Includes those areas in the Eastern States
+                            which commonly are called brushlands. Pixels coded to a value of 5 have
+                            not changed between 1992 and 2001.</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions and Anderson,
+                            et al., 1976.</edomvds>
+          </edom>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>Modified Anderson Level 1 class code for Agricultural Land,
+                            including cultivated crops and pasture/hay - Cultivated crops are
+                            described as areas used for the production of annual crops, such as
+                            corn, soybeans, vegetables, tobacco, and cotton, and also perennial
+                            woody crops such as orchards and vineyards. This class also includes all
+                            land being actively tilled. Pasture/Hay is described as grasses,
+                            legumes, or grass-legume mixtures planted for livestock grazing or the
+                            production of seed or hay crops, typically on a perennial cycle. Pixels
+                            coded to a value of 6 have not changed between 1992 and 2001.</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>Modified Anderson Level I class code for Wetlands, including woody
+                            wetlands and herbaceous wetlands - Areas where forest or shrub land
+                            vegetation accounts for greater than 20 percent of vegetative cover and
+                            the soil or substrate is periodically saturated with or covered with
+                            water and/or areas where perennial herbaceous vegetation accounts for
+                            greater than 80 percent of vegetative cover and the soil or substrate is
+                            periodically saturated with or covered with water. Pixels coded to a
+                            value of 7 have not changed between 1992 and 2001.</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>8</edomv>
+            <edomvd>Modified Anderson Level I class code for Perennial Ice/Snow - All
+                            areas characterized by a perennial cover of ice and/or snow, generally
+                            greater than 25% of total cover. Pixels coded to a value of 8 have not
+                            changed between 1992 and 2001.</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>12</edomv>
+            <edomvd>Land cover change code for Open Water to Urban</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>13</edomv>
+            <edomvd>Land cover change code for Open Water to Barren</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>14</edomv>
+            <edomvd>Land cover change code for Open Water to Forest</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>15</edomv>
+            <edomvd>Land cover change code for Open Water to Grassland/Shrub</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>16</edomv>
+            <edomvd>Land cover change code for Open Water to Agriculture</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>17</edomv>
+            <edomvd>Land cover change code for Open Water to Wetlands</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>18</edomv>
+            <edomvd>Land cover change code for Open Water to Ice/Snow</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>21</edomv>
+            <edomvd>Land cover change code for Urban to Open Water</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>23</edomv>
+            <edomvd>Land cover change code for Urban to Barren</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>24</edomv>
+            <edomvd>Land cover change code for Urban to Forest</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>25</edomv>
+            <edomvd>Land cover change code for Urban to Grassland/Shrub</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>26</edomv>
+            <edomvd>Land cover change code for Urban to Agriculture</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>27</edomv>
+            <edomvd>Land cover change code for Urban to Wetlands</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>28</edomv>
+            <edomvd>Land cover change code for Urban to Ice/Snow</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>31</edomv>
+            <edomvd>Land cover change code for Barren to Open Water</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>32</edomv>
+            <edomvd>Land cover change code for Barren to Urban</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>34</edomv>
+            <edomvd>Land cover change code for Barren to Forest</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>35</edomv>
+            <edomvd>Land cover change code for Barren to Grassland/Shrub</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>36</edomv>
+            <edomvd>Land cover change code for Barren to Agriculture</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>37</edomv>
+            <edomvd>Land cover change code for Barren to Wetlands</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>38</edomv>
+            <edomvd>Land cover change code for Barren to Ice/Snow</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>41</edomv>
+            <edomvd>Land cover change code for Forest to Open Water</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>42</edomv>
+            <edomvd>Land cover change code for Forest to Urban</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>43</edomv>
+            <edomvd>Land cover change code for Forest to Barren</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>45</edomv>
+            <edomvd>Land cover change code for Forest to Grassland/Shrub</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>46</edomv>
+            <edomvd>Land cover change code for Forest to Agriculture</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>47</edomv>
+            <edomvd>Land cover change code for Forest to Wetlands</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>48</edomv>
+            <edomvd>Land cover change code for Forest Forest to Ice/Snow</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>51</edomv>
+            <edomvd>Land cover change code for Grassland/Shrub to Open Water</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>52</edomv>
+            <edomvd>Land cover change code for Grassland/Shrub to Urban</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>53</edomv>
+            <edomvd>Land cover change code for Grassland/Shrub to Barren</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>54</edomv>
+            <edomvd>Land cover change code for Grassland/Shrub to Forest</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>56</edomv>
+            <edomvd>Land cover change code for Grassland/Shrub to Agriculture</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>57</edomv>
+            <edomvd>Land cover change code for Grassland/Shrub to Wetlands</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>58</edomv>
+            <edomvd>Land cover change code for Grassland/Shrub to Ice/Snow</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>61</edomv>
+            <edomvd>Land cover change code for Agriculture to Open Water</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>62</edomv>
+            <edomvd>Land cover change code for Agriculture to Urban</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>63</edomv>
+            <edomvd>Land cover change code for Agriculture to Barren</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>64</edomv>
+            <edomvd>Land cover change code for Agriculture to Forest</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>65</edomv>
+            <edomvd>Land cover change code for Agriculture to Grassland/Shrub</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>67</edomv>
+            <edomvd>Land cover change code for Agriculture to Wetlands</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>68</edomv>
+            <edomvd>Land cover change code for Agriculture to Ice/Snow</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>71</edomv>
+            <edomvd>Land cover change code for Wetland to Open Water</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>72</edomv>
+            <edomvd>Land cover change code for Wetland to Urban</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>73</edomv>
+            <edomvd>Land cover change code for Wetland to Barren</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>74</edomv>
+            <edomvd>Land cover change code for Wetland to Forest</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>75</edomv>
+            <edomvd>Land cover change code for Wetland to Grassland/Shrb</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>76</edomv>
+            <edomvd>Land cover change code for Wetland to Agriculture</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>78</edomv>
+            <edomvd>Land cover change code for Wetland to Ice/Snow</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>81</edomv>
+            <edomvd>Land cover change code for Ice/Snow to Open Water</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>82</edomv>
+            <edomvd>Land cover change code for Ice/Snow to Urban</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>83</edomv>
+            <edomvd>Land cover change code for Ice/Snow to Barren</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>84</edomv>
+            <edomvd>Land cover change code for Ice/Snow to Forest</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>85</edomv>
+            <edomvd>Land cover change code for Ice/Snow to Grassland/Shrub</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>86</edomv>
+            <edomvd>Land cover change code for Ice/Snow to Agriculture</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>87</edomv>
+            <edomvd>Land cover change code for Ice/Snow to Wetlands</edomvd>
+            <edomvds>NLCD 1992/2001 land cover change class descriptions</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+        <distrib>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Albert R. Mann Library</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>Cornell University</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14853</postal>
+            </cntaddr>
+            <cntvoice>607-255-5406</cntvoice>
+            <cntemail>mann-ref@cornell.edu</cntemail>
+          </cntinfo>
+        </distrib>
+        <distliab>Cornell University provides these geographic data "as is". Cornell
+          University makes no guarantee or warranty concerning the accuracy of
+          information contained in the geographic data. Cornell University further
+          makes no warranty either expressed or implied, regarding the condition of
+          the product or its fitness for any particular purpose. The burden for
+          determining fitness for use lies entirely with the user. Although these
+          files have been processed successfully on computers at Cornell University,
+          no warranty is made by Cornell University regarding the use of these data
+          on any other system, nor does the fact of distribution constitute or imply
+          any such warranty.</distliab>
+        <stdorder>
+        <digform>
+            <digtinfo>
+              <formname>GeoTIFF</formname>
+              <formcont>zipped geotiff</formcont>
+              <filedec>zip</filedec>
+              <transize>20.89</transize>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/80/05/cugir-008005.zip</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>metadata</formname>
+              <formcont>FGDC XML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/80/05/fgdc.xml</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>HTML metadata</formname>
+              <formcont>FGDC HTML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/80/05/fgdc.html</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>OGC:WMS</formname>
+              <formcont>WMS, from GeoServer</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir008005&amp;bbox=-80.32125179,39.91363831,-70.23101321,46.02064068999999&amp;width=256&amp;height=154&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><fees>None</fees></stdorder>
+      </distinfo>
+  <metainfo>
+      <metd>20190604</metd>
+      <metc>
+        <cntinfo>
+          <cntorgp>
+            <cntorg>Albert R. Mann Library</cntorg>
+          </cntorgp>
+          <cntaddr>
+            <addrtype>mailing and physical</addrtype>
+            <address>Albert R. Mann Library</address>
+            <city>Ithaca</city>
+            <state>New York</state>
+            <postal>14853</postal>
+            <country>USA</country>
+          </cntaddr>
+          <cntvoice>607-255-5406</cntvoice>
+          <cntemail>mann-ref@cornell.edu</cntemail>
+        </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+    </metainfo>
+</metadata>

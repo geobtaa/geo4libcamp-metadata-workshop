@@ -1,0 +1,484 @@
+<!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Minerals Information Team, U.S. Geological Survey</origin>
+        <pubdate>200101</pubdate>
+        <title>Crushed Stone Operations, New York State, 1998</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://cugir.library.cornell.edu/catalog/cugir-007334</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This data set includes crushed stone operations in the United States. These data were obtained from information reported voluntarily to the USGS by the aggregate producing companies. The data represent commodities covered by the Minerals Information Team (MIT) of the U.S. Geological Survey, and the operations are those considered active in 1998 with production greater than 30,000 tons and surveyed by the MIT.</abstract>
+      <purpose>These data are intended for the geographic display and analysis at the national level, and for large regional areas. The data should be displayed and analyzed at scales appropriate for 1:2,000,000-scale data. No responsibility is assumed by the U.S. Geological Survey in the use of these data.</purpose>
+      <supplinf>Additional minerals operations information can be obtained from the U.S. Geological Survey Minerals Information web page at &lt;http://minerals.usgs.gov/minerals/&gt;.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>1998</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+          <bounding>
+            <westbc>-78.960266</westbc>
+            <eastbc>-73.527161</eastbc>
+            <northbc>44.91634</northbc>
+            <southbc>41.104694</southbc>
+          </bounding>
+        </spdom>
+    <keywords>
+      <theme>
+        <themekt>LCSH</themekt>
+        <themekey>Geological Survey (U.S.)</themekey>
+        <themekey>Mines and mineral resources</themekey>
+        <themekey>Mining</themekey>
+        <themekey>Stone-cutting</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>economy</themekey>
+      </theme>
+      <theme>
+              <themekt>CUGIR Category</themekt>
+              <themekey>economy</themekey>
+            </theme>
+      <place>
+        <placekt>LCSH</placekt>
+        <placekey>United States</placekey>
+        <placekey>New York (State)</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None. Acknowledgment of the National Atlas of the United States of America would be appreciated in products derived from these data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Valentin Tepordei</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>Mailing address</addrtype>
+          <address>983 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>703-648-7728</cntvoice>
+        <cntemail>vtepordei@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/73/34/preview.png</browsen>
+              <browsed>preview of the dataset</browsed>
+              <browset>PNG</browset>
+            </browse>
+    <datacred>The following USGS scientists contributed to this data set: Wallace Bolen, Matthew Brady, Susan Copeland, Cheryl Crawford, Roxanne DeLong, Cara Doud, Gabe Durand, Patricia Egger, Jennifer James, Brian Jaskula, Lucy McCartan, Nicholas Muniz, Feri Naghdi, Lloyd Southam, Robyn Tapper, and Valentin Tepordei.</datacred>
+    <native>These data are presently stored in grid format, ESRI Arc/INFO version 7.2.1 running under SunOS 5.6.</native>
+  </idinfo>
+  <dataqual>
+    <logic>No tests for logical consistency were performed on this data set.</logic>
+    <complete>This category includes only U.S. aggregate operations covered by the Minerals Information Team of the U.S. Geological Survey and considered currently active in 1998.</complete>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>Unpublished material</pubdate>
+            <title>Automated Minerals Information System (AMIS)</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>Internal USGS server</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1998</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Ground condition</srccurr>
+        </srctime>
+        <srccitea>AMIS</srccitea>
+        <srccontr>Minerals operations descriptions</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>AMIS contains both proprietary and nonproprietary information. For each commodity, the Minerals Information Team (MIT) extracted from AMIS the nonproprietary information useful for this application, and placed this information in a separate data base. The MIT determined latitude and longitude for each mineral operation from at least one of the following sources: Delorme Street Atlas software (Searches performed on addresses.) &lt;http://www.yahoo.com/&gt; (Searches performed on company or operation name.) &lt;http://www.superpages.com/&gt; (Searches performed on company or mine id.) &lt;http://www.msha.gov/&gt; (Searches performed on company or operation name.) Whenever possible the locational information was checked for accuracy. The resulting database file was loaded to ArcView and converted to ESRI Shapefile format. The National Atlas staff converted the shape file to an Arc/INFO coverage and then to NAD83. The National Atlas staff also added the State-fips code and converted the full State name to the two-character code. Several coordinate values were corrected so that point locations fell in the correct State. The result was then converted back to shapefile format.</procdesc>
+        <procdate>2000</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+          <sdtsterm>
+            <sdtstype>Point</sdtstype>
+            <ptvctcnt>93</ptvctcnt>
+          </sdtsterm>
+        </ptvctinf>
+      </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.000278</latres>
+        <longres>0.000278</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS1980</ellips>
+        <semiaxis>6378137</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Crushed stone operation sites.</enttypl>
+        <enttypd>Facilities that extract, process, and (or) distribute crushed stone for construction.</enttypd>
+        <enttypds>U.S. Geological Survey, Minerals Information Team</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>The representation of the entity in the data.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Point</edomv>
+            <edomvd>0-dimensional element</edomvd>
+            <edomvds>ESRI GIS software</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Area</attrlabl>
+        <attrdef>The size of the shape in coverage units.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.000</rdommin>
+            <rdommax>0.000</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Perimeter</attrlabl>
+        <attrdef>The perimeter of the shape in coverage units.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.000</rdommin>
+            <rdommax>0.000</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Crstonx020</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>2691</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Comp_name</attrlabl>
+        <attrdef>The name of the company which operates the facility.</attrdef>
+        <attrdefs>U.S. Geological Survey, Minerals Information Team</attrdefs>
+        <attrdomv>
+          <udom>There is no predefined set of valid company names.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Oper_name</attrlabl>
+        <attrdef>The name of the operation.</attrdef>
+        <attrdefs>U.S. Geological Survey, Minerals Information Team</attrdefs>
+        <attrdomv>
+          <udom>There is no predefined set of valid operation names.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>County</attrlabl>
+        <attrdef>The county or county equivalent in which the facility is located.</attrdef>
+        <attrdefs>U.S. Geological Survey, Minerals Information Team</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Counties and Equivalent Entities of the United States, Its Possessions, and Associated Areas, FIPS 6-4, 1990.</codesetn>
+            <codesets>U.S. Department of Commerce, National Institute of Standards and Technology</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>State</attrlabl>
+        <attrdef>The 2-letter code for the State in which the facility is located.</attrdef>
+        <attrdefs>U.S. Geological Survey, Minerals Information Team</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Codes for the Identification of the States, the District of Columbia and the Outlying Areas of the United States, and Associated Areas, FIPS 5-2, 1987.</codesetn>
+            <codesets>U.S. Department of Commerce, National Institute of Standards and Technology</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Fips</attrlabl>
+        <attrdef>The 5-digit FIPS code for the State and county in which the facility is located. The first two digits are the State code, and the last three digits are the county code.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Counties and Equivalent Entities of the United States, Its Possessions, and Associated Areas (Federal Information Processing Standard (FIPS) 6-4): Washington, DC, National Institute of Standards and Technology.</codesetn>
+            <codesets>U.S. Department of Commerce</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>State_fips</attrlabl>
+        <attrdef>The two-digit code for the State in which the facility is located.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Codes for the Identification of the States, the District of Columbia and the Outlying Areas of the United States, and Associated Areas; (Federal Information Processing Standard (FIPS) 5-2): Washington, DC, National Institute of Standards and Technology.</codesetn>
+            <codesets>U.S. Department of Commerce</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Latitude</attrlabl>
+        <attrdef>Angular distance measured on a meridian north or south from the equator.</attrdef>
+        <attrdefs>Department of Commerce, 1992, Spatial Data Transfer Standard.</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>19.62850000</rdommin>
+            <rdommax>64.65830000</rdommax>
+            <attrunit>Decimal degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Longitude</attrlabl>
+        <attrdef>Angular distance between the plane of a meridian east or west from the plane of the meridian of Greenwich.</attrdef>
+        <attrdefs>Department of Commerce, 1992, Spatial Data Transfer Standard.</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-159.4424</rdommin>
+            <rdommax>-67.8871</rdommax>
+            <attrunit>Decimal degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Oper_type</attrlabl>
+        <attrdef>The type of crushed stone operation.</attrdef>
+        <attrdefs>U.S. Geological Survey, Minerals Information Team</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>&lt;blank&gt;</edomv>
+            <edomvd>The facility is a crushed stone operation other than a dredge, portable crusher, sale yard/distribution site, or underground mine.</edomvd>
+            <edomvds>U.S. Geological Survey, Minerals Information Team</edomvds>
+          </edom>
+          <edom>
+            <edomv>dredge</edomv>
+            <edomvd>Large floating machinery equipped with excavating devices (scooping or suction) used for underwater mining.</edomvd>
+            <edomvds>U.S. Geological Survey, Minerals Information Team</edomvds>
+          </edom>
+          <edom>
+            <edomv>portable crusher</edomv>
+            <edomvd>A rock crushing device that can be moved within one quarry or between two or more quarries.</edomvd>
+            <edomvds>U.S. Geological Survey, Minerals Information Team</edomvds>
+          </edom>
+          <edom>
+            <edomv>sale yard/distribution site</edomv>
+            <edomvd>A location where aggregates are being shipped from mining sites, usually by rail, for sale or distribution to highly populated areas.</edomvd>
+            <edomvds>U.S. Geological Survey, Minerals Information Team</edomvds>
+          </edom>
+          <edom>
+            <edomv>underground mine</edomv>
+            <edomvd>A crushed stone operation, where mining occurs under the ground surface.</edomvd>
+            <edomvds>U.S. Geological Survey, Minerals Information Team</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Commodity</attrlabl>
+        <attrdef>The mineral(s) produced or processed by the facility.</attrdef>
+        <attrdefs>U.S. Geological Survey, Minerals Information Team</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Mineral Commodity Summary, 1998 or &lt;http://minerals.er.usgs.gov/minerals/pubs/mcs/&gt;.</codesetn>
+            <codesets>U.S. Geological Survey, Minerals Information Team</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+        <distrib>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Albert R. Mann Library</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>Cornell University</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14853</postal>
+            </cntaddr>
+            <cntvoice>607-255-5406</cntvoice>
+            <cntemail>mann-ref@cornell.edu</cntemail>
+          </cntinfo>
+        </distrib>
+        <distliab>Cornell University provides these geographic data "as is". Cornell
+          University makes no guarantee or warranty concerning the accuracy of
+          information contained in the geographic data. Cornell University further
+          makes no warranty either expressed or implied, regarding the condition of
+          the product or its fitness for any particular purpose. The burden for
+          determining fitness for use lies entirely with the user. Although these
+          files have been processed successfully on computers at Cornell University,
+          no warranty is made by Cornell University regarding the use of these data
+          on any other system, nor does the fact of distribution constitute or imply
+          any such warranty.</distliab>
+        <stdorder>
+        <digform>
+            <digtinfo>
+              <formname>Shapefile</formname>
+              <formcont>zipped shapefile</formcont>
+              <filedec>zip</filedec>
+              <transize>0.06</transize>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/73/34/cugir-007334.zip</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>metadata</formname>
+              <formcont>FGDC XML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/73/34/fgdc.xml</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>HTML metadata</formname>
+              <formcont>FGDC HTML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/73/34/fgdc.html</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+                <digtinfo>
+                  <formname>KML</formname>
+                  <formcont>generated KML, via WFS</formcont>
+                </digtinfo>
+                <digtopt>
+                  <onlinopt>
+                    <computer>
+                      <networka>
+                        <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir007334&amp;outputFormat=application%2Fvnd.google-earth.kml%2Bxml</networkr>
+                      </networka>
+                    </computer>
+                  </onlinopt>
+                </digtopt>
+              </digform><digform>
+            <digtinfo>
+              <formname>GeoJSON</formname>
+              <formcont>generated GeoJSON, via WFS</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir007334&amp;outputFormat=application%2Fjson</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>OGC:WMS</formname>
+              <formcont>WMS, from GeoServer</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007334&amp;bbox=-79.12325915000001,40.99034462,-73.36416785,45.03068938&amp;width=256&amp;height=179&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><fees>None</fees></stdorder>
+      </distinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Earth Science Information Center, U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing address</addrtype>
+          <address>507 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>1-888-ASK-USGS (1-888-275-8747)</cntvoice>
+        <cntvoice>703-648-5920</cntvoice>
+        <cntinst>In addition to the address above there are other ESIC offices throughout the country. A full list of these offices is at &lt;http://mapping.usgs.gov/esic/esic_index.html&gt;.</cntinst>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+      <metd>20190524</metd>
+      <metc>
+        <cntinfo>
+          <cntorgp>
+            <cntorg>Albert R. Mann Library</cntorg>
+          </cntorgp>
+          <cntaddr>
+            <addrtype>mailing and physical</addrtype>
+            <address>Albert R. Mann Library</address>
+            <city>Ithaca</city>
+            <state>New York</state>
+            <postal>14853</postal>
+            <country>USA</country>
+          </cntaddr>
+          <cntvoice>607-255-5406</cntvoice>
+          <cntemail>mann-ref@cornell.edu</cntemail>
+        </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+    </metainfo>
+</metadata>

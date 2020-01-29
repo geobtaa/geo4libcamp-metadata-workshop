@@ -1,0 +1,864 @@
+<!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>United States Department Of Agriculture (USDA)</origin>
+        <origin>Cornell University Agricultural Experiment Station</origin>
+        <pubdate>1965</pubdate>
+        <title>Soil Survey, Tompkins County NY, 1965</title>
+        <geoform>vector digital data</geoform>
+        <onlink>https://cugir.library.cornell.edu/catalog/cugir-007498</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Various county departments, local municipal agencies, and other not-for-profit organizations have identified the need for a digital soil coverage data set for Tompkins County, NY. The Tompkins County ITS GIS Division initiated and developed a digital soil coverage from the official analog soil map series produced and published by the United States Geology Survey (USGS) and Cornell University Agricultural Experiment Station. The field survey has been conducted during the 60es.</abstract>
+      <purpose>To provide a GIS countywide coverage that consists of polygons defining the soils boundaries and to add enough basic attributes to achieve a fundamental degree of categorization. Open, all-purpose data set.</purpose>
+      <supplinf>The field survey took place during the 60es and it has been published in a book titled: Soil Survey, Tompkins County NY, in 1965. Please refer to this book for more information regarding soil science. Attribute information can be found in an attached Soilsdef.DBF and SOILSDEF.TXT filesPrevious versions of Tompkins County Soil Associations in CUGIR include: &lt;http://cugir2.mannlib.cornell.edu/buckets/Display.jsp?id=1631&gt;</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>1965</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+          <bounding>
+            <westbc>-76.696261</westbc>
+            <eastbc>-76.237364</eastbc>
+            <northbc>42.627418</northbc>
+            <southbc>42.262698</southbc>
+          </bounding>
+        </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>soil survey</themekey>
+        <themekey>farming</themekey>
+      </theme>
+      <theme>
+        <themekt>LCSH</themekt>
+        <themekey>Soils</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>environment</themekey>
+        <themekey>geoscientificInformation</themekey>
+      </theme>
+      <theme>
+              <themekt>CUGIR Category</themekt>
+              <themekey>agriculture</themekey>
+<themekey>geology</themekey>
+<themekey>environment</themekey>
+            </theme>
+      <place>
+        <placekt>LCSH</placekt>
+        <placekey>Tompkins County (N.Y.)</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>The following statement must be included with any products that use or are derived from this data set: Data contained in this product was originally produced by the Tompkins County ITS GIS Division and may not be reproduced or redistributed without the express written consent of the originator. The originator does not warrant the accuracy or completeness of the information portrayed by the data, as it is currently still in draft format.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Tompkins County ITS GIS Division</cntorg>
+          <cntper>Greg Potter, Svetla Borovska, Steve Horn</cntper>
+        </cntorgp>
+        <cntpos>GIS</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>128 East Buffalo Street</address>
+          <city>Ithaca</city>
+          <state>New York</state>
+          <postal>14850</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(607) 274-5418</cntvoice>
+        <cntfax>(607) 274-5420</cntfax>
+        <cntemail>gis@tompkins-co.org</cntemail>
+        <hours>M-F 8:30 a.m. to 4:30 p.m.</hours>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/74/98/preview.png</browsen>
+              <browsed>preview of the dataset</browsed>
+              <browset>PNG</browset>
+            </browse>
+    <datacred>Tompkins County ITS GIS Division</datacred>
+    <secinfo>
+      <secclass>Unclassified</secclass>
+    </secinfo>
+    <native>PATH: /DATA/ARCINFO/COUNTY/NYSP/PHYSICAL/SOILSURVEY SOFTWARE: WindowsNT 4.0 x86, Arc/Info Single Precision Coverage LAYERS: Polygons</native>
+    <crossref>
+      <citeinfo>
+        <origin>Tompkins County ITS GIS Division</origin>
+        <title>Cayuga Lake</title>
+        <pubinfo>
+          <pubplace>Tompkins County</pubplace>
+          <publish>Tompkins County GIS Program</publish>
+        </pubinfo>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>John A. Neeley</origin>
+        <pubdate>1965</pubdate>
+        <title>Soil Survey, Tompkins County, New York</title>
+        <geoform>map</geoform>
+        <serinfo>
+          <sername>Series 1961, No.25</sername>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Washington, DC</pubplace>
+          <publish>US Department of Agriculture, Soil Conservation Service</publish>
+        </pubinfo>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Assessed using the scanned source maps as background images in order to review the polygons attribute SOILNAME against the soil maps symbols (see "Source" and "Status" fields under Attribute Information).</attraccr>
+    </attracc>
+    <logic>Be aware of the initial error introduced by the source materials (see "Source Information") the data source is from the 60es and changes may have occurred. The horizontal positional accuracy has been assessed against data sets derived from 1991 Tompkins County Planimetric Series (see "Horizontal Positional Accuracy"). Data were geo-referenced using ER Mapper image-processing software (method: polynomial rectification using ground control points).</logic>
+    <complete>Complete for Tompkins County.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>AVERAGE offset in feet is 38.9 Using the National Standart for Spatial Data Accuracy, the data set tested 70 feet horizontal accuracy at 95% confidence level.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Not Applicable</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>John A. Neeley</origin>
+            <pubdate>1965</pubdate>
+            <title>Soil Survey, Tompkins County, New York</title>
+            <geoform>map</geoform>
+            <serinfo>
+              <sername>Series 1961, No.25</sername>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Washington, DC</pubplace>
+              <publish>US Department of Agriculture, Soil Conservation Service</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>20000</srcscale>
+        <typesrc>paper</typesrc>
+        <srctime>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>The official analog map series published in the 'Soil Survey, Tompkins County, NY' book.</srccitea>
+        <srccontr>Tompkins County GIS 2000-2001 United States Department Of Agriculture and Cornell University Agricultural Experiment Station Published in 1965, book title: Soil Survey Tompkins County NY.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Three main phases 1. Data geo-referencing and data extraction using ER Mapper software. 2. Vectorization and polygon topology using ESRI software. 3. Using a control data set with known higher accuracy to assess the soil coverage positional accuracy. Control data set: Road Centerline Arc coverage from 1991 Tompkins County Digital Planimetric Series. Using the road intersections as control points. Measuring the X and Y values from both data sets (the tested data set and the control data set). Statistic calculations based on the Accuracy Statistic Worksheet provided in the National Standard for Spatial Data Accuracy handbook.</procdesc>
+        <procdate>11/05/2001</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Tompkins County ITS GIS Division</cntorg>
+              <cntper>Greg Potter</cntper>
+            </cntorgp>
+            <cntpos>GIS Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>128 East Buffalo Street</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14850</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>(607) 274-5416</cntvoice>
+            <cntfax>(607) 274-5420</cntfax>
+            <cntemail>gis@tompkins-co.org</cntemail>
+            <hours>M-F 8:30 a.m. to 4:30 p.m.</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+          <sdtsterm>
+            <sdtstype>G-polygon</sdtstype>
+            <ptvctcnt>19315</ptvctcnt>
+          </sdtsterm>
+        </ptvctinf>
+      </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>State Plane Coordinate System 1983</gridsysn>
+          <spcs>
+            <spcszone>3102</spcszone>
+            <transmer>
+              <sfctrmer>0.9999375</sfctrmer>
+              <longcm>-76.5833333334</longcm>
+              <latprjo>40</latprjo>
+              <feast>250000</feast>
+              <fnorth>0</fnorth>
+            </transmer>
+          </spcs>
+        </gridsys>
+        <planci>
+          <plance>Coordinate Pair</plance>
+          <coordrep>
+            <absres>1</absres>
+            <ordres>1</ordres>
+          </coordrep>
+          <plandu>survey feet</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378206</semiaxis>
+        <denflat>294.9786982</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Soil Survey (Polygons, SOILSURVEY.PAT)</enttypl>
+        <enttypd>Polygons outlining the soils by type</enttypd>
+        <enttypds>SOIL SURVEY Tompkins Couty, New York</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>AREA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SOILNAME</attrlabl>
+        <attrdef>The first capital letter is the initial one of the soil name. A second capital letter, A, B, C, D, E or F, shows the slope. A fort letter, capital K in a symbol shows that the slope is complex. Some simbols without a slope letter are for nearly level soils or land types, but others are for soils or land types that have a considerable range in slope. A final number, 3, in the symbol shows that the soil is eroded. Attribute information can be found in an attached Soilsdef.DBF and SOILSDEF.TXT files</attrdef>
+        <attrdefs>SOIL SURVEY Tompkins County, New Youk</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Ab</edomv>
+            <edomvd>Alluvial land</edomvd>
+            <edomvds>SOIL SURVEY Tompkins County, New Youk</edomvds>
+          </edom>
+          <edom>
+            <edomv>ArB</edomv>
+            <edomvd>Arkport fine sandy loam, 2 to 6 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>ArC</edomv>
+            <edomvd>Arkport fine sandy loam, 6 to 12 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>BaB</edomv>
+            <edomvd>Bath channery silt loam, 2 to 5 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>BaC</edomv>
+            <edomvd>Bath channery silt loam, 5 to 15 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>BaC3</edomv>
+            <edomvd>Bath channery silt loam, 5 to 15 percent slopes, eroded</edomvd>
+          </edom>
+          <edom>
+            <edomv>BaD</edomv>
+            <edomvd>Bath channery silt loam, 15 to 25 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>BgC</edomv>
+            <edomvd>Bath and Valois gravelly silt loam, 5 to 15 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>BgC3</edomv>
+            <edomvd>Bath and Valois gravelly silt loam, 5 to 15 percent slopes, eroded</edomvd>
+          </edom>
+          <edom>
+            <edomv>BgD</edomv>
+            <edomvd>Bath and Valois gravelly silt loam, 15 to 25 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>BoE</edomv>
+            <edomvd>Bath and Valois soils, 25 to 35 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>BtF</edomv>
+            <edomvd>Bath, Valois, and Lansing soils, 35 to 60 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>BvA</edomv>
+            <edomvd>Braceville gravelly silt loam, 0 to 5 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>Ca</edomv>
+            <edomvd>Canadaigua and Lamson soils</edomvd>
+          </edom>
+          <edom>
+            <edomv>CdA</edomv>
+            <edomvd>Chenango gravelly loam, 0 to 5 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>CdC</edomv>
+            <edomvd>Chenango gravelly loam, 5 to 15 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>CdD</edomv>
+            <edomvd>Chenango gravelly loam, 15 to 25 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>CfA</edomv>
+            <edomvd>Conesus gravelly silt loam, 0 to 3 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>CfB</edomv>
+            <edomvd>Conesus gravelly silt loam, 3 to 8 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>CfB3</edomv>
+            <edomvd>Conesus gravelly silt loam, 3 to 8 percent slopes, eroded</edomvd>
+          </edom>
+          <edom>
+            <edomv>CnB</edomv>
+            <edomvd>Chenango gravelly silt loam, fan, 0 to 8 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>DgB</edomv>
+            <edomvd>Darien gravelly silt loam, 2 to 8 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>EbB</edomv>
+            <edomvd>Erie channery silt loam, 3 to 8 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>EbB3</edomv>
+            <edomvd>Erie channery silt loam, 3 to 8 percent slopes, eroded</edomvd>
+          </edom>
+          <edom>
+            <edomv>EbC</edomv>
+            <edomvd>Erie channery silt loam, 8 to 15 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>EbC3</edomv>
+            <edomvd>Erie channery silt loam, 8 to 15 percent slopes, eroded</edomvd>
+          </edom>
+          <edom>
+            <edomv>EcA</edomv>
+            <edomvd>Ellery, Chippewa, and Alden soils, 0 to 8 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>Em</edomv>
+            <edomvd>Eel silt loam</edomvd>
+          </edom>
+          <edom>
+            <edomv>ErA</edomv>
+            <edomvd>Erie - Ellery channery silt loams, 0 to 3 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>FdB</edomv>
+            <edomvd>Fredon silt loam, 0 to 5 percent slope</edomvd>
+          </edom>
+          <edom>
+            <edomv>Fm</edomv>
+            <edomvd>Fresh water marsh</edomvd>
+          </edom>
+          <edom>
+            <edomv>Gn</edomv>
+            <edomvd>Genesee silt loam</edomvd>
+          </edom>
+          <edom>
+            <edomv>Ha</edomv>
+            <edomvd>Halsey silt loam</edomvd>
+          </edom>
+          <edom>
+            <edomv>Hc</edomv>
+            <edomvd>Halsey mucky silt loam</edomvd>
+          </edom>
+          <edom>
+            <edomv>HdA</edomv>
+            <edomvd>Howard gravelly loam, 0 to 5 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>HdC</edomv>
+            <edomvd>Howard gravelly loam, 5 to 15 percent simple slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>HdCK</edomv>
+            <edomvd>Howard gravelly loam, 5 to 15 percent complex slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>HdD</edomv>
+            <edomvd>Howard gravelly loam, 15 to 25 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>Hk</edomv>
+            <edomvd>Wayland and Papakating soils</edomvd>
+          </edom>
+          <edom>
+            <edomv>HmB</edomv>
+            <edomvd>Honeoye gravelly silt loam, 2 to 8 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>HmC</edomv>
+            <edomvd>Honeoye gravelly silt loam, 8 to 15 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>HmC3</edomv>
+            <edomvd>Honeoye gravelly silt loam, 8 to 15 percent slopes, eroded</edomvd>
+          </edom>
+          <edom>
+            <edomv>HpE</edomv>
+            <edomvd>Howard and Palmyra soils, 25 to 35 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>HpF</edomv>
+            <edomvd>Howard and Palmyra soils, 35 to 60 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>HrC</edomv>
+            <edomvd>Howard-Valois gravelly loams, 5 to 15 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>HrD</edomv>
+            <edomvd>Howard-Valois gravelly loams, 15 to 25 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>HsB</edomv>
+            <edomvd>Hudson silty clay loam, 2 to 6 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>HsC3</edomv>
+            <edomvd>Hudson silty clay loam, 6 to 12 percent slopes, eroded</edomvd>
+          </edom>
+          <edom>
+            <edomv>HsD3</edomv>
+            <edomvd>Hudson silty clay loam, 12 to 20 percent slopes, eroded</edomvd>
+          </edom>
+          <edom>
+            <edomv>HuB</edomv>
+            <edomvd>Hudson-Cayuga silt loams, 2 to 6 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>HuB3</edomv>
+            <edomvd>Hudson-Cayuga silt loams, 2 to 6 percent slopes, eroded</edomvd>
+          </edom>
+          <edom>
+            <edomv>HuC3</edomv>
+            <edomvd>Hudson-Cayuga silt loams, 6 to 12 percent slopes, eroded</edomvd>
+          </edom>
+          <edom>
+            <edomv>HuD</edomv>
+            <edomvd>Hudson-Cayuga silt loams, 12 to 20 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>HwB</edomv>
+            <edomvd>Hudson and Collamer silt loams, 2 to 6 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>HzE</edomv>
+            <edomvd>Hudson and Dunkirk soils, 20 to 45 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>IcA</edomv>
+            <edomvd>Ilion silty clay loam, 0 to 2 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>IcB</edomv>
+            <edomvd>Ilion silty clay loam, 2 to 6 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>KaB</edomv>
+            <edomvd>Kendaia silt loam, 3 to 8 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>KnA</edomv>
+            <edomvd>Kendaia and Lyons silt loams, 0 to 3 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>LaB</edomv>
+            <edomvd>Langford channery silt loam, 2 to 8 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>LaB3</edomv>
+            <edomvd>Langford channery silt loam, 3 to 8 percent slopes, eroded</edomvd>
+          </edom>
+          <edom>
+            <edomv>LaC</edomv>
+            <edomvd>Langford channery silt loam, 8 to 15 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>LaC3</edomv>
+            <edomvd>Langford channery silt loam, 8 to 15 percent slopes, eroded</edomvd>
+          </edom>
+          <edom>
+            <edomv>LbA</edomv>
+            <edomvd>Lansing gravelly silt loam, 0 to 3 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>LbB</edomv>
+            <edomvd>Lansing gravelly silt loam, 3 to 8 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>LbB3</edomv>
+            <edomvd>Lansing gravelly silt loam, 3 to 8 percent slopes, eroded</edomvd>
+          </edom>
+          <edom>
+            <edomv>LbC</edomv>
+            <edomvd>Lansing gravelly silt loam, 8 to 15 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>LbC3</edomv>
+            <edomvd>Lansing gravelly silt loam, 8 to 15 percent slopes, eroded</edomvd>
+          </edom>
+          <edom>
+            <edomv>LmA</edomv>
+            <edomvd>Lima silt loam, 0 to 3 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>LmB</edomv>
+            <edomvd>Lima silt loam, 3 to 8 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>LmB3</edomv>
+            <edomvd>Lima silt loam, 3 to 8 percent slopes, eroded</edomvd>
+          </edom>
+          <edom>
+            <edomv>LnC</edomv>
+            <edomvd>Lordstown channery silt loam, 5 to 15 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>LnC3</edomv>
+            <edomvd>Lordstown channery silt loam, 5 to 15 percent slopes, eroded</edomvd>
+          </edom>
+          <edom>
+            <edomv>LnD</edomv>
+            <edomvd>Lordstown channery silt loam, 15 to 25 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>LnE</edomv>
+            <edomvd>Lordstown channery silt loam, 25 to 35 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>LoF</edomv>
+            <edomvd>Lordstown soils, 35 to 70 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>LtB</edomv>
+            <edomvd>Lordstown, Tuller, and Ovid soils, shallow and very shallow, 0 to 15 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>LtC</edomv>
+            <edomvd>Lordstown, Tuller, and Ovid soils, shallow and very shallow, 15 to 35 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>Ly</edomv>
+            <edomvd>Lyons silt loam</edomvd>
+          </edom>
+          <edom>
+            <edomv>MaB</edomv>
+            <edomvd>Mardin channery silt loam, 2 to 8 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>MaC</edomv>
+            <edomvd>Mardin channery silt loam, 8 to 15 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>MaC3</edomv>
+            <edomvd>Mardin channery silt loam, 8 to 15 percent slopes, eroded</edomvd>
+          </edom>
+          <edom>
+            <edomv>Mc</edomv>
+            <edomvd>Made land</edomvd>
+          </edom>
+          <edom>
+            <edomv>MfD</edomv>
+            <edomvd>Mardin and Langford soils, 15 to 25 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>MI</edomv>
+            <edomvd>Mines and Pits</edomvd>
+          </edom>
+          <edom>
+            <edomv>Mm</edomv>
+            <edomvd>Madalin mucky silty clay loam</edomvd>
+          </edom>
+          <edom>
+            <edomv>Mn</edomv>
+            <edomvd>Madalin silty clay loam</edomvd>
+          </edom>
+          <edom>
+            <edomv>Mo</edomv>
+            <edomvd>Middlebury and Tioga silt loam</edomvd>
+          </edom>
+          <edom>
+            <edomv>Mp</edomv>
+            <edomvd>Muck and Peat</edomvd>
+          </edom>
+          <edom>
+            <edomv>NaB</edomv>
+            <edomvd>Niagara silt loam, 2 to 6 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>OaA</edomv>
+            <edomvd>Ovid silt loam, 0 to 6 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>OcC3</edomv>
+            <edomvd>Ovid silty clay loam, 6 to 12 percent slopes, eroded</edomvd>
+          </edom>
+          <edom>
+            <edomv>OrA</edomv>
+            <edomvd>Ovid and Rhinebeck silt loams, moderately deep, 0 to 2 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>OrB</edomv>
+            <edomvd>Ovid and Rhinebeck silt loams, moderately deep, 2 to 6 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>OrC</edomv>
+            <edomvd>Ovid and Rhinebeck silt loams, moderately deep, 6 to 12 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>PaA</edomv>
+            <edomvd>Palmyra gravelly loam, 0 to 5 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>PaC</edomv>
+            <edomvd>Palmyra gravelly loam, 5 to 15 percent simple slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>PaCK</edomv>
+            <edomvd>Palmyra gravelly loam, 5 to 15 percent complex slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>PaD</edomv>
+            <edomvd>Palmyra gravelly loam, 15 to 25 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>PhA</edomv>
+            <edomvd>Phelps gravelly silt loam, 0 to 3 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>PhB</edomv>
+            <edomvd>Phelps gravelly silt loam, 3 to 8 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>RhA</edomv>
+            <edomvd>Red Hook gravelly silt loam, 0 to 5 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>RkA</edomv>
+            <edomvd>Rhinebeck silt loam, 0 to 2 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>RkB</edomv>
+            <edomvd>Rhinebeck silt loam, 2 to 6 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>RnC3</edomv>
+            <edomvd>Rhinebeck silty clay loam, 6 to 12 percent slopes, eroded</edomvd>
+          </edom>
+          <edom>
+            <edomv>Ro</edomv>
+            <edomvd>Rock outcrop</edomvd>
+          </edom>
+          <edom>
+            <edomv>TeA</edomv>
+            <edomvd>Tuller channery silt loam, 0 to 6 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>VbB</edomv>
+            <edomvd>Volusia channery silt loam, 3 to 8 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>VbB3</edomv>
+            <edomvd>Volusia channery silt loam, 3 to 8 percent slopes, eroded</edomvd>
+          </edom>
+          <edom>
+            <edomv>VbC</edomv>
+            <edomvd>Volusia channery silt loam, 8 to 15 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>VbC3</edomv>
+            <edomvd>Volusia channery silt loam, 8 to 15 percent slopes, eroded</edomvd>
+          </edom>
+          <edom>
+            <edomv>VoA</edomv>
+            <edomvd>Volusia-Chippewa channery silt loam, 0 to 3 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>VrD</edomv>
+            <edomvd>Volusia and Erie soils, 15 to 25 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>WrB</edomv>
+            <edomvd>Williamson very fine sandy loam, 2 to 6 percent slopes</edomvd>
+          </edom>
+          <edom>
+            <edomv>Ws</edomv>
+            <edomvd>Wayland and Sloan silt loams</edomvd>
+          </edom>
+          <edom>
+            <edomv>GRAVELP</edomv>
+            <edomvd>Gravel Pit</edomvd>
+          </edom>
+        </attrdomv>
+        <enddatea>10/17/2001</enddatea>
+        <attrmfrq>As needed</attrmfrq>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>The data set contains of soil boundary polygons with label points. Each polygon defines a soil type represented by a symbol assigned in SOILNAME field.</eaover>
+      <eadetcit>SOILNAME symbol legend: The first capital letter is the initial one of the soil name. A second capital letter, A, B, C, D, E or F, shows the slope. A fort letter, capital K in a symbol shows that the slope is complex. Some symbols without a slope letter are for nearly level soils or land types, but others are for soils or land types that have a considerable range in slope. A final number, 3, in the symbol shows that the soil is eroded.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+        <distrib>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Albert R. Mann Library</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>Cornell University</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14853</postal>
+            </cntaddr>
+            <cntvoice>607-255-5406</cntvoice>
+            <cntemail>mann-ref@cornell.edu</cntemail>
+          </cntinfo>
+        </distrib>
+        <distliab>Cornell University provides these geographic data "as is". Cornell
+          University makes no guarantee or warranty concerning the accuracy of
+          information contained in the geographic data. Cornell University further
+          makes no warranty either expressed or implied, regarding the condition of
+          the product or its fitness for any particular purpose. The burden for
+          determining fitness for use lies entirely with the user. Although these
+          files have been processed successfully on computers at Cornell University,
+          no warranty is made by Cornell University regarding the use of these data
+          on any other system, nor does the fact of distribution constitute or imply
+          any such warranty.</distliab>
+        <stdorder>
+        <digform>
+            <digtinfo>
+              <formname>Shapefile</formname>
+              <formcont>zipped shapefile</formcont>
+              <filedec>zip</filedec>
+              <transize>22.31</transize>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/74/98/cugir-007498.zip</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>metadata</formname>
+              <formcont>FGDC XML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/74/98/fgdc.xml</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>HTML metadata</formname>
+              <formcont>FGDC HTML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/74/98/fgdc.html</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+                <digtinfo>
+                  <formname>KML</formname>
+                  <formcont>generated KML, via WFS</formcont>
+                </digtinfo>
+                <digtopt>
+                  <onlinopt>
+                    <computer>
+                      <networka>
+                        <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir007498&amp;outputFormat=application%2Fvnd.google-earth.kml%2Bxml</networkr>
+                      </networka>
+                    </computer>
+                  </onlinopt>
+                </digtopt>
+              </digform><digform>
+            <digtinfo>
+              <formname>GeoJSON</formname>
+              <formcont>generated GeoJSON, via WFS</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir007498&amp;outputFormat=application%2Fjson</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>OGC:WMS</formname>
+              <formcont>WMS, from GeoServer</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007498&amp;bbox=-76.71002791000001,42.2517564,-76.22359709,42.6383596&amp;width=256&amp;height=203&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><fees>None</fees></stdorder>
+      </distinfo>
+  <metainfo>
+      <metd>20190524</metd>
+      <metc>
+        <cntinfo>
+          <cntorgp>
+            <cntorg>Albert R. Mann Library</cntorg>
+          </cntorgp>
+          <cntaddr>
+            <addrtype>mailing and physical</addrtype>
+            <address>Albert R. Mann Library</address>
+            <city>Ithaca</city>
+            <state>New York</state>
+            <postal>14853</postal>
+            <country>USA</country>
+          </cntaddr>
+          <cntvoice>607-255-5406</cntvoice>
+          <cntemail>mann-ref@cornell.edu</cntemail>
+        </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+    </metainfo>
+</metadata>

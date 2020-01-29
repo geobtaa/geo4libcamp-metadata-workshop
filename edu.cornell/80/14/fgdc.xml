@@ -1,0 +1,601 @@
+<!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Cayuga Lake Watershed Network</origin>
+        <origin>Nicholas Hollingshead, GIS Analyst</origin>
+        <pubdate>20070901</pubdate>
+        <title>Residental Wastewater Systems, Cayuga Lake watershed, 2007</title>
+        <geoform>vector digital data</geoform>
+        <onlink>https://cugir.library.cornell.edu/catalog/cugir-008014</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This point dataset identifies all residential structures
+                in the Cayuga Lake Watershed, and indiciates whether it is
+                served by a municipal sewer system or is expected to have an
+                on-site waste management system. TIGER Census 2000 data was used
+                to estimate the number of individuals per residential structure.</abstract>
+      <purpose>This geographic dataset was developed by the Cayuga Lake
+                Watershed Network as part of a larger project, in conjunction
+                with Dr. Douglas Haith and Cornell University, to model nutrient
+                loading in the Cayuga Lake watershed. The model used is the
+                Generalized Watershed Loading Function (Haith and Shoemaker,
+                1987). Haith, D.A. and L.L. Shoemaker, 1987. Generalized
+                Watershed Loading Functions for Stream Flow Nutrients. Water
+                Resources Bulletin, 23(3), pp. 471-478.</purpose>
+      <supplinf>Additional documentation is available at
+                &lt;http://hdl.handle.net/1813/12858&gt;</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>2000</begdate>
+          <enddate>2003</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+          <bounding>
+            <westbc>-76.967291</westbc>
+            <eastbc>-76.174575</eastbc>
+            <northbc>42.949087</northbc>
+            <southbc>42.280082</southbc>
+          </bounding>
+        </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Sewer Sysetms</themekey>
+        <themekey>Sewage</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>utilitiesCommunication</themekey>
+      </theme>
+      <theme>
+              <themekt>CUGIR Category</themekt>
+              <themekey>utilities</themekey>
+            </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>New York State</placekey>
+        <placekey>Cayuga County</placekey>
+        <placekey>Cortland County</placekey>
+        <placekey>Schuyler County</placekey>
+        <placekey>Seneca County</placekey>
+        <placekey>Tompkins County</placekey>
+        <placekey>Tioga County</placekey>
+        <placekey>Cayuga Lake Watershed</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Data users are responsible for the use and interpretation of
+            the provided data. The geographic dataset is provided "as is" to end
+            users. When using this dataset, please cite the Cayuga Lake
+            Watershed Network</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Cayuga Lake Watershed Network</cntorg>
+          <cntper>Hilary Lambert</cntper>
+        </cntorgp>
+        <cntpos>Watershed Steward</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>170 Main Street</address>
+          <address>PO Box 348</address>
+          <city>Aurora</city>
+          <state>New York</state>
+          <postal>13026</postal>
+        </cntaddr>
+        <cntvoice>315-364-2992</cntvoice>
+        <cntemail>steward@cayugalake.org</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/80/14/preview.png</browsen>
+              <browsed>preview of the dataset</browsed>
+              <browset>PNG</browset>
+            </browse>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>The method for estimating the number of onsite wastewater
+                management systems in the watershed involved first determining
+                both the location of all residential structures and the extent
+                of existing sewer districts, then identifying all the
+                residential structures not located within the boundary of the
+                sewer districts, assuming these residential structures would
+                require onsite wastewater management systems. Though this method
+                may not be precise, it is expected to provide reasonable and
+                sufficient accuracy for estimating non-point source pollution at
+                the scale of the watershed or subwatershed using the GWLF model.
+                U.S. Census block-level data was used to estimate the number of
+                residents per residential structure. The product of this effort
+                was a single geospatial data layer indicating the location of
+                all residential structures with onsite wastewater management
+                systems and the estimated number of individuals using those
+                systems. It is important to note that these numbers and
+                locations are estimates and not precise measurements.
+            </attraccr>
+    </attracc>
+    <logic>unknown</logic>
+    <complete>Includes all residential structures within the Cayuga Lake
+            Watershed measuring over 700 square feet, as identified from aerial
+            imagery captured in 2002 and 2003 in "leaf-off" conditions. The
+            types of structures mapped included houses, mobile homes, apartment
+            buildings, commercial buildings, government-owned buildings,
+            churches, etc. The dataset did not include storage structures such
+            as sheds or barns. The accuracy of this dataset was not assessed
+            directly. However, given the very high level of detail in the aerial
+            imagery, the accuracy of this dataset is expected to be quite high.
+            It is unlikely that structures sufficiently large to be considered
+            inhabitable (non-storage) would be undetectable by this visual
+            analysis. Errors of omission are the most likely errors to be found
+            in this dataset, which received a thorough analysis and review.</complete>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>NYS Cyber Security and Critical Infrastructure
+                            Coordination</origin>
+            <pubdate>2003 and 2004</pubdate>
+            <title>Cayuga, Cortland, Schuyler, Seneca, Tioga, and
+                            Tompkins County Orthoimagery</title>
+            <geoform>remote-sensing image</geoform>
+            <serinfo>
+              <sername>NYS Digital Orthoimagery Program (NYSDOP)</sername>
+              <issue>2002 and 2003</issue>
+            </serinfo>
+            <onlink>http://www.nysgis.state.ny.us/gateway/orthoprogram/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>2002</begdate>
+              <enddate>2003</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>NYSDOP</srccitea>
+        <srccontr>High-resolution aerial imagery used to identify
+                    inhabitable structures.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Tompkins County ITS GIS Division</origin>
+            <origin>Hitachi Software</origin>
+            <pubdate>20051005</pubdate>
+            <title>Tompkins County Building Outlines</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Tompkins County, NY</pubplace>
+              <publish>Tompkins County ITS GIS Division</publish>
+            </pubinfo>
+            <othercit>Derived from 2002 Tompkins County orthoimagery
+                            provided by NYS Office of Cyber Security &amp;
+                            Critical Infrastructure Coordination</othercit>
+            <onlink>http://cugir.mannlib.cornell.edu/bucketinfo.jsp?id=7881</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2002</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>TOMPKINS BUILDINGS</srccitea>
+        <srccontr>Locations of structures within Tompkins
+                County.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Cayuga Lake Watershed Network</origin>
+            <origin>Nicholas Hollingshead, GIS Analyst</origin>
+            <pubdate>20060901</pubdate>
+            <title>Land Use and Land Cover in the Cayuga Lake
+                            Watershed</title>
+            <geoform>vector digital data</geoform>
+            <onlink>http://cugir.mannlib.cornell.edu/bucketinfo.jsp?id=8011</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>2002</begdate>
+              <enddate>2004</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>LAND USE</srccitea>
+        <srccontr>Used to classify structures as residential or
+                    non-residential.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Cayuga Lake Watershed Network</origin>
+            <origin>Nicholas Hollingshead, GIS Analyst</origin>
+            <pubdate>20070901</pubdate>
+            <title>Sewer Systems Extent in the Cayuga Lake Watershed</title>
+            <geoform>vector digital data</geoform>
+            <onlink>http://cugir.mannlib.cornell.edu/bucketinfo.jsp?id=8013</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2007</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>SEWER EXTENT</srccitea>
+        <srccontr>Areas served by municipal sewer systems.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Department of Commerce, U.S. Census Bureau,
+                            Geography Division</origin>
+            <pubdate>2001</pubdate>
+            <title>TIGER/Line Files, Census 2000</title>
+            <geoform>vector digital data</geoform>
+            <onlink>http://www.census.gov/geo/www/tiger/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2000</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>CENSUS 2000</srccitea>
+        <srccontr>Population data for Census blocks, used to estimate
+                    the number of residents per inhabitable
+                structure.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Map location of all structures in the Cayuga Lake
+                    watershed: During the first phase of the study, the
+                    locations of all inhabitable structures were identified
+                    using aerial imagery acquired from the NYSDOP for Cayuga,
+                    Cortland, Schuyler, Seneca, Tioga, and Tompkins counties.
+                    The imagery was captured in 2002 and 2003 in "leaf-off"
+                    conditions. The types of structures mapped included houses,
+                    mobile homes, apartment buildings, commercial buildings,
+                    government-owned buildings, churches, etc. The dataset did
+                    not include storage structures such as sheds or barns.</procdesc>
+        <srcused>NYSDOP</srcused>
+        <srcused>TOMPKINS BUILDINGS</srcused>
+        <procdate>unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Classify structures as residential or non-residential:
+                    Each inhabitable structure was classified as residential or
+                    non-residential. The classification of each structure was
+                    based on the land use and cover type of the area in which it
+                    was located. The land use and cover geospatial dataset used
+                    to determine a structure's class was developed in the first
+                    phase of the development of the CLW GWLF GIS.</procdesc>
+        <srcused>LAND USE</srcused>
+        <procdate>unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Identify residential structures within the extent of
+                    the municipal sewer systems: Detailed information about
+                    which structures were connected to municipal sewer systems
+                    and which required on-site waste management systems was not
+                    available. Therefore, the simplest assumption, that all
+                    residential structures within a reasonable distance, 150
+                    feet, of a sewer line are connected to that sewer system was
+                    chosen. Although this assumption might not be accurate in
+                    all cases, it should hold true in the majority of cases. All
+                    residential structures that met this assumption were
+                    classified as being on a municipal sewer line and therefore
+                    not having an on-site waste management system. All
+                    residential structures not identified as being on a
+                    municipal sewer system were classified as having on-site
+                    (septic) waste management systems.</procdesc>
+        <srcused>SEWER EXTENT</srcused>
+        <procdate>unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Estimate number of residents per residential
+                    structure: To develop an estimate of the number of
+                    individual residents using each on-site waste management
+                    system, the total number of residents within each census
+                    block was divided among the residential structures located
+                    within that census block.</procdesc>
+        <srcused>CENSUS 2000</srcused>
+        <procdate>unknown</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+          <sdtsterm>
+            <sdtstype>Point</sdtstype>
+            <ptvctcnt>42396</ptvctcnt>
+          </sdtsterm>
+        </ptvctinf>
+      </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>18</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-75.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000</absres>
+            <ordres>0.000000</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D_WGS_1984</horizdn>
+        <ellips>WGS_1984</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257224</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>CLWN_Residential</enttypl>
+        <enttypd>Residential structure</enttypd>
+        <enttypds>Cayuga Lake Watershed Network</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>LU_1</attrlabl>
+        <attrdef>Primary land use/cover code</attrdef>
+        <attrdefs>Cayuga Lake Watershed Network</attrdefs>
+        <attrdomv>
+          <udom>single-character code</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LU_2</attrlabl>
+        <attrdef>Secondary land use/cover code</attrdef>
+        <attrdefs>Cayuga Lake Watershed Network</attrdefs>
+        <attrdomv>
+          <udom>single-character code</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LU_3</attrlabl>
+        <attrdef>Tertiary land use/cover code</attrdef>
+        <attrdefs>Cayuga Lake Watershed Network</attrdefs>
+        <attrdomv>
+          <udom>single-character code</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LU_code</attrlabl>
+        <attrdef>Land use/cover code</attrdef>
+        <attrdefs>Cayuga Lake Watershed Network</attrdefs>
+        <attrdomv>
+          <udom>colon-delimited string of LU_1, LU_2, LU_3
+                    codes</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SewerArea</attrlabl>
+        <attrdef>Name of the sewer system</attrdef>
+        <attrdefs>Cayuga Lake Watershed Network</attrdefs>
+        <attrdomv>
+          <udom>text string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Sewer</attrlabl>
+        <attrdef>Type of wastewater management system used</attrdef>
+        <attrdefs>Cayuga Lake Watershed Network</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Sewer</edomv>
+            <edomvd>municipal sewer system</edomvd>
+            <edomvds>Cayuga Lake Watershed Network</edomvds>
+          </edom>
+          <edom>
+            <edomv>Septic</edomv>
+            <edomvd>on-site wastewater management system</edomvd>
+            <edomvds>Cayuga Lake Watershed Network</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Residents</attrlabl>
+        <attrdef>Estimated number of residents using the structure's
+                    wastewater management system</attrdef>
+        <attrdefs>Cayuga Lake Watershed Network</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HydroArea</attrlabl>
+        <attrdef>Subwatershed or Hydrologic Area </attrdef>
+        <attrdefs>Cayuga Lake Watershed Network</attrdefs>
+        <attrdomv>
+          <udom>text string</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+        <distrib>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Albert R. Mann Library</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>Cornell University</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14853</postal>
+            </cntaddr>
+            <cntvoice>607-255-5406</cntvoice>
+            <cntemail>mann-ref@cornell.edu</cntemail>
+          </cntinfo>
+        </distrib>
+        <distliab>Cornell University provides these geographic data "as is". Cornell
+          University makes no guarantee or warranty concerning the accuracy of
+          information contained in the geographic data. Cornell University further
+          makes no warranty either expressed or implied, regarding the condition of
+          the product or its fitness for any particular purpose. The burden for
+          determining fitness for use lies entirely with the user. Although these
+          files have been processed successfully on computers at Cornell University,
+          no warranty is made by Cornell University regarding the use of these data
+          on any other system, nor does the fact of distribution constitute or imply
+          any such warranty.</distliab>
+        <stdorder>
+        <digform>
+            <digtinfo>
+              <formname>Shapefile</formname>
+              <formcont>zipped shapefile</formcont>
+              <filedec>zip</filedec>
+              <transize>1.08</transize>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/80/14/cugir-008014.zip</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>metadata</formname>
+              <formcont>FGDC XML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/80/14/fgdc.xml</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>HTML metadata</formname>
+              <formcont>FGDC HTML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/80/14/fgdc.html</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+                <digtinfo>
+                  <formname>KML</formname>
+                  <formcont>generated KML, via WFS</formcont>
+                </digtinfo>
+                <digtopt>
+                  <onlinopt>
+                    <computer>
+                      <networka>
+                        <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir008014&amp;outputFormat=application%2Fvnd.google-earth.kml%2Bxml</networkr>
+                      </networka>
+                    </computer>
+                  </onlinopt>
+                </digtopt>
+              </digform><digform>
+            <digtinfo>
+              <formname>GeoJSON</formname>
+              <formcont>generated GeoJSON, via WFS</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir008014&amp;outputFormat=application%2Fjson</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>OGC:WMS</formname>
+              <formcont>WMS, from GeoServer</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir008014&amp;bbox=-76.99107248,42.26001185,-76.15079352000001,42.96915715&amp;width=256&amp;height=216&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><fees>None</fees></stdorder>
+      </distinfo>
+  <metainfo>
+      <metd>20190524</metd>
+      <metc>
+        <cntinfo>
+          <cntorgp>
+            <cntorg>Albert R. Mann Library</cntorg>
+          </cntorgp>
+          <cntaddr>
+            <addrtype>mailing and physical</addrtype>
+            <address>Albert R. Mann Library</address>
+            <city>Ithaca</city>
+            <state>New York</state>
+            <postal>14853</postal>
+            <country>USA</country>
+          </cntaddr>
+          <cntvoice>607-255-5406</cntvoice>
+          <cntemail>mann-ref@cornell.edu</cntemail>
+        </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+    </metainfo>
+</metadata>

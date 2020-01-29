@@ -1,0 +1,535 @@
+<!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>USGS Patuxent Wildlife Research Center</origin>
+        <pubdate>19990211</pubdate>
+        <title>Breeding Bird Survey Route, New York State, 1998</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Laurel, Maryland</pubplace>
+          <publish>USGS Patuxent Wildlife Research Center</publish>
+        </pubinfo>
+        <onlink>https://cugir.library.cornell.edu/catalog/cugir-007322</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This data set portrays the current routes used for conducting Breeding Bird Surveys in New York State. This data set was collected using a different roads file from that available through the National Atlas of the United States.</abstract>
+      <purpose>The digital data sets are used to create electronic and hard copy maps of the Breeding Bird Survey routes. The data can be used to conduct geographic analysis on national and large regional scales. The data should be displayed and analyzed at scales appropriate for 1:100,000-scale data. No responsibility is assumed by the U.S. Geological Survey or by USGS Patuxent Wildlife Research Center in the use of these data.</purpose>
+      <supplinf>For a description of the Breeding Bird Survey methods see Robbins, C.S. and W.T. Van Velzen; 1967; The Breeding Bird Survey, 1966; USDOI Migratory Bird Populations Station, Special Scientific Report--Wildlife No. 102; Washington, D.C. Arc/INFO and ArcView are products of Environmental Systems Research Institute, Inc. (ESRI), 380 New York Street, Redlands, CA 92373. Reference to ESRI products is for information purposes only and does not constitute endorsement by the U.S. Geological Survey. This data set was collected using a different roads file from that available through the National Atlas of the United States, so there may be positional differences between the two map layers.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1966</begdate>
+          <enddate>1998</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+          <bounding>
+            <westbc>-79.411935</westbc>
+            <eastbc>-72.627187</eastbc>
+            <northbc>44.991676</northbc>
+            <southbc>40.643705</southbc>
+          </bounding>
+        </spdom>
+    <keywords>
+      <theme>
+        <themekt>LCSH</themekt>
+        <themekey>Theme_Keyword: Aviculture</themekey>
+        <themekey>Bird surveys -- New York (State)</themekey>
+        <themekey>Bird populations -- New York (State)</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Breeding Bird Survey</themekey>
+        <themekey>BBS Route Coverage</themekey>
+        <themekey>Bird Counts</themekey>
+        <themekey>Bird Occurrences</themekey>
+        <themekey>Bird Lists</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>biota</themekey>
+        <themekey>environment</themekey>
+      </theme>
+      <theme>
+              <themekt>CUGIR Category</themekt>
+              <themekey>biology</themekey>
+<themekey>environment</themekey>
+            </theme>
+      <place>
+        <placekt>LCSH</placekt>
+        <placekey>New York (State)</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None. Acknowledgment of the National Atlas of the United States of America and (or) the U.S. Geological Survey Patuxent Wildlife Research Center would be appreciated in products derived from these data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Jane E. Fallon</cntper>
+          <cntorg>USGS Patuxent Wildlife Research Center</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>11410 American Holly Drive</address>
+          <city>Laurel</city>
+          <state>MD</state>
+          <postal>20708-4015</postal>
+        </cntaddr>
+        <cntvoice>301-497-5664</cntvoice>
+        <cntemail>Jane_Fallon@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/73/22/preview.png</browsen>
+              <browsed>preview of the dataset</browsed>
+              <browset>PNG</browset>
+            </browse>
+    <native>UNIX-Arc/INFO Version 7.1 single precision</native>
+  </idinfo>
+  <dataqual>
+    <logic>Arc/INFO software was used to create and maintain topological relationships between features. The Arc/INFO command BUILD was run to ensure the topological consistency of the data set. Each route was checked for missing and dangling arcs, correct length, proper direction, and correct route measures.</logic>
+    <complete>This data set contains the Breeding Bird Survey Routes in the lower 48 States which were considered active in 1998. This includes many of the routes added in 1998, though not all of them. The discontinued Breeding Bird Survey routes were generally not digitized.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar/>
+      </horizpa>
+      <horizpa/>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>USGS Patuxent Wildlife Research Center, Breeding Bird Survey</origin>
+            <pubdate>Unpublished material</pubdate>
+            <title>BBS routes maps</title>
+            <geoform>Map</geoform>
+          </citeinfo>
+        </srccite>
+        <typesrc>Paper</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1966</begdate>
+              <enddate>1998</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Ground condition</srccurr>
+        </srctime>
+        <srccitea>BBSMAP</srccitea>
+        <srccontr>Spatial data and route ID numbers</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>USGS Patuxent Wildlife Research Center, Breeding Bird Survey</origin>
+            <pubdate>Unpublished material</pubdate>
+            <title>BBS Database</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>Internal USGS Patuxent Wildlife Center computer file</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1966</begdate>
+              <enddate>1998</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Ground condition</srccurr>
+        </srctime>
+        <srccitea>BBSDA</srccitea>
+        <srccontr>Route names</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>DeLorme, Two DeLorme Drive, P.O. Box 298, Yarmouth, ME, 04096</origin>
+            <pubdate>1996</pubdate>
+            <title>Street Atlas USA Version 4.0</title>
+            <pubinfo>
+              <pubplace>Freeport, ME</pubplace>
+              <publish>DeLorme</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>CD-ROM</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1996</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>DLRM</srccitea>
+        <srccontr>Spatial information</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Environmental Systems Research Institute, Inc, 380 New York Street, Redlands, CA, 92373</origin>
+            <pubdate>1997</pubdate>
+            <title>US Street Database</title>
+            <pubinfo>
+              <pubplace>Redlands, CA</pubplace>
+              <publish>ESRI</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>CD-ROM</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1997</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>ESRIDA</srccitea>
+        <srccontr>spatial information</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>USGS Patuxent Wildlife Research Center</origin>
+            <pubdate>1999</pubdate>
+            <title>Breeding Bird Survey Route coverage</title>
+            <pubinfo>
+              <pubplace>Laurel, Maryland</pubplace>
+              <publish>USGS Patuxent Wildlife Research Center</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>ftp site</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1999</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>BBSCov</srccitea>
+        <srccontr>Spatial and attribute information</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>The Breeding Bird Survey route maps (BBSMAP) for most States were digitized with ArcView 3.0 and the US Streets Database (ESRIDA), which is based on the Tiger files. The arcs forming the routes were selected and shapefiles were created for each route. Routes in Idaho, Michigan, North Dakota, Ohio, West Virginia, Washington and part of Maryland were digitized using DeLorme's Street Atlas USA (DLRM). The files were converted to Arc/INFO line coverages by State. BBS routes for Minnesota and Wisconsin were digitized by James M. Sales, University of Minnesota, Duluth, UMD Natural Resources Research Institute, Duluth, MN, 55812. The Virginia routes were provided to us by Jeffrey B. Trollinger, Fish and Wildlife Information System, Virginia Department of Game and Inland Fisheries, 4010 West Broad Street, Richmond, VA 23280. The California routes were provided to us by Allan Hollander, University of California, Santa Barbara, Santa Barbara, CA, 93106. The data was then converted into a format consistent with ours. We used ArcView to add newly created and missing routes to these files. For each State, an Arc/INFO route system was added using the Arc/INFO MEASUREROUTE command. The JOINITEM command was used to add the route name from the BBS Database (BBSDA). The APPEND command was then used to create a single coverage for the National Atlas.</procdesc>
+        <srcused>BBSMAP</srcused>
+        <srcused>BBSDA</srcused>
+        <srcused>DLRM</srcused>
+        <srcused>ESRIDA</srcused>
+        <procdate>1998 and 1999</procdate>
+        <srcprod>BBSCov</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>The coverage was read into Arc/INFO, converted to NAD 83, and converted from the Lambert projection to geographic coordinates. The resulting file was loaded into ArcView with the route system information as one shapefile and the breeding bird survey route arcs as another shapefile. To create a final file containing both the arc information and the route lengths, the tables for the two layers were joined using the rteno item and the two ID numbers from the route coverage were turned off. The resulting file was saved as a shapefile.</procdesc>
+        <srcused>BBSCov</srcused>
+        <procdate>1999</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>In order to geoprocess spatial files for New York State from the National Atlas Data for distribution in CUGIR, the nationwide data files were added to a map document in ArcInfo 8.2. Using the geoprocessing wizard's clip function, the spatial files were clipped to the detailed New York polygon.</procdesc>
+        <procdate>200212</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+          <sdtsterm>
+            <sdtstype>String</sdtstype>
+            <ptvctcnt>198</ptvctcnt>
+          </sdtsterm>
+        </ptvctinf>
+      </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.000278</latres>
+        <longres>0.000278</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS1980</ellips>
+        <semiaxis>6378137</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>BBS Routes</enttypl>
+        <enttypd>Routes used for conducting the Breeding Bird Surveys.</enttypd>
+        <enttypds>USGS Patuxent Wildlife Research Center</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>The representation of the entity in the data.</attrdef>
+        <attrdefs>USGS Patuxent Wildlife Research Center</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Polyline</edomv>
+            <edomvd>1-dimensional element that may or may not surround a 2-dimensional element.</edomvd>
+            <edomvds>ESRI GIS software</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Fnode#</attrlabl>
+        <attrdef>Internal sequence number of the from-node.</attrdef>
+        <attrdefs>USGS Patuxent Wildlife Research Center</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>2</rdommin>
+            <rdommax>6355</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Tnode#</attrlabl>
+        <attrdef>Internal sequence number of the to-node.</attrdef>
+        <attrdefs>USGS Patuxent Wildlife Research Center</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>6354</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Lpoly#</attrlabl>
+        <attrdef>Internal sequence number of the left polygon.</attrdef>
+        <attrdefs>USGS Patuxent Wildlife Research Center</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>1</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Rpoly#</attrlabl>
+        <attrdef>Internal sequence number of the right polygon.</attrdef>
+        <attrdefs>USGS Patuxent Wildlife Research Center</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>1</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Length</attrlabl>
+        <attrdef>Length in coverage units.</attrdef>
+        <attrdefs>USGS Patuxent Wildlife Research Center</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.00119</rdommin>
+            <rdommax>0.82804</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Bbsrtsl020#</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>3731</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Arc-length</attrlabl>
+        <attrdef>The length of the arc in meters.</attrdef>
+        <attrdefs>USGS Patuxent Wildlife Research Center</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>119.2</rdommin>
+            <rdommax>80292.3</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Rteno</attrlabl>
+        <attrdef>The route number consists of the 1- or 2-digit State ID code followed by the 3-digit route ID. The ID Number For New York State is 61.</attrdef>
+        <attrdefs>USGS Patuxent Wildlife Research Center</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>2001</rdommin>
+            <rdommax>92902</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Rtename</attrlabl>
+        <attrdef>The official name of the BBS route.</attrdef>
+        <attrdefs>USGS Patuxent Wildlife Research Center</attrdefs>
+        <attrdomv>
+          <udom>There is no predefined set of valid route names.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Rteleng</attrlabl>
+        <attrdef>The length of the route in meters.</attrdef>
+        <attrdefs>USGS Patuxent Wildlife Research Center</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>10501.5</rdommin>
+            <rdommax>80292.3</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+        <distrib>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Albert R. Mann Library</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>Cornell University</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14853</postal>
+            </cntaddr>
+            <cntvoice>607-255-5406</cntvoice>
+            <cntemail>mann-ref@cornell.edu</cntemail>
+          </cntinfo>
+        </distrib>
+        <distliab>Cornell University provides these geographic data "as is". Cornell
+          University makes no guarantee or warranty concerning the accuracy of
+          information contained in the geographic data. Cornell University further
+          makes no warranty either expressed or implied, regarding the condition of
+          the product or its fitness for any particular purpose. The burden for
+          determining fitness for use lies entirely with the user. Although these
+          files have been processed successfully on computers at Cornell University,
+          no warranty is made by Cornell University regarding the use of these data
+          on any other system, nor does the fact of distribution constitute or imply
+          any such warranty.</distliab>
+        <stdorder>
+        <digform>
+            <digtinfo>
+              <formname>Shapefile</formname>
+              <formcont>zipped shapefile</formcont>
+              <filedec>zip</filedec>
+              <transize>0.45</transize>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/73/22/cugir-007322.zip</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>metadata</formname>
+              <formcont>FGDC XML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/73/22/fgdc.xml</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>HTML metadata</formname>
+              <formcont>FGDC HTML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/73/22/fgdc.html</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+                <digtinfo>
+                  <formname>KML</formname>
+                  <formcont>generated KML, via WFS</formcont>
+                </digtinfo>
+                <digtopt>
+                  <onlinopt>
+                    <computer>
+                      <networka>
+                        <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir007322&amp;outputFormat=application%2Fvnd.google-earth.kml%2Bxml</networkr>
+                      </networka>
+                    </computer>
+                  </onlinopt>
+                </digtopt>
+              </digform><digform>
+            <digtinfo>
+              <formname>GeoJSON</formname>
+              <formcont>generated GeoJSON, via WFS</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir007322&amp;outputFormat=application%2Fjson</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>OGC:WMS</formname>
+              <formcont>WMS, from GeoServer</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007322&amp;bbox=-79.61547744,40.51326587,-72.42364456,45.12211513&amp;width=256&amp;height=164&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><fees>None</fees></stdorder>
+      </distinfo>
+  <metainfo>
+      <metd>20190524</metd>
+      <metc>
+        <cntinfo>
+          <cntorgp>
+            <cntorg>Albert R. Mann Library</cntorg>
+          </cntorgp>
+          <cntaddr>
+            <addrtype>mailing and physical</addrtype>
+            <address>Albert R. Mann Library</address>
+            <city>Ithaca</city>
+            <state>New York</state>
+            <postal>14853</postal>
+            <country>USA</country>
+          </cntaddr>
+          <cntvoice>607-255-5406</cntvoice>
+          <cntemail>mann-ref@cornell.edu</cntemail>
+        </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+    </metainfo>
+</metadata>

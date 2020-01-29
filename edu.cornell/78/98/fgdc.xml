@@ -1,0 +1,373 @@
+<!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>New York Aquatic Gap Analysis Group</origin>
+        <pubdate>2007</pubdate>
+        <title>Stream Basins, French Creek NY, 2007</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Cornell University, Ithaca N.Y.</pubplace>
+          <publish>New York Aquatic Gap Analysis Group</publish>
+        </pubinfo>
+        <onlink>https://cugir.library.cornell.edu/catalog/cugir-007898</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This shapefile contains polygons representing the stream basins
+        of the French Creek watershed in western New York. Basins were developed
+        for stream segments at the 1:24,000 scale from 7.5 minute topographic
+        quadrangles. For the purposes of this study, a stream segment is defined
+        as the portion of stream from tributary confluence to tributary
+        confluence.</abstract>
+      <purpose>To define the drainage basin for each stream segment.</purpose>
+      <supplinf>This dataset was developed as part of the "Application of Gap
+        Analysis to Aquatic Biodiversity Conservation", a pilot study by the New
+        York Cooperative Fish and Wildlife Research Unit. See
+        &lt;http://aquagap.cfe.cornell.edu/&gt;</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>19960513</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+          <bounding>
+            <westbc>-79.758218</westbc>
+            <eastbc>-79.520119</eastbc>
+            <northbc>42.186643</northbc>
+            <southbc>41.983684</southbc>
+          </bounding>
+        </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Basin</themekey>
+        <themekey>Sub-Basin</themekey>
+        <themekey>Watershed boundaries</themekey>
+        <themekey>Sub-watershed boundaries</themekey>
+      </theme>
+      <theme>
+        <themekt>LCSH</themekt>
+        <themekey>Hydrography</themekey>
+        <themekey>Rivers</themekey>
+        <themekey>Watersheds</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>environment</themekey>
+        <themekey>inlandWaters</themekey>
+      </theme>
+      <theme>
+              <themekt>CUGIR Category</themekt>
+              <themekey>environment</themekey>
+<themekey>inland waters</themekey>
+            </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>New York</placekey>
+        <placekey>French Creek</placekey>
+      </place>
+      <place>
+        <placekt>LCSH</placekt>
+        <placekey>New York (State)</placekey>
+        <placekey>French Creek (N.Y. and Pa.)</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Although these data have been processed successfully on a computer
+      system at the New York Aquatic Gap Analysis Group, no warranty expressed
+      or implied is made regarding the accuracy or utility of the data on any
+      other system or for general or scientific purposes, nor shall the act of
+      distribution constitute any such warranty. This disclaimer applies both to
+      individual use of the data and aggregate use with other data. It is
+      strongly recommended that these data are directly acquired from a New York
+      Aquatic Gap Analysis Group server, and not indirectly through other
+      sources which may have changed the data in some way. It is also strongly
+      recommended that careful attention be paid to the contents of the metadata
+      file associated with these data. The New York Aquatic Gap Analysis Group
+      shall not be held liable for improper or incorrect use of the data
+      described and/or contained herein.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Marci Meixler</cntper>
+          <cntorg>Cornell University</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>208 Fernow Hall</address>
+          <address>Department of Natural Resources</address>
+          <address>Cornell University</address>
+          <city>Ithaca</city>
+          <state>NY</state>
+          <postal>14853</postal>
+          <country>U.S.A.</country>
+        </cntaddr>
+        <cntvoice>(607) 255-2038</cntvoice>
+        <cntfax>(607)255-1895</cntfax>
+        <cntemail>msm10@cornell.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/78/98/preview.png</browsen>
+              <browsed>preview of the dataset</browsed>
+              <browset>PNG</browset>
+            </browse>
+  </idinfo>
+  <dataqual>
+    <logic>Unknown</logic>
+    <complete>Unknown</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Positional accuracy is limited to the extent that polygons
+          were created from hand delineation using 1:24,000-scale topographic
+          maps.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Drainage divides were hand delineated on United States
+          Geological Survey (USGS) 1:24,000-scale topographic maps for all
+          stream segments. Once delineated, all divides were digitized into
+          Arc/Info. Edge matching and error correction were performed to create
+          a single GIS map for the French Creek watershed.</procdesc>
+        <procdate>Unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>CUGIR staff defined the dataset projection as UTM18N (NAD27),
+          removed extraneous attributes, and exported the data as a shapefile.</procdesc>
+        <procdate>20070321</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+          <sdtsterm>
+            <sdtstype>G-polygon</sdtstype>
+            <ptvctcnt>153</ptvctcnt>
+          </sdtsterm>
+        </ptvctinf>
+      </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>18</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-75.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000032</absres>
+            <ordres>0.000032</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1927</horizdn>
+        <ellips>Clarke 1866</ellips>
+        <semiaxis>6378206.400000</semiaxis>
+        <denflat>294.978698</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>FrenchBas</enttypl>
+        <enttypd>A stream basin within the French Creek watershed</enttypd>
+        <enttypds>New York Aquatic Gap Analysis Group</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>AREA</attrlabl>
+        <attrdef>area of polygon, in square meters</attrdef>
+        <attrdefs>computed</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>Unbounded</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+        <attrdef>perimeter of polygon, in meters</attrdef>
+        <attrdefs>computed</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>Unbounded</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AquaGapID</attrlabl>
+        <attrdef>code indicating stream id number (code1)</attrdef>
+        <attrdefs>New York Aquatic Gap Analysis Group</attrdefs>
+        <attrdomv>
+          <udom>A one- to five-character sequence of digits, used to identify
+            the basin within the French Creek watershed.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+        <distrib>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Albert R. Mann Library</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>Cornell University</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14853</postal>
+            </cntaddr>
+            <cntvoice>607-255-5406</cntvoice>
+            <cntemail>mann-ref@cornell.edu</cntemail>
+          </cntinfo>
+        </distrib>
+        <distliab>Cornell University provides these geographic data "as is". Cornell
+          University makes no guarantee or warranty concerning the accuracy of
+          information contained in the geographic data. Cornell University further
+          makes no warranty either expressed or implied, regarding the condition of
+          the product or its fitness for any particular purpose. The burden for
+          determining fitness for use lies entirely with the user. Although these
+          files have been processed successfully on computers at Cornell University,
+          no warranty is made by Cornell University regarding the use of these data
+          on any other system, nor does the fact of distribution constitute or imply
+          any such warranty.</distliab>
+        <stdorder>
+        <digform>
+            <digtinfo>
+              <formname>Shapefile</formname>
+              <formcont>zipped shapefile</formcont>
+              <filedec>zip</filedec>
+              <transize>0.19</transize>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/78/98/cugir-007898.zip</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>metadata</formname>
+              <formcont>FGDC XML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/78/98/fgdc.xml</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>HTML metadata</formname>
+              <formcont>FGDC HTML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/78/98/fgdc.html</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+                <digtinfo>
+                  <formname>KML</formname>
+                  <formcont>generated KML, via WFS</formcont>
+                </digtinfo>
+                <digtopt>
+                  <onlinopt>
+                    <computer>
+                      <networka>
+                        <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir007898&amp;outputFormat=application%2Fvnd.google-earth.kml%2Bxml</networkr>
+                      </networka>
+                    </computer>
+                  </onlinopt>
+                </digtopt>
+              </digform><digform>
+            <digtinfo>
+              <formname>GeoJSON</formname>
+              <formcont>generated GeoJSON, via WFS</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir007898&amp;outputFormat=application%2Fjson</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>OGC:WMS</formname>
+              <formcont>WMS, from GeoServer</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007898&amp;bbox=-79.76536097,41.97759523,-79.51297602999999,42.192731769999995&amp;width=256&amp;height=218&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><fees>None</fees></stdorder>
+      </distinfo>
+  <metainfo>
+      <metd>20190524</metd>
+      <metc>
+        <cntinfo>
+          <cntorgp>
+            <cntorg>Albert R. Mann Library</cntorg>
+          </cntorgp>
+          <cntaddr>
+            <addrtype>mailing and physical</addrtype>
+            <address>Albert R. Mann Library</address>
+            <city>Ithaca</city>
+            <state>New York</state>
+            <postal>14853</postal>
+            <country>USA</country>
+          </cntaddr>
+          <cntvoice>607-255-5406</cntvoice>
+          <cntemail>mann-ref@cornell.edu</cntemail>
+        </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+    </metainfo>
+</metadata>

@@ -1,0 +1,491 @@
+<!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Lamont-Doherty Earth Observatory (LDEO)</origin>
+        <pubdate>2005</pubdate>
+        <title>Sedimentary Environment, Hudson River estuary, 2004</title>
+        <geoform>vector digital data</geoform>
+        <onlink>https://cugir.library.cornell.edu/catalog/cugir-007885</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This dataset provides sedimentary environments of the Hudson
+        River Estuary from Verrazano Narrows Bridge to Troy. Areas of the Hudson
+        River shallower than 4 meters have not been surveyed and sampled
+        completely. The sedimentary environment interpretation is based on the
+        evaluation of Chirp sub-bottom acoustic profiler data in conjunction
+        with acoustic backscatter and bathymetry data. It is subdivided into
+        depositional, erosional, and dynamic classes that are further
+        subdivided, depending on the details identified in the sub-bottom data,
+        or because of their location. A more complete description of this
+        interpretation can be found in Nitsche et al. (2004) and Nitsche et al.
+        (2005)</abstract>
+      <purpose>In 1996, the New York State Department of Environmental
+        Conservation (DEC) initiated an effort to map the benthic habitat of the
+        Hudson River Estuary as part of a larger Hudson River Action Plan. This
+        project includes extensive mapping using sidescan sonar, sub-bottom
+        profiling, single and multi-beam bathymetric sonars, as well as
+        collecting ground truth data with sediment cores, grab samples, and
+        sediment profiling imagery (SPI). The goal of the project is the
+        creation of a comprehensive data set that includes detailed interpretive
+        maps of the physical environment of the floor of the estuary.  An
+        overview of the first phase of the benthic mapping project can be found
+        in Bell et al. (2006)</purpose>
+      <supplinf>See also &lt;http://benthic.info&gt; More extensive
+        discussion of the methods and interpretation can be found in the
+        following publications: Bell, R.E., et al., 2006. "Benthic habitat
+        mapping in the Hudson River Estuary", in The Hudson River Estuary
+        (Levinton and Waldman, eds.), Cambridge Univ Press., pp. 51-64. //
+        Carbotte, S.M., et al., 2004. Environmental change and oyster
+        colonization within the Hudson River estuary linked to Holocene climate.
+        Geo-Marine Letters 24: 212-224. // McHugh, C.M.G., et al., 2004. Spatial
+        variations in a condensed interval between estuarine and open marine
+        settings: Holocene Hudson River Estuary and adjacent continental shelf.
+        Geology 32(2): 169-172. // Nitsche, F.O., et al., 2004. Process-related
+        classification of acoustic data from the Hudson River Estuary. Marine
+        Geology 209(1-4): 131-145. // Nitsche, F.O. et. al., 2005. Integrative
+        acoustic mapping reveals Hudson River sediment processes and habitats.
+        EOS 86(24): 225. // Nitsche, F.O. et al., 2005. "A seabed classification
+        approach based on multiple acoustic sensors in the Hudson River
+        Estuary", in High Resolution Morphodynamics and Sedimentary Evolution of
+        Estuaries (FitzGerald and Knight, eds.), Springer, pp. 33-55. // Pekar,
+        S.F., et al., 2004. Estuarine processes and their stratigraphic record:
+        paleosalinity and sedimentation changes in the Hudson Estuary (North
+        America). Marine Geology 209(1-4): 113-129. // Strayer, D.L., et al.,
+        2006. Using geophysical information to define benthic habitats in a
+        large river. Freshwater Biology 51: 25-38.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1998</begdate>
+          <enddate>2004</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+          <bounding>
+            <westbc>-74.10704</westbc>
+            <eastbc>-73.685001</eastbc>
+            <northbc>42.751991</northbc>
+            <southbc>40.602704</southbc>
+          </bounding>
+        </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>estuary</themekey>
+        <themekey>sediments</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>geology</themekey>
+        <themekey>environment</themekey>
+        <themekey>inlandWaters</themekey>
+        <themekey>oceans</themekey>
+      </theme>
+      <theme>
+              <themekt>CUGIR Category</themekt>
+              <themekey>environment</themekey>
+<themekey>inland waters</themekey>
+<themekey>oceans</themekey>
+            </theme>
+      <place>
+        <placekt>LCSH</placekt>
+        <placekey>Hudson River (N.Y. and N.J.)</placekey>
+        <placekey>Hudson River Estuary (N.Y. and N.J.)</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>none</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>John Ladd</cntper>
+          <cntorg> Hudson River National Estuarine Research Reserve, Hudson
+            River Estuary Program, New York State Department of Environmental
+            Conservation </cntorg>
+        </cntperp>
+        <cntpos>Benthic Mapping Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Bard College Field Station</address>
+          <city>Annandale</city>
+          <state>New York</state>
+          <postal>12504</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>845-758-7010</cntvoice>
+        <cntemail>jxladd@gw.dec.state.ny.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/78/85/preview.png</browsen>
+              <browsed>preview of the dataset</browsed>
+              <browset>PNG</browset>
+            </browse>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>All sediment grab samples were positioned using Differential GPS
+        (DGPS), with accuracy within 1 meter. The polygon borders are based on
+        the samples (spaced an average of 0.5 km apart) and the sidescan sonar
+        data. The sediment type polygons represent the general trend, but local
+        misinterpretations are possible.</attraccr>
+    </attracc>
+    <logic>No information provided.</logic>
+    <complete>The data cover the Hudson River Estuary from the Verrazano-Narrows
+      Bridge to Troy, with the exception of some areas shallower than 4m, which
+      have not been surveyed and sampled completely.</complete>
+    <lineage>
+      <procstep>
+        <procdesc>Processed bathymetry, sidescan sonar, and sub-bottom tracks
+          were loaded into ArcGIS. Polygons were drawn manually in ArcGIS around
+          the areas with distinct different characteristics and each polygon was
+          assigned a certain type based on its character. The sedimentary
+          environment interpretation was based on the evaluation of the Chirp
+          data in conjunction with the backscatter and bathymetry data. We
+          distinguish the following classes: 1) Depositional environments are
+          identified as regions with low backscatter that ideally can be seen
+          overlying other strata. A clear example of a depositional environment
+          is the site off Hook Mountain (A1) where Cesium measurements have
+          confirmed the interpretation of recent sedimentation. This also
+          includes the high backscatter deposits associated with tributary
+          mouths (A2, A3). We have developed 4 distinct subclasses. 2)
+          Erosional/Non-depositional environments are defined as sites with
+          clearly truncated bedding in the Chirp data, outcrops of bedrock as in
+          the Hudson Highlands or where other information, stratigraphic or
+          radionuclides indicate non-depositional. We have developed 3 distinct
+          erosional/non-depositional subclasses. 3) The identification of
+          dynamic environments is based on the morphology and the backscatter
+          data. Within the dynamic regions it is possible that both erosional
+          and depositional processes are active. A clear example of a dynamic
+          environment is the sediment waves/dunes prominent in the upper reaches
+          of the Hudson River Estuary. As these features migrate both deposition
+          and erosion are active. We have identified several major subclasses
+          for the dynamic environment.</procdesc>
+        <procdate>Unknown</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+          <sdtsterm>
+            <sdtstype>G-polygon</sdtstype>
+            <ptvctcnt>15</ptvctcnt>
+          </sdtsterm>
+        </ptvctinf>
+      </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>18</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-75.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000512</absres>
+            <ordres>0.000512</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Sedimentary environment</enttypl>
+        <enttypd>Region have a particular sedimentary environment, based on
+          interpretation of sidescan sonar, bathymetry, and sub-bottom data.</enttypd>
+        <enttypds>LDEO</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>type</attrlabl>
+        <attrdef>Sedimentary environment type based on interpretation of
+          sidescan sonar, bathymetry, and sub-bottom data</attrdef>
+        <attrdefs>LDEO</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Deposition - thin</edomv>
+            <edomvd>Low backscatter; Sub-bottom data shows thin (&lt;50 cm)
+              usually transparent layer of sediment accumulation</edomvd>
+            <edomvds>LDEO</edomvds>
+          </edom>
+          <edom>
+            <edomv>Deposition - thick</edomv>
+            <edomvd>Low backscatter; Sub-bottom data shows thick (&gt;50 cm)
+              usually transparent layer of sediment accumulation</edomvd>
+            <edomvds>LDEO</edomvds>
+          </edom>
+          <edom>
+            <edomv>Deposition - over bedrock</edomv>
+            <edomvd>Low backscatter; Sub-bottom data indicate bedrock underneath
+              thin drape</edomvd>
+            <edomvds>LDEO</edomvds>
+          </edom>
+          <edom>
+            <edomv>Deposition - unres. thickness</edomv>
+            <edomvd>Low backscatter; Sub-bottom data are not available or not
+              clear enough to identify thickness of layer</edomvd>
+            <edomvds>LDEO</edomvds>
+          </edom>
+          <edom>
+            <edomv>Erosional - truncated</edomv>
+            <edomvd>Sub-bottom data show indication of truncated stratigraphy
+              outcropping on the river bottom. This class can only be identified
+              where good sub-bottom data are available.</edomvd>
+            <edomvds>LDEO</edomvds>
+          </edom>
+          <edom>
+            <edomv>Erosional - bedrock</edomv>
+            <edomvd>Multibeam bathymetry and sidescan data show bedrock
+              outcropping at the surface. In general, no sub-bottom penetration.</edomvd>
+            <edomvds>LDEO</edomvds>
+          </edom>
+          <edom>
+            <edomv>Erosional - non-deposition</edomv>
+            <edomvd>Moderate to high backscatter; multibeam may show smooth or
+              rough surface. Sub-bottom does not show any indication of recent
+              drape or truncated reflections. Applies to areas where there is no
+              clear indication of deposition or other dynamic classes. No 7Be
+              radionuclides where analysis exists.</edomvd>
+            <edomvds>LDEO</edomvds>
+          </edom>
+          <edom>
+            <edomv>Dynamic - waves</edomv>
+            <edomvd>Regions with waves imaged with multibeam or sidescan</edomvd>
+            <edomvds>LDEO</edomvds>
+          </edom>
+          <edom>
+            <edomv>Dynamic - scour</edomv>
+            <edomvd>Typically located around obstacles such as bridge abutments.
+              Moderate to high backscatter, rough surface in multibeam
+              bathymetry. No penetration and/or rough surface in sub-bottom
+              data.</edomvd>
+            <edomvds>LDEO</edomvds>
+          </edom>
+          <edom>
+            <edomv>Dynamic - debris</edomv>
+            <edomvd>Areas of complex morphology that includes small mounds of
+              potential dumps or debris flow deposits. Often these areas show
+              sign of scouring and sediment tails around individual features.</edomvd>
+            <edomvds>LDEO</edomvds>
+          </edom>
+          <edom>
+            <edomv>Dynamic - lineation</edomv>
+            <edomvd>These are bedforms that are parallel to the current in
+              contrast to the waves/dunes, which are typically aligned
+              perpendicular to the current. Examples of lineations with distinct
+              topographic relief are found in the Highlands.</edomvd>
+            <edomvds>LDEO</edomvds>
+          </edom>
+          <edom>
+            <edomv>Dynamic - drift</edomv>
+            <edomvd>Regions characterized by deposition in the lee of obstacles.
+              Often scour is also evident along the edges of obstacles so that
+              regions of dynamic drift are characterized by both deposition and
+              erosion.</edomvd>
+            <edomvds>LDEO</edomvds>
+          </edom>
+          <edom>
+            <edomv>Dynamic - streaks</edomv>
+            <edomvd>Features visible in the backscatter are aligned along the
+              current but have not evident topographic relief. Examples of these
+              features are associated with the Newburg Beacon Bridge (A2).</edomvd>
+            <edomvds>LDEO</edomvds>
+          </edom>
+          <edom>
+            <edomv>Dynamic - slump</edomv>
+            <edomvd>Features that are found a few times in the interpretation
+              for example the slump structure along the edge of the channel
+              adjacent to Catskill Creek, and the slide off of stony Point.</edomvd>
+            <edomvds>LDEO</edomvds>
+          </edom>
+          <edom>
+            <edomv>Unsurveyed</edomv>
+            <edomvd>These regions are not classified due to lack of data
+              coverage. These are generally the shallow regions that were not
+              surveyed.</edomvd>
+            <edomvds>LDEO</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AREA</attrlabl>
+        <attrdef>Area in square meters</attrdef>
+        <attrdefs>LDEO</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>unbounded</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+        <distrib>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Albert R. Mann Library</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>Cornell University</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14853</postal>
+            </cntaddr>
+            <cntvoice>607-255-5406</cntvoice>
+            <cntemail>mann-ref@cornell.edu</cntemail>
+          </cntinfo>
+        </distrib>
+        <distliab>Cornell University provides these geographic data "as is". Cornell
+          University makes no guarantee or warranty concerning the accuracy of
+          information contained in the geographic data. Cornell University further
+          makes no warranty either expressed or implied, regarding the condition of
+          the product or its fitness for any particular purpose. The burden for
+          determining fitness for use lies entirely with the user. Although these
+          files have been processed successfully on computers at Cornell University,
+          no warranty is made by Cornell University regarding the use of these data
+          on any other system, nor does the fact of distribution constitute or imply
+          any such warranty.</distliab>
+        <stdorder>
+        <digform>
+            <digtinfo>
+              <formname>Shapefile</formname>
+              <formcont>zipped shapefile</formcont>
+              <filedec>zip</filedec>
+              <transize>1.43</transize>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/78/85/cugir-007885.zip</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>metadata</formname>
+              <formcont>FGDC XML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/78/85/fgdc.xml</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>HTML metadata</formname>
+              <formcont>FGDC HTML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/78/85/fgdc.html</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+                <digtinfo>
+                  <formname>KML</formname>
+                  <formcont>generated KML, via WFS</formcont>
+                </digtinfo>
+                <digtopt>
+                  <onlinopt>
+                    <computer>
+                      <networka>
+                        <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir007885&amp;outputFormat=application%2Fvnd.google-earth.kml%2Bxml</networkr>
+                      </networka>
+                    </computer>
+                  </onlinopt>
+                </digtopt>
+              </digform><digform>
+            <digtinfo>
+              <formname>GeoJSON</formname>
+              <formcont>generated GeoJSON, via WFS</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir007885&amp;outputFormat=application%2Fjson</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>OGC:WMS</formname>
+              <formcont>WMS, from GeoServer</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007885&amp;bbox=-74.11970117,40.53822539,-73.67233983,42.81646961&amp;width=50&amp;height=256&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><fees>None</fees></stdorder>
+      </distinfo>
+  <metainfo>
+      <metd>20190524</metd>
+      <metc>
+        <cntinfo>
+          <cntorgp>
+            <cntorg>Albert R. Mann Library</cntorg>
+          </cntorgp>
+          <cntaddr>
+            <addrtype>mailing and physical</addrtype>
+            <address>Albert R. Mann Library</address>
+            <city>Ithaca</city>
+            <state>New York</state>
+            <postal>14853</postal>
+            <country>USA</country>
+          </cntaddr>
+          <cntvoice>607-255-5406</cntvoice>
+          <cntemail>mann-ref@cornell.edu</cntemail>
+        </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+    </metainfo>
+</metadata>

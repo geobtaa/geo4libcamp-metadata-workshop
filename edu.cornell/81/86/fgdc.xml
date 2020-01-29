@@ -1,0 +1,535 @@
+<!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey</origin>
+        <pubdate>unknown</pubdate>
+        <title>Index of Digital Elevation Models (DEM), New York</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://cugir.library.cornell.edu/catalog/cugir-008186</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This is an index of all the available DEM (digital elevation model) tiles within New York state.  Download links are provided for each quad.  Each DEM raster has a pixel resolution of approximately 10 meters.  Elevation values were derived from USGS contour lines mapped at a scale of 1:24,000.</abstract>
+      <purpose>DEMs can be used as source data for digital orthophotos and
+                as layers in geographic information systems for earth science
+                analysis. DEMs can also serve as tools for volumetric analysis,
+                for site location of towers, or for drainage basin delineation.
+                These data are collected as part of the National Mapping
+                Program.</purpose>
+      <supplinf>A Digital Elevation Model (DEM) contains a series of
+                elevations ordered from south to north with the order of the
+                columns from west to east. The DEM is formatted as one ASCII
+                header record (A-record), followed by a series of profile
+                records (B-records) each of which include a short B-record
+                header followed by a series of ASCII integer elevations per each
+                profile. The last physical record of the DEM is an accuracy
+                record (C-record). The 7.5-minute DEM (10- by 10-m data spacing,
+                elevations in decimeters) is cast on the Universal Transverse
+                Mercator (UTM) projection (the quads UTM zone can be found in
+                the header record (Record A)) in the North American Datum of
+                1927. It provides coverage in 7.5- by 7.5-minute blocks. Each
+                product provides the same coverage as a standard USGS 7.5-minute
+                quadrangle, but overedges are published as separate DEM files.
+                Coverage is available for all quads completely contained within
+                New York State, plus some additional ones falling along the
+                borders and containing significant area of the State's land.
+
+                7.5-minute DEMs have rows and columns which vary in length
+                and are staggered. The UTM bounding coordinates form a
+                quadrilateral (no two sides are parallel to each other), rather
+                than a rectangle. The user will need to pad out the uneven rows
+                and columns with blanks or flagged data values, if a rectangle
+                is required for the user's application. Some software vendors
+                have incorporated this function into their software for input of
+                standard formatted USGS DEMs.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>1995</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>process date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+          <bounding>
+            <westbc>-79.75</westbc>
+            <eastbc>-71.75</eastbc>
+            <northbc>45.0</northbc>
+            <southbc>40.5</southbc>
+          </bounding>
+        </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>digital elevation model</themekey>
+        <themekey>digital terrain model</themekey>
+        <themekey>hypsography</themekey>
+        <themekey>altitude</themekey>
+        <themekey>topography</themekey>
+        <themekey>index map</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>elevation</themekey>
+      </theme>
+      <theme>
+              <themekt>CUGIR Category</themekt>
+              <themekey>index map</themekey>
+<themekey>elevation</themekey>
+            </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>New York</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>1. The NYS DEC and the U.S. Geological Survey asks to be
+            credited in derived products. 2. Secondary Distribution of the data
+            is not allowed. 3. Any documentation provided is an integral part of
+            the data set. Failure to use the documentation in conjunction with
+            the digital data constitutes misuse of the data. 4. Although every
+            effort has been made to ensure the accuracy of information, errors
+            may be reflected in the data supplied. The user must be aware of
+            data conditions and bear responsibility for the appropriate use of
+            the information with respect to possible errors, original map scale,
+            collection methodology, currency of data, and other conditions.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>New York State Department of Environmental
+                        Conservation. Division of Water</cntorg>
+        </cntorgp>
+        <cntpos>Watershed Geographic Information Technologies Support
+                    Group, Chief</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>625 Broadway</address>
+          <address>4th floor</address>
+          <city>Albany</city>
+          <state>New York</state>
+          <postal>12233-3500</postal>
+        </cntaddr>
+        <cntvoice>518-402-8259</cntvoice>
+        <cntemail>watergis@gw.dec.state.ny.us</cntemail>
+        <cntinst>All questions regarding metadata and/or data should go
+                    through the internal DEC contact.</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>24,000 scale hypsographic contour linework drawn by
+            photogrametric, plane table or other methods by USGS, US Army Corp
+            of Engineers, Tennessee Valley Authority or others. Linework copied
+            onto stable-base mylar. Raster image of linework created by USGS,
+            Reston, with Optronics drum scanner at an aperture of 20um, to give
+            an equivalent resolution of 1024 DPI. Raster data converted to
+            vector with line-center algorithm in LT4X v. 3.1, 11/11/93, by John
+            Dabritz of Infotec Development Inc. Grid elevations calculated with
+            8-profile weighted linear interpolation, with cubic smoothing of
+            slope at the contour line as per algorithm in above mentioned LT4X
+            v. - export in DEM format, UTM meters, - grid height and width of 10
+            mt, - clipping (overedge) coordinate in UTM mt, - input coord feet
+            or meters (depending on source material), output in
+            meters/decimeters, - DEM grid points which are on a profile section
+            longer than 80 mt are smoothed by passing the grid through a low
+            pass-filter twice. The filter size (see below) is of 9 cell
+            diameters (aprox 9 mt). The purpose here is to leave well-contoured
+            areas untouched while smoothing areas of less than 5-2.5% slope (to
+            lessen streaking in flat areas typical of multiple-profile DEM
+            derivation). - cubic smoothing of elevation profile across contours
+            to 35% of the distance between adjacent contours. These profiles
+            have a smaller, but still discontinuous change in slope at contour
+            intersection than if not rounded. - 9 cell diameter for smoothing
+            reach, - use all 8 directions (from grid point to N, S, E, W ,NE,
+            NW, SE, SW) for each cell, - no line feeds. export dem
+            &lt;contour data name&gt; 2 10.00 10.00 2 1 4 80 2 0.35 9 8
+            0</native>
+    <crossref>
+      <citeinfo>
+        <origin>US Geological Survey</origin>
+        <pubdate>unknown</pubdate>
+        <title>Digital Elevation Model (DEM)</title>
+        <onlink>http://eros.usgs.gov/guides/dem.html</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>10 mt gridding cell spacing is the maximun that can be
+                meaningfully extracted from hypsography contour lines. This
+                allows very good hypsographic contour reproduction in all areas
+                except very flat ones. Elevation_resolution_ is 1 decimeter (0.1
+                meter). Elevation accuracy is 24,000 contour data, i.e.
+                plus/minus half the contour interval.</attraccr>
+    </attracc>
+    <logic>The fidelity of the relationships encoded in the data structure
+            of the DEM are automatically verified using a USGS software program
+            upon completion of the data production cycle. The test verifies full
+            compliance to the DEM specification.</logic>
+    <complete>DEM visually inspected using Delta3D version 2.0, 1995 by John
+            Dabritz and S. Phan of Infotec Development Inc. Checked for
+            completness and drainage characteristics matching the USGS
+            Hydrography Digital Line Graphs published at the same time as the
+            model. Further validation for logical consistency performed previous
+            to submission for archiving.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>The horizontal accuracy of the DEM is expressed as an
+                    estimated root mean square error (RMSE). The estimate of the
+                    RMSE is based upon horizontal accuracy tests of the DEM
+                    source materials with equal to or less than intended
+                    horizontal RMSE error of the DEM. The testing of horizontal
+                    accuracy of the source materials is accomplished by
+                    comparing the planimetric (X and Y) coordinates of
+                    well-defined ground points with the coordinates of the same
+                    points as determined from a source of higher accuracy.</horizpar>
+        <qhorizpa>
+          <horizpav>3 meters (estimated)</horizpav>
+          <horizpae>Digital elevation models meet horizontal National
+                        Map Accuracy Standards (NMAS) accuracy
+                    requirements.</horizpae>
+        </qhorizpa>
+      </horizpa>
+      <vertacc>
+        <vertaccr>A vertical RMSE of one-half of the contour interval of
+                    the source map is the maximum permitted. Systematic errors
+                    may not exceed the contour interval of the source graphic.
+                    Level 2 DEMs have been processed or smoothed for consistency
+                    and edited to remove identifiable systematic errors.</vertaccr>
+        <qvertpa>
+          <vertaccv>6 to 8 meters</vertaccv>
+          <vertacce>DEMs meet vertical National Map Accuracy Standards
+                        (NMAS) accuracy requirements. Vertical Positional
+                        Accuracy Vaue varies with each quad.</vertacce>
+        </qvertpa>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>Unknown</pubdate>
+            <pubtime>Unknown</pubtime>
+            <title>Albany</title>
+            <pubinfo>
+              <pubplace>EROS Data Center, SD</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>mylar separate from original color separation plate</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>CONTOUR1</srccitea>
+        <srccontr>elevation values for interpolation</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey or National Geodetic
+                            Survey (NGS) (ed.)</origin>
+            <pubdate>Unknown</pubdate>
+            <pubtime>Unknown</pubtime>
+            <title>project control</title>
+            <pubinfo>
+              <pubplace>EROS Data Center, SD</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>field notes</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>CONTROL1</srccitea>
+        <srccontr>ground control points</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey (ed.)</origin>
+            <pubdate>Unknown</pubdate>
+            <pubtime>Unknown</pubtime>
+            <title>photo ID number</title>
+            <pubinfo>
+              <pubplace>EROS Data Center, SD</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>transparency</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>PHOTO1</srccitea>
+        <srccontr>elevation values from photogrametry</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>The process can be seen as divided into several tasks,
+                    each with associated sub-processes. A. Original Data Source
+                    Preparation: 1. The United States Geological Service (USGS)
+                    office of Map Production (Mid Continent Mapping Center,
+                    Rolla, MO) selects the most recent original printing plates
+                    (1:24,000 or 1:25,000 scale) for each published quadrangle
+                    map. These plates are archived under controlled
+                    environmental conditions and are produced from the original
+                    map scripting materials onto dimensionally stable material
+                    (Mylar). A copy of the separate is made by contact methods
+                    onto photosensitive, opaque, dimensionally stable material.
+                    The separate plate copy is shipped to the USGS Mapping
+                    Applications Center (Reston, VA). 2. The MAC scans the
+                    separate plate with an Ektaprint (a.k.a. Optronics) drum
+                    scanner with an aperture of 24um (corresponding to a linear
+                    resolution of approx 1030 DPI) into a run-length encoded
+                    (RLE) formatted raster file. Contours lines have typically a
+                    thickness of 25 to 30 pixels. The file, typically between 10
+                    and 20 Mb, would be checked for completeness and distortion.
+                    If satisfactory MAC forwards both the raster file, the plate
+                    separate and the corresponding published quadrangle to the
+                    digitization workshop at the New York State Department of
+                    Environmental Conservation Water GIS unit in Albany, NY. B.
+                    Raster file batch processing 1. The raster file was loaded
+                    into Line Tracer for X Windows (LT4X, Infotec Inc.,
+                    Portland, Oregon) version 3.1. With it is georegistered and
+                    trimmed of any excess margin. 2. The file is put through an
+                    automated raster-to-vector batch process in which a vector
+                    following the center of the raster line is created, with a
+                    minimum vertex separation of 25 pixels. Once the vector has
+                    been calculated and the topology of the resultant data
+                    established, the resolution of the original raster was
+                    reduced to 500 DPI, to allow faster processing in the
+                    succeeding steps. C. Vector Contour Edit, Edge Matching and
+                    Labeling. 1. The vectorized contours are edited carefully to
+                    correct any line breaks, vector webbing (due to pen
+                    thickness or lack of resolution of the original's drafting
+                    process), labels and special line symbols (depressions, road
+                    fills, etc). 2. The contours are labeled with their
+                    corresponding elevations, as tagged in the original
+                    material. 3. The eight adjoining maps' vector contours are
+                    brought in and checked against those of the map being
+                    edited. Vectors of matching labels are snapped together if
+                    the gap is less than 3 line-thicknesses. Otherwise they are
+                    tagged as "disagreement in the original" (see DLG standards
+                    for hypsography layer). For each border only one of the maps
+                    is edited. 4. An independent quality control check of
+                    contour edits and labeling is carried out. 5. The Digital
+                    Elevation Model is interpolated in a batch process (see
+                    "Native Dataset Environment" above). D. DEM Edit and Quality
+                    Control 1. The resultant DEM is loaded in Delta3D (Infotec
+                    Inc., Portland, OR) v. 2.1, together with the corresponding
+                    hydrography vectors. The DEM is checked for the presence of
+                    irregular patterns, in which case it is returned to the
+                    previous process; water body height (e.g. in large lakes) is
+                    set for all grid cells within the water body; and drainage
+                    along vector streams is enforced by lowering cells higher
+                    than the upstream one along the stream. Water retention
+                    areas (wetlands, marshes...) are not modified except for
+                    stream entrance and exit. - Edge matching with the adjoining
+                    eight DEMs. 2. From thirty to thirty-five height reference
+                    markers are collected from the corresponding cultural
+                    separate for the quadrangle. These are compared to heights
+                    as read from the DEM and an statistical RMS is calculated,
+                    this is recorded in the DEM's C record. 3. The quadrangle
+                    record A is filled and checked for consistency. 4. A final
+                    DEM-formatted elevation dataset for the quadrangle is
+                    recorded. E. Final Quality Control and Databasing 1. The DEM
+                    file is shipped to USGS's Rocky Mountain Mapping Center
+                    (Boulder, CO). There it undergoes a separate quality control
+                    process which essentially mimics D. 2. The corresponding
+                    quality control flags are established. The DEM is
+                    sub-sampled to 30 mt grid spacing and the resultant file is
+                    forwarded to USGS's EROS Data Center, were it is catalogued
+                    into the National Elevation database. The 10 mt grid spacing
+                    file is returned to NYS DEC, from where it is forwarded to
+                    Cornell University's Mann Library.</procdesc>
+        <procdate>Unknown</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>G-polygon</sdtstype>
+        <ptvctcnt>961</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>17 or 18 or 19</utmzone>
+            <transmer>
+              <sfctrmer>.9996</sfctrmer>
+              <longcm>+075.000000</longcm>
+              <latprjo>+00.000000</latprjo>
+              <feast>0</feast>
+              <fnorth>0</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>row and column</plance>
+          <coordrep>
+            <absres>10</absres>
+            <ordres>10</ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1927</horizdn>
+        <ellips>Clarke 1866</ellips>
+        <semiaxis>6378206.4</semiaxis>
+        <denflat>294.9787</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altdatum>National Geodetic Vertical Datum of 1929</altdatum>
+        <altres>1</altres>
+        <altunits>decimeters</altunits>
+        <altenc>Explicit elevation coordinate included with horizontal
+                    coordinates</altenc>
+      </altsys>
+    </vertdef>
+  </spref>
+  <eainfo>
+    <overview>
+      <eaover>The digital elevation model is composed of an elevation
+                value linked to a grid cell location representing a gridded form
+                of a topographic map hypsography overlay. Each grid cell entity
+                contains an 8-character value between -32,767.0 and 32,768.0.</eaover>
+      <eadetcit>U.S. department of the Interior, U.S. Geological Survey,
+                1992, Standards for digital elevation models: Reston, VA, a
+                hypertext version of the Digital Elevation Model (DEM) is
+                available at: http://eros.usgs.gov/guides/dem.html (see Cross
+                Reference)</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+        <distrib>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Albert R. Mann Library</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>Cornell University</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14853</postal>
+            </cntaddr>
+            <cntvoice>607-255-5406</cntvoice>
+            <cntemail>mann-ref@cornell.edu</cntemail>
+          </cntinfo>
+        </distrib>
+        <distliab>Cornell University provides these geographic data "as is". Cornell
+          University makes no guarantee or warranty concerning the accuracy of
+          information contained in the geographic data. Cornell University further
+          makes no warranty either expressed or implied, regarding the condition of
+          the product or its fitness for any particular purpose. The burden for
+          determining fitness for use lies entirely with the user. Although these
+          files have been processed successfully on computers at Cornell University,
+          no warranty is made by Cornell University regarding the use of these data
+          on any other system, nor does the fact of distribution constitute or imply
+          any such warranty.</distliab>
+        <stdorder>
+        <digform>
+            <digtinfo>
+              <formname>GeoJSON</formname>
+              <formcont>OpenIndexMaps</formcont>
+              <transize>0.08</transize>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/81/86/cugir-008186-index.geojson</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>metadata</formname>
+              <formcont>FGDC XML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/81/86/fgdc.xml</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>HTML metadata</formname>
+              <formcont>FGDC HTML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/81/86/fgdc.html</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><fees>None</fees></stdorder>
+      </distinfo>
+  <metainfo>
+      <metd>20190524</metd>
+      <metc>
+        <cntinfo>
+          <cntorgp>
+            <cntorg>Albert R. Mann Library</cntorg>
+          </cntorgp>
+          <cntaddr>
+            <addrtype>mailing and physical</addrtype>
+            <address>Albert R. Mann Library</address>
+            <city>Ithaca</city>
+            <state>New York</state>
+            <postal>14853</postal>
+            <country>USA</country>
+          </cntaddr>
+          <cntvoice>607-255-5406</cntvoice>
+          <cntemail>mann-ref@cornell.edu</cntemail>
+        </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+    </metainfo>
+</metadata>

@@ -1,0 +1,876 @@
+<!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Tompkins County ITS GIS Division</origin>
+        <origin>Tompkins County Assessment Department</origin>
+        <pubdate>20070731</pubdate>
+        <title>Tax Parcels, Tompkins County NY, 2007</title>
+        <geoform>vector digital data</geoform>
+        <onlink>https://cugir.library.cornell.edu/catalog/cugir-007938</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The active tax parcel boundaries for all of Tompkins County for
+        a given year plus selected real property information added from Tompkins
+        County RPS. The boundaries represent the one-to-one match with the
+        parcel boundaries shown on the final paper maps for a given year.</abstract>
+      <purpose>The parcel boundaries represent legal descriptions of property
+        ownership, as recorded in various public documents in the Tompkins
+        County Clerk's Office.</purpose>
+      <supplinf>Properties that are tracked by an account number (utilities,
+        railroads, etc.) may be shown as several separate tax parcel boundaries,
+        with different tax map print keys, even though they are tracked in the
+        Real Property Services (RPS) database under the same account number and
+        treated as one single parcel. The parcel region will show these
+        account-number properties as one tax parcel boundary. This data set is
+        derived from the "region_parcel" featureclass currently being maintained
+        in ArcSDE. Please note that as of July 2007, the tax parcel boundaries
+        have not been edge-matched across municipal boundaries since in most
+        cases these require new surveys and legal descriptions.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20070731</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Boundaries updated continually, RPS data extracted
+      annually.</update>
+    </status>
+    <spdom>
+          <bounding>
+            <westbc>-76.696211</westbc>
+            <eastbc>-76.237347</eastbc>
+            <northbc>42.627348</northbc>
+            <southbc>42.262716</southbc>
+          </bounding>
+        </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>property</themekey>
+        <themekey>ownership</themekey>
+        <themekey>land record</themekey>
+        <themekey>parcel</themekey>
+        <themekey>tax</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>planningCadastre</themekey>
+        <themekey>boundaries</themekey>
+      </theme>
+      <theme>
+        <themekt>LCSH</themekt>
+        <themekey>Real property</themekey>
+      </theme>
+      <theme>
+              <themekt>CUGIR Category</themekt>
+              <themekey>property</themekey>
+<themekey>boundaries</themekey>
+            </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Tompkins County, New York</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>The following statement must be included with any products that
+      use or are derived from this data set: Data contained in this product was
+      originally produced by the Tompkins County ITS GIS Division and the
+      Tompkins County Assessment Department and may not be reproduced or
+      redistributed without the express written consent of the originators. The
+      originators do not warrant the accuracy or completeness of the information
+      portrayed by the data. The data contained herein is for visualization
+      purposes only and cannot be used for conveyance. Property boundaries are
+      based on legal documents, aerial photos, software interpolation, and
+      registration to the 1991 Tompkins County Digital Planimetric Files and,
+      therefore, may differ from legal property descriptions. For complete legal
+      descriptions and conveyance, please refer to the appropriate deeds,
+      surveys, and other legal documents.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Cattyann Campbell</cntper>
+          <cntorg>Tompkins County ITS GIS Division</cntorg>
+        </cntperp>
+        <cntpos>GIS Project Leader</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>128 East Buffalo Street</address>
+          <city>Ithaca</city>
+          <state>New York</state>
+          <postal>14850</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(607) 274-5418</cntvoice>
+        <cntfax>(607) 274-5420</cntfax>
+        <cntemail>gis@tompkins-co.org</cntemail>
+        <hours>M-F 8:30 a.m. to 4:30 p.m.</hours>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/79/38/preview.png</browsen>
+              <browsed>preview of the dataset</browsed>
+              <browset>PNG</browset>
+            </browse>
+    <datacred>Tompkins County ITS GIS Division and Tompkins County Assessment
+      Department</datacred>
+    <secinfo>
+      <secsys>local</secsys>
+      <secclass>Unclassified</secclass>
+      <sechandl>Open to the public.</sechandl>
+    </secinfo>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI
+      ArcCatalog 9.2.2.1350</native>
+    <crossref>
+      <citeinfo>
+        <origin>Tompkins County Assessment Department</origin>
+        <pubdate>20070701</pubdate>
+        <title>Selected GIS Extract of Real Property Services Data (Public
+          Version)- 2007</title>
+        <geoform>vector digital data</geoform>
+        <othercit>Tompkins County ITS GIS Division is responsible for creating
+          the extract and converting it to a format that is compatible with the
+          County's GIS.</othercit>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>See Entity and Attribute Information</attraccr>
+    </attracc>
+    <logic>The region parcel dataset is extracted from ArcSDE annually. A
+      special script is used to compare properties in the region parcels feature
+      class to the RPS table. Discrepancies are reviewed and corrected manually.
+      This data set's topology is created real-time using the ESRI set of ArcGIS
+      map and geodatabase topology rules, then converted to an ArcView
+      shapefile. All error checking is done in the source data sets.</logic>
+    <complete>Complete featureclass or shapefile for the entire County.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Varies, depending on source of parcel boundary (survey, deed,
+          aerial photo, raw conversion from paper maps). The accuracy of the
+          data set is limited to the accuracy of the 1991 Tompkins County
+          Planimetric Base Map series.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Tax parcel boundaries were initially maintained manually on
+          mylar originals, using erasable ink. In 1991, a series of planimetric
+          base data sets were produced from aerial photography, and are now
+          referred to as the 1991 Tompkins County Digital Planimetric Base Map.
+          The tax parcel mylar maps were digitized using MapGrafix and
+          referenced to the 1991 Tompkins County Digital Planimetric Base Map.
+          In 1997, the MapGrafix data sets for the City of Ithaca and the Towns
+          of Caroline and Danby were approved by the New York State Office of
+          Real Property Services (NYS ORPS). In 1998, the MapGrafix data sets
+          were converted to Arc/Info for the City of Ithaca, Towns of Caroline,
+          Danby, Dryden, and Ithaca, and the Villages of Cayuga Heights, Dryden,
+          and Freeville. In 1999, the Towns of Enfield, Groton, Lansing,
+          Newfield, and Ulysses, and the Villages of Groton, Lansing, and
+          Trumansburg were converted to Arc/Info. Beginning with the 1999 tax
+          year, all tax parcel boundaries were maintained in Arc/Info, all tax
+          maps are printed using ArcView, and all tax maps are archived
+          digitally using Adobe Acrobat, as well as the traditional paper
+          archival. During the transition period from paper to digital maps,
+          parcel boundaries were approximated, except for those boundaries that
+          have been input using paper surveys and legal descriptions. The tax
+          parcel data sets consisted of three groups of layers: boundary layers,
+          text layers, and region layers. The boundary layers consisted of those
+          Arc/Info feature classes upon which the region layers are created.
+          Boundary layers include the nodes, arcs, and polygons. Parcel
+          boundaries are changed by first modifying the arc and node layers, and
+          updating the arc attributes. Next, the polygons were re-created and
+          their attributes were updated. The text layers were then updated to
+          reflect the boundary changes. Finally, the regions were created from
+          the polygons using polygon attributes and the Arc/Info REGIONDISSOLVE
+          command. The text layers are Arc/Info annotation layers and include
+          acreage, block, dimension, non-roll section 1 (exempt/utility/state
+          lands), lot, Military Tract/Watkins and Flint Purchase, municipality,
+          place, road name, special district, tax map, tic mark, and water text,
+          as it appears on the printed tax parcel maps. The region layers
+          include deed book/page, municipal, parcel, printkey, and tax map
+          regions. The printkey regions from each of the municipal data sets for
+          the current tax year are then combined into a county-wide data set,
+          which is then converted to an ArcView shapefile. Regions for special
+          districts were derived from polygon attributes in the same manner as
+          the other regions, for each municipality, then combined into a
+          County-wide special districts data set. Regions for public lands were
+          similarly combined and converted into a County-wide public lands data
+          set. In 2004, the original Arc/Info coverages described above were
+          migrated to the ESRI ArcInfo Desktop geodatabase format. Parcel
+          boundaries are changed based on deed and survey information and are
+          modified in the software using Map topology and several geodatabase
+          topology rules to ensure spatial data integrity. All regions,
+          annotations, centroids and polygons listed above were successfully
+          migrated by municipality were maintained in the ESRI personal
+          geodatabase format. Beginning with the 2004 tax year, all tax parcel
+          boundaries are maintained in ArcInfo Desktop. In February of 2007, the
+          parcels were migrated from ESRI personal geodatabase format to the
+          ArcSDE geodatabase format. All tax maps are printed via a special
+          script which outputs the tax maps to Adobe Acrobat (PDF) format. All
+          tax maps are archived digitally using Adobe Acrobat, as well as the
+          traditional paper archival. Tax maps for 2007 can be obtained in the
+          Adobe PDF format online at:
+          &lt;http://www.co.tompkins.ny.us/gis/maps/tax.html&gt;</procdesc>
+        <procdate>1998-2007</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Tompkins County ITS GIS Division</cntper>
+              <cntorg>Cattyann Campbell</cntorg>
+            </cntperp>
+            <cntpos>GIS Project Leader</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>128 East Buffalo Street</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14820</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>(607) 274-5418</cntvoice>
+            <cntfax>(607) 274-5420</cntfax>
+            <cntemail>gis@tompkins-co.org</cntemail>
+            <hours>M-F 8:30 a.m. to 4:30 p.m.</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+          <sdtsterm>
+            <sdtstype>G-polygon</sdtstype>
+            <ptvctcnt>34505</ptvctcnt>
+          </sdtsterm>
+        </ptvctinf>
+      </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>State Plane Coordinate System 1983</gridsysn>
+          <spcs>
+            <spcszone>3102</spcszone>
+            <transmer>
+              <sfctrmer>0.999938</sfctrmer>
+              <longcm>-76.583333</longcm>
+              <latprjo>40.000000</latprjo>
+              <feast>820208.333333</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </spcs>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000256</absres>
+            <ordres>0.000256</ordres>
+          </coordrep>
+          <plandu>survey feet</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Taxparcels2007</enttypl>
+        <enttypd>Tompkins County Tax parcels 2007, with Real Property Service
+          information</enttypd>
+        <enttypds>Tompkins County ITS GIS Division, 2005</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>AREA</attrlabl>
+        <attrdef>Area, in square U.S. survey feet</attrdef>
+        <attrdefs/>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>Unbounded</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+        <attrdef>The sum of the lengths of the sides of the parcel polygon, in
+          U.S. survey feet</attrdef>
+        <attrdefs/>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>Unbounded</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PARCELKEY</attrlabl>
+        <attrdef>Real Property Services (RPS) database parcel key
+          (Swis-Section-Block-Lot or SSBL). This field is updated yearly based
+          on the GIS extract of the final-roll RPS database (no longer available
+          as single field in RPS4).</attrdef>
+        <attrdefs>Tompkins County ITS GIS Division, 1997.</attrdefs>
+        <attrdomv>
+          <udom>string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SWISPRINTK</attrlabl>
+        <attrdef>Concatenation of SWIS code, "-", and the PRINTKEY field, for
+          those polygons without an account number (i.e., a blank "ACCT_NUM"),
+          or a concatenation of SWIS code, "-", and the "ACCT_NUM" field, for
+          those polygons with an account number. This field is easily
+          reproducible within the Real Property Services database extract, and
+          is used as the primary join (key) field to the RPS extract from the
+          parcel data sets.</attrdef>
+        <attrdefs>Tompkins County ITS GIS Division, 1997.</attrdefs>
+        <attrdomv>
+          <udom>string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SWIS</attrlabl>
+        <attrdef>State SWIS code for the municipality in which the property is
+          located.</attrdef>
+        <attrdefs>Tompkins County ITS GIS Division, 1997.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>500200</edomv>
+            <edomvd>Town of Caroline</edomvd>
+            <edomvds>New York State Office of Real Property Services</edomvds>
+          </edom>
+          <edom>
+            <edomv>502200</edomv>
+            <edomvd>Town of Danby</edomvd>
+            <edomvds>New York State Office of Real Property Services</edomvds>
+          </edom>
+          <edom>
+            <edomv>502401</edomv>
+            <edomvd>Village of Dryden</edomvd>
+            <edomvds>New York State Office of Real Property Services</edomvds>
+          </edom>
+          <edom>
+            <edomv>502403</edomv>
+            <edomvd>Village of Freeville</edomvd>
+            <edomvds>New York State Office of Real Property Services</edomvds>
+          </edom>
+          <edom>
+            <edomv>502489</edomv>
+            <edomvd>Town of Dryden</edomvd>
+            <edomvds>New York State Office of Real Property Services</edomvds>
+          </edom>
+          <edom>
+            <edomv>502600</edomv>
+            <edomvd>Town of Enfield</edomvd>
+            <edomvds>New York State Office of Real Property Services</edomvds>
+          </edom>
+          <edom>
+            <edomv>502801</edomv>
+            <edomvd>Village of Groton</edomvd>
+            <edomvds>New York State Office of Real Property Services</edomvds>
+          </edom>
+          <edom>
+            <edomv>502889</edomv>
+            <edomvd>Town of Groton</edomvd>
+            <edomvds>New York State Office of Real Property Services</edomvds>
+          </edom>
+          <edom>
+            <edomv>503001</edomv>
+            <edomvd>Village of Cayuga Heights</edomvd>
+            <edomvds>New York State Office of Real Property Services</edomvds>
+          </edom>
+          <edom>
+            <edomv>503089</edomv>
+            <edomvd>Town of Ithaca</edomvd>
+            <edomvds>New York State Office of Real Property Services</edomvds>
+          </edom>
+          <edom>
+            <edomv>503201</edomv>
+            <edomvd>Village of Lansing</edomvd>
+            <edomvds>New York State Office of Real Property Services</edomvds>
+          </edom>
+          <edom>
+            <edomv>503289</edomv>
+            <edomvd>Town of Lansing</edomvd>
+            <edomvds>New York State Office of Real Property Services</edomvds>
+          </edom>
+          <edom>
+            <edomv>503400</edomv>
+            <edomvd>Town of Newfield</edomvd>
+            <edomvds>New York State Office of Real Property Services</edomvds>
+          </edom>
+          <edom>
+            <edomv>503601</edomv>
+            <edomvd>Village of Trumansburg</edomvd>
+            <edomvds>New York State Office of Real Property Services</edomvds>
+          </edom>
+          <edom>
+            <edomv>503689</edomv>
+            <edomvd>Town of Ulysses</edomvd>
+            <edomvds>New York State Office of Real Property Services</edomvds>
+          </edom>
+          <edom>
+            <edomv>500700</edomv>
+            <edomvd>City of Ithaca</edomvd>
+            <edomvds>New York State Office of Real Property Services</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PRINTKEY</attrlabl>
+        <attrdef>Real Property Services database print key (Section-Block-Lot or
+          S-B-L).</attrdef>
+        <attrdefs>Tompkins County ITS GIS Division, 1997.</attrdefs>
+        <attrdomv>
+          <udom>string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CALCACRES</attrlabl>
+        <attrdef>Calculated Acreage Shape area field divided by 43560 (AREA /
+          43560) please note that this will differ slightly when data is
+          transformed from ESRI ArcSDE to Shapefile format.</attrdef>
+        <attrdefs>Tompkins County ITS GIS Division, 2007.</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>Unbounded</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RPSACRES</attrlabl>
+        <attrdef>Real Property Services (RPS) acreage, extracted from the RPS
+          database. This acreage will reflect the total acreage of the parcel,
+          which is not necessarily the same acreage value as the polygon.
+          Properties less than an acre has a value of zero.</attrdef>
+        <attrdefs>Tompkins County ITS GIS Division, 1999.</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>Unbounded</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PC</attrlabl>
+        <attrdef>Property class code which identifies the present use of the
+          property. See the "PROPCLASS" and "DESCRIPTIO" fields for
+          classifications and short descriptions.</attrdef>
+        <attrdefs>Tompkins County Assessment roll, 2007.</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>New York State Office of Real Property Services Property
+              Classification Codes</codesetn>
+            <codesets>http://www.orps.state.ny.us/assessor/manuals/vol6/ref/prclas.htm</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PROPCLASS</attrlabl>
+        <attrdef>Property class values which identifies the present use of the
+          property. See "PC" and "DESCRIPTIO" fields for codes and short
+          descriptions.</attrdef>
+        <attrdefs>Tompkins County Assessment roll, 2007.</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>New York State Office of Real Property Services Property
+              Classification Codes</codesetn>
+            <codesets>http://www.orps.state.ny.us/assessor/manuals/vol6/ref/prclas.htm</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DESCRIPTIO</attrlabl>
+        <attrdef>Property class descriptions which identifies the present use of
+          the property. See the "PC" and "PROPCLASS" fields for codes and
+          classifications.</attrdef>
+        <attrdefs>Tompkins County Assessment roll, 2007.</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>New York State Office of Real Property Services Property
+              Classification Codes</codesetn>
+            <codesets>http://www.orps.state.ny.us/assessor/manuals/vol6/ref/prclas.htm</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ROLLSECT</attrlabl>
+        <attrdef>Roll section code descriptions (A division of the assessment
+          roll used to group properties for similar taxing purposes).</attrdef>
+        <attrdefs>Tompkins County Assessment roll, 2007.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>TAXABLE</edomv>
+            <edomvd>1</edomvd>
+            <edomvds>Tompkins County Assessment roll, 2007.</edomvds>
+          </edom>
+          <edom>
+            <edomv>TAXABLE NYS OWNED</edomv>
+            <edomvd>3</edomvd>
+            <edomvds>Tompkins County Assessment roll, 2007.</edomvds>
+          </edom>
+          <edom>
+            <edomv>PUBLIC UTILITITES</edomv>
+            <edomvd>6</edomvd>
+            <edomvds>Tompkins County Assessment roll, 2007.</edomvds>
+          </edom>
+          <edom>
+            <edomv>RAILROADS</edomv>
+            <edomvd>7</edomvd>
+            <edomvds>Tompkins County Assessment roll, 2007.</edomvds>
+          </edom>
+          <edom>
+            <edomv>EXEMPT</edomv>
+            <edomvd>8</edomvd>
+            <edomvds>Tompkins County Assessment roll, 2007.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LOC</attrlabl>
+        <attrdef>Street number where the property is located. Used for "Street
+          Number" search in gisweb applications.</attrdef>
+        <attrdefs>Tompkins County Assessment roll, 2007.</attrdefs>
+        <attrdomv>
+          <udom>string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LOCATION</attrlabl>
+        <attrdef>Name of the street where the property is located. Used for
+          "Street Name" pull values in gisweb applications.</attrdef>
+        <attrdefs>Tompkins County Assessment roll, 2007.</attrdefs>
+        <attrdomv>
+          <udom>string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MUNI</attrlabl>
+        <attrdef>Municipality in which the property is located. See "SWIS" field
+          for codes.</attrdef>
+        <attrdefs>Tompkins County Assessment roll, 2007.</attrdefs>
+        <attrdomv>
+          <udom>string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SCH</attrlabl>
+        <attrdef>School district codes.</attrdef>
+        <attrdefs>Tompkins County Assessment roll, 2007.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>53001</edomv>
+            <edomvd>Genoa Central School District</edomvd>
+            <edomvds>Tompkins County assessment roll, 2007.</edomvds>
+          </edom>
+          <edom>
+            <edomv>54201</edomv>
+            <edomvd>Moravia Central School District</edomvd>
+            <edomvds>Tompkins County assessment roll, 2007.</edomvds>
+          </edom>
+          <edom>
+            <edomv>110200</edomv>
+            <edomvd>Cortland Central School District</edomvd>
+            <edomvds>Tompkins County assessment roll, 2007.</edomvds>
+          </edom>
+          <edom>
+            <edomv>113001</edomv>
+            <edomvd>Homer Central School District</edomvd>
+            <edomvds>Tompkins County assessment roll, 2007.</edomvds>
+          </edom>
+          <edom>
+            <edomv>442001</edomv>
+            <edomvd>Odessa-Montour Central School District</edomvd>
+            <edomvds>Tompkins County assessment roll, 2007.</edomvds>
+          </edom>
+          <edom>
+            <edomv>492401</edomv>
+            <edomvd>Candor Central School District</edomvd>
+            <edomvds>Tompkins County assessment roll, 2007.</edomvds>
+          </edom>
+          <edom>
+            <edomv>492602</edomv>
+            <edomvd>Newark Valley Central School District</edomvd>
+            <edomvds>Tompkins County assessment roll, 2007.</edomvds>
+          </edom>
+          <edom>
+            <edomv>493401</edomv>
+            <edomvd>Spencer-Van Etten Central School District</edomvd>
+            <edomvds>Tompkins County assessment roll, 2007.</edomvds>
+          </edom>
+          <edom>
+            <edomv>500700</edomv>
+            <edomvd>Ithaca City School District</edomvd>
+            <edomvds>Tompkins County assessment roll, 2007.</edomvds>
+          </edom>
+          <edom>
+            <edomv>502401</edomv>
+            <edomvd>Dryden Central School District</edomvd>
+            <edomvds>Tompkins County assessment roll, 2007.</edomvds>
+          </edom>
+          <edom>
+            <edomv>502801</edomv>
+            <edomvd>Groton Central School District</edomvd>
+            <edomvds>Tompkins County assessment roll, 2007.</edomvds>
+          </edom>
+          <edom>
+            <edomv>503201</edomv>
+            <edomvd>Lansing Central School District</edomvd>
+            <edomvds>Tompkins County assessment roll, 2007.</edomvds>
+          </edom>
+          <edom>
+            <edomv>503401</edomv>
+            <edomvd>Newfield Central School District</edomvd>
+            <edomvds>Tompkins County assessment roll, 2007.</edomvds>
+          </edom>
+          <edom>
+            <edomv>503601</edomv>
+            <edomvd>Trumansburg Central School District</edomvd>
+            <edomvds>Tompkins County assessment roll, 2007.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SCHDIST</attrlabl>
+        <attrdef>School districts code descriptions. See the "SCH" field for
+          codes and descriptions.</attrdef>
+        <attrdefs>Tompkins County Assessment roll, 2007.</attrdefs>
+        <attrdomv>
+          <udom>string</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+        <distrib>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Albert R. Mann Library</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>Cornell University</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14853</postal>
+            </cntaddr>
+            <cntvoice>607-255-5406</cntvoice>
+            <cntemail>mann-ref@cornell.edu</cntemail>
+          </cntinfo>
+        </distrib>
+        <distliab>Cornell University provides these geographic data "as is". Cornell
+          University makes no guarantee or warranty concerning the accuracy of
+          information contained in the geographic data. Cornell University further
+          makes no warranty either expressed or implied, regarding the condition of
+          the product or its fitness for any particular purpose. The burden for
+          determining fitness for use lies entirely with the user. Although these
+          files have been processed successfully on computers at Cornell University,
+          no warranty is made by Cornell University regarding the use of these data
+          on any other system, nor does the fact of distribution constitute or imply
+          any such warranty.</distliab>
+        <stdorder>
+        <digform>
+            <digtinfo>
+              <formname>Shapefile</formname>
+              <formcont>zipped shapefile</formcont>
+              <filedec>zip</filedec>
+              <transize>8.00</transize>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/79/38/cugir-007938.zip</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>metadata</formname>
+              <formcont>FGDC XML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/79/38/fgdc.xml</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>HTML metadata</formname>
+              <formcont>FGDC HTML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/79/38/fgdc.html</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+                <digtinfo>
+                  <formname>KML</formname>
+                  <formcont>generated KML, via WFS</formcont>
+                </digtinfo>
+                <digtopt>
+                  <onlinopt>
+                    <computer>
+                      <networka>
+                        <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir007938&amp;outputFormat=application%2Fvnd.google-earth.kml%2Bxml</networkr>
+                      </networka>
+                    </computer>
+                  </onlinopt>
+                </digtopt>
+              </digform><digform>
+            <digtinfo>
+              <formname>GeoJSON</formname>
+              <formcont>generated GeoJSON, via WFS</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir007938&amp;outputFormat=application%2Fjson</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>OGC:WMS</formname>
+              <formcont>WMS, from GeoServer</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007938&amp;bbox=-76.70997692,42.25177704,-76.22358108,42.638286959999995&amp;width=256&amp;height=203&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><fees>None</fees></stdorder>
+      </distinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Tompkins County ITS GIS Division</cntorg>
+          <cntper>Cattyann Campbell</cntper>
+        </cntorgp>
+        <cntpos>GIS Project Leader</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>128 East Buffalo Street</address>
+          <city>Ithaca</city>
+          <state>New York</state>
+          <postal>14850</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(607) 274-5418</cntvoice>
+        <cntfax>(607) 274-5420</cntfax>
+        <cntemail>gis@tompkins-co.org</cntemail>
+        <hours>M-F 8:30 a.m. to 4:30 p.m.</hours>
+      </cntinfo>
+    </distrib>
+    <distliab>The tax parcel data set and any products derived from it
+      represents a compilation of graphical and textual information from deeds
+      and surveys, hand-drawn mylar maps, a digitial planimetric base map,
+      various paper and digital aerial photographs, and digital conversion of
+      hand-drawn mylar maps. Errors and omissions can occur from each of these
+      sources, as each source represents a large number of records and
+      originators of information. As a practical matter, Tompkins County does
+      not warrant the accuracy or completeness of the information portrayed. The
+      end user of the data sets and products derived from them agrees to accept
+      the data "as is", with the full knowledge that errors and omissions may
+      exist. The end user further agrees to hold harmless Tompkins County for
+      any liability or damages that may result from an improper or inappropriate
+      use of the data.</distliab>
+    <stdorder>
+      <nondig>Paper maps, either color or black and white</nondig>
+      <fees>For printed maps Half-size (11"x17") color maps are $2.00 each.
+        Half-size black and white maps are $1.50 each. Full-size (24"x36") color
+        and black and white maps are $12.00 each on coated paper. Fees for
+        special-request media or non-standard print sizes will vary.</fees>
+      <ordering>Submit a written request to the Tompkins County GIS Department
+        at
+        &lt;http://www.tompkins-co.org/email.aspx?email=gis@tompkins-co.org&gt;
+        or visit our office at 128 E. Buffalo St. to obtain map in person.</ordering>
+      <turnarnd>Existing Half-size maps: 1-2 days. Existing Full-size maps: 1-2
+        days. Custom maps may take up to 5-10 days. Digital maps 5-10
+      days.</turnarnd>
+    </stdorder>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ESRI Shapefile</formname>
+          <filedec>no compression applied</filedec>
+          <transize>10.628</transize>
+        </digtinfo>
+        <digtopt>
+          <offoptn>
+            <offmedia>Zip disk, CD-ROM, floppy disk, etc.</offmedia>
+            <recfmt>varies</recfmt>
+          </offoptn>
+        </digtopt>
+      </digform>
+      <fees>Inquire for details.</fees>
+      <ordering>Submit a written request to the Tompkins County GIS Department
+        at
+        &lt;http://www.tompkins-co.org/email.aspx?email=gis@tompkins-co.org&gt;
+        or visit our office at 128 E. Buffalo St.</ordering>
+    </stdorder>
+    <availabl>
+      <timeinfo>
+        <sngdate>
+          <caldate>20070731</caldate>
+        </sngdate>
+      </timeinfo>
+    </availabl>
+  </distinfo>
+  <metainfo>
+      <metd>20190524</metd>
+      <metc>
+        <cntinfo>
+          <cntorgp>
+            <cntorg>Albert R. Mann Library</cntorg>
+          </cntorgp>
+          <cntaddr>
+            <addrtype>mailing and physical</addrtype>
+            <address>Albert R. Mann Library</address>
+            <city>Ithaca</city>
+            <state>New York</state>
+            <postal>14853</postal>
+            <country>USA</country>
+          </cntaddr>
+          <cntvoice>607-255-5406</cntvoice>
+          <cntemail>mann-ref@cornell.edu</cntemail>
+        </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+    </metainfo>
+</metadata>

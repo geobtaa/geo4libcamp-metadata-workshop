@@ -1,0 +1,500 @@
+<!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey</origin>
+        <pubdate>2000</pubdate>
+        <title>Census of Agriculture, New York State, 1997</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://cugir.library.cornell.edu/catalog/cugir-007313</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This data set portrays the National Agricultural Statistics Service, U.S. Department
+        of Agriculture's 1997 Census data for the United States, presented by county. There are 25
+        categories of data which include information about farms, crops, livestock, values of
+        products, and farm operator characteristics.</abstract>
+      <purpose>These data are intended for geographic display and analysis at the national level,
+        and for large regional areas. The data should be displayed and analyzed at scales
+        appropriate for 1:2,000,000-scale data. No responsibility is assumed by the U.S. Geological
+        Survey in the use of these data.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>1997</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+          <bounding>
+            <westbc>-79.763329</westbc>
+            <eastbc>-71.855881</eastbc>
+            <northbc>45.010994</northbc>
+            <southbc>40.499077</southbc>
+          </bounding>
+        </spdom>
+    <keywords>
+      <theme>
+        <themekt>LCSH</themekt>
+        <themekey>Agriculture</themekey>
+        <themekey>Pecans</themekey>
+        <themekey>Census</themekey>
+        <themekey>Farms</themekey>
+        <themekey>Family farm</themekey>
+        <themekey>African American agricultural laborers</themekey>
+        <themekey>Minority farmers</themekey>
+        <themekey>Women farmers</themekey>
+        <themekey>Agriculture Statistics</themekey>
+        <themekey>Nursery growers</themekey>
+        <themekey>Irrigated soils</themekey>
+        <themekey>Cattle</themekey>
+        <themekey>Chickens</themekey>
+        <themekey>Orchards</themekey>
+        <themekey>Broilers (Poultry)</themekey>
+        <themekey>Swine</themekey>
+        <themekey>Tractors</themekey>
+        <themekey>Corn</themekey>
+        <themekey>Wheat</themekey>
+        <themekey>Cotton</themekey>
+        <themekey>Soybeans</themekey>
+        <themekey>Vegetables</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>farming</themekey>
+        <themekey>society</themekey>
+      </theme>
+      <theme>
+              <themekt>CUGIR Category</themekt>
+              <themekey>agriculture</themekey>
+<themekey>society</themekey>
+            </theme>
+      <place>
+        <placekt>LCSH</placekt>
+        <placekey>New York (State)</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None. Acknowledgment of the National Atlas of the United States of America and (or)
+      the U.S. Geological Survey would be appreciated in products derived from these
+      data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Gita Urban-Mathieux</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>Mailing address</addrtype>
+          <address>521 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>703-648-5175</cntvoice>
+        <cntemail>atlasmail@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/73/13/preview.png</browsen>
+              <browsed>preview of the dataset</browsed>
+              <browset>PNG</browset>
+            </browse>
+  </idinfo>
+  <dataqual>
+    <logic>The data set was checked for topological consistency using the Arc/INFO command BUILD. No
+      other checks for logical consistency were performed on this data set.</logic>
+    <complete>This data set includes 25 categories from the National Agricultural Statistics
+      Service, U.S. Department of Agriculture's 1997 Census of Agriculture data. It is based on
+      county data for all 50 States.</complete>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>199911</pubdate>
+            <title>1990 County Boundaries of the United States</title>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>2000000</srcscale>
+        <typesrc>Online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1999</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>ATLAS-1990CNTY</srccitea>
+        <srccontr>Spatial and attribute information</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Department of Agriculture, National Agricultural Statistics
+              Service</origin>
+            <pubdate>199906</pubdate>
+            <title>1997 Census of Agriculture</title>
+            <pubinfo>
+              <pubplace>Washington, DC</pubplace>
+              <publish>U.S. Department of Agriculture</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>CD-ROM</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1999</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>AG-CENSUS</srccitea>
+        <srccontr>Attribute information</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>The were several edits to ATLAS-1990CNTY which is a data set containing 1990
+          county boundaries for the United States. From the AG-CENSUS the following database files
+          were extracted: 010001 Farms(numbers) 010015 Total cropland (acres) 010017 Total cropland,
+          harvested cropland (acres) 010021 Market value of agricultural products sold, average per
+          farm (dollars) 010022 Market value of agricultural products sold-crops, including nursery
+          and greenhouse crops ($1,000) 010023 Market value of agricultural products sold -
+          livestock, poultry, and their products ($1,000) 010024 Farms by value of sales: Less than
+          $2,500 010025 Farms by value of sales: $2,500 to $4,999 010031 Total farm production
+          expenses ($1,000) 010057 Broilers and other meat-type chickens sold (number) 010059 Corn
+          for grain or seed (acres) 010068 Wheat for grain (acres) 010083 Cotton (acres) 010089
+          Soybeans for beans (acres) 010113 Vegetables harvested for sale (acres) 010115 Land in
+          orchards (acres) 080009 Irrigated land (acres) 090024 Selected machinery/equip-wheel
+          tractors,100 horsepower (PTO) or more (number) 110049 Operators by sex: Female (farms)
+          110051 Individual or family (sole proprietorship) (farms) 140002 Cattle and calves
+          inventory (number) 150002 Hogs and pigs (number) 310344 Pecans (in shell), total (acres)
+          330044 Nursery crops, sales ($1,000) 350001 Black and other races, land in farms (farms)
+          In the databases files, the field names were edited to include the table number, the text
+          number fields were changed to numeric number fields, and fields flagged with D (data
+          withheld to avoid disclosing information for individual farms) were changed from 0 to
+          -9999. The individual database files were converted to dBASE IV files and combined into a
+          single database file. This file was converted to an INFO table which was then joined to
+          the edited ATLAS-1990CNTY coverage, and the result is this data set.</procdesc>
+        <srcused>ATLAS-1990CNTY</srcused>
+        <srcused>AG-CENSUS</srcused>
+        <procdate>20000417</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>The attribute definition for x350001_97 was changed from Black and other races,
+          land in farms (farms) to Black and other minority races, land in farms (farms).</procdesc>
+        <procdate>20010507</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>In order to geoprocess spatial files for New York State from the National Atlas
+          Data for distribution in CUGIR, the nationwide data files were added to a map document in
+          ArcInfo 8.2. Using the geoprocessing wizard's clip function, the spatial files were
+          clipped to the detailed New York polygon.</procdesc>
+        <procdate>200212</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+          <sdtsterm>
+            <sdtstype>G-polygon</sdtstype>
+            <ptvctcnt>83</ptvctcnt>
+          </sdtsterm>
+        </ptvctinf>
+      </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.000278</latres>
+        <longres>0.000278</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS1980</ellips>
+        <semiaxis>6378137</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Agriculture Census data (described by agcensp020.dbf)</enttypl>
+        <enttypd>Table for 1997 agriculture census data.</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Area</attrlabl>
+        <attrdef>The size of the shape in coverage units (degrees)</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>real number</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Perimeter</attrlabl>
+        <attrdef>The perimeter of the shape in coverage units (degrees)</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>real number</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Agcensp020</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>integer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Fips</attrlabl>
+        <attrdef>The 5-digit FIPS code of the county or county equivalent.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Counties and Equivalent Entities of the United States, Its Possessions, and
+              Associated Areas, FIPS 6-4, 1990.</codesetn>
+            <codesets>U.S. Department of Commerce, National Institute of Standards and
+              Technology</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>County</attrlabl>
+        <attrdef>The name of the county or county equivalent.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Counties and Equivalent Entities of the United States, Its Possessions, and
+              Associated Areas, FIPS 6-4, 1990.</codesetn>
+            <codesets>U.S. Department of Commerce, National Institute of Standards and
+              Technology</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>State</attrlabl>
+        <attrdef>The 2-character FIPS code of the State or State equivalent.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Codes for the Identification of the States, the District of Columbia and the
+              Outlying Areas of the United States, and Associated Areas, FIPS 5-2.</codesetn>
+            <codesets>U.S. Department of Commerce, National Institute of Standards and
+              Technology</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>State_Fips</attrlabl>
+        <attrdef>The 2-digit FIPS code of the State or State equivalent.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Counties and Equivalent Entities of the United States, Its Possessions, and
+              Associated Areas, FIPS 6-4, 1990.</codesetn>
+            <codesets>U.S. Department of Commerce, National Institute of Standards and
+              Technology</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>xZZZZZZ_97</attrlabl>
+        <attrdef>1997 agriculture census data for ZZZZZZ as defined below: ZZZZZZ Census data 010001
+          Farms(numbers) 010015 Total cropland (acres) 010017 Total cropland, harvested cropland
+          (acres) 010021 Market value of agricultural products sold, average per farm (dollars)
+          010022 Market value of agricultural products sold-crops, including nursery and greenhouse
+          crops ($1,000) 010023 Market value of agricultural products sold - livestock, poultry, and
+          their products ($1,000) 010024 Farms by value of sales: Less than $2,500 010025 Farms by
+          value of sales: $2,500 to $4,999 010031 Total farm production expenses ($1,000) 010057
+          Broilers and other meat-type chickens sold (number) 010059 Corn for grain or seed (acres)
+          010068 Wheat for grain (acres) 010083 Cotton (acres) 010089 Soybeans for beans (acres)
+          010113 Vegetables harvested for sale (acres) 010115 Land in orchards (acres) 080009
+          Irrigated land (acres) 090024 Selected machinery/equip-wheel tractors,100 horsepower (PTO)
+          or more (number) 110049 Operators by sex: Female (farms) 110051 Individual or family (sole
+          proprietorship) (farms) 140002 Cattle and calves inventory (number) 150002 Hogs and pigs
+          (number) 310344 Pecans (in shell), total (acres) 330044 Nursery crops, sales ($1,000)
+          350001 Black and other minority races, land in farms (farms)</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>-9999</edomv>
+            <edomvd>Data withheld to avoid disclosing information for individual farms.</edomvd>
+            <edomvds>U.S. Department of Agriculture, National Agricultural Statistics
+              Service</edomvds>
+          </edom>
+          <edom>
+            <edomv>&lt;blank&gt;</edomv>
+            <edomvd>No data collected.</edomvd>
+            <edomvds>U.S. Department of Agriculture, National Agricultural Statistics
+              Service</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>188781568</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+        <distrib>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Albert R. Mann Library</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>Cornell University</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14853</postal>
+            </cntaddr>
+            <cntvoice>607-255-5406</cntvoice>
+            <cntemail>mann-ref@cornell.edu</cntemail>
+          </cntinfo>
+        </distrib>
+        <distliab>Cornell University provides these geographic data "as is". Cornell
+          University makes no guarantee or warranty concerning the accuracy of
+          information contained in the geographic data. Cornell University further
+          makes no warranty either expressed or implied, regarding the condition of
+          the product or its fitness for any particular purpose. The burden for
+          determining fitness for use lies entirely with the user. Although these
+          files have been processed successfully on computers at Cornell University,
+          no warranty is made by Cornell University regarding the use of these data
+          on any other system, nor does the fact of distribution constitute or imply
+          any such warranty.</distliab>
+        <stdorder>
+        <digform>
+            <digtinfo>
+              <formname>Shapefile</formname>
+              <formcont>zipped shapefile</formcont>
+              <filedec>zip</filedec>
+              <transize>0.12</transize>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/73/13/cugir-007313.zip</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>metadata</formname>
+              <formcont>FGDC XML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/73/13/fgdc.xml</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>HTML metadata</formname>
+              <formcont>FGDC HTML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/73/13/fgdc.html</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+                <digtinfo>
+                  <formname>KML</formname>
+                  <formcont>generated KML, via WFS</formcont>
+                </digtinfo>
+                <digtopt>
+                  <onlinopt>
+                    <computer>
+                      <networka>
+                        <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir007313&amp;outputFormat=application%2Fvnd.google-earth.kml%2Bxml</networkr>
+                      </networka>
+                    </computer>
+                  </onlinopt>
+                </digtopt>
+              </digform><digform>
+            <digtinfo>
+              <formname>GeoJSON</formname>
+              <formcont>generated GeoJSON, via WFS</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir007313&amp;outputFormat=application%2Fjson</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>OGC:WMS</formname>
+              <formcont>WMS, from GeoServer</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007313&amp;bbox=-80.00055243999999,40.36371949,-71.61865756,45.146351509999995&amp;width=256&amp;height=146&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><fees>None</fees></stdorder>
+      </distinfo>
+  <metainfo>
+      <metd>20190524</metd>
+      <metc>
+        <cntinfo>
+          <cntorgp>
+            <cntorg>Albert R. Mann Library</cntorg>
+          </cntorgp>
+          <cntaddr>
+            <addrtype>mailing and physical</addrtype>
+            <address>Albert R. Mann Library</address>
+            <city>Ithaca</city>
+            <state>New York</state>
+            <postal>14853</postal>
+            <country>USA</country>
+          </cntaddr>
+          <cntvoice>607-255-5406</cntvoice>
+          <cntemail>mann-ref@cornell.edu</cntemail>
+        </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+    </metainfo>
+</metadata>

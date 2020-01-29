@@ -1,0 +1,352 @@
+<!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Department of Commerce Bureau of the Census Geography Division</origin>
+        <pubdate>20030112</pubdate>
+        <title>Census County Boundaries, New York, 1990</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Washington, DC</pubplace>
+          <publish>US Department of Commerce, Bureau of the Census</publish>
+        </pubinfo>
+        <onlink>https://cugir.library.cornell.edu/catalog/cugir-008181</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>CUGIR, the Cornell University Geospatial Information Repository, using US Department
+        of Commerce, Bureau of the Census data, developed the GIS data set versions of 1990 Census
+        TIGER/Line files for 5 coverages for each of the 62 counties in New York State.</abstract>
+      <purpose>These files were developed to enable a user to see the geographic component from 1990
+        TIGER/Line Census files. They can be used to join demographic data for use in conjunction
+        with other Census data in geographic and demographic analysis.</purpose>
+      <supplinf>To find out more about TIGER/Line files and other Census TIGER data base derived
+        data sets visit "TIGER®, TIGER/Line® and TIGER-Related Products" of the Census Bureau at:
+        &lt;https://www.census.gov/geo/maps-data/data/tiger.html&gt;.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>1990</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+          <bounding>
+            <westbc>-79.762589</westbc>
+            <eastbc>-71.777491</eastbc>
+            <northbc>45.01585</northbc>
+            <southbc>40.477383</southbc>
+          </bounding>
+        </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>County Boundaries</themekey>
+        <themekey>Counties</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>boundaries</themekey>
+      </theme>
+      <theme>
+              <themekt>CUGIR Category</themekt>
+              <themekey>boundaries</themekey>
+            </theme>
+      <place>
+        <placekt>LCSH</placekt>
+        <placekey>New York (State)</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None. Acknowledgement of the U.S. Bureau of the Census would be appreciated for
+      products derived from these files. TIGER, TIGER/Line and Census TIGER are trademarks of the
+      Bureau of the Census.</useconst>
+    <browse>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/81/81/preview.png</browsen>
+              <browsed>preview of the dataset</browsed>
+              <browset>PNG</browset>
+            </browse>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Original TIGER/Line data is accurate against Federal Processing Standards (FIPS),
+        FIPS Publication 6-4 and FIPS-55 at the 100% level for the codes and base names. The
+        remaining attribute information has been examined but has not been fully tested for
+        accuracy. The digital files fro the Census Bureau were converted into shapefiles. The
+        attributes supllied in the TIGER files have not been changed by CUGIR. Refer to "Chapter 5"
+        and "Chapter 6" in the U.S. Census Bureau TIGER/Line file Technical Documentation, available at
+        &lt;https://assets.nhgis.org/original-data/gis/TIGER_1992_TechDoc.pdf&gt;</attraccr>
+    </attracc>
+    <logic>According to TIGER/Line documentation: the feature network of lines (as represented by
+      Record Types 1 and 2) is complete for census purposes. Spatial objects in TIGER/Line belong to
+      the "Geometry and Topology" (GT) class of objects in the "Spatial Data Transfer Standard"
+      (SDTS) FIPS publication 173 and are topologically valid. Node/geometry and topology
+      (GT)-polygon/chain relationships are collected or generated to satisfy topological edit
+      requirements. These requirements include: -Complete chains must begin and end at nodes;
+      -Complete chains must connect to each other at nodes, -Complete chains do not extend through
+      nodes; -Left and right GT-polygons are defined for each complete chain element and are
+      consistent throughout the extract process; -The chains representing the limits of the files
+      are free of gaps. The Census Bureau performed automated tests to ensure logical consistency
+      and limits of files. All polygons are tested for closure.</logic>
+    <complete>Data completeness of the TIGER/Line files reflects the contents of the Census TIGER
+      data base at the time the TIGER/Line files (1990 version) were created.1990 Census TIGER/Line
+      files are primarily based on the USGS 1:1000,000 scale Digital Line Graph files. Refer to the
+      Technical documentation for features that are not present.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Other than projecting data, no other positional changes were made by the
+          CUGIR.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Department of Commerce, Bureau of the Census, Geography Division</origin>
+            <pubdate>Unpublished material</pubdate>
+            <title>TIGER/Line Files, 1998</title>
+            <edition>1998</edition>
+          </citeinfo>
+        </srccite>
+        <srcscale>100000</srcscale>
+        <typesrc>On line</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1990</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Year of census data.</srccurr>
+        </srctime>
+        <srccitea>None</srccitea>
+        <srccontr>Selected geographic and cartographic information (line segments) from the Census
+          TIGER data base.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>In order for others to use the information in the Census TIGER data base in a GIS
+          or for other geographic applications, the Census Bureau releases periodic extracts of
+          selected information from the Census TIGER data base, organized as topologically
+          consistent networks. Software (TIGER DB routines) written by the Geography Division allows
+          for efficient access to Census TIGER system data. TIGER/Line files are extracted from the
+          Census TIGER data base by county or statistical equivalent area. Census TIGER data for a
+          given county or statistical equivalent area is then distributed among 17 fixed length
+          record ASCII files, each one containing attributes for either line, polygon, or landmark
+          geographic data types. The Bureau of the Census has released various versions of the
+          TIGER/Line files since 1988, with each version having more updates (feature and feature
+          names, address ranges and ZIP Codes, coordinate updates, revised field definitions, etc.)
+          than the previous version. Information concerning steps taken to create TIGER/Line is
+          available in "Chapter 5: Data Quality" in TIGER/Line file Documentation, available at
+          &lt;https://assets.nhgis.org/original-data/gis/TIGER_1992_TechDoc.pdf&gt;.</procdesc>
+        <srcused>Census TIGER data base</srcused>
+        <procdate>1990</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>The 1990 TIGER shapefiles were downloaded originally from the Geography Network
+          &lt;http://www.geographynetwork.com&gt;. Each Census hierarchical level (County, Tract,
+          Block Group, and Block) was joined to it's associated SF1 demographics database table,
+          also downloaded from the Geography Network. A VBA script was written within ArcGIS 8.2
+          (ArcInfo) to automate the process of joining each county level file with its demographic
+          table, and then exporting with unique file names. This process was done 4 times, one for
+          each of the Census geographies. For the remaining TIGER data, (all but the boundary files)
+          all files were originally downloaded from Geography Network, renamed and added to CUGIR
+          with no further processing.</procdesc>
+        <procdate>2002</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+          <sdtsterm>
+            <sdtstype>G-polygon</sdtstype>
+            <ptvctcnt>72</ptvctcnt>
+          </sdtsterm>
+        </ptvctinf>
+      </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.000458</latres>
+        <longres>0.000458</longres>
+        <geogunit>Decimal Degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodedic Reference System 80</ellips>
+        <semiaxis>6378137</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <overview>
+      <eaover>The TIGER/Line files contain data describing three major types of features/entities;
+        Line Features: 1) Roads; 2) Railroads; 3) Hydrography; 4) Miscellaneous transportation
+        features and Selected power lines and pipe lines; 5) Political and statistical boundaries.
+        Landmark Features: 1) Point landmarks, e.g., schools and churches; 2) Area landmarks, e.g.,
+        Parks and cemeteries; 3) Key geographic locations (KGLs), e.g., apartment buildings and
+        factories. Polygon features: 1) Geographic entity codes for areas used to tabulate the 1990
+        census statistical data and current geographic areas; 2) Locations of area landmarks 3)
+        Locations of KGLs. The line features and polygon information form the majority of data in
+        the TIGER/Line files. Some of the data/attributes describing the lines include coordinates,
+        feature identifiers (names), CFCCs (used to identify the most noticeable characteristic of a
+        feature), address ranges, and geographic entity codes. The TIGER/Line files contain point
+        and area labels that describe landmark features and provide locational reference. Area
+        landmarks consist of a feature name or label and feature type assigned to a polygon or group
+        of polygons. Landmarks may overlap or refer to the same set of polygons. The Census TIGER
+        data base uses collections of spatial objects (points, lines, and polygons) to model or
+        describe real-world geography. The Census Bureau uses these spatial objects to represent
+        features such as streets, rivers, and political boundaries and assigns</eaover>
+      <eadetcit>For Entity and Attribute information, go to "Chapter 5" and "Chapter 6" of the U.S.
+        Bureau of the Census, TIGER/Line file Technical Documentation, available at:
+        &lt;https://assets.nhgis.org/original-data/gis/TIGER_1992_TechDoc.pdf&gt;. The TIGER/Line
+        documentation defines the terms and definitions used within the files.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+        <distrib>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Albert R. Mann Library</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>Cornell University</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14853</postal>
+            </cntaddr>
+            <cntvoice>607-255-5406</cntvoice>
+            <cntemail>mann-ref@cornell.edu</cntemail>
+          </cntinfo>
+        </distrib>
+        <distliab>Cornell University provides these geographic data "as is". Cornell
+          University makes no guarantee or warranty concerning the accuracy of
+          information contained in the geographic data. Cornell University further
+          makes no warranty either expressed or implied, regarding the condition of
+          the product or its fitness for any particular purpose. The burden for
+          determining fitness for use lies entirely with the user. Although these
+          files have been processed successfully on computers at Cornell University,
+          no warranty is made by Cornell University regarding the use of these data
+          on any other system, nor does the fact of distribution constitute or imply
+          any such warranty.</distliab>
+        <stdorder>
+        <digform>
+            <digtinfo>
+              <formname>Shapefile</formname>
+              <formcont>zipped shapefile</formcont>
+              <filedec>zip</filedec>
+              <transize>0.57</transize>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/81/81/cugir-008181.zip</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>metadata</formname>
+              <formcont>FGDC XML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/81/81/fgdc.xml</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>HTML metadata</formname>
+              <formcont>FGDC HTML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/81/81/fgdc.html</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+                <digtinfo>
+                  <formname>KML</formname>
+                  <formcont>generated KML, via WFS</formcont>
+                </digtinfo>
+                <digtopt>
+                  <onlinopt>
+                    <computer>
+                      <networka>
+                        <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir008181&amp;outputFormat=application%2Fvnd.google-earth.kml%2Bxml</networkr>
+                      </networka>
+                    </computer>
+                  </onlinopt>
+                </digtopt>
+              </digform><digform>
+            <digtinfo>
+              <formname>GeoJSON</formname>
+              <formcont>generated GeoJSON, via WFS</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir008181&amp;outputFormat=application%2Fjson</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>OGC:WMS</formname>
+              <formcont>WMS, from GeoServer</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir008181&amp;bbox=-80.00214194,40.341228990000005,-71.53793806,45.15200401&amp;width=256&amp;height=145&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><fees>None</fees></stdorder>
+      </distinfo>
+  <metainfo>
+      <metd>20190524</metd>
+      <metc>
+        <cntinfo>
+          <cntorgp>
+            <cntorg>Albert R. Mann Library</cntorg>
+          </cntorgp>
+          <cntaddr>
+            <addrtype>mailing and physical</addrtype>
+            <address>Albert R. Mann Library</address>
+            <city>Ithaca</city>
+            <state>New York</state>
+            <postal>14853</postal>
+            <country>USA</country>
+          </cntaddr>
+          <cntvoice>607-255-5406</cntvoice>
+          <cntemail>mann-ref@cornell.edu</cntemail>
+        </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+    </metainfo>
+</metadata>

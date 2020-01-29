@@ -1,0 +1,531 @@
+<!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey</origin>
+        <pubdate>20001011</pubdate>
+        <title>NLCD Land Cover, New York, 1992</title>
+        <geoform>raster digital data</geoform>
+        <serinfo>
+          <sername>National Land Cover Database</sername>
+          <issue>1992 Land Cover</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Sioux Falls, SD</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <othercit>References:
+
+Huang, C., L. Yang, C. Homer, B. Wylie, J. Vogelman and T. DeFelice, At-Satellite Reflectance: A First Order Normalization of Landsat &amp; ETM+ Images, USGS White Paper.. 
+
+Loveland, T. R., and Shaw D. M., 1996, Multi-resolution land characterization: building collaborative partnerships, in GAP Analysis: A Landscape Approach to Biodiversity Planning, J. M. Scott, T. H. Tear, and F. W. Davis, Editors, American Society for Photogrammetry and Remote Sensing, Bethesda, Maryland, p. 79-85. 
+
+Riitters, K.H., Wickham, J.D., O'Neill, R.V., Jones, K.B., Smith, E.R., Coulston, J.W., Wade, T.G., and Smith, J.H. 2002. Fragmentation of continental United States forests. Ecosystems, 5: 815-822. 
+
+Riitters, K.H., J.D. Wickham, J.E. Vogelmann, and K.B. Jones. 2000. National land-cover pattern data. Ecology 81: 604; Ecology 81:604. 
+
+Smith, J.H., Wickham, J.D., Stehman, S.V., and L. Yang, Impacts of patch size and land-cover heterogeneity on thematic image classification accuracy Photogrammetric Engineering and Remote Sensing, Vol. 68, No. 1, 65-70. 
+
+Smith, J., Stehman, S., Wickham, J., Yang, L, Effects of landscape characteristics on land-cover class accuracy. Remote Sensing of Environment 84 (2003) 342-349. 
+
+Stehman, S.V., Czaplewski, R.L., Nusser, S.M., Yang, L., and Zhu, Z. Combining accuracy assessment of land -cover maps with environmental monitoring programs. Environmental Monitoring and Assessment, 64: 115-126. 
+
+Stehman, S., Wickham, J., Smith, J. Yang, L, Thematic accuracy of the 1992 National Land-Cover Data for the eastern United States: Statistical methodology and regional results. Remote Sensing of Environment 86 (2003) 500-516. 
+
+Stehman, S.V., J.D. Wickham, L. Yang, and J.H. Smith, Assessing the accuracy of large-area land cover maps: Experiences from the Multi-resolution Land-cover Characteristics (MRLC) project. Proceedings of the 4th International Symposium on Spatial Accuracy Assessment in Natural Resources and Environmental Sciences, Delft University Press, The Netherlands, 601-608. 
+
+Vogelmann, J.E., T.L. Sohl, P.V. Campbell, and D.M. Shaw. 1998. Regional land cover characterization using Landsat Thematic Mapper data and ancillary data sources. Environmental Monitoring and Assessment 51: 415-428. 
+
+Vogelmann, J.E., T. Sohl, and S.M. Howard. 1998. Regional characterization of land cover using multiple sources of data. Photogrammetric Engineering &amp; Remote Sensing 64: 45-57. 
+
+Vogelmann, J.E. and Wickham, J., 2000, Implementation strategy for production of national land cover data (NLCD) from the Landsat 7 Thematic Mapper Satellite, EPA/600/R-00/051 (NTIS PB2001-101756), Las Vegas, NV.: U.S. EPA. 
+
+Vogelmann, J.E., S.M. Howard, L. Yang, C. R. Larson, B. K. Wylie, and J. N. Van Driel, 2001, Completion of the 1990s National Land Cover Data Set for the conterminous United States, Photogrammetric Engineering and Remote Sensing 67:650-662. 
+
+Wickham, J.D., S.V. Stehman, J.H. Smith, L. Yang. 2004. Thematic Accuracy of the 1992 National Land-Cover Data for the Western United States. Remote Sensing of Environment, Vol. 91, pp. 452-468. 
+
+Wylie, B., C. Huang, L. Yang and C. Homer, "Evaluation of Optimal Sets of Landsat TM Spectral Deriviatives for Land Cover Classification", USGS Draft White Paper, 2001. 
+
+Yang, L., Stehman, S., Smith, J., Wickham, J. 2001. Thematic accuracy of MRLC land cover for the eastern United States, Remote Sensing of Environment 76, 418-422. 
+
+Yang, L., Stehman, S. V., Wickham, J.D., Smith, J.H., Van Driel, N.J, Thematic validation of land cover data of the eastern United States using aerial photography: Feasibility and challenges. Proceedings of the 4th International Symposium on Spatial Accuracy Assessment in Natural Resources and Environmental Sciences, Delft University Press, The Netherlands, 747-754. 
+
+Zhu, Z., Yang, L., Stehman, S.V., and Czaplewski, R.L., 1999, Chapter 46 - Designing an accuracy assessment for a USGS regional land cover mapping program, in Lowell, Kim, ed., Spatial Accuracy Assessment Land Information Uncertainty in Natural Resources: Chelsea, Michigan, Sleeping Bear Press/Ann Arbor Press, p. 393-398. 
+
+Zhu, Z., Yang, L., Y., Stehman, S.V., and Czaplewski, R.L, Accuracy Assessment for the U.S. Geological Survey Regional Land-Cover Mapping Program: New York and New Jersey Region Photogrammetric Engineering and Remote Sensing 66, No. 12: pg 1425-1435.</othercit>
+        <onlink>https://cugir.library.cornell.edu/catalog/cugir-008001</onlink>
+        <onlink>http://www.mrlc.gov/</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The National Land Cover Database (NLCD) 1992 Land Cover layer was produced through a cooperative project conducted by the Multi-Resolution Land Characteristics (MRLC) Consortium.  The MRLC Consortium is a partnership of federal agencies (www.mrlc.gov), consisting of the U.S. Geological Survey (USGS), the National Oceanic and Atmospheric Administration (NOAA), the U.S. Environmental Protection Agency (EPA), the U.S. Department of Agriculture - Forest Service (USDA-FS), the National Park Service (NPS), the U.S. Fish and Wildlife Service (FWS), the Bureau of Land Management (BLM) and the USDA Natural Resources Conservation Service (NRCS).  
+One of the primary goals of the project is to generate a current, consistent, seamless, and accurate land cover data for the United States at medium spatial resolution.  Questions about the NLCD can be directed to the NLCD land cover mapping team at USGS EROS, Sioux Falls, SD (605)594-6151 or mrlc@usgs.gov.</abstract>
+      <purpose>The goal of this project is to provide the Nation with complete, current and consistent public domain information on its land use and land cover.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>1992</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>Every 5 years</update>
+    </status>
+    <spdom>
+          <bounding>
+            <westbc>-80.035679</westbc>
+            <eastbc>-70.516586</eastbc>
+            <northbc>45.847801</northbc>
+            <southbc>40.086478</southbc>
+          </bounding>
+        </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Land Use</themekey>
+        <themekey>Land Cover</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Category</themekt>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+        <themekey>environment</themekey>
+      </theme>
+      <theme>
+              <themekt>CUGIR Category</themekt>
+              <themekey>landcover</themekey>
+<themekey>environment</themekey>
+            </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>New York</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Customer Services Representative</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>USGS EROS</address>
+          <address>47914 252nd Street</address>
+          <city>Sioux Falls</city>
+          <state>SD</state>
+          <postal>57198-0001</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>605/594-6151</cntvoice>
+        <cnttdd>605/594-6933</cnttdd>
+        <cntfax>605/594-6589</cntfax>
+        <cntemail>custserv@usgs.gov</cntemail>
+        <hours>0800 - 1600 CT, M - F (-6h CST/-5h CDT GMT)</hours>
+        <cntinst>The USGS point of contact is for questions relating to the data display and download from this web site.  For questions regarding data content and quality, refer to:
+http://www.mrlc.gov/mrlc2k.asp or email:  mrlc@usgs.gov</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/80/01/preview.png</browsen>
+              <browsed>preview of the dataset</browsed>
+              <browset>PNG</browset>
+            </browse>
+    <datacred>U.S. Geological Survey</datacred>
+    <secinfo>
+      <secsys>None</secsys>
+      <secclass>Unclassified</secclass>
+      <sechandl>N/A</sechandl>
+    </secinfo>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog 9.3.1.4000</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>The accuracy of the 1992 National Land-Cover Data (NLCD) map was assessed via a probability sampling design incorporating three levels of stratification and two stages of selection. Agreement between the map and reference land-cover labels is defined as a match between the primary or alternate reference label determined for a sample pixel and a mode class of the mapped 3x3 block of pixels centered on the sample pixel. See Stehman et al, 2003 and Wickham et al., 2004 for details.</attraccr>
+      <qattracc>
+        <attraccv>78.7</attraccv>
+        <attracce>An accuracy assessment was done on all NLCD on a Federal Region basis following a revision cycle that incorporates feedback from MRLC Consortium partners and affiliated users.  The accuracy assessments are conducted by private sector vendors under contract to the USEPA.A protocol has been established by the USGS and USEPA that incorporatesa two-stage, geographically stratified cluster sampling plan (Zhu et al., 1999) utilizing National Aerial Photography Program (NAPP) photographs as the sampling frame and the basic sampling unit.  In this design a NAPP photograph is defined as a 1st stage or primary sampling unit (PSU), and a sampled pixel within each PSU is treated as a 2nd stage or secondary sampling unit (SSU).
+
+PSU's are selected from a sampling grid based on NAPP flight-lines and photo centers, each grid cell measures 15' X 15' (minutes of latitude/longitude) and consists of 32 NHAP photographs.  A geographically stratified random sampling is performed with 1 NAPP photo being randomly selected from each cell (geographic strata), if a sampled photo falls outside of the regional boundary it is not used.  Second stage sampling is accomplished by selecting SSU's (pixels) within each PSU (NAPP photo) to provide the actual locations for the reference land cover classification.
+
+The SSU's are manually interpreted and misclassification errors are estimated and described using a traditional error matrix as well as a number of other important measures including the overall proportion of pixels correctly classified, user's and producer's accuracies, and omission and commission error probabilities.</attracce>
+      </qattracc>
+    </attracc>
+    <logic>An unsupervised classification algorithm was used to classify the mosaicked multiple leaf-off TM scenes.  Aerial photographs were used to interpret and label classes into land cover categories and ancillary data sources resolved the class confusion.  Further land cover information from leaf-on TM data, NWI data, and other sources were incorporated to refine and augment the "basic" classification.</logic>
+    <complete>All photo-interpretable data are mapped.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Each Landsat Thematic Mapper image used to create the NLCD was precision terrain-corrected using 3-arc-second digital terrain elevation data (DTED), and georegistered using ground control points.  This resulted in a root mean square registration error of less than 1 pixel (30 meters).</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>N/A</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>The project is being carried out on the basis of 10 Federal Regions that make up the conterminous United States; each region is comprised of multiple states; each region is processed in subregional units that are limited to the area covered by no more than 18 Landsat TM scenes. The general NLCD procedure is to: (1) mosaic subregional TM scenes and classify them using an unsupervised clustering algorithm, (2) interpret and label the clusters/classes using aerial photographs as reference data, (3) resolve the labeling of confused clusters/classes using the appropriate  ancillary data source(s), and (4) incorporate land cover information from other data sets and perform manual edits to augment and refine the "basic" classification developed above.
+
+Two seasonally distinct TM mosaics are produced, a leaves-on version (summer) and a leaves-off (spring/fall) version.  TM bands 3, 4, 5, and 7 are mosaicked for both the leaves-on and leaves-off versions. For mosaick purposes, a base scene is selected for each mosaic and the other scenes are adjusted to mimic spectral properties of the base scene using histogram matching in regions of spatial overlap. Following mosaicking, either the leaves-off version or leaves-on version is selected to be the "base" for the land cover mapping process.  The 4 TM bands of the "base" mosaic are clustered to produce a single 100- class image using an unsupervised clustering algorithm. Each of the spectrally distinct clusters/classes is then assigned to one or more Anderson level 1 and 2 land cover classes using National High Altitude Photography program (NHAP)and National Aerial Photography program (NAPP) aerial photographs as a reference.  Almost invariably, individual spectral clusters/classes are confused between two or more land cover classes.
+
+Separation of the confused spectral clusters/classes into appropriate NLCD class is accomplished using ancillary data layers.  Standard ancillary data layers include: the "non-base" mosaic TM bands and 100- class cluster image; derived TM normalized vegetation index (NDVI), various TM band ratios, TM date bands; 3-arc second Digital Terrain Elevation Data (DTED) and derived slope, aspect and shaded relief; population and housing density data; USGS land use and land cover (LUDA); and National Wetlands Inventory(NWI) data if available. Other ancillary data sources may include soils data, unique state or regional land cover data sets, or data from other federal programs such as the National Gap Analysis Program (GAP) of the USGS Biological Resources Division (BRD).  For a given confused spectral cluster/class, digital values of the various ancillary data layers are compared to determine: (1) which data layers are the most effective for splitting the confused cluster/class into the appropriate NLCD class, and (2) the appropriate layer thresholds for making the split(s).  Models are then developed using one to several ancillary data layers to split the confused cluster/class into the NLCD class.  For example, a population density threshold is used to separate high-intensity residential areas from commercial/industrial/transportation.  Or a cluster/class might be confused between row crop and grasslands.  To split this particular cluster/class, a TM NDVI threshold might be identified and used with an elevation threshold in a class-splitting model to make the appropriate NLCD class assignments.  A purely spectral example is using the temporally opposite TM layers to discriminate confused cluster/classes such as hay pasture vs. row crops and deciduous forests vs. evergreen forests; simple thresholds that contrast the seasonal differences in vegetation between leaves-on vs. leaves-off.
+
+Not all cluster/class confusion can be successfully modeled out. Certain classes such as urban/recreational grasses or quarries/strip mines/gravel pits that are not spectrally unique require manual editing. These class features are typically visually identified and then reclassified using on-screen digitizing and recoding.  Other classes such as wetlands require the use of specific data sets such as NWI to provide the most accurate classification.  Areas lacking NWI data are typically subset out and modeling is used to estimate wetlands in these localized areas.  The final NLCD product results from the classification (interpretation and labeling) of the 100-class "base" cluster mosaic using both automated and manual processes, incorporating both spectral and conditional data layers.  For a more detailed explanation, please see Vogelmann et al. 1998a and Vogelmann et al. 1998b.</procdesc>
+        <srcused>Landsat ETM, DOQQ, USDA, FIA, DEM, USGS EROS</srcused>
+        <procdate>Unknown</procdate>
+        <srcprod>USGS NLCD</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>Data clipped to New York state by CUGIR staff.</procdesc>
+        <procdate>20170612</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>CUGIR staff assigned nodata value 0</procdesc>
+        <procdate>20190523</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+        <direct>Raster</direct>
+        <rastinfo>
+          <rasttype>Grid Cell</rasttype>
+          <rowcount>16989</rowcount>
+          <colcount>22610</colcount>
+        </rastinfo>
+      </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Albers Conical Equal Area</mapprojn>
+          <albers>
+            <stdparll>29.500000</stdparll>
+            <stdparll>45.500000</stdparll>
+            <longcm>-96.000000</longcm>
+            <latprjo>23.000000</latprjo>
+            <feast>0.000000</feast>
+            <fnorth>0.000000</fnorth>
+          </albers>
+        </mapproj>
+        <planci>
+          <plance>row and column</plance>
+          <coordrep>
+            <absres>30.000000</absres>
+            <ordres>30.000000</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Land Cover classification grid cell</enttypl>
+        <enttypd>NLCD Land Cover Layer</enttypd>
+        <enttypds>National Land Cover Database</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>ObjectID</attrlabl>
+        <attrdef>Internal feature number</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Count</attrlabl>
+        <attrdef>A nominal integer value that designates the number of pixels that have each value in the file; histogram column in ERDAS Imagine raster attributes table</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Integer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Land Cover Class Code Value.</attrdef>
+        <attrdefs>NLCD Legend Land Cover Class Descriptions</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>11</edomv>
+            <edomvd>Open Water - areas of open water, generally with less than 25 percent or greater cover of water (per pixel).</edomvd>
+            <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>12</edomv>
+            <edomvd>Perennial Ice/Snow  - All areas characterized by year-long cover of ice and/or snow.</edomvd>
+            <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>21</edomv>
+            <edomvd>Low Intensity Residential - Includes areas with a mixture of constructed materials and vegetation.  Constructed materials account for 30-80 percent of the cover. Vegetation may account for 20 to 70 percent of the cover. These areas most commonly include single-family housing units. Population densities will be lower than in high intensity residential areas.</edomvd>
+            <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>22</edomv>
+            <edomvd>High Intensity Residential - Includes heavily built up urban centers where people reside in high numbers. Examples include apartment   complexes and row houses. Vegetation accounts for less than 20 percent of the cover.  Constructed materials account for 80-100 percent of the cover.</edomvd>
+            <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>23</edomv>
+            <edomvd>Commercial/Industrial/Transportation - Includes infrastructure (e.g. roads, railroads, etc.) and all highways and all developed areas not classified as High Intensity Residential.</edomvd>
+            <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>31</edomv>
+            <edomvd>Bare Rock/Sand/Clay - Perennially barren areas of bedrock, desert, pavement, scarps, talus, slides, volcanic material, glacial debris, and other accumulations of earthen material.</edomvd>
+            <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>32</edomv>
+            <edomvd>Quarries/Strip Mines/Gravel Pits - Areas of extractive mining activities with significant surface expression.</edomvd>
+            <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>33</edomv>
+            <edomvd>Transitional - Areas of sparse vegetative cover (less than 25 percent that are dynamically changing from one land cover to another, often because of land use activities.  Examples include forest clearcuts, a transition phase between forest and agricultural land, the temporary clearing of vegetation, and changes due to natural causes (e.g. fire, flood, etc.)</edomvd>
+            <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>41</edomv>
+            <edomvd>Deciduous Forest - Areas dominated by trees where 75 percent or more of the tree species shed foliage simultaneously in response to seasonal change.</edomvd>
+            <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>42</edomv>
+            <edomvd>Evergreen Forest -  Areas characterized by trees where 75 percent or more of the tree species maintain their leaves all year.  Canopy is never without green foliage. </edomvd>
+            <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>43</edomv>
+            <edomvd>Mixed Forest -  Areas dominated by trees where neither deciduous nor evergreen species represent more than 75 percent of the cover present.</edomvd>
+            <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>51</edomv>
+            <edomvd>Shrubland - Areas dominated by shrubs; shrub canopy accounts for 25-100 percent of the cover. Shrub cover is generally greater than 25 percent when tree cover is less than 25 percent. Shrub cover may be less than 25 percent in cases when the cover of other life forms (e.g. herbaceous or tree) is less than 25 percent and shrubs cover exceeds the cover of the other life forms.</edomvd>
+            <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>61</edomv>
+            <edomvd>Orchards/Vineyards/Other - Orchards, vineyards, and other areas planted or maintained for the production of fruits, nuts, berries, or ornamentals.</edomvd>
+            <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>71</edomv>
+            <edomvd>Grasslands/Herbaceous - Areas dominated by upland grasses and forbs.  In rare cases, herbaceous cover is less than 25 percent, but exceeds the combined cover of the woody species present. These areas are not subject to intensive management, but they are often utilized for  grazing.</edomvd>
+            <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>81</edomv>
+            <edomvd>Pasture/Hay - Areas of grasses, legumes, or grass-legume mixtures planted for livestock grazing or the production of seed or hay crops.</edomvd>
+            <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>82</edomv>
+            <edomvd>Row Crops -  Areas used for the production of crops, such as corn, soybeans, vegetables, tobacco, and cotton.</edomvd>
+            <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>83</edomv>
+            <edomvd>Small Grains -  Areas used for the production of graminoid crops such as wheat, barley, oats, and rice.</edomvd>
+            <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>84</edomv>
+            <edomvd>Fallow - Areas used for the production of crops that are temporarily barren or with sparse  vegetative cover as a result of being tilled in a management practice that incorporates prescribed alternation between cropping and tillage.</edomvd>
+            <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>85</edomv>
+            <edomvd>Urban/Recreational Grasses - Vegetation (primarily grasses) planted in developed settings for recreation, erosion control, or aesthetic purposes. Examples include parks, lawns, golf courses, airport grasses, and industrial site grasses.</edomvd>
+            <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>91</edomv>
+            <edomvd>Woody Wetlands - Areas where forest or shrubland vegetation accounts for 25-100 percent of the cover and the soil or substrate is periodically saturated with or covered with water.</edomvd>
+            <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
+          </edom>
+          <edom>
+            <edomv>92</edomv>
+            <edomvd>Emergent Herbaceous Wetlands -  Areas where perennial herbaceous vegetation accounts for 75-100 percent of the cover and the soil or substrate is periodically saturated with or covered with water.</edomvd>
+            <edomvds>NLCD Legend Land Cover Class Descriptions</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+        <distrib>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Albert R. Mann Library</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>Cornell University</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14853</postal>
+            </cntaddr>
+            <cntvoice>607-255-5406</cntvoice>
+            <cntemail>mann-ref@cornell.edu</cntemail>
+          </cntinfo>
+        </distrib>
+        <distliab>Cornell University provides these geographic data "as is". Cornell
+          University makes no guarantee or warranty concerning the accuracy of
+          information contained in the geographic data. Cornell University further
+          makes no warranty either expressed or implied, regarding the condition of
+          the product or its fitness for any particular purpose. The burden for
+          determining fitness for use lies entirely with the user. Although these
+          files have been processed successfully on computers at Cornell University,
+          no warranty is made by Cornell University regarding the use of these data
+          on any other system, nor does the fact of distribution constitute or imply
+          any such warranty.</distliab>
+        <stdorder>
+        <digform>
+            <digtinfo>
+              <formname>GeoTIFF</formname>
+              <formcont>zipped geotiff</formcont>
+              <filedec>zip</filedec>
+              <transize>29.32</transize>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/80/01/cugir-008001.zip</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>metadata</formname>
+              <formcont>FGDC XML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/80/01/fgdc.xml</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>HTML metadata</formname>
+              <formcont>FGDC HTML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/80/01/fgdc.html</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>OGC:WMS</formname>
+              <formcont>WMS, from GeoServer</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir008001&amp;bbox=-80.32125179,39.91363831,-70.23101321,46.02064068999999&amp;width=256&amp;height=154&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><fees>None</fees></stdorder>
+      </distinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Customer Service Representative</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>USGS EROS</address>
+          <address>47914 252nd Street</address>
+          <city>Sioux Falls</city>
+          <state>SD</state>
+          <postal>57198-0001</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>605/594-6151</cntvoice>
+        <cnttdd>605/594-6933</cnttdd>
+        <cntfax>605/594-6589</cntfax>
+        <cntemail>custserv@usgs.gov</cntemail>
+        <hours>0800 - 1600 CT, M - F (-6h CST/-5h CDT GMT)</hours>
+        <cntinst>The USGS point of contact is for questions relating to the data display and download from this web site.  Questions about the NLCD the NLCD 2001 Land Cover 2011 Edition can be directed to the NLCD 2001 land cover mapping team at USGS EROS, Sioux Falls, SD (605) 594-6151 or mrlc@usgs.gov.</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable data</resdesc>
+    <distliab>Although these data have been processed successfully on a computer system at the USGS, no warranty expressed or implied is made by the USGS regarding the use of the data on any other system, nor does the act of distribution constitute any such warranty.  Data may have been compiled from various outside sources.  Spatial information may not meet National Map Accuracy Standards.  This information may be updated without notification. The USGS shall not be liable for any activity involving these data, installation, fitness of the data for a particular purpose, its use, or analyses results.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ERDAS</formname>
+          <formvern>Imagine 9.3</formvern>
+          <formspec>.img</formspec>
+          <transize>1012</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://www.mrlc.gov/</networkr>
+              </networka>
+            </computer>
+            <accinstr>The URL http://www.mrlc.gov/ provides a download interface that allows for data downloads.  The download page allows the customer to download a zipped file that can be saved on the customer's computer.  The file can then be unzipped and imported into various user software applications.</accinstr>
+            <oncomp>Not available for dissemination</oncomp>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+      <ordering>Contact Customer Services</ordering>
+      <turnarnd>Variable</turnarnd>
+    </stdorder>
+    <custom>Contact Customer Services Representative</custom>
+    <techpreq>ESRI ArcMap Suite and/or Arc/Info software, and supporting operating systems.</techpreq>
+  </distinfo>
+  <metainfo>
+      <metd>20190604</metd>
+      <metc>
+        <cntinfo>
+          <cntorgp>
+            <cntorg>Albert R. Mann Library</cntorg>
+          </cntorgp>
+          <cntaddr>
+            <addrtype>mailing and physical</addrtype>
+            <address>Albert R. Mann Library</address>
+            <city>Ithaca</city>
+            <state>New York</state>
+            <postal>14853</postal>
+            <country>USA</country>
+          </cntaddr>
+          <cntvoice>607-255-5406</cntvoice>
+          <cntemail>mann-ref@cornell.edu</cntemail>
+        </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+    </metainfo>
+</metadata>

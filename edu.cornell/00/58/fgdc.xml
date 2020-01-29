@@ -1,0 +1,382 @@
+<!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Tompkins County ITS GIS Division, Tompkins County Assessment
+          Department</origin>
+        <title>Quarter Quad Index, Tompkins County NY, 2000</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Tompkins County</pubplace>
+          <publish>Tompkins County GIS Program</publish>
+        </pubinfo>
+        <onlink>https://cugir.library.cornell.edu/catalog/cugir-000058</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Index of USGS Quadrangles and Quarter-Quadrangles in and around
+        Tompkins County.</abstract>
+      <purpose>Provides a quick reference for identifying the location of USGS
+        quadrangles and quarter-quadrangles in relation to other data
+        sets.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2000</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+          <bounding>
+            <westbc>-76.749675</westbc>
+            <eastbc>-76.124648</eastbc>
+            <northbc>42.750071</northbc>
+            <southbc>42.250074</southbc>
+          </bounding>
+        </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>quadrangle</themekey>
+        <themekey>quarter quadrangle</themekey>
+        <themekey>boundaries</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Tompkins County, New York</placekey>
+      </place>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+      </theme>
+      <theme>
+              <themekt>CUGIR Category</themekt>
+              <themekey>boundaries</themekey>
+            </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>The following statement must be included with any products that
+      use or are derived from this data set: Data contained in this product was
+      originally produced by the Tompkins County ITS GIS Division and may not be
+      reproduced or redistributed without the express written consent of the
+      originator. The originator does not warrant the accuracy or completeness
+      of the information portrayed by the data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Tompkins County ITS GIS Division</cntorg>
+          <cntper>Kirk Eby</cntper>
+        </cntorgp>
+        <cntpos>GIS Project Leader</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>128 East Buffalo Street</address>
+          <city>Ithaca</city>
+          <state>New York</state>
+          <postal>14850</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(607) 274-5418</cntvoice>
+        <cntfax>(607) 274-5420</cntfax>
+        <cntemail>gis@tompkins-co.org</cntemail>
+        <hours>M-F 8:30 a.m. to 4:30 p.m.</hours>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/00/58/preview.png</browsen>
+              <browsed>preview of the dataset</browsed>
+              <browset>PNG</browset>
+            </browse>
+    <datacred>Tompkins County ITS GIS Division</datacred>
+    <native>PATH: /DATA/ARCINFO/COUNTY/NYSP/PHYSICAL/USGSQTRQDS SOFTWARE:
+      WindowsNT 4.0 x86, Arc/Info Single Precision Coverage LAYERS: Polygon
+      Region.Quadrangle</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>See Entity and Attribute Information</attraccr>
+    </attracc>
+    <logic>After data set was created, the corner coordinates were verified
+      against the USGS topographic quadrangle paper maps.</logic>
+    <complete>Complete coverage for Tompkins County.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Accuracy is limited to the accuracy of Arc/Info version 7.2.1
+          patch 2.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Accuracy is limited to the accuracy of Arc/Info version 7.2.1
+          patch 2.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccitea>USGS Topographic Quadrangle Maps and NYSDOT's USGS Quadrangle
+          Index data set</srccitea>
+        <srccontr>USGS Topo Maps - Coordinates for the corners of the quadrangle
+          and the interval between them (7.5° for full quads, 3.25° for
+          quarter-quads). NYSDOT's USGS Quadrangle Index - QUADNAME and MRC
+          fields in polygon and region.quadrangle layers.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>The data set was created using the GENERATE command in
+          Arc/Info, with the FISHNET option. The origin coordinate was set to
+          -76.75,42.25; the Y-axis coordinate was set to -76.75,42.75; the cell
+          size was set to 0.0625 (which is equivalent to 0° 3" 30'); and the
+          opposite corner was set to -76.125,42.75. The QUADNAME and MRC items
+          were then added and populated, based on NYSDOT's USGS Quadrangle Index
+          data set. The QUADRANT field was added and populated, to designate the
+          quarter-quadrant. The Quadrangle region was then created using the
+          REGIONDISSOLVE command on the QUADNAME field. The coverage was then
+          projected to NY State Plane Central Zone, Feet, NAD83.</procdesc>
+        <procdate>1999</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Tompkins County ITS GIS Division</cntorg>
+              <cntper>Kirk Eby</cntper>
+            </cntorgp>
+            <cntpos>GIS Project Leader</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>128 East Buffalo Street</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14850</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>(607) 274-5418</cntvoice>
+            <cntfax>(607) 274-5420</cntfax>
+            <cntemail>gis@tompkins-co.org</cntemail>
+            <hours>M-F 8:30 a.m. to 4:30 p.m.</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+          <sdtsterm>
+            <sdtstype>G-polygon</sdtstype>
+            <ptvctcnt>80</ptvctcnt>
+          </sdtsterm>
+        </ptvctinf>
+      </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>State Plane Coordinate System 1983</gridsysn>
+          <spcs>
+            <spcszone>3102</spcszone>
+            <transmer>
+              <sfctrmer>0.9999375</sfctrmer>
+              <longcm>-76.5833333334</longcm>
+              <latprjo>40</latprjo>
+              <feast>250000</feast>
+              <fnorth>0</fnorth>
+            </transmer>
+          </spcs>
+        </gridsys>
+        <planci>
+          <plance>Coordinate Pair</plance>
+          <coordrep>
+            <absres>1</absres>
+            <ordres>1</ordres>
+          </coordrep>
+          <plandu>US survey feet</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378206</semiaxis>
+        <denflat>294.9786982</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>USGS Quarter-Quadrangles (Polygons)</enttypl>
+        <enttypd>United States Geological Survey topographic map
+          quarter-quadrangle boundaries.</enttypd>
+        <enttypds>Tompkins County ITS GIS Division, 2000</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>AREA</attrlabl>
+        <attrdef>Polygon Area (Internal Software Attribute, in Map
+          Units)</attrdef>
+        <attrdefs>Tompkins County ITS GIS Division, 2000</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MRC</attrlabl>
+        <attrdef>USGS Quadrangle Code</attrdef>
+        <attrdefs>USGS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+        <attrdef>Polygon Perimeter (Internal Software Attribute, in Map
+          Units)</attrdef>
+        <attrdefs>Tompkins County ITS GIS Division, 2000</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>QuadName</attrlabl>
+        <attrdef>Full Name of the Quadrangle</attrdef>
+        <attrdefs>Tompkins County ITS GIS Division, 2000</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Quadrant</attrlabl>
+        <attrdef>Quarter-quadrangle quadrant (NE, NW, SE, SW).</attrdef>
+        <attrdefs>Tompkins County ITS GIS Division, 2000</attrdefs>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+        <distrib>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Albert R. Mann Library</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>Cornell University</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14853</postal>
+            </cntaddr>
+            <cntvoice>607-255-5406</cntvoice>
+            <cntemail>mann-ref@cornell.edu</cntemail>
+          </cntinfo>
+        </distrib>
+        <distliab>Cornell University provides these geographic data "as is". Cornell
+          University makes no guarantee or warranty concerning the accuracy of
+          information contained in the geographic data. Cornell University further
+          makes no warranty either expressed or implied, regarding the condition of
+          the product or its fitness for any particular purpose. The burden for
+          determining fitness for use lies entirely with the user. Although these
+          files have been processed successfully on computers at Cornell University,
+          no warranty is made by Cornell University regarding the use of these data
+          on any other system, nor does the fact of distribution constitute or imply
+          any such warranty.</distliab>
+        <stdorder>
+        <digform>
+            <digtinfo>
+              <formname>Shapefile</formname>
+              <formcont>zipped shapefile</formcont>
+              <filedec>zip</filedec>
+              <transize>0.05</transize>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/00/58/cugir-000058.zip</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>metadata</formname>
+              <formcont>FGDC XML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/00/58/fgdc.xml</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>HTML metadata</formname>
+              <formcont>FGDC HTML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/00/58/fgdc.html</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+                <digtinfo>
+                  <formname>KML</formname>
+                  <formcont>generated KML, via WFS</formcont>
+                </digtinfo>
+                <digtopt>
+                  <onlinopt>
+                    <computer>
+                      <networka>
+                        <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir000058&amp;outputFormat=application%2Fvnd.google-earth.kml%2Bxml</networkr>
+                      </networka>
+                    </computer>
+                  </onlinopt>
+                </digtopt>
+              </digform><digform>
+            <digtinfo>
+              <formname>GeoJSON</formname>
+              <formcont>generated GeoJSON, via WFS</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir000058&amp;outputFormat=application%2Fjson</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>OGC:WMS</formname>
+              <formcont>WMS, from GeoServer</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir000058&amp;bbox=-76.76842581,42.23507409,-76.10589719,42.76507091&amp;width=256&amp;height=204&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><fees>None</fees></stdorder>
+      </distinfo>
+  <metainfo>
+      <metd>20190524</metd>
+      <metc>
+        <cntinfo>
+          <cntorgp>
+            <cntorg>Albert R. Mann Library</cntorg>
+          </cntorgp>
+          <cntaddr>
+            <addrtype>mailing and physical</addrtype>
+            <address>Albert R. Mann Library</address>
+            <city>Ithaca</city>
+            <state>New York</state>
+            <postal>14853</postal>
+            <country>USA</country>
+          </cntaddr>
+          <cntvoice>607-255-5406</cntvoice>
+          <cntemail>mann-ref@cornell.edu</cntemail>
+        </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+    </metainfo>
+</metadata>

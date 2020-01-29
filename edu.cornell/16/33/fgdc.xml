@@ -1,0 +1,277 @@
+<!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Tompkins County ITS GIS Division, Tompkins County Assessment Department</origin>
+        <pubdate>19990701</pubdate>
+        <title>Tax Maps, Tompkins County, 1999</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Tompkins County</pubplace>
+          <publish>Tompkins County GIS Program</publish>
+        </pubinfo>
+        <onlink>https://cugir.library.cornell.edu/catalog/cugir-001633</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The tax map boundaries of the tax parcel maps for all of Tompkins County.</abstract>
+      <purpose>Provides a county-wide data set of all tax map boundaries for the tax parcel maps in Tompkins County.</purpose>
+      <supplinf>This data set is derived from the tax map region in each municipal tax parcel map data set.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>19990701</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Continually</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-76.7</westbc>
+        <eastbc>-76.2375</eastbc>
+        <northbc>42.6375</northbc>
+        <southbc>42.25</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Property</themekey>
+        <themekey>Ownership</themekey>
+        <themekey>Tax maps</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>boundaries</themekey>
+        <themekey>planningCadastre</themekey>
+      </theme>
+      <theme>
+              <themekt>CUGIR Category</themekt>
+              <themekey>boundaries</themekey>
+<themekey>property</themekey>
+            </theme>
+      <place>
+        <placekt>LCSH</placekt>
+        <placekey>Tompkins County (N.Y.)</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>The following statement must be included with any products that use or are derived from this data set: Data contained in this product was originally produced by the Tompkins County ITS GIS Division and the Tompkins County Assessment Department and may not be reproduced or redistributed without the express written consent of the originators. The originators do not warrant the accuracy or completeness of the information portrayed by the data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Tompkins County ITS GIS Division</cntorg>
+          <cntper>Kirk Eby</cntper>
+        </cntorgp>
+        <cntpos>GIS Project Leader</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>128 East Buffalo Street</address>
+          <city>Ithaca</city>
+          <state>New York</state>
+          <postal>14850</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(607) 274-5418</cntvoice>
+        <cntfax>(607) 274-5420</cntfax>
+        <cntemail>gis@tompkins-co.org</cntemail>
+        <hours>M-F 8:30 a.m. to 4:30 p.m.</hours>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Tompkins County ITS GIS Division and Tompkins County Assessment Department</datacred>
+    <native>PATH: (Current year) /DATA/ARCINFO/COUNTY/NYSP/PROPERTY/TAXMAPS (Previous year) /DATA/ARCINFO/COUNTY/NYSP/PROPERTY/TAXMAPS(4-digit tax year) SOFTWARE: WindowsNT 4.0 x86, Arc/Info Single Precision Coverage LAYERS: Region.TaxMap</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>See Entity and Attribute Information</attraccr>
+    </attracc>
+    <logic>The Taxmap region from each municipality's tax map data set is appended into one County-wide data set. This data set's topology is then created using the CLEAN command. All error checking is done in the source data sets.</logic>
+    <complete>Complete coverage for entire County..</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Varies, depending on source of parcel boundary (survey, deed, aerial photo, raw conversion from paper maps). Accuracy is limited to the accuracy of the 1991 Tompkins County Planimetric Base Map series.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Accuracy is limited to the accuracy of the 1991 Tompkins County Planimetric Base Map series.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Tax parcel boundaries were initially maintained manually on mylar originals, using erasable ink. In 1991, a series of planimetric base data sets were produced from aerial photography, and are now referred to as the 1991 Tompkins County Digital Planimetric Base Map. The tax parcel mylar maps were digitized using MapGrafix and referenced to the 1991 Tompkins County Digital Planimetric Base Map. In 1997, the MapGrafix data sets for the City of Ithaca and the Towns of Caroline and Danby were approved by the State of New York Office of Real Property Services. In 1998, the Map Grafix data sets were converted to Arc/Info for the City of Ithaca, Towns of Caroline, Danby, Dryden, and Ithaca, and the Villages of Cayuga Heights, Dryden, and Freeville. In 1999, the Towns of Enfield, Groton, Lansing, Newfield, and Ulysses, and the Villages of Groton, Lansing, and Trumansburg were converted to Arc/Info. Beginning with the 1999 tax year, all tax parcel boundaries are maintained in Arc/Info, all tax maps are printed using ArcView, and all tax maps are archived digitally using Adobe Acrobat, as well as the traditional paper archival. During the transition period from paper to digital maps, parcel boundaries are approximate, except for those boundaries that have been input using paper surveys and legal descriptions. The tax parcel data sets consist of three groups of layers: boundary layers, text layers, and region layers. The boundary layers consist of those Arc/Info feature classes upon which the region layers are created. Boundary layers include the nodes, arcs, and polygons. Parcel boundaries are changed by first modifying the arc and node layers, and updating the arc attributes. Next, the polygons are re-created and their attributes are updated. The text layers are then updated to reflect the boundary changes. Finally, the regions are created from the polygons using polygon attributes and the Arc/Info REGIONDISSOLVE command. The text layers are Arc/Info annotation layers and include acreage, block, dimension, non-roll section 1 (exempt/utility/state lands), lot, Military Tract/Watkins and Flint Purchase, municipality, place, road name, special district, tax map, tic mark, and water text, as it appears on the printed tax parcel maps. The region layers include deed book/page, municipal, parcel, printkey, and tax map regions. The tax map regions from each of the municipal data sets for the current tax year are then combined into a county-wide data set.</procdesc>
+        <procdate>1998 (partial coverage), 1999 and beyond</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Tompkins County ITS GIS Division</cntorg>
+              <cntper>Kirk Eby</cntper>
+            </cntorgp>
+            <cntpos>GIS Project Leader</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>128 East Buffalo Street</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14850</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>(607) 274-5418</cntvoice>
+            <cntfax>(607) 274-5420</cntfax>
+            <cntemail>gis@tompkins-co.org</cntemail>
+            <hours>M-F 8:30 a.m. to 4:30 p.m.</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+    <cloud>0</cloud>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>G-polygon</sdtstype>
+        <ptvctcnt>546</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>State Plane Coordinate System 1983</gridsysn>
+          <spcs>
+            <spcszone>3102</spcszone>
+            <transmer>
+              <sfctrmer>0.9999375</sfctrmer>
+              <longcm>-76.5833333334</longcm>
+              <latprjo>40</latprjo>
+              <feast>250000</feast>
+              <fnorth>0</fnorth>
+            </transmer>
+          </spcs>
+        </gridsys>
+        <planci>
+          <plance>Coordinate Pair</plance>
+          <coordrep>
+            <absres>1</absres>
+            <ordres>1</ordres>
+          </coordrep>
+          <plandu>US survey feet</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378206</semiaxis>
+        <denflat>294.9786982</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <overview>
+      <eaover>For a detailed description of entities and attributes, refer to the Tax Map (Section) Block Boundaries entity of any of the individual municipal tax parcel data sets.</eaover>
+    </overview>
+  </eainfo>
+  <distinfo>
+        <distrib>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Albert R. Mann Library</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>Cornell University</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14853</postal>
+            </cntaddr>
+            <cntvoice>607-255-5406</cntvoice>
+            <cntemail>mann-ref@cornell.edu</cntemail>
+          </cntinfo>
+        </distrib>
+        <distliab>Cornell University provides these geographic data "as is". Cornell
+          University makes no guarantee or warranty concerning the accuracy of
+          information contained in the geographic data. Cornell University further
+          makes no warranty either expressed or implied, regarding the condition of
+          the product or its fitness for any particular purpose. The burden for
+          determining fitness for use lies entirely with the user. Although these
+          files have been processed successfully on computers at Cornell University,
+          no warranty is made by Cornell University regarding the use of these data
+          on any other system, nor does the fact of distribution constitute or imply
+          any such warranty.</distliab>
+        <stdorder>
+        <digform>
+            <digtinfo>
+              <formname>E00</formname>
+              <formcont>zipped Arc/Info .e00 file</formcont>
+              <filedec>zip</filedec>
+              <transize>1.24</transize>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/16/33/cugir-001633.zip</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>metadata</formname>
+              <formcont>FGDC XML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/16/33/fgdc.xml</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>HTML metadata</formname>
+              <formcont>FGDC HTML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/16/33/fgdc.html</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><fees>None</fees></stdorder>
+      </distinfo>
+  <metainfo>
+      <metd>20190524</metd>
+      <metc>
+        <cntinfo>
+          <cntorgp>
+            <cntorg>Albert R. Mann Library</cntorg>
+          </cntorgp>
+          <cntaddr>
+            <addrtype>mailing and physical</addrtype>
+            <address>Albert R. Mann Library</address>
+            <city>Ithaca</city>
+            <state>New York</state>
+            <postal>14853</postal>
+            <country>USA</country>
+          </cntaddr>
+          <cntvoice>607-255-5406</cntvoice>
+          <cntemail>mann-ref@cornell.edu</cntemail>
+        </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+    </metainfo>
+</metadata>

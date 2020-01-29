@@ -1,0 +1,661 @@
+<!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey</origin>
+        <pubdate>200101</pubdate>
+        <title>Major Surface Water Sampling Sites (NAWQA), New York State, 1991 and 1994</title>
+        <geoform>vector digital data</geoform>
+        <onlink>https://cugir.library.cornell.edu/catalog/cugir-007319</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This data set shows the 1991 and 1994 National Water-Quality Assessment (NAWQA)
+        study units' major surface-water sampling sites. These sites are in NAWQA's fixed network
+        and (or) in a bed sediment and tissue network.</abstract>
+      <purpose>This data set was created to display NAWQA's major surface-water sampling sites
+        identified as part of a fixed network and (or) a bed sediment and tissue network. The points
+        were generated from the latitude and longitude coordinates in the U.S. Geological Survey's
+        National Water Information System (NWIS) for the selected stations.</purpose>
+      <supplinf>The National Water-Quality Assessment Program is designed to describe the status and
+        trends in the quality of the Nation's ground- and surface- water resources and to provide a
+        sound understanding of the natural and human factors that affect the quality of these
+        resources (Leahy and others, 1990). The building blocks of the national assessment are
+        investigations in major hydrologic systems of the Nation, referred to as "Study Units". The
+        study units are divided into three groups. Each group of study units is intensively studied
+        on a rotational schedule of three-year periods. The first group began in fiscal year 1991
+        (FY 1991 ran from October 1990-September 1991), the second in fiscal year 1994 and the third
+        in fiscal year 1997. This data set includes major surface- water sampling sites from the
+        first two groups of study units. Sampling sites within the NAWQA program are grouped into
+        "networks". A surface-water sampling network is characterized by the type of sampling
+        activity, such as what constituents are sampled and (or) the sampling frequency. This data
+        set includes sites in a fixed network and (or) bed sediment and tissue network. A NAWQA
+        fixed site is a site on a stream, at which streamflow is measured and samples are collected
+        for temperature, salinity, suspended sediment, major ions, nutrients, and organic carbon, to
+        assess the broad-scale spatial and temporal character and transport of inorganic
+        constituents of stream water in relation to hydrologic conditions and environmental settings
+        (Gilliom and others, 1995). Samples are collected regularly at fixed sites for at least two
+        years. All fixed sites are considered "basic fixed sites" but some are referred to as
+        "intensive fixed sites" if the sampling frequency increased during selected seasonal periods
+        and if pesticide samples were collected regularly for 1 year (Gilliom and others, 1995). A
+        NAWQA bed sediment and tissue site is a site where bed sediment and (or) tissue samples are
+        collected and analyzed for trace elements and hydrophobic organic contaminants in streambed
+        sediment and in the tissue of aquatic organisms. Bed sediment and (or) tissue samples are
+        typically collected once at a site, however some sites are resampled. Some of these sites
+        are within NAWQA's major bed sediment and tissue networks, while some are not. The two major
+        bed sediment and tissue networks are the Occurrence survey and the Spatial Distribution
+        survey. The Occurrence survey focuses on what hydrophobic contaminants are present, while
+        the Spatial Distribution survey focuses on these contaminants through broader areal
+        sampling. Though these surveys constitute separate bed sediment and tissue networks, no
+        differentiation is made in this data set. However, a bed sediment and tissue site in either
+        the Occurrence survey or the Spatial Distribution survey is differentiated from remaining
+        bed sediment and tissue sites that are not part of these surveys. These remaining sites are
+        either part of another bed sediment and (or) tissue network, or part of a synoptic network
+        at which bed sediment and (or) tissue samples were collected. A synoptic network consists of
+        a single or multiple sites sampled to investigate specific conditions during selected
+        seasonal or hydrologic periods. In this data set, synoptic sites at which bed sediment and
+        (or) tissue samples are collected are considered to belong to a bed sediment and tissue
+        network. The major surface-water sampling sites in the 1997 NAWQA study unit starts will be
+        added to this data set in the near future. The NAWQA home page is at
+        &lt;http://water.usgs.gov/nawqa/nawqa_home.html&gt;. A map showing the extent of all NAWQA
+        study units, with links to individual study unit information, is available at
+        &lt;http://water.usgs.gov/nawqa/nawqamap.html&gt;. For additional information about the
+        NAWQA program please see: Gilliom, R.J., Alley, W.M., and Gurtz, M.E., 1995, Design of the
+        National Water-Quality Assessment Program: Occurrence and Distribution of Water-Quality
+        Conditions, U.S. Geological Survey Circular 1112. U.S. Geological Survey, Sacramento,
+        California. Accessible online at: &lt;http://water.usgs.gov/pubs/circ1112/&gt;. Leahy, P.P.,
+        Rosenshein, J.S., and Knopman, D.S., 1990, Implementation plan for the National
+        Water-Quality Assessment Program: U.S. Geological Survey Open-File Report 90-174. U.S.
+        Geological Survey, Reston, Virginia, 10 p. Leahy, P.P. and Thompson, T.H., 1994, National
+        Water-Quality Assessment Program: U.S. Geological Survey Open-File Report 94-70, 4 p.,
+        Accessible online at &lt;http://water.usgs.gov/nawqa/NAWQA.OFR94-70.html&gt;. Any use of
+        trade, product, or firm names is for descriptive purposes only and does not imply
+        endorsement by the U.S. Government.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <mdattim>
+          <sngdate>
+            <caldate>1991</caldate>
+          </sngdate>
+          <sngdate>
+            <caldate>1994</caldate>
+          </sngdate>
+        </mdattim>
+      </timeinfo>
+      <current>Ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+          <bounding>
+            <westbc>-78.935036</westbc>
+            <eastbc>-73.337334</eastbc>
+            <northbc>43.892006</northbc>
+            <southbc>40.936489</southbc>
+          </bounding>
+        </spdom>
+    <keywords>
+      <theme>
+        <themekt>none</themekt>
+        <themekey>Sampling sites</themekey>
+        <themekey>Surface water</themekey>
+        <themekey>Water quality</themekey>
+      </theme>
+      <theme>
+        <themekt>LCSH</themekt>
+        <themekey>Hydrography</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>environment</themekey>
+        <themekey>inlandWaters</themekey>
+      </theme>
+      <theme>
+              <themekt>CUGIR Category</themekt>
+              <themekey>environment</themekey>
+<themekey>inland waters</themekey>
+            </theme>
+      <place>
+        <placekt>LCSH</placekt>
+        <placekey>New York (State)</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None. Acknowledgment of the National Atlas of the United States of America and (or)
+      the U.S. Geological Survey would be appreciated in products derived from these
+      data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey, NAWQA National Synthesis GIS</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing address</addrtype>
+          <address>CSUS 6000 J Street</address>
+          <city>Sacramento</city>
+          <state>CA</state>
+          <postal>95819</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>916-278-3092</cntvoice>
+        <cntfax>916-278-3071</cntfax>
+        <cntemail>gs-w_nawqa_nsgis@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/73/19/preview.png</browsen>
+              <browsed>preview of the dataset</browsed>
+              <browset>PNG</browset>
+            </browse>
+    <datacred>Thanks to Curtis Price for generating the NAWQA surface-water (and ground- water)
+      sampling sites coverage from which this data set was extracted, the NAWQA Study Units for
+      making a national NAWQA data set possible, and Jon Scott and many others on the NAWQA Data
+      Synthesis team for their efforts in aggregating the data.</datacred>
+    <native>Windows_NT, 4.0, Intel Arc/INFO version 8.0.2</native>
+    <crossref>
+      <citeinfo>
+        <origin>Hitt, K.J.</origin>
+        <origin>Nakagaki, N.</origin>
+        <pubdate>19990701</pubdate>
+        <title>National Water-Quality Assessment (NAWQA) Study-Unit Investigations in the
+          Conterminous United States</title>
+        <geoform>Map</geoform>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>http://water.usgs.gov/lookup/getspatial?nawqa</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Sites identified as part of the fixed network were checked with existing
+        record-keeping of fixed stations by the NAWQA National Synthesis team. Sites identified as
+        part of the bed sediment and tissue network were verified as having bed sediment and (or)
+        tissue data. Other stations were added to the data that were not part of NAWQA's bed
+        sediment and tissue networks but where bed sediment and (or) tissue samples had been
+        collected. Additional attribute values were checked by NWIS software on entry.</attraccr>
+    </attracc>
+    <logic>No checks for logical consistency were performed on this data set.</logic>
+    <complete>This data set shows selected NAWQA study unit surface-water sampling sites in the
+      lower 48 States. The study units are those which became active in either 1991 or 1994. Site
+      selection was based on whether the site was grouped within a fixed network and (or) a bed
+      sediment and tissue network. NAWQA surface-water sampling sites grouped in other networks are
+      not included in this data set.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>The sampling sites were plotted with their respective drainage basin boundaries as
+          provided by the NAWQA Study Units, and were verified to be within the appropriate drainage
+          basins.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Curtis Price</origin>
+            <pubdate>20000731</pubdate>
+            <title>Locations of USGS NAWQA Sampling Sites</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>200005</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Date of last NAWQA data aggregation</srccurr>
+        </srctime>
+        <srccitea>nawqapt</srccitea>
+        <srccontr>Spatial and attribute information.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Hitt, K.J.</origin>
+            <origin>Nakagaki, N.</origin>
+            <pubdate>19990701</pubdate>
+            <title>National Water-Quality Assessment (NAWQA) Study-Unit Investigations in the
+              Conterminous United States</title>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>http://water.usgs.gov/lookup/getspatial?nawqa</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>19990701</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>nawqasu1</srccitea>
+        <srccontr>Attribute information.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Lanfear, K.J.</origin>
+            <pubdate>19940816</pubdate>
+            <title>Counties and county equivalents in the conterminous United States</title>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>http://water.usgs.gov/lookup/getspatial?county2m</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>19940816</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>counties</srccitea>
+        <srccontr>Attribute information.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>The NAWQA sites spatial data set (nawqapt) was generated from multiple files from
+          NAWQA's national aggregated database. ARCPLOT was used to select the subset of sites in
+          nawqapt that were part of the fixed network, the Occurrence survey and Spatial
+          Distribution survey bed sediment and tissue networks, and other sites where bed sediment
+          and (or) tissue samples were known to have been collected. These sites were added from
+          nawqapt into the reselected set and the data set was saved as a new file. Fields for Study
+          Unit ID (Suid), Year (Yr), and network indicators (Fix and Bst) were added and populated
+          from information in nawqapt. The attribute Name was populated from additional information
+          in nawqapt. Related stations were deleted from the data set. (A related station is a USGS
+          station at which samples were collected, located in close proximity to a main or primary
+          station. No tributaries, point sources, or any other water-quality impacting features
+          exist between the primary and related stations and consequently, samples collected at both
+          the primary and related stations are analyzed as if they were collected at a single
+          physical location.) The data set was converted from NAD27 to NAD83.</procdesc>
+        <srcused>nawqapt</srcused>
+        <procdate>20000809</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>The data set was converted to Shapefile format for use in the National Atlas of
+          the United States.</procdesc>
+        <procdate>200008</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>The attributes Suname, State, and State_fips were added.</procdesc>
+        <srcused>nawqasu1</srcused>
+        <srcused>counties</srcused>
+        <procdate>200012</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>In order to geoprocess spatial files for New York State from the National Atlas
+          Data for distribution in CUGIR, the nationwide data files were added to a map document in
+          ArcInfo 8.2. Using the geoprocessing wizard's clip function, the spatial files were
+          clipped to the detailed New York polygon.</procdesc>
+        <procdate>200212</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+          <sdtsterm>
+            <sdtstype>Point</sdtstype>
+            <ptvctcnt>70</ptvctcnt>
+          </sdtsterm>
+        </ptvctinf>
+      </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.000278</latres>
+        <longres>0.000278</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS1980</ellips>
+        <semiaxis>6378137</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Surface-water sampling sites</enttypl>
+        <enttypd>The location of major surface-water sampling sites in the National Water-Quality
+          Assessment (NAWQA) Program.</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Sw9194x020</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>1044</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Staid</attrlabl>
+        <attrdef>The USGS National Water Information System unique station identification
+          number.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>01121000</rdommin>
+            <rdommax>485634097173801</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Name</attrlabl>
+        <attrdef>The name of the surface-water sampling site.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>There is no predefined set of valid site names.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Suid</attrlabl>
+        <attrdef>The 4-letter abbreviation for a NAWQA study unit. A study unit is a major
+          hydrologic system in which NAWQA studies are focused. Study units are geographically
+          defined by a combination of ground- and surface-water features and usually encompass more
+          than 10,000 square kilometers. (See Gilliom and others, 1995)</attrdef>
+        <attrdefs>U.S. Geological Survey,
+          &lt;http://water.usgs.gov/nawqa/nawqamap.html#TABLE&gt;</attrdefs>
+        <attrdomv>
+          <udom>string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Yr</attrlabl>
+        <attrdef>The fiscal year in which the NAWQA study unit became active.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>91</edomv>
+            <edomvd>The study unit became active in 1991.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+          <edom>
+            <edomv>94</edomv>
+            <edomvd>The study unit became active in 1994.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Fix</attrlabl>
+        <attrdef>An indication of whether or not a surface water sample site is a fixed network
+          site. A fixed network site is one where the stream flow is measured and samples are
+          collected at a fixed frequency. The information from the samples includes temperature,
+          salinity, suspended sediment, dissolved solids, major ions and metals, nutrients, and
+          organic carbon. These characteristics are used to assess the broad- scale spatial and
+          temporal character of the stream water, and to assess the transport of inorganic
+          constituents by the stream water in relation to hydrologic conditions and environmental
+          settings.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>Not a fixed network site.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>A basic fixed site.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>A basic and intensive fixed site. At these sites the sampling frequency is
+              increased during selected seasonal periods and pesticide samples are collected
+              regularly for 1 year.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Bst</attrlabl>
+        <attrdef>An indication of whether or not bed sediment and (or) tissue samples were collected
+          at the site. Samples from these sites are analyzed for trace elements and (or) organic
+          contaminants in stream bed sediment and in the tissue of aquatic organisms.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No bed sediment or tissue sample was collected.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>The site is part of the bed sediment and tissue Occurrence survey and (or)
+              Spatial Distribution survey network. Bed sediment and (or) tissue samples were
+              collected.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>The site is not part of the bed sediment and tissue Occurrence survey and (or)
+              Spatial Distribution survey network, but is part of another sampling network where bed
+              sediment and (or) tissue samples were collected.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Type</attrlabl>
+        <attrdef>The hydrologic setting of the sampling site.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>ES</edomv>
+            <edomvd>An estuary.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+          <edom>
+            <edomv>LK</edomv>
+            <edomvd>A lake or reservoir.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+          <edom>
+            <edomv>SP</edomv>
+            <edomvd>A spring.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+          <edom>
+            <edomv>SS</edomv>
+            <edomvd>A specific source, for example, a sewage treatment plant discharge
+              outflow.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+          <edom>
+            <edomv>SW</edomv>
+            <edomvd>A stream.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+          <edom>
+            <edomv>SWME</edomv>
+            <edomvd>A meteorological source, where weather information such as precipitation amount
+              or air temperature is collected.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Londd</attrlabl>
+        <attrdef>The site longitude as a single value, in decimal degrees (NAD83).</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-123.37039</rdommin>
+            <rdommax>-71.63064</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Latdd</attrlabl>
+        <attrdef>The site latitude as a single value, in decimal degrees (NAD83).</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>25.32095</rdommin>
+            <rdommax>49.03139</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+        <distrib>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Albert R. Mann Library</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>Cornell University</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14853</postal>
+            </cntaddr>
+            <cntvoice>607-255-5406</cntvoice>
+            <cntemail>mann-ref@cornell.edu</cntemail>
+          </cntinfo>
+        </distrib>
+        <distliab>Cornell University provides these geographic data "as is". Cornell
+          University makes no guarantee or warranty concerning the accuracy of
+          information contained in the geographic data. Cornell University further
+          makes no warranty either expressed or implied, regarding the condition of
+          the product or its fitness for any particular purpose. The burden for
+          determining fitness for use lies entirely with the user. Although these
+          files have been processed successfully on computers at Cornell University,
+          no warranty is made by Cornell University regarding the use of these data
+          on any other system, nor does the fact of distribution constitute or imply
+          any such warranty.</distliab>
+        <stdorder>
+        <digform>
+            <digtinfo>
+              <formname>Shapefile</formname>
+              <formcont>zipped shapefile</formcont>
+              <filedec>zip</filedec>
+              <transize>0.06</transize>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/73/19/cugir-007319.zip</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>metadata</formname>
+              <formcont>FGDC XML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/73/19/fgdc.xml</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>HTML metadata</formname>
+              <formcont>FGDC HTML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/73/19/fgdc.html</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+                <digtinfo>
+                  <formname>KML</formname>
+                  <formcont>generated KML, via WFS</formcont>
+                </digtinfo>
+                <digtopt>
+                  <onlinopt>
+                    <computer>
+                      <networka>
+                        <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir007319&amp;outputFormat=application%2Fvnd.google-earth.kml%2Bxml</networkr>
+                      </networka>
+                    </computer>
+                  </onlinopt>
+                </digtopt>
+              </digform><digform>
+            <digtinfo>
+              <formname>GeoJSON</formname>
+              <formcont>generated GeoJSON, via WFS</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir007319&amp;outputFormat=application%2Fjson</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>OGC:WMS</formname>
+              <formcont>WMS, from GeoServer</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007319&amp;bbox=-79.10296706,40.84782349,-73.16940294,43.98067151&amp;width=256&amp;height=135&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><fees>None</fees></stdorder>
+      </distinfo>
+  <metainfo>
+      <metd>20190524</metd>
+      <metc>
+        <cntinfo>
+          <cntorgp>
+            <cntorg>Albert R. Mann Library</cntorg>
+          </cntorgp>
+          <cntaddr>
+            <addrtype>mailing and physical</addrtype>
+            <address>Albert R. Mann Library</address>
+            <city>Ithaca</city>
+            <state>New York</state>
+            <postal>14853</postal>
+            <country>USA</country>
+          </cntaddr>
+          <cntvoice>607-255-5406</cntvoice>
+          <cntemail>mann-ref@cornell.edu</cntemail>
+        </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+    </metainfo>
+</metadata>

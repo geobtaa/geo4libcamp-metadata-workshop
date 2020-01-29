@@ -1,0 +1,44 @@
+{
+    "geoblacklight_version": "1.0",
+    "dc_identifier_s": "https://cugir.library.cornell.edu/catalog/cugir-008005",
+    "dc_title_s": "NLCD 1992/2001 Retrofit Land Cover Change, New York",
+    "dc_description_s": "The National Land Cover Database 1992/2001 Change Product was produced through a cooperative project conducted by the Multi-Resolution Land Characteristics (MRLC) Consortium. The MRLC Consortium, a partnership of federal agencies (www.mrlc.gov), consists of the U.S. Geological Survey (USGS), the National Oceanic and Atmospheric Administration (NOAA), the U.S. Environmental Protection Agency (EPA), the U.S. Department of Agriculture (USDA), the U.S. Forest Service (USFS), the National Park Service (NPS), the U.S. Fish and Wildlife Service (FWS), the Bureau of Land Management (BLM) and the USDA Natural Resources Conservation Service (NRCS). The goal of the project is to generate a current, consistent, and seamless 1992/2001 Land Cover Change Product for the United States at medium spatial resolution for Anderson Level 1 classes. This land cover change map and all documents pertaining to it are considered \"provisional\" until a formal accuracy assessment can be conducted. For detailed definitions and discussion of the NLCD 1992/2001 Change product, refer to <http://www.mrlc.gov/>. New developments in mapping methodology, new sources of input data, and minor differences between mapping legends in the 1992 National Land Cover Database (NLCD 1992) and the 2001 National Land Cover Database (NLCD 2001) have compounded any direct comparisons. NLCD 2001 method improvements have resulted in an improved land cover product over NLCD 1992 in such areas as classification accuracy, spatial detail, database content, and multiple product flexibility. The result is that direct comparison of these two independently created land cover products is not recommended. The 1992/2001 NLCD Land Cover Change Product was developed to offer a more accurate and useful guide to change analysis than can be provided by direct comparison of NLCD 1992 with NLCD 2001. Users are cautioned that this product is designed to be the most accurate for applications at the mapping zone scale, and is not designed to be accurately applied over smaller sub-mapping zone areas. The NLCD 1992/2001 Change Product is partitioned in the U.S. into mapping zones. A total of 66 mapping zones were delineated within the conterminous U.S. based on ecoregion and geographical characteristics, edge matching features and the size requirement of Landsat mosaics. Zone 13 (the northeastern U.S.) consists of mapping zones 60, 61, 63, 64, 65, and 66, which collectively encompasses the entirety of Maine, New Hampshire, Vermont, Massachusetts, Rhode Island, Connecticut, New York, New Jersey, Delaware, and Maryland, as well as portions of Pennsylvania, West Virginia, Virginia, and North Carolina.  The goal of this project is to provide the Nation with complete, current and consistent public domain information on land cover change.",
+    "dc_rights_s": "Public",
+    "dct_provenance_s": "Cornell",
+    "dct_references_s": "{\"http://schema.org/downloadUrl\":\"https://cugir-data.s3.amazonaws.com/00/80/05/cugir-008005.zip\",\"http://www.opengis.net/cat/csw/csdgm\":\"https://cugir-data.s3.amazonaws.com/00/80/05/fgdc.xml\",\"http://www.w3.org/1999/xhtml\":\"https://cugir-data.s3.amazonaws.com/00/80/05/fgdc.html\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://cugir.library.cornell.edu/geoserver/cugir/wms\"}",
+    "cugir_addl_downloads_s": "{}",
+    "layer_id_s": "cugir008005",
+    "layer_slug_s": "cugir-008005",
+    "dc_type_s": "Dataset",
+    "dc_format_s": "GeoTIFF",
+    "cugir_filesize_s": "20.89 MB",
+    "layer_geom_type_s": "Raster",
+    "layer_modified_dt": "2019-06-04T00:00:00Z",
+    "dc_creator_sm": [
+        "U.S. Geological Survey"
+    ],
+    "dc_publisher_sm": [
+        "U.S. Geological Survey"
+    ],
+    "dc_subject_sm": [
+        "Land Cover",
+        "Land Cover Change",
+        "Change Detection"
+    ],
+    "cugir_category_sm": [
+        "landcover",
+        "environment"
+    ],
+    "dct_spatial_sm": [
+        "New York"
+    ],
+    "dct_issued_s": "2006",
+    "dct_temporal_sm": [
+        "1988-2003"
+    ],
+    "dct_isPartOf_sm": [
+        "National Land Cover Database"
+    ],
+    "solr_geom": "ENVELOPE(-80.035679, -70.516586, 45.847801, 40.086478)",
+    "solr_year_i": "2003"
+}

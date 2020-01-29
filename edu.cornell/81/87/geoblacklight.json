@@ -1,0 +1,45 @@
+{
+    "geoblacklight_version": "1.0",
+    "dc_identifier_s": "https://cugir.library.cornell.edu/catalog/cugir-008187",
+    "dc_title_s": "Index of New York State Regulatory Freshwater Wetlands",
+    "dc_description_s": "These data are a set of ARC/INFO coverages composed of polygonal and linear features. Coverages are based on official New York State Freshwater Wetlands Maps as described in Article 24-0301 of the Environmental Conservation Law. Coverages are not, however, a legal substitute for the official maps. Coverages are available on a county basis for all areas of New York State outside the Adirondack Park.  To provide a faithful representation of official New York State regulatory freshwater wetlands maps for GIS resource analysis at scales equal to the 1 to 24,000 scale of original mapping or smaller scales (e.g., 1 to 100,000 scale).",
+    "dc_rights_s": "Public",
+    "dct_provenance_s": "Cornell",
+    "dct_references_s": "{\"https://openindexmaps.org\":\"https://cugir-data.s3.amazonaws.com/00/81/87/cugir-008187-index.geojson\",\"http://schema.org/downloadUrl\":\"https://cugir-data.s3.amazonaws.com/00/81/87/cugir-008187-index.geojson\",\"http://www.opengis.net/cat/csw/csdgm\":\"https://cugir-data.s3.amazonaws.com/00/81/87/fgdc.xml\",\"http://www.w3.org/1999/xhtml\":\"https://cugir-data.s3.amazonaws.com/00/81/87/fgdc.html\"}",
+    "cugir_addl_downloads_s": "{}",
+    "layer_id_s": "cugir008187",
+    "layer_slug_s": "cugir-008187",
+    "dc_type_s": "Dataset",
+    "dc_format_s": "GeoJSON",
+    "cugir_filesize_s": "0.18 MB",
+    "layer_geom_type_s": "Unknown Data Type",
+    "layer_modified_dt": "2019-05-24T00:00:00Z",
+    "dc_creator_sm": [
+        "New York State Department of Environmental Conservation"
+    ],
+    "dc_publisher_sm": [
+        "New York State Department of Environmental Conservation (NYSDEC)"
+    ],
+    "dc_subject_sm": [
+        "Freshwater Wetlands",
+        "Regulatory Wetlands",
+        "index map",
+        "Wetlands",
+        "Conservation of natural resources"
+    ],
+    "cugir_category_sm": [
+        "index map",
+        "inland waters",
+        "environment",
+        "property"
+    ],
+    "dct_spatial_sm": [
+        "New York"
+    ],
+    "dct_issued_s": "2013-08-28",
+    "dct_temporal_sm": [
+        "1994-2013"
+    ],
+    "solr_geom": "ENVELOPE(-79.762152, -71.856214, 45.01585, 40.496103)",
+    "solr_year_i": "2013"
+}

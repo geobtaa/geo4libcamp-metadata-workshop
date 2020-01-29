@@ -1,0 +1,778 @@
+<!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>United States Department of Agriculture (USDA), National Agricultural Statistics Service (NASS), Research and Development Division (RDD), Geospatial Information Branch (GIB), Spatial Analysis Research Section (SARS)</origin>
+        <pubdate>20090717</pubdate>
+        <title>Cropland Data Layer, New York State, 2008</title>
+        <edition>2008 Edition</edition>
+        <geoform>raster digital data</geoform>
+        <serinfo>
+          <sername>USDA-NASS Cropland Data Layer</sername>
+          <issue>New York 2008</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>USDA, NASS Marketing and Information Services Office, Washington, D.C.</pubplace>
+          <publish>USDA, NASS</publish>
+        </pubinfo>
+        <othercit>
+Available on DVD through the official website &lt;http://www.nass.usda.gov/research/Cropland/SARS1a.htm&gt;. The data is also available free for download through the Geospatial Data Gateway at &lt;http://datagateway.nrcs.usda.gov/&gt;. See the 'Ordering Instructions' section of this metadata file for detailed download instructions.
+The official DVD contains additional accuracy assessment information that is not available through the Geospatial Data Gateway in the form of an associated confidence layer. The following description of the confidence layer is taken from the document entitled 'MDA_NLCD_User_Guide.doc' which is available free for download with the NLCD Mapping Tool at &lt;http://www.mrlc.gov/&gt;. The Confidence Layer "spatially represents the predicted confidence that is associated with that output pixel, based upon the rule(s) that were used to classify it. This is useful in that the user can see the spatial representation of distribution and magnitude of error or confidence for a given classification... This error layer represents a percent confidence associated with each rule and output categorical, classified value. It is expressed as a percentage of confidence. A value of zero would therefore have a low confidence (always wrong), while a value of 100 would have a very high confidence (always right)." For more information on the use of confidence layers please refer to the following paper: Liu, Weiguo, Sucharita Gopal and Curtis E. Woodcock, 2004. Uncertainty and confidence in land cover classification using a hybrid classifier approach, Photogrammetric Engineering &amp; Remote Sensing, 70(8):963-971. Ultimately, however, the confidence value is not a measure of accuracy for a given pixel but rather a how well it fit within the decision tree ruleset.
+</othercit>
+        <onlink>https://cugir.library.cornell.edu/catalog/cugir-008028</onlink>
+        <onlink>http://www.nass.usda.gov/research/Cropland/SARS1a.htm</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The USDA, NASS Cropland Data Layer (CDL) is a raster, geo-referenced, crop-specific land cover data layer with a ground resolution of 56 meters. The CDL is produced using satellite imagery from the Indian Remote Sensing RESOURCESAT-1 (IRS-P6) Advanced Wide Field Sensor (AWiFS) collected during the current growing season. Ancillary classification inputs include: the United States Geological Survey (USGS) National Elevation Dataset (NED), the USGS National Land Cover Dataset 2001 (NLCD 2001), and the National Aeronautics and Space Administration (NASA) Moderate Resolution Imaging Spectroradiometer (MODIS) 250 meter 16 day Normalized Difference Vegetation Index (NDVI) composites. Agricultural training and validation data are derived from the Farm Service Agency (FSA) Common Land Unit (CLU) Program. The NLCD 2001 is used as non-agricultural training and validation data. The strength and emphasis of the CDL is agricultural land cover. Please note that no farmer reported data are derivable from the Cropland Data Layer.</abstract>
+      <purpose>The purpose of the Cropland Data Layer Program is to use satellite imagery to (1) provide acreage estimates to the Agricultural Statistics Board for the state's major commodities and (2) produce digital, crop-specific, categorized geo-referenced output products.</purpose>
+      <supplinf>
+If the following table does not display properly, then please visit this internet site &lt;http://www.nass.usda.gov/research/Cropland/metadata/meta.htm&gt; to view the original metadata file.
+USDA, National Agricultural Statistics Service 2008 New York Cropland Data Layer
+CLASSIFICATION INPUTS:
+AWIFS DATE 20080402 PATH 281 ROW(S)&amp;QUADRANT(S) 40BD
+AWIFS DATE 20080526 PATH 287 ROW(S)&amp;QUADRANT(S) 40BD 45B
+AWIFS DATE 20080609 PATH 285 ROW(S)&amp;QUADRANT(S) 39BD
+AWIFS DATE 20080613 PATH 281 ROW(S)&amp;QUADRANT(S) 40BD
+AWIFS DATE 20080708 PATH 286 ROW(S)&amp;QUADRANT(S) 40ABCD
+AWIFS DATE 20080820 PATH 285 ROW(S)&amp;QUADRANT(S) 39ACD
+AWIFS DATE 20080917 PATH 281 ROW(S)&amp;QUADRANT(S) 40BD
+AWIFS DATE 20080918 PATH 286 ROW(S)&amp;QUADRANT(S) 40BD 45ABD
+AWIFS DATE 20080923 PATH 287 ROW(S)&amp;QUADRANT(S) 40ABCD
+AWIFS DATE 20081026 PATH 284 ROW(S)&amp;QUADRANT(S) 40BD
+LANDSAT TM DATE 20080418 PATH 012 ROW(S) 31 32
+LANDSAT TM DATE 20080612 PATH 013 ROW(S) 31 32
+LANDSAT TM DATE 20080621 PATH 012 ROW(S) 31 32
+LANDSAT TM DATE 20080628 PATH 013 ROW(S) 32
+LANDSAT TM DATE 20080701 PATH 018 ROW(S) 31 32
+LANDSAT TM DATE 20080712 PATH 015 ROW(S) 29 30 31 32 33 34 35
+LANDSAT TM DATE 20080818 PATH 018 ROW(S) 31 32 33 34 35
+LANDSAT TM DATE 20080820 PATH 016 ROW(S) 29 30 31 32 33 34 35
+LANDSAT TM DATE 20080822 PATH 014 ROW(S) 29 30 31 32 33
+LANDSAT TM DATE 20080831 PATH 013 ROW(S) 32
+LANDSAT TM DATE 20080831 PATH 013 ROW(S) 31 32
+LANDSAT TM DATE 20080903 PATH 018 ROW(S) 31 32 33 34 35
+LANDSAT TM DATE 20080905 PATH 016 ROW(S) 29 30 31
+LANDSAT TM DATE 20080923 PATH 014 ROW(S) 29 31 32
+LANDSAT TM DATE 20081007 PATH 016 ROW(S) 29 30
+LANDSAT TM DATE 20081018 PATH 013 ROW(S) 31 32
+LANDSAT TM DATE 20081030 PATH 017 ROW(S) 30 33 34 35
+LANDSAT TM DATE 20080808 PATH 012 ROW(S) 32
+MODIS 16 DAY NDVI COMPOSITE DATE 20080305
+MODIS 16 DAY NDVI COMPOSITE DATE 20080406
+MODIS 16 DAY NDVI COMPOSITE DATE 20080422
+MODIS 16 DAY NDVI COMPOSITE DATE 20080508
+USGS, NATIONAL ELEVATION DATASET ELEVATION
+USGS, NATIONAL LAND COVER DATASET 2001 TREE CANOPY
+USGS, NATIONAL LAND COVER DATASET 2001 IMPERVIOUSNESS
+TRAINING AND VALIDATION:
+USDA, FARM SERVICE AGENCY 2008 COMMON LAND UNITS
+USGS, NATIONAL LAND COVER DATASET 2001
+NOTE: The final extent of the CDL is clipped to the state boundary
+even though the raw input data may encompass a larger area.
+</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20080101</begdate>
+          <enddate>20081230</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>2008 growing season</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+          <bounding>
+            <westbc>-79.996495</westbc>
+            <eastbc>-71.650287</eastbc>
+            <northbc>45.022951</northbc>
+            <southbc>40.405047</southbc>
+          </bounding>
+        </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>farming</themekey>
+        <themekey>environment</themekey>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+      </theme>
+      <theme>
+        <themekt>Global Change Master Directory (GCMD) Science Keywords</themekt>
+        <themekey>Earth Science &gt; Biosphere &gt; Terrestrial Ecosystems &gt; Agricultural Lands</themekey>
+        <themekey>Earth Science &gt; Land Surface &gt; Land Use/Land Cover &gt; Land Cover</themekey>
+      </theme>
+      <theme>
+        <themekt>Global Change Master Directory (GCMD) Instrument Keywords</themekt>
+        <themekey>AWIFS &gt; Advanced Wide Field Sensor</themekey>
+        <themekey>MODIS &gt; Moderate-Resolution Imaging Spectroradiometer</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>crop cover</themekey>
+        <themekey>cropland</themekey>
+        <themekey>agriculture</themekey>
+        <themekey>land cover</themekey>
+        <themekey>crop estimates</themekey>
+        <themekey>AWiFS</themekey>
+        <themekey>MODIS</themekey>
+      </theme>
+      <theme>
+              <themekt>CUGIR Category</themekt>
+              <themekey>agriculture</themekey>
+<themekey>environment</themekey>
+<themekey>landcover</themekey>
+            </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>New York</placekey>
+      </place>
+      <temporal>
+        <tempkt>None</tempkt>
+        <tempkey>2008</tempkey>
+      </temporal>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>The USDA, NASS Cropland Data Layer is provided to the public as is and is considered public domain and free to redistribute. The USDA, NASS does not warrant any conclusions drawn from these data. If the user does not have software capable of viewing GEOTIF (.tif) or ERDAS Imagine (.img) file formats then we suggest using the freeware browser ESRI ArcGIS Explorer &lt;http://www.esri.com/software/arcgis/explorer/&gt;.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USDA, NASS, Spatial Analysis Research Section</cntorg>
+          <cntper>USDA, NASS, Spatial Analysis Research Section staff</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>3251 Old Lee Highway, Room 305</address>
+          <city>Fairfax</city>
+          <state>Virginia</state>
+          <postal>22030-1504</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>703-877-8000</cntvoice>
+        <cntfax>703-877-8044</cntfax>
+        <cntemail>HQ_RDD_GIB@nass.usda.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/80/28/preview.png</browsen>
+              <browsed>preview of the dataset</browsed>
+              <browset>PNG</browset>
+            </browse>
+    <datacred>USDA, National Agricultural Statistics Service</datacred>
+    <secinfo>
+      <secsys>None</secsys>
+      <secclass>Unclassified</secclass>
+      <sechandl>None</sechandl>
+    </secinfo>
+    <native>
+Microsoft Windows XP; Leica Geosystems ERDAS Imagine Versions 9.1 and 9.2 &lt;http://gi.leica-geosystems.com/&gt;; ESRI ArcGIS Version 9.3 &lt;http://www.esri.com/&gt;; Rulequest See5.0 Release 2.06 &lt;http://www.rulequest.com/&gt;; NLCD Mapping Tool &lt;http://www.mrlc.gov/&gt;.
+Leica Geosystems ERDAS Imagine is used in the pre- and post- processing of all raster-based data. ESRI ArcGIS is used to prepare the vector-based Farm Service Agency (FSA) Common Land Unit (CLU) training and validation data. Rulequest See5.0 is used to create a decision-tree based classifier. The NLCD Mapping Tool is used to apply the See5.0 decision-tree via ERDAS Imagine. This is a departure from older versions of the CDL that were classified using in-house software (Peditor) based upon a maximum likelihood classifier approach. Check this section and the 'Process Description' section of the specific state and year metadata file to verify what methodology was used.
+</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+If the following table does not display properly, then please visit this internet site &lt;http://www.nass.usda.gov/research/Cropland/metadata/meta.htm&gt; to view the original metadata file.
+USDA, National Agricultural Statistics Service, 2008 New York Cropland Data Layer
+STATEWIDE AGRICULTURAL ACCURACY REPORT
+Crop-specific covers only  *Correct  Accuracy   Error   Kappa
+-------------------------   -------  --------  ------   -----
+OVERALL ACCURACY             136496    80.67%  19.33%  0.7388
+Cover              Attribute  *Correct  Producer's  Omission            User's  Commission  Cond'l
+Type                    Code    Pixels   Accuracy     Error    Kappa  Accuracy      Error    Kappa
+----                    ----    ------   --------     -----    -----  --------      -----    -----
+Corn                       1     58824     92.81%     7.19%   0.8875    91.32%      8.68%   0.8654
+Sorghum                    4         1      0.48%    99.52%   0.0046     3.23%     96.77%   0.0311
+Soybeans                   5     13200     86.55%    13.45%   0.8537    91.30%      8.70%   0.9049
+Sunflowers                 6        25     33.78%    66.22%   0.3377    78.13%     21.88%   0.7812
+Sweet corn                12      1463     72.64%    27.36%   0.7238    85.71%     14.29%   0.8554
+Barley                    21        50     17.36%    82.64%   0.1731    49.02%     50.98%   0.4894
+Spring wheat              23         0      0.00%   100.00%   0.0000      n/a        n/a      n/a
+Winter wheat              24      7199     82.69%    17.31%   0.8184    86.18%     13.82%   0.8548
+Other grains              25         7      3.98%    96.02%   0.0397    31.82%     68.18%   0.3175
+Rye                       27        15      4.03%    95.97%   0.0400    22.06%     77.94%   0.2190
+Oats                      28       750     32.74%    67.26%   0.3227    61.22%     38.78%   0.6072
+Millet                    29         1    100.00%     0.00%   1.0000    33.33%     66.67%   0.3333
+Speltz                    30        36     23.38%    76.62%   0.2335    70.59%     29.41%   0.7056
+Alfalfa                   36      5577     49.07%    50.93%   0.4661    67.88%     32.12%   0.6570
+Other hays                37     44551     83.75%    16.25%   0.7535    73.26%     26.74%   0.6191
+Beets                     41        26     25.24%    74.76%   0.2522    60.47%     39.53%   0.6044
+Dry beans                 42      1021     61.65%    38.35%   0.6132    66.64%     33.36%   0.6633
+Potatoes                  43       313     61.86%    38.14%   0.6178    81.09%     18.91%   0.8103
+Other crops               44        46     20.00%    80.00%   0.1997    69.70%     30.30%   0.6966
+Misc. vegetables          47      1101     73.20%    26.80%   0.7301    86.56%     13.44%   0.8644
+Onions                    49       195     71.96%    28.04%   0.7191    75.29%     24.71%   0.7525
+Peas                      53       699     66.76%    33.24%   0.6659    77.32%     22.68%   0.7719
+Herbs                     57         0      0.00%   100.00%   0.0000      n/a        n/a      n/a
+Clover / Wildflowers      58        11      2.51%    97.49%   0.0248    26.83%     73.17%   0.2665
+Seed / Sod Grass          59       121     36.01%    63.99%   0.3595    73.78%     26.22%   0.7373
+Idle / Fallow             61       454     10.90%    89.10%   0.1023    34.14%     65.86%   0.3256
+Cherry Orchard            66         2      4.35%    95.65%   0.0435    66.67%     33.33%   0.6666
+Peaches                   67         0      0.00%   100.00%   0.0000     0.00%    100.00%   0.0000
+Apples                    68       594     71.65%    28.35%   0.7154    82.04%     17.96%   0.8196
+Grapes                    69       203     62.46%    37.54%   0.6241    76.32%     23.68%   0.7627
+Christmas trees           70        13     26.00%    74.00%   0.2599    92.86%      7.14%   0.9286
+Other tree nuts           71         0      0.00%   100.00%   0.0000      n/a        n/a      n/a
+Other tree fruits         73         0      0.00%   100.00%   0.0000      n/a        n/a      n/a
+*Correct Pixels represents the total number of independent validation pixels correctly identifed
+in the error matrix.
+The above accuracy assessment information is for agricultural land cover classes only. The accuracy of the non-agricultural land cover classes within the Cropland Data Layer is entirely dependent upon the USGS, National Land Cover Dataset (NLCD 2001). Thus, the USDA, NASS recommends that users consider the NLCD for studies involving non-agricultural land cover. For more information on the accuracy of the NLCD please reference &lt;http://www.mrlc.gov/&gt;.
+</attraccr>
+      <qattracc>
+        <attraccv>Classification accuracy is generally 85% to 95% correct for the major crop-specific land cover categories. See the 'Attribute Accuracy Report' section of this metadata file for the detailed accuracy report.</attraccv>
+        <attracce>
+The strength and emphasis of the CDL is crop-specific land cover categories. The accuracy of the CDL non-agricultural land cover classes is entirely dependent upon the USGS, National Land Cover Dataset (NLCD 2001). Thus, the USDA, NASS recommends that users consider the NLCD for studies involving non-agricultural land cover.
+The official DVD contains additional accuracy assessment information that is not available through the Geospatial Data Gateway in the form of an associated confidence layer. The following description of the confidence layer is taken from the document entitled 'MDA_NLCD_User_Guide.doc' which is available free for download with the NLCD Mapping Tool at &lt;http://www.mrlc.gov/&gt;. The Confidence Layer "spatially represents the predicted confidence that is associated with that output pixel, based upon the rule(s) that were used to classify it. This is useful in that the user can see the spatial representation of distribution and magnitude of error or confidence for a given classification... This error layer represents a percent confidence associated with each rule and output categorical, classified value. It is expressed as a percentage of confidence. A value of zero would therefore have a low confidence (always wrong), while a value of 100 would have a very high confidence (always right)." For more information on the use of confidence layers please refer to the following paper: Liu, Weiguo, Sucharita Gopal and Curtis E. Woodcock, 2004. Uncertainty and confidence in land cover classification using a hybrid classifier approach, Photogrammetric Engineering &amp; Remote Sensing, 70(8):963-971. Ultimately, however, the confidence value is not a measure of accuracy for a given pixel but rather a how well it fit within the decision tree ruleset.
+These definitions of accuracy statistics were derived from the following book: Congalton, Russell G. and Kass Green. Assessing the Accuracy of Remotely Sensed Data: Principles and Practices. Boca Raton, Florida: CRC Press, Inc. 1999. The 'Producer's Accuracy' is calculated for each cover type in the ground truth and indicates the probability that a ground truth pixel will be correctly mapped (across all cover types) and measures 'errors of omission'. An 'Omission Error' occurs when a pixel is excluded from the category to which it belongs in the validation dataset. The 'User's Accuracy' indicates the probability that a pixel from the CDL classification actually matches the ground truth data and measures 'errors of commission'. The 'Commission Error' represent when a pixel is included in an incorrect category according to the validation data. It is important to take into consideration errors of omission and commission. For example, if you classify every pixel in a scene to 'wheat', then you have 100% Producer's Accuracy for the wheat category and 0% Omission Error. However, you would also have a very high error of commission as all other crop types would be included in the incorrect category. The 'Kappa' is a measure of agreement based on the difference between the actual agreement in the error matrix (i.e., the agreement between the remotely sensed classification and the reference data as indicated by the major diagonal) and the chance agreement which is indicated by the row and column totals. The 'Conditional Kappa Coefficient' is the agreement for an individual category within the entire error matrix.
+</attracce>
+      </qattracc>
+    </attracc>
+    <logic>The Cropland Data Layer (CDL) has been produced using training and independent validation data from the Farm Service Agency (FSA) Common Land Unit (CLU) Program (agricultural data) and United States Geological Survey (USGS) National Land Cover Dataset 2001 (NLCD 2001). More information about the FSA CLU Program can be found at &lt;http://www.fsa.usda.gov/&gt;. More information about the NLCD 2001 can be found at &lt;http://www.mrlc.gov/&gt;. The CDL encompasses the entire state unless noted otherwise in the 'Completeness Report' section of this metadata file.</logic>
+    <complete>The entire state is covered by the Cropland Data Layer.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>The AWiFS satellite imagery is purchased in an orthorectified and projected format. The Cropland Data Layer retains the spatial attributes of the input AWiFS imagery.</horizpar>
+        <qhorizpa>
+          <horizpav>60 meter CE90</horizpav>
+          <horizpae>The AWiFS imagery used in the production of the Cropland Data Layer is purchased with an orthorectified level of processing. Thus, the CDL will retain the input imagery's positional accuracy of 60 meters at the circular error at the 90 percent confidence level (CE90). CE90 is a standard metric often used for horizontal accuracy in map products and can be interpreted as 90% of well-defined points tested must fall within a certain radial distance.</horizpae>
+        </qhorizpa>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indian Remote-Sensing Satellite series of ISRO (Indian Space Research Organization)</origin>
+            <pubdate>2008 growing season</pubdate>
+            <title>RESOURCESAT-1 (IRS-P6) Advanced Wide Field Sensor (AWiFS)</title>
+            <geoform>remote-sensing image</geoform>
+            <pubinfo>
+              <pubplace>Washington, D.C. 20008</pubplace>
+              <publish>EOTec (Earth Observation Technologies, LLC)</publish>
+            </pubinfo>
+            <othercit>The RESOURCESAT-1 (IRS-P6) AWiFS satellite sensor operates in four spectral bands at a spatial resolution of 56 meters. Additional information about AWiFS data can be obtained at &lt;http://www.isro.org/programmes.htm&gt;. The AWiFS imagery used in the Cropland Data Layer is obtained through a partnership with the USDA, Foreign Agricultural Service, International Production Assessment (IPA) Program. Refer to the 'Supplemental Information' Section of this metadata file for specific scene date, path, row and quadrants used as classification inputs.</othercit>
+          </citeinfo>
+        </srccite>
+        <srcscale>56 meter</srcscale>
+        <typesrc>CD-ROM and/or DVD</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20080101</begdate>
+              <enddate>20081230</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccontr>Raw data used in land cover spectral signature analysis</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>United States Geological Survey (USGS) Earth Resources Observation and Science (EROS)</origin>
+            <pubdate>2008 growing season</pubdate>
+            <title>Landsat 5 Thematic Mapper (TM)</title>
+            <geoform>remote-sensing image</geoform>
+            <pubinfo>
+              <pubplace>Sioux Falls, South Dakota 57198-0001</pubplace>
+              <publish>United States Geological Survey (USGS) Earth Resources Observation and Science (EROS)</publish>
+            </pubinfo>
+            <othercit>The Landsat 5 TM satellite sensor operates in seven spectral bands at a spatial resolution of 30 meters. The data is resampled to 56 meters to conform to NASS' standard Cropland Data Layer processing methodology. Additional information about Landsat data can be obtained at &lt;http://eros.usgs.gov/&gt;. Refer to the 'Supplemental Information' Section of this metadata file for specific scene date, path, and rows used as classification inputs.</othercit>
+          </citeinfo>
+        </srccite>
+        <srcscale>30 meter (resampled to 56 meter for processing)</srcscale>
+        <typesrc>online download</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20080101</begdate>
+              <enddate>20081230</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccontr>Raw data used in land cover spectral signature analysis</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>United States Geological Survey (USGS) and National Aeronautics and Space Administration (NASA) Land Processes Distributed Active Archive Center (LP DAAC)</origin>
+            <pubdate>late 2007 growing season (used to improve winter wheat identification) and the entire 2008 growing season</pubdate>
+            <title>Moderate Resolution Imaging Spectroradiometer (MODIS), 250 meter resolution 16-day composite Normalized Difference Vegetation Index (NDVI) from the Terra satellite (MOD13Q1v4)</title>
+            <geoform>vegetation indices based on remote-sensing imagery</geoform>
+            <pubinfo>
+              <pubplace>Sioux Falls, South Dakota 57198 USA</pubplace>
+              <publish>USGS Center for Earth Resources Observation and Sciences (EROS)</publish>
+            </pubinfo>
+            <othercit>The Moderate Resolution Imaging Spectroradiometer (MODIS), 250 meter resolution 16-day composite Normalized Difference Vegetation Index (NDVI) data products from the Terra satellite (MOD13Q1v4) are downloaded from &lt;https://lpdaac.usgs.gov/&gt;. Often late-season MODIS NDVI data are used from the previous growing season in an effort to improve winter wheat detection. Refer to the 'Supplemental Information' Section of this metadata file for specific dates used as classification inputs.</othercit>
+          </citeinfo>
+        </srccite>
+        <srcscale>250 meter</srcscale>
+        <typesrc>online download</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20071001</begdate>
+              <enddate>20080930</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccontr>NDVI data used in land cover spectral signature analysis</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>United States Geological Survey (USGS) Earth Resources Observation and Science (EROS) Data Center</origin>
+            <pubdate>Continuously updated</pubdate>
+            <title>The National Elevation Dataset (NED)</title>
+            <geoform>remote-sensing image</geoform>
+            <pubinfo>
+              <pubplace>Sioux Falls, South Dakota 57198 USA</pubplace>
+              <publish>USGS, EROS Data Center</publish>
+            </pubinfo>
+            <othercit>The USGS NED Digital Elevation Model (DEM) is used as an ancillary data source in the production of the Cropland Data Layer. Slope and Aspect derived from the DEM are also used as additional classification inputs. More information on the USGS NED can be found at &lt;http://ned.usgs.gov/&gt;. Refer to the 'Supplemental Information' Section of this metadata file for the complete list of ancillary data sources used as classification inputs.</othercit>
+          </citeinfo>
+        </srccite>
+        <srcscale>30 meter</srcscale>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccontr>spatial and attribute information used in land cover spectral signature analysis</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>United States Geological Survey (USGS) Earth Resources Observation and Science (EROS) Data Center</origin>
+            <pubdate>2006</pubdate>
+            <title>National Land Cover Database 2001 (NLCD 2001)</title>
+            <geoform>remote-sensing image</geoform>
+            <pubinfo>
+              <pubplace>Sioux Falls, South Dakota 57198 USA</pubplace>
+              <publish>USGS, EROS Data Center</publish>
+            </pubinfo>
+            <othercit>The NLCD 2001 was used as ground training and validation for non-agricultural categories. Additionally, the USGS NLCD 2001 Imperviousness and Tree Canopy layers were used as ancillary data sources in the Cropland Data Layer classification process. More information on the NLCD 2001 can be found at &lt;http://www.mrlc.gov/&gt;. Refer to the 'Supplemental Information' Section of this metadata file for the complete list of ancillary data sources used as classification inputs.</othercit>
+          </citeinfo>
+        </srccite>
+        <srcscale>30 meter</srcscale>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccontr>spatial and attribute information used in the spectral signature training and validation of non-agricultural land cover</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>United States Department of Agriculture (USDA), Farm Service Agency (FSA)</origin>
+            <pubdate>2008</pubdate>
+            <title>USDA, FSA Common Land Unit (CLU)</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Salt Lake City, Utah 84119-2020 USA</pubplace>
+              <publish>USDA, FSA Aerial Photography Field Office</publish>
+            </pubinfo>
+            <othercit>Access to the USDA, Farm Service Agency (FSA) Common Land Unit (CLU) digital data set is currently limited to FSA and Agency partnerships. During the current growing season, producers enrolled in FSA programs report their growing intentions, crops and acreage to USDA Field Service Centers. Their field boundaries are digitized in a standardized GIS data layer and the associated attribute information is maintained in a database known as 578 Administrative Data. This CLU/578 dataset provides a comprehensive and robust agricultural training and validation data set for the Cropland Data Layer. Additional information about the CLU Program can be found at &lt;http://www.fsa.usda.gov/&gt;.</othercit>
+          </citeinfo>
+        </srccite>
+        <srcscale>1:4800</srcscale>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition, updated annually</srccurr>
+        </srctime>
+        <srccontr>spatial and attribute information used in the spectral signature training and validation of agricultural land cover</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+OVERVIEW: The United States Department of Agriculture (USDA), National Agricultural Statistics Service (NASS) Cropland Data Layer (CDL) Program is a unique agricultural-specific land cover geospatial product that is reproduced annually in participating states. The CDL Program builds upon NASS' traditional crop acreage estimation program and integrates Farm Service Agency (FSA) grower-reported field data with satellite imagery to create an unbiased statistical estimator of crop area at the state and county level for internal use. It is important to note that the internal acreage estimates produced using the CDL are not simple pixel counting. It is more of an 'Adjusted Census by Satellite.'
+SOFTWARE: Leica Geosystems ERDAS Imagine is used in the pre- and post- processing of all raster-based data. ESRI ArcGIS is used to prepare the vector-based training and validation data. Rulequest See5.0 is used to create a decision tree based classifier. The NLCD Mapping Tool is used to apply the See5.0 decision-tree via ERDAS Imagine.
+DECISION TREE CLASSIFIER: This Cropland Data Layer used the decision tree classifier approach. Using a decision tree classifier is a departure from older versions of the CDL which were created using in-house software (Peditor) based upon a maximum likelihood classifier approach. Check the 'Process Description' section of the specific state and year metadata file to verify the methodology used. Decision trees offer several advantages over the more traditional maximum likelihood classification method. The advantages include being: 1) non-parametric by nature and thus not reliant on the assumption of the input data being normally distributed, 2) efficient to construct and thus capable of handling large and complex data sets, 3) able to incorporate missing and non-continuous data, and 4) able to sort out non-linear relationships.
+GROUND TRUTH: As with the maximum likelihood method, decision tree analysis is a supervised classification technique. Thus, it relies on having a sample of known ground truth areas in which to train the classifier. Older versions of the CDL (prior to 2006) utilized ground truth data from the annual June Agricultural Survey (JAS). Beginning in 2006, the CDL utilizes the very comprehensive ground truth data provided from the FSA Common Land Unit (CLU) Program as a replacement for the JAS data. The FSA CLU data have the advantage of natively being in a GIS and containing magnitudes more of field level information. Disadvantages include that it is not truly a probability sample of land cover and has bias toward subsidized program crops. Additional information about the FSA data can be found at &lt;http://www.fsa.usda.gov/&gt;.
+INPUTS: The CDL is produced using satellite imagery from the Indian Remote Sensing RESOURCESAT-1 (IRS-P6) Advanced Wide Field Sensor (AWiFS) collected during the current growing season. NASS acquires AWiFS imagery for CDL production through a cooperative agreement with the USDA, Foreign Agricultural Service (FAS), International Production Assessment (IPA) unit. Ancillary inputs include; the United States Geological Survey (USGS) National Elevation Dataset (NED), the USGS National Land Cover Dataset 2001 (NLCD 2001), and the National Aeronautics and Space Administration (NASA) Moderate Resolution Imaging Spectroradiometer (MODIS) 250 meter 16 day Normalized Difference Vegetation Index (NDVI) composites.
+ACCURACY: The accuracy of the land cover classifications are evaluated using independent validations data sets generated from the FSA CLU data (agricultural categories) and the NLCD 2001 (non-agricultural categories). The Producer's Accuracy is generally 85% to 95% correct for the major crop-specific land cover categories. See the 'Attribute Accuracy Report' section of this metadata file for the full accuracy report. The official DVD contains additional accuracy assessment information that is not available through the Geospatial Data Gateway in the form of an associated confidence layer. See the 'Attribute Accuracy Explanation' Section of this metadata file for more information on the confidence layer.
+PUBLIC RELEASE: The USDA, NASS Cropland Data Layer is considered public domain and free to redistribute. The data is available on DVD for the cost of reproduction through the official website at &lt;http://www.nass.usda.gov/research/Cropland/SARS1a.htm&gt;. The data is also available free for download through the Geospatial Data Gateway at &lt;http://datagateway.nrcs.usda.gov/&gt;. See the 'Ordering Instructions' section of this metadata file for detailed download instructions. Please note that in no case are farmer reported data revealed or derivable from the public use Cropland Data Layer.
+</procdesc>
+        <procdate>2009</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>USDA, NASS, Spatial Analysis Research Section</cntorg>
+              <cntper>USDA, NASS, Spatial Analysis Research Section staff</cntper>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>3251 Old Lee Highway, Room 305</address>
+              <city>Fairfax</city>
+              <state>Virginia</state>
+              <postal>22030-1504</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>703-877-8000</cntvoice>
+            <cntfax>703-877-8044</cntfax>
+            <cntemail>HQ_RDD_GIB@nass.usda.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+    <cloud>Generally, there is enough cloud-free AWiFS satellite imagery available during the growing season that there will be no cloud cover in the published CDL. Older versions of the CDL (prior to 2006) may contain significant cloud cover due to available imagery and processing limitations which have since been overcome. Reference the attribute information within the specific CDL state and year image file to verify the extent of cloud cover.</cloud>
+  </dataqual>
+  <spdoinfo>
+        <direct>Raster</direct>
+        <rastinfo>
+          <rasttype>Grid Cell</rasttype>
+          <rowcount>8972</rowcount>
+          <colcount>11759</colcount>
+        </rastinfo>
+      </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator (UTM)</gridsysn>
+          <utm>
+            <utmzone>18 North</utmzone>
+            <transmer>
+              <sfctrmer>0.9996</sfctrmer>
+              <longcm>-75</longcm>
+              <latprjo>0</latprjo>
+              <feast>500000</feast>
+              <fnorth>0</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>56</absres>
+            <ordres>56</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>WGS84</horizdn>
+        <ellips>WGS84</ellips>
+        <semiaxis>6378137.00</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <overview>
+      <eaover>The Cropland Data Layer (CDL) is produced using agricultural training data from the Farm Service Agency (FSA) Common Land Unit (CLU) Program and non-agricultural training data from the United States Geological Survey (USGS) National Land Cover Dataset 2001 (NLCD 2001). The strength and emphasis of the CDL is crop-specific land cover categories. The accuracy of the CDL non-agricultural land cover classes are entirely dependent upon the NLCD. Thus, the USDA, NASS recommends that users consider the NLCD for studies involving non-agricultural land cover.</eaover>
+      <eadetcit>
+If the following table does not display properly, then please visit this internet site &lt;http://www.nass.usda.gov/research/Cropland/metadata/meta.htm&gt; to view the original metadata file.
+Data Dictionary: USDA, National Agricultural Statistics Service, 2008 New York Cropland Data Layer
+Source: USDA, National Agricultural Statistics Service
+The following is a cross reference list of the categorization codes and
+land covers. Note that not all land cover categories listed below will
+appear in an individual state.
+Raster
+Attribute Domain Values and Definitions: ROW CROPS 1-20
+Categorization Code   Land Cover
+"1"           Corn
+"2"           Cotton
+"3"           Rice
+"4"           Sorghum
+"5"           Soybeans
+"6"           Sunflowers
+"10"          Peanuts
+"11"          Tobacco
+"12"          Sweet Corn
+"13"          Popcorn or Ornamental Corn
+Raster
+Attribute Domain Values and Definitions: GRAINS,HAY,SEEDS 21-40
+Categorization Code   Land Cover
+"21"          Barley
+"22"          Durum Wheat
+"23"          Spring Wheat
+"24"          Winter Wheat
+"25"          Other Small Grains
+"26"          Winter Wheat/Soybeans Double-Cropped
+"27"          Rye
+"28"          Oats
+"29"          Millet
+"30"          Speltz
+"31"          Canola
+"32"          Flaxseed
+"33"          Safflower
+"34"          Rape seed
+"35"          Mustard
+"36"          Alfalfa
+"37"          Other Hays
+"38"          Camelina
+Raster
+Attribute Domain Values and Definitions: OTHER CROPS 41-60
+Categorization Code   Land Cover
+"41"          Sugarbeets
+"42"          Dry Beans
+"43"          Potatoes
+"44"          Other Crops
+"45"          Sugarcane
+"46"          Sweet Potatoes
+"47"          Miscellaneous Vegetables &amp; Fruit
+"48"          Watermelon
+"49"          Onions
+"50"          Cucumber/Pickles
+"51"          Chick Peas
+"52"          Lentils
+"53"          Peas
+"56"          Hops
+"57"          Herbs
+"58"          Clover/Wildflowers
+"59"          Seed/Sod Grass
+"60"          Switchgrass
+Raster
+Attribute Domain Values and Definitions: OPEN NON-CROP 61-65
+Categorization Code   Land Cover
+"61"          Fallow/Idle Cropland
+"62"          Grass/Pasture/Non-agricultural
+"63"          Woodland
+"64"          Shrubland
+"65"          Barren
+Raster
+Attribute Domain Values and Definitions: TREE CROPS 66-80
+Categorization Code   Land Cover
+"66"          Cherry Orchards
+"67"          Peaches
+"68"          Apples
+"69"          Grapes
+"70"          Christmas Trees
+"71"          Other Tree Nuts
+"72"          Citrus
+"73"          Other Tree Fruit
+"74"          Pecans
+"80"          Other Non-Tree Fruit
+Raster
+Attribute Domain Values and Definitions: OTHER NON-CROP 81-99
+Categorization Code   Land Cover
+"81"          Clouds
+"82"          Urban/Developed
+"83"          Water
+"87"          Wetlands
+"92"          Aquaculture
+Raster
+Attribute Domain Values and Definitions: NLCD-DERIVED NON-CROP 100-195
+Categorization Code   Land Cover
+"111"          NLCD - Open Water
+"112"          NLCD - Perennial Ice, Snow
+"121"          NLCD - Developed/Open Space
+"122"          NLCD - Developed/Low Intensity
+"123"          NLCD - Developed/Medium Intensity
+"124"          NLCD - Developed/High Intensity
+"131"          NLCD - Barren
+"141"          NLCD - Deciduous Forest
+"142"          NLCD - Evergreen Forest
+"143"          NLCD - Mixed Forest
+"152"          NLCD - Shrubland
+"171"          NLCD - Grassland Herbaceous
+"181"          NLCD - Pasture/Hay
+"182"          NLCD - Cultivated Crop
+"190"          NLCD - Woody Wetlands
+"195"          NLCD - Herbaceous Wetlands
+</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+        <distrib>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Albert R. Mann Library</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>Cornell University</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14853</postal>
+            </cntaddr>
+            <cntvoice>607-255-5406</cntvoice>
+            <cntemail>mann-ref@cornell.edu</cntemail>
+          </cntinfo>
+        </distrib>
+        <distliab>Cornell University provides these geographic data "as is". Cornell
+          University makes no guarantee or warranty concerning the accuracy of
+          information contained in the geographic data. Cornell University further
+          makes no warranty either expressed or implied, regarding the condition of
+          the product or its fitness for any particular purpose. The burden for
+          determining fitness for use lies entirely with the user. Although these
+          files have been processed successfully on computers at Cornell University,
+          no warranty is made by Cornell University regarding the use of these data
+          on any other system, nor does the fact of distribution constitute or imply
+          any such warranty.</distliab>
+        <stdorder>
+        <digform>
+            <digtinfo>
+              <formname>GeoTIFF</formname>
+              <formcont>zipped geotiff</formcont>
+              <filedec>zip</filedec>
+              <transize>11.97</transize>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/80/28/cugir-008028.zip</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>metadata</formname>
+              <formcont>FGDC XML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/80/28/fgdc.xml</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>HTML metadata</formname>
+              <formcont>FGDC HTML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/80/28/fgdc.html</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>OGC:WMS</formname>
+              <formcont>WMS, from GeoServer</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir008028&amp;bbox=-80.24688124,40.26650988,-71.39990076000001,45.16148812&amp;width=256&amp;height=141&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><fees>None</fees></stdorder>
+      </distinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USDA, NASS Customer Service</cntorg>
+          <cntper>USDA, NASS Customer Service Staff</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>1400 Independence Avenue, SW, Room 5038-S</address>
+          <city>Washington</city>
+          <state>District of Columbia</state>
+          <postal>20250-9410</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>800-727-9540</cntvoice>
+        <cntfax>703-877-8044</cntfax>
+        <cntemail>HQ_RDD_OD@nass.usda.gov</cntemail>
+        <cntinst>
+The Cropland Data Layer is available free for download at &lt;http://datagateway.nrcs.usda.gov/&gt;.
+To order a CD-ROM or DVD fill out the order form at &lt;http://www.nass.usda.gov/research/Cropland/SARS1a.htm&gt; and submit it either electronically (invoice will follow with the delivery) or mail the completed form with your check to: USDA/NASS Customer Service, 1400 Independence Avenue, SW, Room 5829-S, Washington DC 20250-9410. Please note 'Cropland Data Layer - (State and Year)' in the 'Memo' of your check. Checks should be made out to 'USDA, NASS'. Allow 1 week for delivery.
+</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Cropland Data Layer - New York 2008</resdesc>
+    <distliab>Disclaimer: Users of the Cropland Data Layer (CDL) are solely responsible for interpretations made from these products. The CDL is provided 'as is' and the USDA, NASS does not warrant results you may obtain using the Cropland Data Layer. Contact our staff at (HQ_RDD_OD@nass.usda.gov) if technical questions arise in the use of the CDL. NASS does maintain a Frequently Asked Questions (FAQ's) section on the CDL website at &lt;http://www.nass.usda.gov/research/Cropland/SARS1a.htm&gt;.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>GEOTIFF</formname>
+          <formverd>New York 2008</formverd>
+          <formcont>GEOTIFF</formcont>
+          <transize>
+The image file size will vary depending on the state and completeness of coverage. The CD-ROM and/or DVD obtained through the official website &lt;http://www.nass.usda.gov/research/Cropland/SARS1a.htm&gt; contains data for a single year.
+When downloading the data through the Geospatial Data Gateway &lt;http://datagateway.nrcs.usda.gov/&gt; all available years of CDL production for the requested state are included in one compressed file. Technical restrictions do not allow us to offer the CDL by individual state/year through the Geospatial Data Gateway. See the 'Ordering Instructions' section of this metadata file for additional information.
+</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>&lt;http://datagateway.nrcs.usda.gov/&gt;</networkr>
+              </networka>
+            </computer>
+            <accinstr>See the 'Ordering Instructions' section of this metadata file for detailed download instructions.</accinstr>
+          </onlinopt>
+          <offoptn>
+            <offmedia>CD-ROM or DVD</offmedia>
+            <recfmt>DOS-COPY</recfmt>
+          </offoptn>
+        </digtopt>
+      </digform>
+      <fees>The USDA, NASS charges a nominal fee to cover the cost of CD-ROM and DVD production and shipping costs. Please visit the official website &lt;http://www.nass.usda.gov/research/Cropland/SARS1a.htm&gt; for prices. Distribution issues can also be directed to the NASS Customer Service Hotline at 1-800-727-9540. The Cropland Data Layer is also available free for download at &lt;http://datagateway.nrcs.usda.gov/&gt;.</fees>
+      <ordering>
+To order a CD-ROM or DVD fill out the order form at &lt;http://www.nass.usda.gov/research/Cropland/SARS1a.htm&gt; and submit it either electronically (invoice will follow with the delivery) or mail the completed form with your check to: USDA, NASS Customer Service, 1400 Independence Avenue, SW, Room 5829-S, Washington DC 20250-9410. Please note 'Cropland Data Layer - (State and Year)' in the 'Memo' part of your check. Checks should be made out to 'USDA, NASS'. Allow 1 week for delivery. Distribution issues can also be directed to the NASS Customer Service Hotline at 1-800-727-9540.
+The Cropland Data Layer is also available free for download from the NRCS Geospatial Data Gateway at &lt;http://datagateway.nrcs.usda.gov/&gt;.
+IMPORTANT NOTE: When downloading the CDL using the NRCS Geospatial Data Gateway all available years of CDL production for the requested state are included in a single compressed file. Geospatial Data Gateway technical restrictions do not allow us to offer the CDL by individual state/year. We are working on offering this option in the future.
+Instructions for downloading from the NRCS Geospatial Data Gateway:
+Start by clicking on 'Get Data'
+Then click on 'Quick State'
+Scroll down to choose your state and click 'Continue'
+Choose 'Land_use_land_cover' and select 'Cropland Data Layer by State' and 'Continue to Step3'
+Choose 'Continue' to Step4
+Lastly, you are given the option to download the data for free or to order the
+official DVD/CD for the cost of the reproduction.
+</ordering>
+      <turnarnd>Allow 1 week for delivery for CD-ROM and/or DVD.</turnarnd>
+    </stdorder>
+    <custom>For a list of other states and years of available data please visit: &lt;http://www.nass.usda.gov/research/Cropland/SARS1a.htm&gt;. Distribution issues can also be directed to the NASS Customer Service Hotline at 1-800-727-9540. The Cropland Data Layer is also available free for download at &lt;http://datagateway.nrcs.usda.gov/&gt;.</custom>
+    <techpreq>If the user does not have software capable of viewing GEOTIF (.tif) or ERDAS Imagine (.img) file formats then we suggest using the freeware browser ESRI ArcGIS Explorer &lt;http://www.esri.com/software/arcgis/explorer/&gt;.</techpreq>
+  </distinfo>
+  <metainfo>
+      <metd>20190604</metd>
+      <metc>
+        <cntinfo>
+          <cntorgp>
+            <cntorg>Albert R. Mann Library</cntorg>
+          </cntorgp>
+          <cntaddr>
+            <addrtype>mailing and physical</addrtype>
+            <address>Albert R. Mann Library</address>
+            <city>Ithaca</city>
+            <state>New York</state>
+            <postal>14853</postal>
+            <country>USA</country>
+          </cntaddr>
+          <cntvoice>607-255-5406</cntvoice>
+          <cntemail>mann-ref@cornell.edu</cntemail>
+        </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+    </metainfo>
+</metadata>

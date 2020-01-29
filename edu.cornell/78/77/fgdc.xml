@@ -1,0 +1,290 @@
+<!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>AWS Truewind, LLC</origin>
+        <pubdate>2003</pubdate>
+        <title>Average Wind Speed at 70m, Tompkins County NY, 2003</title>
+        <geoform>raster digital data</geoform>
+        <pubinfo>
+          <pubplace>Ithaca, NY</pubplace>
+          <publish>Cornell University Department of Utilities and Energy Management</publish>
+        </pubinfo>
+        <onlink>https://cugir.library.cornell.edu/catalog/cugir-007877</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This file was created using the MesoMap system which consists of an integrated set of atmospheric simulation models, databases, and computers and storage systems. At the core of MesoMap is MASS (Mesoscale Atmospheric Simulation System), a numerical weather model, which simulates the physics of the atmosphere. MASS is coupled to a simpler wind flow model, WindMap, which is used to refine the spatial resolution of MASS and account for simple localized effects of terrain and surface roughness. MASS simulates weather conditions over a region for 366 historical days randomly selected from a 15-year period. When the runs are finished, the results are input into WindMap. Truewind subsequently validates the wind maps. The final product is a grid of cells each containing a single value of average wind speed (m/s) at a hub height of 70 meters, for a 40,000 square meter area.</abstract>
+      <purpose>The purpose of creating this file was to use MesoMap to create high-resolution wind resource maps of the state and to provide wind resource data in a format enabling the assessesment potential wind development sites in a GIS. By combining a sophisticated numerical weather model capable of simulating large-scale wind patterns with a microscale wind flow model responsive to local terrain and surface conditions, they enable the mapping of wind resources with much greater accuracy than has been possible in the past. In addition, they do not require surface wind data to make accurate predictions. While on-site measurements will be required to confirm the predicted wind resource at any particular location, mesoscale-microscale modeling can greatly reduce the time and cost required to identify and evaluate potential wind project sites.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2003</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+          <bounding>
+            <westbc>-76.69611</westbc>
+            <eastbc>-76.235723</eastbc>
+            <northbc>42.626817</northbc>
+            <southbc>42.261918</southbc>
+          </bounding>
+        </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>wind speed</themekey>
+      </theme>
+      <theme>
+        <themekt>LCSH</themekt>
+        <themekey>Atmospheric circulation--Computer simulation</themekey>
+        <themekey>atmosphere</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>climatologyMeteorologyAtmosphere</themekey>
+      </theme>
+      <theme>
+              <themekt>CUGIR Category</themekt>
+              <themekey>climate</themekey>
+            </theme>
+      <place>
+        <placekt>LCSH</placekt>
+        <placekey>Tompkins County (N.Y.)</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>This map was created by AWS Truewind using the MesoMap system and historical weather data. Although it is believed to represent an accurate overall picture of the wind energy resource, estimates at any location should be confirmed by measurement. Please cite AWS Truewind, LLC when using these data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>AWS Truewind</cntorg>
+          <cntper>Michael Brower</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>255 Fuller Road, Suite 274</address>
+          <city>Albany</city>
+          <state>New York</state>
+          <postal>12203-3656</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(518)437-8660</cntvoice>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/78/77/preview.png</browsen>
+              <browsed>preview of the dataset</browsed>
+              <browset>PNG</browset>
+            </browse>
+    <datacred>AWS Truewind, LLC</datacred>
+    <native>Microsoft Windows 2000 Version 5.1 (Build 2600) Service Pack 1; ESRI ArcCatalog 8.3.0.800</native>
+  </idinfo>
+  <dataqual>
+    <logic/>
+    <complete/>
+    <posacc>
+      <horizpa>
+        <horizpar/>
+        <qhorizpa>
+          <horizpav>200 meters</horizpav>
+          <horizpae/>
+        </qhorizpa>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>The MesoMap system creates a wind resource map in several steps. First, the MASS model simulates weather conditions over 366 days selected from a 15-year period. The days are chosen through a stratified random sampling scheme so that each month and season is represented equally in the sample; only the year is randomized. Each simulation generates wind and other weather variables (including temperature, pressure, moisture, turbulent kinetic energy, and heat flux) in three dimensions throughout the model domain, and the information is stored at hourly intervals. When the runs are finished, the results are compiled into summary data files, which are then input into the WindMap program for the final mapping stage. The two main products are usually (1) color-coded maps of mean wind speed and power density at various heights above ground and (2) data files containing wind speed and direction frequency distribution parameters. The maps and data can then be compared with land and ocean surface wind measurements, and if significant discrepancies are observed, adjustments to the wind maps can be made. For the standard MesoMap configuration MASS is run on the following nested grids-- First (outer) grid level: 30 km; Second (intermediate) grid level: 8 km; and Third (inner) grid level: 2.5 km. The usual geophysical and meteorological inputs were used. The WindMap program adjusted the wind resource estimates to reflect local topography and surface roughness changes on a grid spacing of 200 m. For the topographical data, we used the National Elevation Dataset, a digital terrain model produced on a 30 m grid by the US Geological Survey (USGS). For the land cover, we used the National Land Cover Dataset, which is derived from Landsat imagery. It was also produced by the USGS on a 30 m grid. In converting from land cover to surface roughness, certain roughness length values were assumed to be typical of conditions in the region. The displacement height is defined as the height at which the wind speed becomes zero in the logarithmic shear formula. For this project, we assumed that the displacement height was 10 times the surface roughness length, which was in turn defined to be approximately 7.5% of the vegetation height. For deciduous forests with a roughness length of 0.9 m, this resulted in a displacement height of 9 m.</procdesc>
+        <procdate>20031231</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Michael Brower</cntper>
+              <cntorg>AWS Truewind, LLC</cntorg>
+            </cntperp>
+            <cntpos>Principal</cntpos>
+            <cntaddr>
+              <addrtype>mailing address</addrtype>
+              <address>255 Fuller Road, Suite 274</address>
+              <city>Albany</city>
+              <state>New York</state>
+              <postal>12203-3656</postal>
+              <country>United States</country>
+            </cntaddr>
+            <cntvoice>(518) 437-8660</cntvoice>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+        <srcused/>
+        <procdate/>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+        <srcused/>
+        <procdate/>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+        <direct>Raster</direct>
+        <rastinfo>
+          <rasttype>Grid Cell</rasttype>
+          <rowcount>202</rowcount>
+          <colcount>189</colcount>
+        </rastinfo>
+      </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>State Plane Coordinate System 1983</gridsysn>
+          <spcs>
+            <spcszone>3102</spcszone>
+            <transmer>
+              <sfctrmer>0.999938</sfctrmer>
+              <longcm>-76.583333</longcm>
+              <latprjo>40</latprjo>
+              <feast>250000</feast>
+              <fnorth>0</fnorth>
+            </transmer>
+          </spcs>
+        </gridsys>
+        <planci>
+          <plance>row and column</plance>
+          <coordrep>
+            <absres>200.000000</absres>
+            <ordres>200.000000</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <distinfo>
+        <distrib>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Albert R. Mann Library</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>Cornell University</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14853</postal>
+            </cntaddr>
+            <cntvoice>607-255-5406</cntvoice>
+            <cntemail>mann-ref@cornell.edu</cntemail>
+          </cntinfo>
+        </distrib>
+        <distliab>Cornell University provides these geographic data "as is". Cornell
+          University makes no guarantee or warranty concerning the accuracy of
+          information contained in the geographic data. Cornell University further
+          makes no warranty either expressed or implied, regarding the condition of
+          the product or its fitness for any particular purpose. The burden for
+          determining fitness for use lies entirely with the user. Although these
+          files have been processed successfully on computers at Cornell University,
+          no warranty is made by Cornell University regarding the use of these data
+          on any other system, nor does the fact of distribution constitute or imply
+          any such warranty.</distliab>
+        <stdorder>
+        <digform>
+            <digtinfo>
+              <formname>GeoTIFF</formname>
+              <formcont>zipped geotiff</formcont>
+              <filedec>zip</filedec>
+              <transize>0.15</transize>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/78/77/cugir-007877.zip</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>metadata</formname>
+              <formcont>FGDC XML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/78/77/fgdc.xml</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>HTML metadata</formname>
+              <formcont>FGDC HTML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/78/77/fgdc.html</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>OGC:WMS</formname>
+              <formcont>WMS, from GeoServer</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007877&amp;bbox=-76.70992161000001,42.25097103,-76.22191138999999,42.63776397&amp;width=256&amp;height=202&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><fees>None</fees></stdorder>
+      </distinfo>
+  <metainfo>
+      <metd>20190604</metd>
+      <metc>
+        <cntinfo>
+          <cntorgp>
+            <cntorg>Albert R. Mann Library</cntorg>
+          </cntorgp>
+          <cntaddr>
+            <addrtype>mailing and physical</addrtype>
+            <address>Albert R. Mann Library</address>
+            <city>Ithaca</city>
+            <state>New York</state>
+            <postal>14853</postal>
+            <country>USA</country>
+          </cntaddr>
+          <cntvoice>607-255-5406</cntvoice>
+          <cntemail>mann-ref@cornell.edu</cntemail>
+        </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+    </metainfo>
+</metadata>

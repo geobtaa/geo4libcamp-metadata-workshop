@@ -1,0 +1,531 @@
+<!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Fred Cowett</origin>
+        <pubdate>2009</pubdate>
+        <title>Street Tree Inventory, Village of Cayuga Heights, 2009</title>
+        <geoform>vector digital data</geoform>
+        <onlink>https://cugir.library.cornell.edu/catalog/cugir-008026</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This point dataset represents street trees in the Village
+                of Cayuga Heights, Tompkins County, New York.</abstract>
+      <purpose>The dataset provides an inventory of trees along the public
+                streets of Cayuga Heights. This inventory can be used to support
+                studies of species diversity, tree size and health, risks of
+                invasive pests, and carbon sequestration.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>200911</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+          <bounding>
+            <westbc>-76.502581</westbc>
+            <eastbc>-76.476039</eastbc>
+            <northbc>42.47767</northbc>
+            <southbc>42.456187</southbc>
+          </bounding>
+        </spdom>
+    <keywords>
+      <theme>
+        <themekt>none</themekt>
+        <themekey>trees</themekey>
+        <themekey>street trees</themekey>
+        <themekey>tree inventory</themekey>
+        <themekey>urban forestry</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>biota</themekey>
+      </theme>
+      <theme>
+              <themekt>CUGIR Category</themekt>
+              <themekey>biology</themekey>
+            </theme>
+      <place>
+        <placekt>LCSH</placekt>
+        <placekey>Cayuga Heights (N.Y.)</placekey>
+        <placekey>Tompkins County (N.Y.)</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Fred Cowett</cntper>
+          <cntorg>Department of Horticulture, Cornell
+                    University</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Dept. of Horticulture, Plant Sciences building</address>
+          <address>Cornell University</address>
+          <city>Ithaca</city>
+          <state>NY</state>
+          <postal>14853</postal>
+        </cntaddr>
+        <cntvoice>None</cntvoice>
+        <cntemail>fdc2@cornell.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/80/26/preview.png</browsen>
+              <browsed>preview of the dataset</browsed>
+              <browset>PNG</browset>
+            </browse>
+    <crossref>
+      <citeinfo>
+        <origin>Cornell University Campus Planning Office</origin>
+        <pubdate>2009</pubdate>
+        <title>Cornell University Campus Tree Inventory (Shapefile : 2009)</title>
+        <geoform>vector digital data</geoform>
+        <onlink>http://cugir.mannlib.cornell.edu/bucketinfo.jsp?id=8025</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <logic>All point data are represented by coordinate pairs.</logic>
+    <complete>All streets were inventoried excluding streets such as
+            Strawberry Lane and Parkway Place which are considered private. A
+            portion of Jessup Road on the Cornell University campus is within
+            village boundaries and was not inventoried, but information on these
+            trees can be obtained from the Cornell University Campus Tree
+            Inventory. Planting sites were not inventoried.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Most locations were collected with a consumer-grade
+                    GPS unit (3-5m accuracy), and rectified to 2007 orthoimagery
+                    (4ft accuracy). All final tree locations are estimated to be
+                    at least within 3m accuracy.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>NYS Cyber Security and Critical Infrastructure
+                            Coordination</origin>
+            <pubdate>2007</pubdate>
+            <title>Tompkins County 6-inch Resolution Natural Color
+                            Ortho-imagery JP2</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>200705</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>NYS Orthophotos</srccitea>
+        <srccontr>Aerial imagery used to rectify tree
+                locations.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Tree locations were collected using a Garmin 60CSx
+                    handheld GPS unit, and rectified to the 2007 Tompkins County
+                    NYS Orthophotos.</procdesc>
+        <srcused>NYS Orthophotos</srcused>
+        <procdate>2009</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+          <sdtsterm>
+            <sdtstype>Point</sdtstype>
+            <ptvctcnt>2530</ptvctcnt>
+          </sdtsterm>
+        </ptvctinf>
+      </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>18</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-75.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000001</absres>
+            <ordres>0.000001</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>VCH_Trees</enttypl>
+        <enttypd>Street Trees in the Village of Cayuga Heights</enttypd>
+        <enttypds>Cowett</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>TreeID</attrlabl>
+        <attrdef>Tree ID number</attrdef>
+        <attrdefs>Cowett</attrdefs>
+        <attrdomv>
+          <udom>unique integers</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Address</attrlabl>
+        <attrdef>Number portion of the address of the parcel closest to
+                    the tree</attrdef>
+        <attrdefs>Cowett</attrdefs>
+        <attrdomv>
+          <udom>text string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>StreetName</attrlabl>
+        <attrdef>Street name of the address of the parcel closest to the
+                    tree</attrdef>
+        <attrdefs>Cowett</attrdefs>
+        <attrdomv>
+          <udom>text string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OnStreet</attrlabl>
+        <attrdef>Name of the street closest to the tree (may be
+                    different from the streetname of the parcel)</attrdef>
+        <attrdefs>Cowett</attrdefs>
+        <attrdomv>
+          <udom>text string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Side</attrlabl>
+        <attrdef>Indicates whether the tree is located on a street
+                    different from the parcel street address, such as a side
+                    street, or a street at the rear of the parcel</attrdef>
+        <attrdefs>Cowett</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>Yes: the tree is along the side of the parcel
+                            (i.e. not along the street of the parcels address)</edomvd>
+            <edomvds>Cowett</edomvds>
+          </edom>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>No: the tree is not along the side of the parcel
+                            (i.e. it is along the street of the parcels address)</edomvd>
+            <edomvds>Cowett</edomvds>
+          </edom>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Rear: the tree is along the rear of the parcel</edomvd>
+            <edomvds>Cowett</edomvds>
+          </edom>
+          <edom>
+            <edomv>M</edomv>
+            <edomvd>Median: the tree is on a median</edomvd>
+            <edomvds>Cowett</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LocType</attrlabl>
+        <attrdef>Indicates whether the tree is located in a
+                    frontyard/lawn, treelawn, or median</attrdef>
+        <attrdefs>Cowett</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>FrontYard/Lawn</edomv>
+            <edomvd>Tree is located in a front yard or main lawn and
+                            not a treelawn</edomvd>
+            <edomvds>Cowett</edomvds>
+          </edom>
+          <edom>
+            <edomv>Treelawn</edomv>
+            <edomvd>Tree is located in treelawn (between sidewalk
+                            and street)</edomvd>
+            <edomvds>Cowett</edomvds>
+          </edom>
+          <edom>
+            <edomv>Median</edomv>
+            <edomvd>Tree is located in a median</edomvd>
+            <edomvds>Cowett</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Site</attrlabl>
+        <attrdef>Site number of the tree, counting along the street from
+                    left to right (facing the parcel)</attrdef>
+        <attrdefs>Cowett</attrdefs>
+        <attrdomv>
+          <udom>positive integer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SpCode</attrlabl>
+        <attrdef>Species Code, usually from UFORE, but also from the
+                    USDA PLANTS Database where necessary</attrdef>
+        <attrdefs>Cowett</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>UFORE and USDA PLANTS Database</codesetn>
+            <codesets>http://www.nrs.fs.fed.us/tools/ufore/ or
+                            http://plants.usda.gov/</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Botanic</attrlabl>
+        <attrdef>Botanical (scientific) name of the tree</attrdef>
+        <attrdefs>Cowett</attrdefs>
+        <attrdomv>
+          <udom>string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Common</attrlabl>
+        <attrdef>Common name of the tree</attrdef>
+        <attrdefs>Cowett</attrdefs>
+        <attrdomv>
+          <udom>string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Genus</attrlabl>
+        <attrdef>Genus of the tree</attrdef>
+        <attrdefs>Cowett</attrdefs>
+        <attrdomv>
+          <udom>string</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DBH</attrlabl>
+        <attrdef>Diameter at Breast Height, in inches</attrdef>
+        <attrdefs>Cowett</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>unbounded</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Condition</attrlabl>
+        <attrdef>The health condition of the tree</attrdef>
+        <attrdefs>Cowett</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Good</edomv>
+            <edomvd>no apparent problems</edomvd>
+            <edomvds>Cowett</edomvds>
+          </edom>
+          <edom>
+            <edomv>Fair</edomv>
+            <edomvd>minor problems</edomvd>
+            <edomvds>Cowett</edomvds>
+          </edom>
+          <edom>
+            <edomv>Poor</edomv>
+            <edomvd>major problems</edomvd>
+            <edomvds>Cowett</edomvds>
+          </edom>
+          <edom>
+            <edomv>Dead</edomv>
+            <edomvd>tree is dead</edomvd>
+            <edomvds>Cowett</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Wires</attrlabl>
+        <attrdef>Are overhead single phase or triple phase utility wires
+                    present?</attrdef>
+        <attrdefs>Cowett</attrdefs>
+        <attrdomv>
+          <udom>Y or N</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Consult</attrlabl>
+        <attrdef>Based on the tree condition, should a certified
+                    arborist be brought in to examine the tree?</attrdef>
+        <attrdefs>Cowett</attrdefs>
+        <attrdomv>
+          <udom>Y or N</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+        <distrib>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Albert R. Mann Library</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>Cornell University</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14853</postal>
+            </cntaddr>
+            <cntvoice>607-255-5406</cntvoice>
+            <cntemail>mann-ref@cornell.edu</cntemail>
+          </cntinfo>
+        </distrib>
+        <distliab>Cornell University provides these geographic data "as is". Cornell
+          University makes no guarantee or warranty concerning the accuracy of
+          information contained in the geographic data. Cornell University further
+          makes no warranty either expressed or implied, regarding the condition of
+          the product or its fitness for any particular purpose. The burden for
+          determining fitness for use lies entirely with the user. Although these
+          files have been processed successfully on computers at Cornell University,
+          no warranty is made by Cornell University regarding the use of these data
+          on any other system, nor does the fact of distribution constitute or imply
+          any such warranty.</distliab>
+        <stdorder>
+        <digform>
+            <digtinfo>
+              <formname>Shapefile</formname>
+              <formcont>zipped shapefile</formcont>
+              <filedec>zip</filedec>
+              <transize>0.22</transize>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/80/26/cugir-008026.zip</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>metadata</formname>
+              <formcont>FGDC XML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/80/26/fgdc.xml</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>HTML metadata</formname>
+              <formcont>FGDC HTML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/80/26/fgdc.html</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+                <digtinfo>
+                  <formname>KML</formname>
+                  <formcont>generated KML, via WFS</formcont>
+                </digtinfo>
+                <digtopt>
+                  <onlinopt>
+                    <computer>
+                      <networka>
+                        <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir008026&amp;outputFormat=application%2Fvnd.google-earth.kml%2Bxml</networkr>
+                      </networka>
+                    </computer>
+                  </onlinopt>
+                </digtopt>
+              </digform><digform>
+            <digtinfo>
+              <formname>GeoJSON</formname>
+              <formcont>generated GeoJSON, via WFS</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir008026&amp;outputFormat=application%2Fjson</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>OGC:WMS</formname>
+              <formcont>WMS, from GeoServer</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir008026&amp;bbox=-76.50337726000001,42.45554251,-76.47524274,42.47831449&amp;width=256&amp;height=207&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><fees>None</fees></stdorder>
+      </distinfo>
+  <metainfo>
+      <metd>20190524</metd>
+      <metc>
+        <cntinfo>
+          <cntorgp>
+            <cntorg>Albert R. Mann Library</cntorg>
+          </cntorgp>
+          <cntaddr>
+            <addrtype>mailing and physical</addrtype>
+            <address>Albert R. Mann Library</address>
+            <city>Ithaca</city>
+            <state>New York</state>
+            <postal>14853</postal>
+            <country>USA</country>
+          </cntaddr>
+          <cntvoice>607-255-5406</cntvoice>
+          <cntemail>mann-ref@cornell.edu</cntemail>
+        </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+    </metainfo>
+</metadata>

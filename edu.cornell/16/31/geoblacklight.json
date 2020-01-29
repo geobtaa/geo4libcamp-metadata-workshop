@@ -1,0 +1,40 @@
+{
+    "geoblacklight_version": "1.0",
+    "dc_identifier_s": "https://cugir.library.cornell.edu/catalog/cugir-001631",
+    "dc_title_s": "Soil Associations, Tompkins County NY, 1965",
+    "dc_description_s": "Soil associations in Tompkins County.  Soil associations are groupings of two of three soil types that are considered similar enough, or are commonly found together on the landscape, so as to represent a somewhat uniform set of characteristics. Soil association maps go beyond soil surveys by aggregating soil series into larger geographical areas, thereby allowing more general or broader scale applications.",
+    "dc_rights_s": "Public",
+    "dct_provenance_s": "Cornell",
+    "dct_references_s": "{\"http://schema.org/downloadUrl\":\"https://cugir-data.s3.amazonaws.com/00/16/31/cugir-001631.zip\",\"http://www.opengis.net/cat/csw/csdgm\":\"https://cugir-data.s3.amazonaws.com/00/16/31/fgdc.xml\",\"http://www.w3.org/1999/xhtml\":\"https://cugir-data.s3.amazonaws.com/00/16/31/fgdc.html\",\"http://www.opengis.net/def/serviceType/ogc/wfs\":\"https://cugir.library.cornell.edu/geoserver/cugir/wfs\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://cugir.library.cornell.edu/geoserver/cugir/wms\"}",
+    "cugir_addl_downloads_s": "{}",
+    "layer_id_s": "cugir001631",
+    "layer_slug_s": "cugir-001631",
+    "dc_type_s": "Dataset",
+    "dc_format_s": "Shapefile",
+    "cugir_filesize_s": "0.48 MB",
+    "layer_geom_type_s": "Polygon",
+    "layer_modified_dt": "2019-05-24T00:00:00Z",
+    "dc_creator_sm": [
+        "Tompkins County Planning Department, Tompkins County ITS GIS Division"
+    ],
+    "dc_publisher_sm": [
+        "Tompkins County GIS Program"
+    ],
+    "dc_subject_sm": [
+        "soil survey",
+        "soil associations"
+    ],
+    "cugir_category_sm": [
+        "environment",
+        "geology"
+    ],
+    "dct_spatial_sm": [
+        "Tompkins County"
+    ],
+    "dct_issued_s": "1965",
+    "dct_temporal_sm": [
+        "1965"
+    ],
+    "solr_geom": "ENVELOPE(-76.696267, -76.237651, 42.627521, 42.262465)",
+    "solr_year_i": "1965"
+}

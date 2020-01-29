@@ -1,0 +1,595 @@
+<!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey, Florida Caribbean Science Center</origin>
+        <pubdate>200112</pubdate>
+        <title>Zebra Mussels, New York State, 2001</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Gainesville, FL</pubplace>
+          <publish>U.S. Geological Survey, Florida Caribbean Science Center</publish>
+        </pubinfo>
+        <onlink>https://cugir.library.cornell.edu/catalog/cugir-007326</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>A small mollusk called the zebra mussel has been steadily invading America's rivers and lakes. Zebra mussels colonize water intake pipes and severely restrict the water flow. This has cost billions of dollars of damage to municipal and private facilities that rely on fresh water. This map layer shows the locations of confirmed zebra mussel sightings in the United States from 1988 to 1998. The sighting reports came from a variety of federal, State, and municipal agencies, public utilities, universities, engineering and private consultant firms, and businesses. The concern caused by the explosive spread of the zebra mussel, (Dreissena polymorpha), within the United States resulted in passage of the Nonindigenous Aquatic Nuisance Prevention and Control Act of 1990. The impact of this biofouling pest on the economy and ecological processes in the U.S. and Canada has required prompt action on a large scale to prevent further infestations and minimize ecological degradation. This data set is a compilation of reports of confirmed zebra mussel sightings in the United States from 1988 to the present. It provides geographical and historical information to show distribution over time. The reports came from a variety of federal, State, and municipal agencies, public utilities, universities, engineering and private consultant firms. The locations of confirmed sightings were registered at 1:100,000-scale on EPA Reach File Version 3.0 and are maintained as an Arc/INFO export file. This is a revised version of the June, 2000 data set.</abstract>
+      <purpose>The data is an essential part of the Department of the Interior's Nonindigenous Aquatic Nuisance Species Program. The data was compiled for use by resource managers to make them aware of zebra mussel occurrences so that they may help to control or prevent the spread of zebra mussels. These data are intended for geographic display and analysis at the national level, and for large regional areas. The data should be displayed and analyzed at scales appropriate for 1:2,000,000-scale data. No responsibility is assumed by the U.S. Geological Survey in the use of these data.</purpose>
+      <supplinf>The original of this data set was published for and presented at the Third International Zebra Mussel Conference, held February 23-26, 1993 in Toronto, Ontario, Canada. That data set was compiled by the Electric Power Research Institute of Palo Alto, CA, and published in June, 1993, as "A Geographic Information System (GIS) for Tracking Zebra Mussels (Dreissena polymorpha)in the United States". The current data set builds on that original work. Additional information about zebra mussels can be found at: &lt;http://www.nationalatlas.gov/dynamic/dyn_zm.html&gt;</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1988</begdate>
+          <enddate>2001</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Ground Condition</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+          <bounding>
+            <westbc>-80.134689</westbc>
+            <eastbc>-73.073769</eastbc>
+            <northbc>45.424168</northbc>
+            <southbc>41.282917</southbc>
+          </bounding>
+        </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Freshwater</themekey>
+        <themekey>Invasive species</themekey>
+      </theme>
+      <theme>
+        <themekt>LCSH</themekt>
+        <themekey>Zebra mussels</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>biota</themekey>
+        <themekey>environment</themekey>
+      </theme>
+      <theme>
+              <themekt>CUGIR Category</themekt>
+              <themekey>biology</themekey>
+<themekey>environment</themekey>
+            </theme>
+      <place>
+        <placekt>LCSH</placekt>
+        <placekey>New York (State)</placekey>
+        <placekey>Ontario, Lake (N.Y. and Ont.)</placekey>
+        <placekey>Erie, Lake</placekey>
+      </place>
+      <stratum>
+        <stratkt>Mason, W.T., R.A. Mattson, and J.H. Epler. 1994. Benthic invertebrates and allied macrofauna in the Suwannee River and estuary ecosystem, Florida. Florida Scientist No. 4, pages 141-160.</stratkt>
+        <stratkey>epibenthos</stratkey>
+      </stratum>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None. Acknowledgment of the National Atlas of the United States of America and (or) the U.S. Geological Survey would be appreciated in products derived from these data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+          <cntper>Amy Benson</cntper>
+        </cntorgp>
+        <cntpos>Fishery Biologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>Florida Caribbean Science Center, 7920 NW 71st Street</address>
+          <city>Gainesville</city>
+          <state>FL</state>
+          <postal>32653</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>352-378-8181 x306</cntvoice>
+        <cntfax>352-378-4956</cntfax>
+        <cntemail>mailto:amy_benson@usgs.gov</cntemail>
+        <hours>Monday - Friday 8AM-4PM</hours>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/73/26/preview.png</browsen>
+              <browsed>preview of the dataset</browsed>
+              <browset>PNG</browset>
+            </browse>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>All reports in the data base on zebra mussel locations were confirmed as being zebra mussels.</attraccr>
+      <qattracc>
+        <attraccv>99%, 1% Error</attraccv>
+        <attracce>A zebra mussel location was included in the data base if it was confirmed by a trained biologist or by someone who had received training to be able to identify zebra mussels.</attracce>
+      </qattracc>
+    </attracc>
+    <logic>No tests for logical consistency have been performed on this data set.</logic>
+    <complete>This data base is by no means an all inclusive listing of zebra mussel locations. But it is a fair and accurate representation of their distribution in North America.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Zebra mussel sightings were reported with varying levels of accuracy. Some of the reports were as latitude-longitude coordinates, some as river miles, and others as just a lake, beach, harbor, or a water body and nearest town name. The locations were digitized as a single point in the reported water body at the place nearest to the town. If no specific location was reported in a lake, the point was digitized in the middle. These were all small lakes; the Great Lakes had specific locations associated with them. Each zebra mussel sighting location was checked by manual comparison of the on-screen point with hard copy maps.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Sources for these data are numerous. They include federal, State, and municipal governments; engineering and environmental firms; universities; industries; and public utility companies.</origin>
+            <pubdate>Unknown</pubdate>
+            <title>Zebra Mussel reports</title>
+            <othercit>The sources for these data are too numerous to list here. However, detailed information on each zebra mussel sighting is available from the Florida Caribbean Science Center at the address listed in the contact information.</othercit>
+          </citeinfo>
+        </srccite>
+        <typesrc>variable</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1988</begdate>
+              <enddate>2001</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Ground condition</srccurr>
+        </srctime>
+        <srccitea>ZMR</srccitea>
+        <srccontr>Locations of zebra mussel sightings</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey, Florida Caribbean Science Center</origin>
+            <pubdate>1999</pubdate>
+            <title>Zebra Mussel locations</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>electronic mail</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1988</begdate>
+              <enddate>1999</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Ground condition</srccurr>
+        </srctime>
+        <srccitea>ZML</srccitea>
+        <srccontr>Zebra mussel locations</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>199910</pubdate>
+            <title>Zebra Mussel Distribution in North America</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1988</begdate>
+              <enddate>1999</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Ground condition</srccurr>
+        </srctime>
+        <srccitea>Atlas-ZML99</srccitea>
+        <srccontr>Zebra mussel locations</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>200006</pubdate>
+            <title>Zebra Mussel Distribution in North America</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1988</begdate>
+              <enddate>2000</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Ground condition</srccurr>
+        </srctime>
+        <srccitea>Atlas-ZML00</srccitea>
+        <srccontr>Zebra mussel locations</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>19990326</pubdate>
+            <title>Hydrography Features of the United States</title>
+          </citeinfo>
+        </srccite>
+        <srcscale>2000000</srcscale>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1995</begdate>
+              <enddate>1999</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>Atlas-HYDRO</srccitea>
+        <srccontr>spatial information</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>1998</pubdate>
+            <title>County Boundaries of the United States</title>
+          </citeinfo>
+        </srccite>
+        <srcscale>2000000</srcscale>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1998</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>Atlas-CNTY</srccitea>
+        <srccontr>spatial information</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>After receiving a report of a confirmed zebra mussel sighting, the location was found on a paper map. The scale of that map varied; we used the finest resolution available. The point was then digitized on- screen using Arc/INFO's arcedit feature, and was referenced to EPA Reach File Version 3.0 1:100,000-scale data (Arc/INFO coverages in Albers Equal Area Projection).</procdesc>
+        <srcused>ZMR</srcused>
+        <procdate>1999</procdate>
+        <srcprod>ZML</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>U.S. Geological Survey</cntorg>
+              <cntper>Amy Benson</cntper>
+            </cntorgp>
+            <cntpos>Fishery Biologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>Florida Caribbean Science Center, 7920 NW 71st Street</address>
+              <city>Gainesville</city>
+              <state>FL</state>
+              <postal>32653</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>352-378-8181 x306</cntvoice>
+            <cntfax>352-378-4956</cntfax>
+            <cntemail>mailto:amy_benson@usgs.gov</cntemail>
+            <hours>Monday - Friday 8AM-4PM</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>The National Atlas received the data file from the Florida Caribbean Science Center in Arc/INFO export format, and it was read into Arc/INFO and converted to Geographic coordinates. The file was compared to the Streams and Waterbodies data layer, and several points were adjusted to fall on water features rather than on land. The data set was converted to shapefile format.</procdesc>
+        <srcused>Atlas-HYDRO</srcused>
+        <srcused>ZML</srcused>
+        <procdate>1999</procdate>
+        <srcprod>Atlas-ZML99</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>Additional points were appended to the data set. Points were compared to the Streams and Waterbodies data layer, and several points were adjusted to fall on water features rather than on land. Also, the file was compared to the County Boundaries layer to verify the county and State where zebra mussels were located.</procdesc>
+        <srcused>ZMR</srcused>
+        <srcused>Atlas-HYDRO</srcused>
+        <srcused>Atlas-CNTY</srcused>
+        <srcused>Atlas-ZML99</srcused>
+        <procdate>2000</procdate>
+        <srcprod>Atlas-ZML00</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>Additional points were appended to the data set. Points were compared to the Streams and Waterbodies data layer, and several points were adjusted to fall on water features rather than on land. Also, the file was compared to the County Boundaries layer; several points were adjusted to fall in the correct county and State as listed in their location descriptions. Attribute items that had specified the age classification and substrate to which the specimen was attached were dropped.</procdesc>
+        <srcused>ZMR</srcused>
+        <srcused>Atlas-HYDRO</srcused>
+        <srcused>Atlas-CNTY</srcused>
+        <srcused>Atlas-ZML00</srcused>
+        <procdate>2001</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+          <sdtsterm>
+            <sdtstype>Point</sdtstype>
+            <ptvctcnt>1163</ptvctcnt>
+          </sdtsterm>
+        </ptvctinf>
+      </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.000278</latres>
+        <longres>0.000278</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>North American Datum of 1927</horizdn>
+        <ellips>Clarke 1866</ellips>
+        <semiaxis>6378206.4</semiaxis>
+        <denflat>294.98</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Zebra mussel location (described by Zmusslx020.dbf)</enttypl>
+        <enttypd>The location where a zebra mussel has been sighted</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>The representation of the entity in the data.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Point</edomv>
+            <edomvd>0-dimensional element</edomvd>
+            <edomvds>ESRI GIS software</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Area</attrlabl>
+        <attrdef>The size of the shape in coverage units</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.000</rdommin>
+            <rdommax>0.000</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Perimeter</attrlabl>
+        <attrdef>The perimeter of the shape in coverage units</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.000</rdommin>
+            <rdommax>0.000</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Zmusslx020</attrlabl>
+        <attrdef>Internal feature number</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>2306</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Y</attrlabl>
+        <attrdef>The year of the zebra mussel sighting</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1988</rdommin>
+            <rdommax>2001</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>St</attrlabl>
+        <attrdef>The 2-letter FIPS code for the State in which the zebra mussel sighting falls, or a three-letter abbreviation for the Canadian province in which the sighting falls</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Codes for the Identification of the States, the District of Columbia and the Outlying Areas of the United States, and Associated Areas, FIPS PUB 5-2.</codesetn>
+            <codesets>U.S. Department of Commerce</codesets>
+          </codesetd>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>ONT</edomv>
+            <edomvd>Province of Ontario, Canada.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+          <edom>
+            <edomv>QUE</edomv>
+            <edomvd>Province of Quebec, Canada.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Co</attrlabl>
+        <attrdef>The name of the county where the zebra mussel sighting falls. For sightings in Canada, this field may contain the county name or may be blank.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Counties and Equivalent Entities of the United States, Its Possessions, and Associated Areas, FIPS PUB 6-4.</codesetn>
+            <codesets>U.S. Department of Commerce</codesets>
+          </codesetd>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>unknown</edomv>
+            <edomvd>The sighting falls outside the United States.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FIPS</attrlabl>
+        <attrdef>The State and county FIPS code from the TIGER/Line Precensus files, for the location where the zebra mussel sighting falls.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Counties and Equivalent Entities of the United States, Its Possessions, and Associated Areas, FIPS PUB 6-4.</codesetn>
+            <codesets>U.S. Department of Commerce</codesets>
+          </codesetd>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>&lt;blank&gt;</edomv>
+            <edomvd>The sighting falls outside the United States.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Locality</attrlabl>
+        <attrdef>The specific location of the zebra mussel sighting.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>There is no predefined set of valid location descriptions.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+        <distrib>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Albert R. Mann Library</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>Cornell University</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14853</postal>
+            </cntaddr>
+            <cntvoice>607-255-5406</cntvoice>
+            <cntemail>mann-ref@cornell.edu</cntemail>
+          </cntinfo>
+        </distrib>
+        <distliab>Cornell University provides these geographic data "as is". Cornell
+          University makes no guarantee or warranty concerning the accuracy of
+          information contained in the geographic data. Cornell University further
+          makes no warranty either expressed or implied, regarding the condition of
+          the product or its fitness for any particular purpose. The burden for
+          determining fitness for use lies entirely with the user. Although these
+          files have been processed successfully on computers at Cornell University,
+          no warranty is made by Cornell University regarding the use of these data
+          on any other system, nor does the fact of distribution constitute or imply
+          any such warranty.</distliab>
+        <stdorder>
+        <digform>
+            <digtinfo>
+              <formname>Shapefile</formname>
+              <formcont>zipped shapefile</formcont>
+              <filedec>zip</filedec>
+              <transize>0.10</transize>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/73/26/cugir-007326.zip</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>metadata</formname>
+              <formcont>FGDC XML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/73/26/fgdc.xml</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>HTML metadata</formname>
+              <formcont>FGDC HTML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/73/26/fgdc.html</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+                <digtinfo>
+                  <formname>KML</formname>
+                  <formcont>generated KML, via WFS</formcont>
+                </digtinfo>
+                <digtopt>
+                  <onlinopt>
+                    <computer>
+                      <networka>
+                        <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir007326&amp;outputFormat=application%2Fvnd.google-earth.kml%2Bxml</networkr>
+                      </networka>
+                    </computer>
+                  </onlinopt>
+                </digtopt>
+              </digform><digform>
+            <digtinfo>
+              <formname>GeoJSON</formname>
+              <formcont>generated GeoJSON, via WFS</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir007326&amp;outputFormat=application%2Fjson</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>OGC:WMS</formname>
+              <formcont>WMS, from GeoServer</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007326&amp;bbox=-80.3465166,41.158679469999996,-72.86194139999999,45.548405530000004&amp;width=256&amp;height=150&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><fees>None</fees></stdorder>
+      </distinfo>
+  <metainfo>
+      <metd>20190524</metd>
+      <metc>
+        <cntinfo>
+          <cntorgp>
+            <cntorg>Albert R. Mann Library</cntorg>
+          </cntorgp>
+          <cntaddr>
+            <addrtype>mailing and physical</addrtype>
+            <address>Albert R. Mann Library</address>
+            <city>Ithaca</city>
+            <state>New York</state>
+            <postal>14853</postal>
+            <country>USA</country>
+          </cntaddr>
+          <cntvoice>607-255-5406</cntvoice>
+          <cntemail>mann-ref@cornell.edu</cntemail>
+        </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+    </metainfo>
+</metadata>

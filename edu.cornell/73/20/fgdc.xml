@@ -1,0 +1,703 @@
+<!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey</origin>
+        <pubdate>199904</pubdate>
+        <title>Major Dams, New York State, 1999</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://cugir.library.cornell.edu/catalog/cugir-007320</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This map layer includes the locations of over 500 majors dams in New York State. The information in the map layer was provided by the U.S. Army Corps of Engineers (USACE). The original dam information came from the National Inventory of Dams (NID) which was produced by USACE in cooperation with FEMA's National Dam Safety Program. The full NID contains over 75,000 dams and is used to track information on the country's water control infrastructure. This data set portrays major dams of New York State. The data set was created by extracting dams 50 feet or more in height, or with a normal storage capacity of 5,000 acre-feet or more, or with a maximum storage capacity of 25,000 acre-feet or more, from the 75,187 dams in the U.S. Army Corps of Engineers National Inventory of Dams.</abstract>
+      <purpose>These data are intended for geographic display and analysis at the national level, and for large regional areas. The data should be displayed and analyzed at scales appropriate for 1:2,000,000-scale data. No responsibility is assumed by the U.S. Geological Survey in the use of these data.</purpose>
+      <supplinf>In the online, interactive National Atlas of the United States, at scales smaller than 1:4,850,000 the data is thinned for display purposes. For scales between 1: 4,850,000 and 1:22,000,000, dams are only shown if they have a height of 500 feet or more, or a normal storage capacity of 50,000 acre-feet or more, or a maximum storage capacity of 250,000 acre-feet or more (1173 dams). At scales smaller than 1:22,000,000, dams are only shown if they have a height of 5000 feet or more, or a normal storage capacity of 500,000 acre-feet or more, or a maximum storage capacity of 2,500,000 acre-feet or more (240 dams).</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>1999</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+          <bounding>
+            <westbc>-79.426483</westbc>
+            <eastbc>-73.429405</eastbc>
+            <northbc>45.005653</northbc>
+            <southbc>40.629093</southbc>
+          </bounding>
+        </spdom>
+    <keywords>
+      <theme>
+        <themekt>LCSH</themekt>
+        <themekey>Hydrography</themekey>
+        <themekey>Reservoirs</themekey>
+        <themekey>Dams</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>environment</themekey>
+        <themekey>inlandWaters</themekey>
+        <themekey>structure</themekey>
+      </theme>
+      <theme>
+              <themekt>CUGIR Category</themekt>
+              <themekey>environment</themekey>
+<themekey>inland waters</themekey>
+<themekey>structure</themekey>
+            </theme>
+      <place>
+        <placekt>LCSH</placekt>
+        <placekey>New York (State)</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None. Acknowledgment of the National Atlas of the United States of America would be appreciated in products derived from these data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Peg Rawson</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>Mailing address</addrtype>
+          <address>521 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>703-648-4183</cntvoice>
+        <cntemail>atlasmail@usgs.gov</cntemail>
+        <cntinst>Please contact via electronic mail.</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/73/20/preview.png</browsen>
+              <browsed>preview of the dataset</browsed>
+              <browset>PNG</browset>
+            </browse>
+    <native>ESRI shapefile format</native>
+  </idinfo>
+  <dataqual>
+    <logic>None</logic>
+    <complete>This file contains those dams from the National Inventory of Dams with a height of 50 feet or more, or with a normal storage capacity of 5000 acre- feet or more, or with a maximum storage capacity of 25,000 acre-feet or more. Dams outside of the 50 States, Puerto Rico, and the U.S. Virgin Islands are not included, nor are dams for which there is no positional information in the National Inventory of Dams.</complete>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Army Corps of Engineers in cooperation with FEMA's National Dam Safety Program</origin>
+            <pubdate>1996</pubdate>
+            <title>National Inventory of Dams, Water Control Infrastructure</title>
+            <pubinfo>
+              <pubplace>Washington, DC</pubplace>
+              <publish>FEMA National Dam Safety Program</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>CD-ROM</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1995</begdate>
+              <enddate>1996</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>NID</srccitea>
+        <srccontr>Spatial and attribute information</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>1998</pubdate>
+            <title>Major Dams of the United States</title>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1995</begdate>
+              <enddate>1996</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication date of original source material</srccurr>
+        </srctime>
+        <srccitea>NatlasDams</srccitea>
+        <srccontr>Spatial and attribute information</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>The dams in this file were selected from the National Inventory of Dams (NID). First, a subset of the attributes contained in the NID was selected based on input from the Army Corps of Engineers. Using an ArcView query, the dams with a height of 50 feet or more were selected, along with the dams with a normal storage capacity of 5,000 acre-feet or more, and those with a maximum storage capacity of 25,000 acre-feet or more. (The International Committee on Large Dams considers dams over 50 feet to be large dams. The USGS Water Resources Division considers large reservoirs to be those with a normal storage capacity of 5,000 acre-feet or more, or with a maximum storage capacity of 25,000 acre- feet or more.) The resulting data set was converted to an ArcView shape file using the "Convert to Shapefile" command. 33 dams that fell outside the 50 States were deleted (1 in Guam, 1 in the Trust Territories, and 31 in Puerto Rico), and 78 dams without coordinates were also deleted. Several misspelled county names were corrected, and the entries in the FIPS_cnty (County FIPS) field were cleaned up. For all dams with a valid county name but no County FIPS, the FIPS code was added based on the listed county name. If two county names were given, the FIPS code used was for the first one listed, or for the county in the listed State. Where the county name was invalid or missing, the county was determined by comparing the dam location to the National Atlas counties file. If the dam fell on a State line, the county name and FIPS code used were those appropriate for the listed State. The shape file was converted to an Arc/INFO coverage and then converted to NAD 83 for display purposes. The result was then converted back to shapefile format.</procdesc>
+        <srcused>NID</srcused>
+        <procdate>1998</procdate>
+        <srcprod>NatlasDams</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>The dams in Puerto Rico and the U.S. Virgin Islands that met the criteria for large dams were selected from the NID. There were 31 dams in Puerto Rico and none in the U.S. Virgin Islands. The same attributes were selected as were used for NatlasDams. Both the Fips_state and Fips_cnty fields were blank for these dams, so the State FIPS code was entered, and the county FIPS code was entered where appropriate. One invalid county name was corrected by comparing the dam location to the National Atlas counties file. The resulting shapefile was converted to an Arc/INFO coverage, converted to NAD83 for display purposes, and merged with the NatlasDams data. The resulting file was then converted back to shapefile format.</procdesc>
+        <srcused>NatlasDams</srcused>
+        <srcused>NID</srcused>
+        <procdate>1999</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>In order to geoprocess spatial files for New York State from the National Atlas Data for distribution in CUGIR, the nationwide data files were added to a map document in ArcInfo 8.2. Using the geoprocessing wizard's clip function, the spatial files were clipped to the detailed New York polygon.</procdesc>
+        <procdate>200212</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+          <sdtsterm>
+            <sdtstype>Point</sdtstype>
+            <ptvctcnt>241</ptvctcnt>
+          </sdtsterm>
+        </ptvctinf>
+      </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.000278</latres>
+        <longres>0.000278</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS1980</ellips>
+        <semiaxis>6378137</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Dam</enttypl>
+        <enttypd>Any artificial barrier, including appurtenant works, which impounds or diverts water, and which (1) is twenty-five feet or more in height from the natural bed of the stream or watercourse measured at the downstream toe of the barrier, or from the lowest elevation of the outside limit of the barrier, if it is not across a stream channel or watercourse, to the maximum water storage elevation or (2) has an impounding capacity at maximum water storage elevation of fifty acre-feet or more. This Act does not apply to any such barrier which is not in excess of six feet in height, regardless of storage capacity or which has a storage capacity at maximum water storage elevation not in excess of fifteen acre-feet, regardless of height, unless such barrier, due to its location or other physical characteristic, is likely to pose a significant threat to human life or property in the event of its failure.</enttypd>
+        <enttypds>Dam Safety Act of 1972 (P.L. 92-367) and Dam Safety Act of 1986 (P.L. 99-662)</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>The representation of the entity in the data.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Point</edomv>
+            <edomvd>0-dimensional element</edomvd>
+            <edomvds>ESRI GIS software</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Area</attrlabl>
+        <attrdef>The size of the shape in coverage units.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.000</rdommin>
+            <rdommax>0.000</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Perimeter</attrlabl>
+        <attrdef>The perimeter of the shape in coverage units.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.000</rdommin>
+            <rdommax>0.000</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Dams00x020</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>7782</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Nid_id</attrlabl>
+        <attrdef>The official National Inventory of Dams identification number for the dam, known formerly as the National Id. The first two characters of the identity are the State two letter abbreviation, based on the location of the dam. The last five characters of the identity are a unique number (AB#####).</attrdef>
+        <attrdefs>U.S. Army Corps of Engineers</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>AK00001</rdommin>
+            <rdommax>WY83004</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Dam_name</attrlabl>
+        <attrdef>The official name of the dam. For dams that do not have an official name, the popular name is used.</attrdef>
+        <attrdefs>U.S. Army Corps of Engineers</attrdefs>
+        <attrdomv>
+          <udom>There is no predefined set of valid dam names. The attribute contains the official name of the dam, or the popular name if there is no official name.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Other_name</attrlabl>
+        <attrdef>The reservoir name or names in common use other than the official name of the dam. Names are separated with semicolons.</attrdef>
+        <attrdefs>U.S. Army Corps of Engineers</attrdefs>
+        <attrdomv>
+          <udom>There is no predefined set of reservoir or common use names.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Hazard</attrlabl>
+        <attrdef>A term indicating the potential hazard to the downstream area resulting from failure or mis-operation of the dam or facilities.</attrdef>
+        <attrdefs>U.S. Army Corps of Engineers</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Low</edomv>
+            <edomvd>A dam where failure or mis-operation results in no probable loss of human life and low economic and/or environmental loss. Losses are principally limited to the owner's property.</edomvd>
+            <edomvds>U.S. Army Corps of Engineers</edomvds>
+          </edom>
+          <edom>
+            <edomv>Significant</edomv>
+            <edomvd>A dam where failure or mis-operation results in no probable loss of human life but can cause economic loss, environmental damage, disruption of lifeline facilities, or impact other concerns. These dams are often located in predominantly rural or agricultural areas but could be located in areas with population and significant infrastructure.</edomvd>
+            <edomvds>U.S. Army Corps of Engineers</edomvds>
+          </edom>
+          <edom>
+            <edomv>High</edomv>
+            <edomvd>A dam where failure or mis-operation will probably cause loss of human life.</edomvd>
+            <edomvds>U.S. Army Corps of Engineers</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>State_name</attrlabl>
+        <attrdef>The name of the State in which the dam is located.</attrdef>
+        <attrdefs>U.S. Army Corps of Engineers</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Codes for the Identification of the States, the District of Columbia and the Outlying Areas of the United States, and Associated Areas, FIPS PUB 5-2.</codesetn>
+            <codesets>U.S. Department of Commerce</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>County</attrlabl>
+        <attrdef>The name of the County in which the dam is located.</attrdef>
+        <attrdefs>U.S. Army Corps of Engineers</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Counties and Equivalent Areas of the United States, Its Possessions, and Associated Areas, FIPS PUB 6-4.</codesetn>
+            <codesets>U.S. Department of Commerce</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>River</attrlabl>
+        <attrdef>The official name of the river or stream on which the dam is built. If the stream is unnamed, it is identified as a tributary ("TR") to a named river. If the dam is located offstream, the name of the river or stream is entered plus "-OS" or "OFFSTREAM".</attrdef>
+        <attrdefs>U.S. Army Corps of Engineers</attrdefs>
+        <attrdomv>
+          <udom>There is no predefined set of valid river or stream names.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Prm_purpos</attrlabl>
+        <attrdef>A term indicating the primary purpose for which reservoir is used.</attrdef>
+        <attrdefs>U.S. Army Corps of Engineers</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Irrigation</edomv>
+            <edomvd>The dam holds water for irrigation.</edomvd>
+            <edomvds>U.S. Army Corps of Engineers</edomvds>
+          </edom>
+          <edom>
+            <edomv>Hydroelectric</edomv>
+            <edomvd>The dam holds water used for power generation.</edomvd>
+            <edomvds>U.S. Army Corps of Engineers</edomvds>
+          </edom>
+          <edom>
+            <edomv>Flood Control</edomv>
+            <edomvd>The dam holds water in times of high stream flow, to protect downstream areas from flooding. The dam may normally hold a reservoir and also have capacity for flood control, or may hold water only for flood control.</edomvd>
+            <edomvds>U.S. Army Corps of Engineers</edomvds>
+          </edom>
+          <edom>
+            <edomv>Navigation</edomv>
+            <edomvd>The dam controls stream flow to allow for navigation, or allows for navigation around an obstacle in a stream.</edomvd>
+            <edomvds>U.S. Army Corps of Engineers</edomvds>
+          </edom>
+          <edom>
+            <edomv>Water Supply</edomv>
+            <edomvd>The dam holds water for domestic or commercial use.</edomvd>
+            <edomvds>U.S. Army Corps of Engineers</edomvds>
+          </edom>
+          <edom>
+            <edomv>Recreation</edomv>
+            <edomvd>The dam holds a reservoir designed for recreational use.</edomvd>
+            <edomvds>U.S. Army Corps of Engineers</edomvds>
+          </edom>
+          <edom>
+            <edomv>Fire/Farm Pond</edomv>
+            <edomvd>The dam holds water used for livestock, or used as a water supply in case of fire.</edomvd>
+            <edomvds>U.S. Army Corps of Engineers</edomvds>
+          </edom>
+          <edom>
+            <edomv>Fish &amp; Wildlife</edomv>
+            <edomvd>The dam holds a reservoir designed as a habitat for fish or other wildlife.</edomvd>
+            <edomvds>U.S. Army Corps of Engineers</edomvds>
+          </edom>
+          <edom>
+            <edomv>Debris Control</edomv>
+            <edomvd>The dam catches debris in case of flash floods.</edomvd>
+            <edomvds>U.S. Army Corps of Engineers</edomvds>
+          </edom>
+          <edom>
+            <edomv>Tailings</edomv>
+            <edomvd>The dam holds a pond containing, in aqueous form, ore and waste materials discarded in ore-treatment processes.</edomvd>
+            <edomvds>U.S. Army Corps of Engineers</edomvds>
+          </edom>
+          <edom>
+            <edomv>Other</edomv>
+            <edomvd>The dam meets the selection criteria for dams but is used for a purpose other than irrigation, power generation, flood control, navigation, water supply, recreation, fire or farm water supply, fish &amp; wildlife habitat, debris control, or holding tailings.</edomvd>
+            <edomvds>U.S. Army Corps of Engineers</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Nid_damtyp</attrlabl>
+        <attrdef>A term indicating the dam type as one of the following: Arch, Buttress, Gravity.</attrdef>
+        <attrdefs>U.S. Army Corps of Engineers</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Arch</edomv>
+            <edomvd>A concrete or masonry dam which is curved upstream so as to transmit the major part of the water load to the abutments.</edomvd>
+            <edomvds>U.S. Army Corps of Engineers</edomvds>
+          </edom>
+          <edom>
+            <edomv>Buttress</edomv>
+            <edomvd>A dam consisting of a watertight part supported at intervals on the downstream side by a series of buttresses (reinforcing structures).</edomvd>
+            <edomvds>U.S. Army Corps of Engineers</edomvds>
+          </edom>
+          <edom>
+            <edomv>Gravity</edomv>
+            <edomvd>A dam constructed of concrete and/or masonry which relies on its weight and internal strength for stability. Includes all dams that are not either arch or buttress dams.</edomvd>
+            <edomvds>U.S. Army Corps of Engineers</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Year_compl</attrlabl>
+        <attrdef>The year when the main dam structure was completed. A value of 0 indicates that the year is unknown.</attrdef>
+        <attrdefs>U.S. Army Corps of Engineers</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1800</rdommin>
+            <rdommax>1995</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Nid_height</attrlabl>
+        <attrdef>The maximum of either the dam height, the hydraulic height, or the structural height of the dam. A value of 0 indicates that the height is unknown.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>3</rdommin>
+            <rdommax>6200</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Own_type</attrlabl>
+        <attrdef>A term indicating owner type.</attrdef>
+        <attrdefs>U.S. Army Corps of Engineers</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Federal</edomv>
+            <edomvd>The dam is owned by a Federal agency.</edomvd>
+            <edomvds>U.S. Army Corps of Engineers</edomvds>
+          </edom>
+          <edom>
+            <edomv>State</edomv>
+            <edomvd>The dam is owned by a State or by a State agency.</edomvd>
+            <edomvds>U.S. Army Corps of Engineers</edomvds>
+          </edom>
+          <edom>
+            <edomv>Local Gov't</edomv>
+            <edomvd>The dam is owned by a County, City, Regional, or other similar local government or government agency.</edomvd>
+            <edomvds>U.S. Army Corps of Engineers</edomvds>
+          </edom>
+          <edom>
+            <edomv>Public Utility</edomv>
+            <edomvd>The dam is owned by a public utility.</edomvd>
+            <edomvds>U.S. Army Corps of Engineers</edomvds>
+          </edom>
+          <edom>
+            <edomv>Private</edomv>
+            <edomvd>The dam is owned by an individual or individuals, or by a private company.</edomvd>
+            <edomvds>U.S. Army Corps of Engineers</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Near_city</attrlabl>
+        <attrdef>The name of the nearest downstream city, town, or village that is most likely to be affected by floods resulting from the failure of the dam.</attrdef>
+        <attrdefs>U.S. Army Corps of Engineers</attrdefs>
+        <attrdomv>
+          <udom>There is no predefined set of valid city names.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Owner</attrlabl>
+        <attrdef>The name of the owner of the dam.</attrdef>
+        <attrdefs>U.S. Army Corps of Engineers</attrdefs>
+        <attrdomv>
+          <udom>There is no predefined set of valid owner names.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Surf_area</attrlabl>
+        <attrdef>The surface area, in acres, of the impoundment at its normal retention level.</attrdef>
+        <attrdefs>U.S. Army Corps of Engineers</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.00</rdommin>
+            <rdommax>20358400.0</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Drain_area</attrlabl>
+        <attrdef>The drainage area of the dam in square miles. It is defined as the area that drains to a particular point (in this case, the dam) on a river or stream.</attrdef>
+        <attrdefs>U.S. Army Corps of Engineers</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.00</rdommin>
+            <rdommax>300000.00</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Norm_stor</attrlabl>
+        <attrdef>The normal storage in acre-feet. Normal storage is the total storage space in a reservoir below the normal retention level, including dead and inactive storage and excluding any flood control surcharge storage.</attrdef>
+        <attrdefs>U.S. Army Corps of Engineers</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.00</rdommin>
+            <rdommax>9700000000.0</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Max_stor</attrlabl>
+        <attrdef>The maximum storage in acre-feet. Maximum storage is the total storage space in a reservoir below the maximum attainable water surface elevation, including any surcharge storage.</attrdef>
+        <attrdefs>U.S. Army Corps of Engineers</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.00</rdommin>
+            <rdommax>9700000000.0</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Longitud_x</attrlabl>
+        <attrdef>Dam longitude as a single value, in decimal degrees.</attrdef>
+        <attrdefs>U.S. Army Corps of Engineers</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-162.928333</rdommin>
+            <rdommax>-66.015000</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Latitud_x</attrlabl>
+        <attrdef>Dam latitude as a single value, in decimal degrees.</attrdef>
+        <attrdefs>U.S. Army Corps of Engineers</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>18.018056</rdommin>
+            <rdommax>68.068889</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Fips_state</attrlabl>
+        <attrdef>The Federal Information Processing Standard (FIPS) code used by the U.S. Bureau of the Census for the State in which the dam is located.</attrdef>
+        <attrdefs>U.S. Army Corps of Engineers</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Codes for the Identification of the States, the District of Columbia and the Outlying Areas of the United States, and Associated Areas; (Federal Information Processing Standard (FIPS) 5-2): Washington, DC, National Institute of Standards and Technology.</codesetn>
+            <codesets>U.S. Department of Commerce</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Fips_cnty</attrlabl>
+        <attrdef>The FIPS code used by the U.S. Bureau of the Census for the county in which the dam is located.</attrdef>
+        <attrdefs>U.S. Army Corps of Engineers</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Counties and Equivalent Entities of the United States, Its Possessions, and Associated Areas; (Federal Information Processing Standard (FIPS) 6-4): Washington, DC, National Institute of Standards and Technology.</codesetn>
+            <codesets>U.S. Department of Commerce</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+        <distrib>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Albert R. Mann Library</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>Cornell University</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14853</postal>
+            </cntaddr>
+            <cntvoice>607-255-5406</cntvoice>
+            <cntemail>mann-ref@cornell.edu</cntemail>
+          </cntinfo>
+        </distrib>
+        <distliab>Cornell University provides these geographic data "as is". Cornell
+          University makes no guarantee or warranty concerning the accuracy of
+          information contained in the geographic data. Cornell University further
+          makes no warranty either expressed or implied, regarding the condition of
+          the product or its fitness for any particular purpose. The burden for
+          determining fitness for use lies entirely with the user. Although these
+          files have been processed successfully on computers at Cornell University,
+          no warranty is made by Cornell University regarding the use of these data
+          on any other system, nor does the fact of distribution constitute or imply
+          any such warranty.</distliab>
+        <stdorder>
+        <digform>
+            <digtinfo>
+              <formname>Shapefile</formname>
+              <formcont>zipped shapefile</formcont>
+              <filedec>zip</filedec>
+              <transize>0.09</transize>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/73/20/cugir-007320.zip</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>metadata</formname>
+              <formcont>FGDC XML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/73/20/fgdc.xml</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>HTML metadata</formname>
+              <formcont>FGDC HTML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/73/20/fgdc.html</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+                <digtinfo>
+                  <formname>KML</formname>
+                  <formcont>generated KML, via WFS</formcont>
+                </digtinfo>
+                <digtopt>
+                  <onlinopt>
+                    <computer>
+                      <networka>
+                        <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir007320&amp;outputFormat=application%2Fvnd.google-earth.kml%2Bxml</networkr>
+                      </networka>
+                    </computer>
+                  </onlinopt>
+                </digtopt>
+              </digform><digform>
+            <digtinfo>
+              <formname>GeoJSON</formname>
+              <formcont>generated GeoJSON, via WFS</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir007320&amp;outputFormat=application%2Fjson</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>OGC:WMS</formname>
+              <formcont>WMS, from GeoServer</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir007320&amp;bbox=-79.60639534,40.497796199999996,-73.24949266,45.136949800000004&amp;width=256&amp;height=186&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><fees>None</fees></stdorder>
+      </distinfo>
+  <metainfo>
+      <metd>20190524</metd>
+      <metc>
+        <cntinfo>
+          <cntorgp>
+            <cntorg>Albert R. Mann Library</cntorg>
+          </cntorgp>
+          <cntaddr>
+            <addrtype>mailing and physical</addrtype>
+            <address>Albert R. Mann Library</address>
+            <city>Ithaca</city>
+            <state>New York</state>
+            <postal>14853</postal>
+            <country>USA</country>
+          </cntaddr>
+          <cntvoice>607-255-5406</cntvoice>
+          <cntemail>mann-ref@cornell.edu</cntemail>
+        </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+    </metainfo>
+</metadata>

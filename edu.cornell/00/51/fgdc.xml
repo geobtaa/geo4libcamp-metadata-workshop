@@ -1,0 +1,404 @@
+<!DOCTYPE metadata SYSTEM "http://fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Tompkins County ITS GIS Division, Tompkins County Assessment Department</origin>
+        <pubdate>2000</pubdate>
+        <title>Agricultural Districts, Tompkins County NY, 2000</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Tompkins County</pubplace>
+          <publish>Tompkins County GIS Program</publish>
+        </pubinfo>
+        <onlink>https://cugir.library.cornell.edu/catalog/cugir-000051</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Agricultural districts in Tompkins County.</abstract>
+      <purpose>Agricultural districts represent private tax parcels that are regulated by New York
+        State Agricultural District Law. The Law is meant to protect and promote the use of
+        agricultural land.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2000</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>District 1 was reviewed in 1996. District 2 was reviewed in 2000.</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Each district is reviewed every 8 years, with District 2 reviewed 4 years after the
+        last review of District 1.</update>
+    </status>
+    <spdom>
+          <bounding>
+            <westbc>-76.696211</westbc>
+            <eastbc>-76.248765</eastbc>
+            <northbc>42.62748</northbc>
+            <southbc>42.28149</southbc>
+          </bounding>
+        </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>agricultural districts</themekey>
+      </theme>
+      <theme>
+        <themekt>LCSH</themekt>
+        <themekey>agriculture</themekey>
+        <themekey>real property</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>farming</themekey>
+        <themekey>planningCadastre</themekey>
+      </theme>
+      <theme>
+              <themekt>CUGIR Category</themekt>
+              <themekey>agriculture</themekey>
+<themekey>property</themekey>
+            </theme>
+      <place>
+        <placekt>LCSH</placekt>
+        <placekey>Tompkins County, New York</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>The following statement must be included with any products that use or are derived
+      from this data set: Data contained in this product was originally produced by the Tompkins
+      County ITS GIS Division and may not be reproduced or redistributed without the express written
+      consent of the originator. The originator does not warrant the accuracy or completeness of the
+      information portrayed by the data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Tompkins County ITS GIS Division</cntorg>
+          <cntper>Kirk Eby</cntper>
+        </cntorgp>
+        <cntpos>GIS Project Leader</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>128 East Buffalo Street</address>
+          <city>Ithaca</city>
+          <state>New York</state>
+          <postal>14850</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(607) 274-5418</cntvoice>
+        <cntfax>(607) 274-5420</cntfax>
+        <cntemail>gis@tompkins-co.org</cntemail>
+        <hours>M-F 8:30 a.m. to 4:30 p.m.</hours>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+              <browsen>https://cugir-data.s3.amazonaws.com/00/00/51/preview.png</browsen>
+              <browsed>preview of the dataset</browsed>
+              <browset>PNG</browset>
+            </browse>
+    <datacred>Tompkins County ITS GIS Division</datacred>
+    <native>PATH: /DATA/ARCINFO/COUNTY/NYSP/POLITICAL/AGDIST SOFTWARE: WindowsNT 4.0 x86, Arc/Info
+      Single Precision Coverage LAYERS: Region.Agdistrict</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>See Entity and Attribute Information</attraccr>
+    </attracc>
+    <logic>New York State provides a list of parcels that are currently in each district. During a
+      review, the present boundary is compared to the State's list to check for discrepencies due to
+      parcel splits/merges. Parcels to be added or removed have their AGDIST field changed
+      accordingly. A new boundary is then generated based on current parcel numbers.</logic>
+    <complete>Complete coverage for Tompkins County.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Varies, depending on source of municipal boundary (survey, deed, planimetrics).
+          Accuracy is limited to the accuracy of the 1991 Tompkins County Planimetric Base Map
+          series.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Accuracy is limited to the accuracy of the 1991 Tompkins County Planimetric Base
+          Map series.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Agricultural districts were originally compiled in MapGrafix software from
+          digitized tax parcel maps. The boundaries were later converted to an Arc/Info coverage.
+          District 2 was reviewed in 2000 and resulted in the removal and addition of some parcels.
+          The boundary for District 1 was derived from the MapGrafix version and includes public
+          right-of-ways. District 2's boundary was derived from the Tompkins County Digital Tax
+          Parcel data sets and does not include public right-of-ways. The actual "boundary" is
+          maintained in the AGDIST field in each of the Digital Tax Parcel data sets This data set
+          is created by using the REGIONDISSOLVE command in Arc/Info to create a temporary
+          agricultural district region for each parcel data set. The individual data sets are then
+          combined into one data set by selecting each temporary district region in ArcEdit and
+          using the PUT command to place them in a common data set. The REGIONDISSOVE command is
+          then used on the common data set's temporary agricultural districts to merge the separate
+          pieces into the final Agdistrict region. The temporary agricultural districts are then
+          removed.</procdesc>
+        <procdate>2000</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Tompkins County ITS GIS Division</cntorg>
+              <cntper>Kirk Eby</cntper>
+            </cntorgp>
+            <cntpos>GIS Project Leader</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>128 East Buffalo Street</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14850</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>(607) 274-5418</cntvoice>
+            <cntfax>(607) 274-5420</cntfax>
+            <cntemail>gis@tompkins-co.org</cntemail>
+            <hours>M-F 8:30 a.m. to 4:30 p.m.</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+    <cloud>0</cloud>
+  </dataqual>
+  <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+          <sdtsterm>
+            <sdtstype>G-polygon</sdtstype>
+            <ptvctcnt>2</ptvctcnt>
+          </sdtsterm>
+        </ptvctinf>
+      </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>State Plane Coordinate System 1983</gridsysn>
+          <spcs>
+            <spcszone>3102</spcszone>
+            <transmer>
+              <sfctrmer>0.9999375</sfctrmer>
+              <longcm>-76.5833333334</longcm>
+              <latprjo>40</latprjo>
+              <feast>250000</feast>
+              <fnorth>0</fnorth>
+            </transmer>
+          </spcs>
+        </gridsys>
+        <planci>
+          <plance>Coordinate Pair</plance>
+          <coordrep>
+            <absres>1</absres>
+            <ordres>1</ordres>
+          </coordrep>
+          <plandu>US survey feet</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378206</semiaxis>
+        <denflat>294.9786982</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Agricultural Districts (Region.Agdistrict, AGDIST.PATAGDISTRICT)</enttypl>
+        <enttypd>Current agricultural district boundaries in Tompkins County.</enttypd>
+        <enttypds>Tompkins County ITS GIS Division, 2000</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Acres</attrlabl>
+        <attrdef>Area of the agricultural district in acres (Area / 43560).</attrdef>
+        <attrdefs>Tompkins County ITS GIS Division, 2000</attrdefs>
+        <attrdomv/>
+      </attr>
+      <attr>
+        <attrlabl>AgDist</attrlabl>
+        <attrdef>Agricultural District ID</attrdef>
+        <attrdefs>Tompkins County ITS GIS Division, 2000</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Agricultural District #1</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Agricultural District #2</edomvd>
+            <edomvds>Tompkins County ITS GIS Division, 2000</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AGDISTRICT#</attrlabl>
+        <attrdef>AgDistrict Region Record Number (Internal Software Attribute)</attrdef>
+        <attrdefs>Tompkins County ITS GIS Division, 2000</attrdefs>
+        <attrdomv/>
+      </attr>
+      <attr>
+        <attrlabl>AGDISTRICT-ID</attrlabl>
+        <attrdef>AgDistrict Region User-Id (Internal Software Attribute)</attrdef>
+        <attrdefs>Tompkins County ITS GIS Division, 2000</attrdefs>
+        <attrdomv/>
+      </attr>
+      <attr>
+        <attrlabl>AREA</attrlabl>
+        <attrdef>AgDistrict Region Area (Internal Software Attribute, in Map Units)</attrdef>
+        <attrdefs>Tompkins County ITS GIS Division, 2000</attrdefs>
+        <attrdomv/>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+        <attrdef>AgDistrict Region Perimeter (Internal Software Attribute, in Map Units)</attrdef>
+        <attrdefs>Tompkins County ITS GIS Division, 2000</attrdefs>
+        <attrdomv/>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+        <distrib>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Albert R. Mann Library</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>Cornell University</address>
+              <city>Ithaca</city>
+              <state>New York</state>
+              <postal>14853</postal>
+            </cntaddr>
+            <cntvoice>607-255-5406</cntvoice>
+            <cntemail>mann-ref@cornell.edu</cntemail>
+          </cntinfo>
+        </distrib>
+        <distliab>Cornell University provides these geographic data "as is". Cornell
+          University makes no guarantee or warranty concerning the accuracy of
+          information contained in the geographic data. Cornell University further
+          makes no warranty either expressed or implied, regarding the condition of
+          the product or its fitness for any particular purpose. The burden for
+          determining fitness for use lies entirely with the user. Although these
+          files have been processed successfully on computers at Cornell University,
+          no warranty is made by Cornell University regarding the use of these data
+          on any other system, nor does the fact of distribution constitute or imply
+          any such warranty.</distliab>
+        <stdorder>
+        <digform>
+            <digtinfo>
+              <formname>Shapefile</formname>
+              <formcont>zipped shapefile</formcont>
+              <filedec>zip</filedec>
+              <transize>0.19</transize>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/00/51/cugir-000051.zip</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>metadata</formname>
+              <formcont>FGDC XML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/00/51/fgdc.xml</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>HTML metadata</formname>
+              <formcont>FGDC HTML metadata</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir-data.s3.amazonaws.com/00/00/51/fgdc.html</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+                <digtinfo>
+                  <formname>KML</formname>
+                  <formcont>generated KML, via WFS</formcont>
+                </digtinfo>
+                <digtopt>
+                  <onlinopt>
+                    <computer>
+                      <networka>
+                        <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir000051&amp;outputFormat=application%2Fvnd.google-earth.kml%2Bxml</networkr>
+                      </networka>
+                    </computer>
+                  </onlinopt>
+                </digtopt>
+              </digform><digform>
+            <digtinfo>
+              <formname>GeoJSON</formname>
+              <formcont>generated GeoJSON, via WFS</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wfs?version=1.0.0&amp;request=GetFeature&amp;typeName=cugir000051&amp;outputFormat=application%2Fjson</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><digform>
+            <digtinfo>
+              <formname>OGC:WMS</formname>
+              <formcont>WMS, from GeoServer</formcont>
+            </digtinfo>
+            <digtopt>
+              <onlinopt>
+                <computer>
+                  <networka>
+                    <networkr>https://cugir.library.cornell.edu/geoserver/cugir/wms?version=1.1.0&amp;request=GetMap&amp;layers=cugir000051&amp;bbox=-76.70963438000001,42.2711103,-76.23534162,42.6378597&amp;width=256&amp;height=197&amp;srs=EPSG:4326&amp;format=image/png</networkr>
+                  </networka>
+                </computer>
+              </onlinopt>
+            </digtopt>
+          </digform><fees>None</fees></stdorder>
+      </distinfo>
+  <metainfo>
+      <metd>20190524</metd>
+      <metc>
+        <cntinfo>
+          <cntorgp>
+            <cntorg>Albert R. Mann Library</cntorg>
+          </cntorgp>
+          <cntaddr>
+            <addrtype>mailing and physical</addrtype>
+            <address>Albert R. Mann Library</address>
+            <city>Ithaca</city>
+            <state>New York</state>
+            <postal>14853</postal>
+            <country>USA</country>
+          </cntaddr>
+          <cntvoice>607-255-5406</cntvoice>
+          <cntemail>mann-ref@cornell.edu</cntemail>
+        </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+    </metainfo>
+</metadata>

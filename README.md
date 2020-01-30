@@ -1,6 +1,8 @@
-# Geo4LibCamp2020 Geospatial Metadata Workshop
 
-## Part 1: Using Python to create GeoBlacklight Metadata 
+
+# Using Python to create GeoBlacklight Metadata 
+
+## Geo4LibCamp2020 Geospatial Metadata Workshop
 
 ### Activities
 - Introduce the GeoBlacklight schema and OpenGeoMetadata

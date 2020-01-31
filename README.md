@@ -23,3 +23,5 @@ Python scripting skills are NOT required for this workshop. Any participant with
 If you have any questions, feel free to contact the moderators anytime:
 - Karen Majewicz (majew030@umn.edu)
 - Melinda Kernik (kerni016@umn.edu)
+
+[Visit the Wiki to get started!](https://github.com/BTAA-Geospatial-Data-Project/geo4libcamp-metadata-workshop/wiki)
